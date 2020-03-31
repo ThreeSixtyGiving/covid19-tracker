@@ -39,5 +39,5 @@ page_content = template.render(
     amountByDate=amountByDate,
 ).encode('utf-8')
 
-with open('output/index.html', 'wb') as a:
+with open('docs/index.html', 'wb') as a:
     a.write(page_content)
