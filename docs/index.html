@@ -6,95 +6,116 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Coronavirus response grants</title>
     <link rel="stylesheet" href="https://360ds.netlify.com/components/preview/assets/css/global.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"
+            integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/mobius1/vanilla-Datatables@latest/vanilla-dataTables.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/mobius1/vanilla-Datatables@latest/vanilla-dataTables.min.js"></script>
+    <link rel="shortcut icon" href="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/favicon/favicon.ico"/>
+    <style>
+        strong {
+            font-weight: 500;
+        }
+        .table th > a {
+            font-weight: 500;
+        }
+        div.table {
+            border: 0px solid black;
+        }
+        .table table {
+            border: 1px solid rgba(21, 54, 52, 0.2);
+        }
+        .dataTable-top {
+            padding: 8px 0px;
+        }
+        .dataTable-input {
+            padding: 8px 16px;
+            width: 100%;
+            border: 1px solid rgba(21, 54, 52, 0.2);
+            color: rgba(21, 54, 52, 0.7);
+            background-color: transparent;
+        }
+    </style>
 </head>
 <body>
     <div class="layout layout--single-column layout--full">
+        <header class="layout__header">
 
-  <header class="layout__header">
-  
     <div class="hero-section">
-    <div class="wrapper">
-        <div class="hero hero--red">
-        <div class="hero__column hero__logo">
-            <a href="https://threesixtygiving.org/">
-                <img src="https://360ds.netlify.com/images/360-logos/360giving-main.svg" alt="360 Main">    
-            </a>
-        </div>
-        <div class="hero__column hero__lead">
-            <h2 class="hero__title">Coronavirus response grants tracker</h2>
-            <p class="hero__blurb">Based on data published by UK grantmakers in the 360Giving Data Standard</p>
-        </div>  
+        <div class="wrapper">
+            <div class="hero hero--red">
+                <div class="hero__column hero__logo">
+                    <a href="https://threesixtygiving.org/">
+                        <img src="https://360ds.netlify.com/images/360-logos/360giving-main.svg" alt="360 Main">    
+                    </a>
+                </div>
+                <div class="hero__column hero__lead">
+                    <h2 class="hero__title">Coronavirus response grants tracker</h2>
+                    <p class="hero__blurb">Based on data published by UK grantmakers in the 360Giving Data Standard</p>
+                </div>  
+            </div>
         </div>
     </div>
-    </div>
 
-  </header>
-
-  <main class="layout__content">
-<div class="layout__content-inner">
-
-    <div class="grid grid--four-columns">
-      <div class="grid__1">
+</header>
+        <main class="layout__content">
+            <div class="layout__content-inner">
+                <div class="grid grid--four-columns">
+    <div class="grid__1">
         <div class="base-card base-card--orange">
-          <div class="base-card__content">
-            <h2 class="base-card__title">20</h2>
-            <p class="base-card__text">Grants</p>
-          </div>
+            <div class="base-card__content">
+                <h2 class="base-card__title">20</h2>
+                <p class="base-card__text">Grants</p>
+            </div>
         </div>
-      </div>
-
-      <div class="grid__1">
-        <div class="base-card base-card--teal">
-          <div class="base-card__content">
-            <h2 class="base-card__title">16</h2>
-            <p class="base-card__text">Recipients</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid__1">
-        <div class="base-card base-card--teal">
-          <div class="base-card__content">
-            <h2 class="base-card__title">6</h2>
-            <p class="base-card__text">Funders</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid__1">
-        <div class="base-card base-card--yellow">
-          <div class="base-card__content">
-            <h2 class="base-card__title">&pound;4,632,462</h2>
-            <p class="base-card__text">Total</p>
-          </div>
-        </div>
-      </div>
-
     </div>
-    
-    <div class="spacer-3"></div>
 
-  <div class="grid grid--two-columns">
-    <div class="grid__all"><div class="base-card base-card--red">
-        <div class="base-card__content">
-            <header class="base-card__header">
+    <div class="grid__1">
+        <div class="base-card base-card--teal">
+            <div class="base-card__content">
+                <h2 class="base-card__title">16</h2>
+                <p class="base-card__text">Recipients</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__1">
+        <div class="base-card base-card--teal">
+            <div class="base-card__content">
+                <h2 class="base-card__title">6</h2>
+                <p class="base-card__text">Funders</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__1">
+        <div class="base-card base-card--yellow">
+            <div class="base-card__content">
+                <h2 class="base-card__title">&pound;4,632,462</h2>
+                <p class="base-card__text">Total</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+                <div class="spacer-3"></div>
+                <div class="grid grid--two-columns">
+                    <div class="grid__all">
+                        <div class="base-card base-card--red">
+    <div class="base-card__content">
+        <header class="base-card__header">
             <h3 class="base-card__heading">Grants over time</h3>
             <h4 class="base-card__subheading">Cumulative total (&pound;)</h4>
-            </header>
-            <canvas id="overtimechart" width="400" height="125"></canvas>
-        </div>
+        </header>
+        <canvas id="overtimechart" width="400" height="125"></canvas>
     </div>
-  </div>
-
-    <div class="grid__all">
-    
-
-    <h3 class="h3">Grants</h3>
+</div>
+                    </div>
+                    <div class="grid__all">
+                        <h3 class="h3">Grants</h3>
 <div class="table table--zebra">
-    <table>
+    <table id="grantsTable">
 
         <thead>
             <th>Funder</th>
@@ -107,218 +128,12 @@
         <tbody>
             
             <tr>
-                <td class="table__lead-cell" data-header="Organisations">Woodward Charitable Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Big Give Trust, The</td>
+                <td class="table__lead-cell" data-header="Funder">Essex Community Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Maldon &amp; District Community Voluntary Services</td>
+                
                 <td data-header="Description">
-                    <strong style='font-weight:500;'>Emergency match funding appeal for those affect by COVID-19 virus</strong><br>
-                    Towards the emergency match funding appeal to raise money for those who will be affected by the COVID-19 virus.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-woodward:WCT2962">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £10,000</td>
-                <td data-header="Date">2020-03-17</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Woodward Charitable Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Big Give Trust, The</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Emergency match funding appeal to raise money for those who will be affecte</strong><br>
-                    Towards the emergency match funding appeal to raise money for those who will be affected by the COVID-19 virus.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-woodward:WCT2963">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £2,500</td>
-                <td data-header="Date">2020-03-17</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">National Emergencies Trust</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Supporting their Coronavirus appeal</strong><br>
-                    Unrestricted core funding.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND494">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £1,000,000</td>
-                <td data-header="Date">2020-03-19</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Oxfordshire Community Foundation</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>To support its work during the Covid-19 emergency</strong><br>
-                    Core unrestricted funding.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND493">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £500,000</td>
-                <td data-header="Date">2020-03-19</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Gatsby Charitable Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">Trussell Trust</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Core costs</strong><br>
-                    Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-gatsbyfoundation:GAT3763">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £1,000,000</td>
-                <td data-header="Date">2020-03-19</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Trussell Trust</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Emergency funding to help most vulnerable during Covid-19 crisis</strong><br>
-                    Core unrestricted funding.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND492">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £1,000,000</td>
-                <td data-header="Date">2020-03-19</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Esmée Fairbairn Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">The Social Investment Business Group</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Grant to The Social Investment Business Group</strong><br>
-                    Towards project costs for building an insight tool for needs analysis of communities during the covid-9 pandemic.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-EFF-20-0465">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £10,000</td>
-                <td data-header="Date">2020-03-19</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Gatsby Charitable Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">National Emergencies Trust</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Core costs</strong><br>
-                    Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-gatsbyfoundation:GAT3764">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £1,000,000</td>
-                <td data-header="Date">2020-03-19</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Tedworth Charitable Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Big Give Trust, The</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>COVID-19 Emergency Appeal</strong><br>
-                    To The Big Give Trust COVID-19 Emergency Appeal.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-tedworth:TED479">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £12,500</td>
-                <td data-header="Date">2020-03-23</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Oxford Food Bank</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Emergency funding during Covid-19 Crisis</strong><br>
-                    Core unrestricted funding to support its work during the Covid-19 crisis.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND495">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £10,000</td>
-                <td data-header="Date">2020-03-23</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Sufra NW London</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Unrestricted core funding during Covid-19 crisis</strong><br>
-                    Unrestricted core funding.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND497">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £6,000</td>
-                <td data-header="Date">2020-03-24</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Brent Mencap</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Unrestricted core funding during the Covid-19 crisis</strong><br>
-                    Unrestricted core funding.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND496">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £4,000</td>
-                <td data-header="Date">2020-03-24</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Greenwich Foodbank</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Emergency funding during the Covid-19 crisis</strong><br>
-                    Core unrestricted funding.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND498">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £10,000</td>
-                <td data-header="Date">2020-03-26</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Indigo Trust</td>
-                <td class="table__lead-cell" data-header="Organisations">Community Foundation</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Emergency funding during the Covid-19 crisis</strong><br>
-                    Core unrestricted funding.<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND499">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £10,000</td>
-                <td data-header="Date">2020-03-26</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Essex Community Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">Halstead Day Centre</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Grant to Halstead Day Centre</strong><br>
-                    to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID 19 crisis<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A545425">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £15,000</td>
-                <td data-header="Date">2020-03-27</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Essex Community Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">Chelmsford Community Transport Ltd</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Grant to Chelmsford Community Transport Ltd</strong><br>
-                    to provide a shopping service for older people and a transport service for those with health conditions receiving vital treatment at Broomfield Hospital during the COVID19 pandemic<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A546847">View on GrantNav</a>
-                </td>
-                <td data-header="Amount" style='text-align: right;'>
-                    £1,250</td>
-                <td data-header="Date">2020-03-27</td>
-            </tr>
-            
-            <tr>
-                <td class="table__lead-cell" data-header="Organisations">Essex Community Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">Maldon &amp; District Community Voluntary Services</td>
-                <td data-header="Description">
-                    <strong style='font-weight:500;'>Grant to Maldon &amp; District Community Voluntary Services</strong><br>
+                    <strong>Grant to Maldon &amp; District Community Voluntary Services</strong><br>
                     to support community response helping people during the COVID19 pandemic in rural districts of Maldon<br>
                     <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A546813">View on GrantNav</a>
                 </td>
@@ -328,10 +143,12 @@
             </tr>
             
             <tr>
-                <td class="table__lead-cell" data-header="Organisations">Essex Community Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">Homeless Action Resource Project</td>
+                <td class="table__lead-cell" data-header="Funder">Essex Community Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Homeless Action Resource Project</td>
+                
                 <td data-header="Description">
-                    <strong style='font-weight:500;'>Grant to Homeless Action Resource Project</strong><br>
+                    <strong>Grant to Homeless Action Resource Project</strong><br>
                     to support homeless people in Southend during the COVID19 crisis<br>
                     <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A546169">View on GrantNav</a>
                 </td>
@@ -341,10 +158,27 @@
             </tr>
             
             <tr>
-                <td class="table__lead-cell" data-header="Organisations">Essex Community Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">Harlow Citizens Advice Bureau</td>
+                <td class="table__lead-cell" data-header="Funder">Essex Community Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Chelmsford Community Transport Ltd</td>
+                
                 <td data-header="Description">
-                    <strong style='font-weight:500;'>Grant to Harlow Citizens Advice Bureau</strong><br>
+                    <strong>Grant to Chelmsford Community Transport Ltd</strong><br>
+                    to provide a shopping service for older people and a transport service for those with health conditions receiving vital treatment at Broomfield Hospital during the COVID19 pandemic<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A546847">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £1,250</td>
+                <td data-header="Date">2020-03-27</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Essex Community Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Harlow Citizens Advice Bureau</td>
+                
+                <td data-header="Description">
+                    <strong>Grant to Harlow Citizens Advice Bureau</strong><br>
                     To supply additional IT equipment to staff and volunteers to ensure they can respond to an increased demand to the COVID19 pandemic<br>
                     <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A546680">View on GrantNav</a>
                 </td>
@@ -354,10 +188,27 @@
             </tr>
             
             <tr>
-                <td class="table__lead-cell" data-header="Organisations">Essex Community Foundation</td>
-                <td class="table__lead-cell" data-header="Organisations">Mind in West Essex</td>
+                <td class="table__lead-cell" data-header="Funder">Essex Community Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Halstead Day Centre</td>
+                
                 <td data-header="Description">
-                    <strong style='font-weight:500;'>Grant to Mind in West Essex</strong><br>
+                    <strong>Grant to Halstead Day Centre</strong><br>
+                    to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID 19 crisis<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A545425">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £15,000</td>
+                <td data-header="Date">2020-03-27</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Essex Community Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Mind in West Essex</td>
+                
+                <td data-header="Description">
+                    <strong>Grant to Mind in West Essex</strong><br>
                     to provide a response and recovery grant during the COVID19 crisis to an organisation supporting those with mental health issues in West Essex<br>
                     <a href="http://grantnav.threesixtygiving.org/grant/360G-EssexCF-A545609">View on GrantNav</a>
                 </td>
@@ -366,153 +217,309 @@
                 <td data-header="Date">2020-03-27</td>
             </tr>
             
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Community Foundation</td>
+                
+                <td data-header="Description">
+                    <strong>Emergency funding during the Covid-19 crisis</strong><br>
+                    Core unrestricted funding.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND499">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £10,000</td>
+                <td data-header="Date">2020-03-26</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Greenwich Foodbank</td>
+                
+                <td data-header="Description">
+                    <strong>Emergency funding during the Covid-19 crisis</strong><br>
+                    Core unrestricted funding.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND498">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £10,000</td>
+                <td data-header="Date">2020-03-26</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Brent Mencap</td>
+                
+                <td data-header="Description">
+                    <strong>Unrestricted core funding during the Covid-19 crisis</strong><br>
+                    Unrestricted core funding.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND496">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £4,000</td>
+                <td data-header="Date">2020-03-24</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Sufra NW London</td>
+                
+                <td data-header="Description">
+                    <strong>Unrestricted core funding during Covid-19 crisis</strong><br>
+                    Unrestricted core funding.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND497">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £6,000</td>
+                <td data-header="Date">2020-03-24</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Oxford Food Bank</td>
+                
+                <td data-header="Description">
+                    <strong>Emergency funding during Covid-19 Crisis</strong><br>
+                    Core unrestricted funding to support its work during the Covid-19 crisis.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND495">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £10,000</td>
+                <td data-header="Date">2020-03-23</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Tedworth Charitable Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Big Give Trust, The</td>
+                
+                <td data-header="Description">
+                    <strong>COVID-19 Emergency Appeal</strong><br>
+                    To The Big Give Trust COVID-19 Emergency Appeal.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-tedworth:TED479">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £12,500</td>
+                <td data-header="Date">2020-03-23</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="" data-header="Recipient">
+                    <strong>Trussell Trust*</strong><br>
+                    <small>*This organisation is also a funder so this grant may be passed on to other organisations.</small>
+                </td>
+                
+                <td data-header="Description">
+                    <strong>Emergency funding to help most vulnerable during Covid-19 crisis</strong><br>
+                    Core unrestricted funding.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND492">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £1,000,000</td>
+                <td data-header="Date">2020-03-19</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="" data-header="Recipient">
+                    <strong>Oxfordshire Community Foundation*</strong><br>
+                    <small>*This organisation is also a funder so this grant may be passed on to other organisations.</small>
+                </td>
+                
+                <td data-header="Description">
+                    <strong>To support its work during the Covid-19 emergency</strong><br>
+                    Core unrestricted funding.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND493">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £500,000</td>
+                <td data-header="Date">2020-03-19</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Gatsby Charitable Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">National Emergencies Trust</td>
+                
+                <td data-header="Description">
+                    <strong>Core costs</strong><br>
+                    Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-gatsbyfoundation:GAT3764">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £1,000,000</td>
+                <td data-header="Date">2020-03-19</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Gatsby Charitable Foundation</td>
+                
+                <td class="" data-header="Recipient">
+                    <strong>Trussell Trust*</strong><br>
+                    <small>*This organisation is also a funder so this grant may be passed on to other organisations.</small>
+                </td>
+                
+                <td data-header="Description">
+                    <strong>Core costs</strong><br>
+                    Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-gatsbyfoundation:GAT3763">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £1,000,000</td>
+                <td data-header="Date">2020-03-19</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Indigo Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">National Emergencies Trust</td>
+                
+                <td data-header="Description">
+                    <strong>Supporting their Coronavirus appeal</strong><br>
+                    Unrestricted core funding.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-indigotrust:IND494">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £1,000,000</td>
+                <td data-header="Date">2020-03-19</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Esmée Fairbairn Foundation</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">The Social Investment Business Group</td>
+                
+                <td data-header="Description">
+                    <strong>Grant to The Social Investment Business Group</strong><br>
+                    Towards project costs for building an insight tool for needs analysis of communities during the covid-9 pandemic.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-EFF-20-0465">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £10,000</td>
+                <td data-header="Date">2020-03-19</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Woodward Charitable Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Big Give Trust, The</td>
+                
+                <td data-header="Description">
+                    <strong>Emergency match funding appeal to raise money for those who will be affecte</strong><br>
+                    Towards the emergency match funding appeal to raise money for those who will be affected by the COVID-19 virus.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-woodward:WCT2963">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £2,500</td>
+                <td data-header="Date">2020-03-17</td>
+            </tr>
+            
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">Woodward Charitable Trust</td>
+                
+                <td class="table__lead-cell" data-header="Recipient">Big Give Trust, The</td>
+                
+                <td data-header="Description">
+                    <strong>Emergency match funding appeal for those affect by COVID-19 virus</strong><br>
+                    Towards the emergency match funding appeal to raise money for those who will be affected by the COVID-19 virus.<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/360G-woodward:WCT2962">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    £10,000</td>
+                <td data-header="Date">2020-03-17</td>
+            </tr>
+            
 
         </tbody>
     </table>
 </div>
-
-
-
-    </div>
-
-</div>
-
-  </main>
-
-  <footer class="layout__footer">
+                    </div>
+                </div>
+            </div>
+        </main>
     
-      <div class="subscribe-section">
-  <div class="subscribe-section__wrapper">
-    <form action="#" class="subscribe-section__form">
-      <input type="email" placeholder="Subscribe to our newsletter">
-      <input type="submit" value="Send">
-    </form>
-  </div>
+    <div class="subscribe-section">
+    <div class="subscribe-section__wrapper">
+        <form action="https://threesixtygiving.us10.list-manage.com/subscribe" method="POST" class="subscribe-section__form">
+            <input type="hidden" name="u" value="216b8b926250184f90c7198e8">
+            <input type="hidden" name="id" value="91870dde44">
+            <input type="email" name="EMAIL" id="EMAIL" placeholder="Subscribe to our newsletter">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>    <footer class="footer">
+        <div class="footer__row wrapper">
+            <div class="footer__column-2 footer__branding">
+                <div class="footer__logo"><a href="https://www.threesixtygiving.org"><img src="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/360-giving-logo-white.svg" alt="360Giving"></a></div>
+                <p class="footer__tagline">Open data for more effective grantmaking</p>
+            </div>
+            <div class="footer__column-1 footer__social">
+                <a href="https://github.com/threesixtygiving/" class="github-icon"><img src="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/github-logo.svg" alt="Check our Github"></a>
+                <a href="https://twitter.com/360Giving/" class="twitter-icon"><img src="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/twitter-logo.svg" alt="Follow us on Twitter"></a>
+            </div>
+        </div>
+
+        <div class="footer__row wrapper">
+            <div class="footer__column-1 footer__section medium-up">
+                <h3 class="footer__heading">For grantmakers</h3>
+                <ul id="menu-for-grantmakers" class=""><li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="https://www.threesixtygiving.org/support/why-publish-grants-data/">Why publish?</a></li>
+<li id="menu-item-2401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2401"><a href="https://www.threesixtygiving.org/support/standard/">The Data Standard</a></li>
+<li id="menu-item-2450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2450"><a href="https://www.threesixtygiving.org/about/datachampions/">Data Champions</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2403"><a href="https://www.threesixtygiving.org/support/">Support</a></li>
+</ul>            </div>
+
+            <div class="footer__column-1 footer__section medium-up">
+                <h3 class="footer__heading">Explore grants data</h3>
+                <ul id="menu-explore-grants-data" class=""><li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://grantnav.threesixtygiving.org/">GrantNav</a></li>
+<li id="menu-item-2406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2406"><a href="http://data.threesixtygiving.org/">Data Registry</a></li>
+<li id="menu-item-2407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2407"><a href="https://insights.threesixtygiving.org/">360Insights</a></li>
+<li id="menu-item-2408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2408"><a href="https://www.threesixtygiving.org/contact/">Contact</a></li>
+</ul>            </div>
+
+            <div class="footer__column-2 footer__section"><h3 class="footer__heading">360Giving</h3>			<div class="textwidget"><div class="textwidget">
+<p>We help organisations openly publish grants data, and help people use it to improve charitable giving.</p>
 </div>
-<footer class="footer">
-  <div class="footer__row wrapper">
-    <div class="footer__column-2 footer__branding">
-      <div class="footer__logo"><img src="/images/360-giving-logo-white.svg" alt="360Giving"></div>
-      <p class="footer__tagline">Open data for more effective grantmaking</p>
-    </div>
-    <div class="footer__column-1 footer__social">
-      <a href="#" class="github-icon"><img src="/images/github-logo.svg" alt="Check our Github"></a>
-      <a href="#" class="twitter-icon"><img src="/images/twitter-logo.svg" alt="Follow us on Twitter"></a>
-    </div>
-  </div>
-  
-  <div class="footer__row wrapper">
-    <div class="footer__column-2 footer__section medium-up">
-      <h3 class="footer__heading">Products</h3>
-      <ul>
-        <li><a href="#">GrantNav</a></li>
-        <li><a href="#">Insights</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Cove</a></li>
-      </ul>
-    </div>
-
-    <div class="footer__column-2 footer__section medium-up">
-      <h3 class="footer__heading">Other Products</h3>
-      <ul>
-        <li><a href="#">Data Registry</a></li>
-        <li><a href="#">Data Standard</a></li>
-        <li><a href="#">Data Challenge</a></li>
-        <li><a href="#">Data Champions</a></li>
-      </ul>
-    </div>
-
-    <div class="footer__column-3 footer__section">
-      <h3 class="footer__heading">360 Resources</h3>
-      <p>Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the 360Giving JSON Schemas. Anyone automating the publication of their data from their internal databases or via</p>
-    </div>
-
-    <div class="footer__column-3 footer__section">
-      <h3 class="footer__heading">360 Resources</h3>
-      <p>Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the 360Giving JSON Schemas. Anyone automating the publication of their data from their internal databases or via</p>
-
-    </div>
-  </div>
-
-  <div class="wrapper footer__small-print">
-    <a href="#" class="edit-github button button--small button--yellow">Edit on Github</a>
-    <p>© Copyright 2016-2017, 360Giving, licensed under a Creative Commons Attribution 4.0 International License. <br>Icons from the Noun Project: Document by Jamison Wieser and JSON File by useiconic.com. Revision e76b5687.</p>
-  </div>
-
-  <div class="footer__row wrapper footer__small-print">
-    
-    <div class="footer__column-2">
-      <p>360Giving: Company 09668396 Charity 1164883</p>
-    </div>
-    <div class="footer__column-2 footer__policy-links">
-      <p><a href="#">Privacy Notice</a> | <a href="#">Terms & Conditions</a> | <a href="#">Cookie Policy</a> | <a href="#">Take Down Policy</a> | <a href="#">License</a></p>
-    </div>
-  </div>
-</footer>
-    
-  </footer>
 </div>
+		</div>
+        </div>
 
-<script type='text/javascript'>
-    var amountByDate = {"2020-03-14": {"amount": 0, "grants": 0}, "2020-03-17": {"amount": 12500, "grants": 2}, "2020-03-19": {"amount": 4510000.0, "grants": 6}, "2020-03-23": {"amount": 22500, "grants": 2}, "2020-03-24": {"amount": 10000, "grants": 2}, "2020-03-26": {"amount": 20000, "grants": 2}, "2020-03-27": {"amount": 57462, "grants": 6}};
-    var ctx = document.getElementById('overtimechart').getContext('2d');
-    const cumulativeSum = (sum => value => sum += value)(0);
-    amountAwardedCumulative = Object.values(amountByDate).map(v=>v.amount).map(cumulativeSum);
-    amountAwardedDates = Object.keys(amountByDate).map(v=>new Date(v));
-    console.log(amountAwardedDates.map((k, i) => ({x: k, y: amountAwardedDates[i]})));
-    Chart.defaults.global.defaultFontSize = '18';
-    Chart.defaults.global.defaultFontFamily = '"Roboto", sans-serif';
-    var myChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: amountAwardedDates,
-            datasets: [{
-                label: 'Grant amount',
-                data: amountAwardedDates.map((k, i) => ({x: k, y: amountAwardedCumulative[i]})),
-                backgroundColor: '#bc2c26',
-                borderColor: '#bc2c26',
-                borderWidth: 1,
-                pointRadius: 0,
-                lineTension: 0,
-                steppedLine: true,
-            }]
-        },
-        options: {
-            legend: {
-                display: false
-            },
-            scales: {
-                xAxes: [{
-                    type: 'time',
-                    ticks: {
-                        maxTicksLimit: 5,
-                    },
-                    time: {
-                        unit: 'day',
-                        
-                    },
-                    gridLines: {
-                        display: false
-                    }
-                }],
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true
-                    },
-                    gridLines: {
-                        display: false
-                    },
-                    ticks: {
-                        maxTicksLimit: 5,
-                        callback: function(value, index, values) {
-                            return "£" + value.toLocaleString();
-                        }
-                    }
-                }]
-            }
-        }
-    });
-</script>
+        <div class="wrapper footer__small-print">
+            <p>© Copyright 2020 360Giving, licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+        </div>
+
+        <div class="footer__row wrapper footer__small-print">
+
+            <div class="footer__column-2">
+                <p>360Giving: 
+                    Company <a href="https://beta.companieshouse.gov.uk/company/09668396" target="_blank">09668396</a>
+                    Charity <a href="http://beta.charitycommission.gov.uk/charity-details/?regid=1164883&amp;subid=0" target="_blank">1164883</a>
+                </p>
+            </div>
+            <div class="footer__column-2 footer__policy-links">
+                <p>
+                                                            <a href="https://www.threesixtygiving.org/privacy/">Privacy Notice</a>
+                                         |                     <a href="https://www.threesixtygiving.org/terms-conditions/">Terms &amp; Conditions</a>
+                                         |                     <a href="https://www.threesixtygiving.org/cookie-policy/">Cookie Policy</a>
+                                         |                     <a href="https://www.threesixtygiving.org/take-down-policy/">Take Down Policy</a>
+                                         |                     <a href="https://www.threesixtygiving.org/about/360giving-code-conduct/">Code of Conduct</a>
+                                    </p>
+            </div>
+        </div>
+    </footer>
+    
+    </div>
+
+    <script type='text/javascript'>
+        var amountByDate = {"2020-03-14": {"amount": 0, "grants": 0}, "2020-03-17": {"amount": 12500, "grants": 2}, "2020-03-19": {"amount": 4510000.0, "grants": 6}, "2020-03-23": {"amount": 22500, "grants": 2}, "2020-03-24": {"amount": 10000, "grants": 2}, "2020-03-26": {"amount": 20000, "grants": 2}, "2020-03-27": {"amount": 57462, "grants": 6}};
+    </script>
+    <script src="static/js/main.js"></script>
 
 </body>
 </html>

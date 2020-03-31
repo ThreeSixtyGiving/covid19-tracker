@@ -8,8 +8,11 @@ env = Environment(
 
 template = env.get_template('index.html')
 
-with open('grants_data.json') as a:
-    grants = json.load(a)
+with open('docs/data/grants_data.json') as a:
+    grants = json.load(a)['grants']
+
+with open('docs/data/funder_ids.json') as a:
+    all_funders = json.load(a)['funders']
 
 funders = list(set([g['fundingOrganization'][0]['id'] for g in grants]))
 recipients = list(set([g['recipientOrganization'][0]['id'] for g in grants]))
@@ -37,6 +40,7 @@ page_content = template.render(
     recipients=recipients,
     amountAwarded=amountAwarded,
     amountByDate=amountByDate,
+    all_funders=all_funders,
 ).encode('utf-8')
 
 with open('docs/index.html', 'wb') as a:

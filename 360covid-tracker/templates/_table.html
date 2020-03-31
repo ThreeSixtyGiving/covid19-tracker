@@ -1,0 +1,40 @@
+<h3 class="h3">Grants</h3>
+<div class="table table--zebra">
+    <table id="grantsTable">
+
+        <thead>
+            <th>Funder</th>
+            <th>Recipient</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Date</th>
+        </thead>
+
+        <tbody>
+            {% for g in grants|reverse %}
+            <tr>
+                <td class="table__lead-cell" data-header="Funder">{{ g.fundingOrganization.0.name }}</td>
+                {% if g.recipientOrganization.0.id in all_funders %}
+                <td class="" data-header="Recipient">
+                    <strong>{{ g.recipientOrganization.0.name }}*</strong><br>
+                    <small>*This organisation is also a funder so this grant may be passed on to other organisations.</small>
+                </td>
+                {% else %}
+                <td class="table__lead-cell" data-header="Recipient">{{ g.recipientOrganization.0.name }}</td>
+                {% endif %}
+                <td data-header="Description">
+                    <strong>{{g.title}}</strong><br>
+                    {{g.description}}<br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/{{g.id}}">View on GrantNav</a>
+                </td>
+                <td data-header="Amount" style='text-align: right;'>
+                    {% if g.currency != 'GBP' %}{{ g.currency }}{% else %}£{% endif %}
+                    {{- "{:,.0f}".format(g.amountAwarded) -}}
+                </td>
+                <td data-header="Date">{{ g.awardDate[0:10] }}</td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+</div>

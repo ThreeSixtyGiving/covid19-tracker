@@ -1,0 +1,38 @@
+<div class="grid grid--four-columns">
+    <div class="grid__1">
+        <div class="base-card base-card--orange">
+            <div class="base-card__content">
+                <h2 class="base-card__title">{{"{:,.0f}".format(grants|length)}}</h2>
+                <p class="base-card__text">Grants</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__1">
+        <div class="base-card base-card--teal">
+            <div class="base-card__content">
+                <h2 class="base-card__title">{{"{:,.0f}".format(recipients|length)}}</h2>
+                <p class="base-card__text">Recipients</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__1">
+        <div class="base-card base-card--teal">
+            <div class="base-card__content">
+                <h2 class="base-card__title">{{"{:,.0f}".format(funders|length)}}</h2>
+                <p class="base-card__text">Funders</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__1">
+        <div class="base-card base-card--yellow">
+            <div class="base-card__content">
+                <h2 class="base-card__title">&pound;{{"{:,.0f}".format(amountAwarded.get('GBP', 0))}}</h2>
+                <p class="base-card__text">Total</p>
+            </div>
+        </div>
+    </div>
+
+</div>
