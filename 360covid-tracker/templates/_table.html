@@ -25,7 +25,7 @@
                 <td data-header="Description">
                     <strong>{{g.title}}</strong><br>
                     {{g.description}}<br>
-                    <a href="http://grantnav.threesixtygiving.org/grant/{{g.id}}">View on GrantNav</a>
+                    <a href="http://grantnav.threesixtygiving.org/grant/{{g.id}}" target="_blank">View on GrantNav</a>
                 </td>
                 <td data-header="Amount" style='text-align: right;'>
                     {% if g.currency != 'GBP' %}{{ g.currency }}{% else %}£{% endif %}

@@ -1,4 +1,5 @@
 import json
+import datetime
 from jinja2 import Environment, PackageLoader, select_autoescape
 
 env = Environment(
@@ -41,6 +42,7 @@ page_content = template.render(
     amountAwarded=amountAwarded,
     amountByDate=amountByDate,
     all_funders=all_funders,
+    now=datetime.datetime.now(),
 ).encode('utf-8')
 
 with open('docs/index.html', 'wb') as a:

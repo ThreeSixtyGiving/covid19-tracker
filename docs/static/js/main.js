@@ -1,9 +1,15 @@
 /* add table functionality */
 var dataTable = new DataTable("#grantsTable", {
     layout: {
-        top: "{info}{pager}{search}",
-        bottom: ""
+        top: "{info}{search}",
+        bottom: "{pager}"
     },
+    labels: {
+        placeholder: "Search grants…",
+        perPage: "{select} grants per page",
+        noRows: "No grants found",
+        info: "Showing {start} to {end} of {rows} grants",
+    }
 });
 
 /* set chart styling */
