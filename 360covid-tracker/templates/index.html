@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coronavirus response grants</title>
+    <link rel="stylesheet" href="https://360ds.netlify.com/components/preview/assets/css/global.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="layout layout--single-column layout--full">
+
+  <header class="layout__header">
+  
+    <div class="hero-section">
+    <div class="wrapper">
+        <div class="hero hero--red">
+        <div class="hero__column hero__logo">
+            <a href="https://threesixtygiving.org/">
+                <img src="https://360ds.netlify.com/images/360-logos/360giving-main.svg" alt="360 Main">    
+            </a>
+        </div>
+        <div class="hero__column hero__lead">
+            <h2 class="hero__title">Coronavirus response grants tracker</h2>
+            <p class="hero__blurb">Based on data published by UK grantmakers to the 360Giving Data Standard.</p>
+        </div>  
+        </div>
+    </div>
+    </div>
+    
+  {# <div class="base-section">
+    <div class="grid grid--single-column">
+      <hgroup class="header-group">
+        <a href="https://threesixtygiving.org/" style='float:right;'>
+            <img src="https://360ds.netlify.com/images/360-logos/360giving-main.svg" alt="360 Main">
+        </a>
+        <h2 class="header-group__title">Coronavirus response grants</h2>
+        {# <h3 class="header-group__brow">By 360Giving</h3> #}{#
+      </hgroup>
+
+      <p class="header-group__excerpt">
+        <strong>From 360Giving published data.</strong>
+      </p>
+    </div>
+  </div> #}
+
+  </header>
+
+  <main class="layout__content">
+<div class="layout__content-inner">
+
+    <div class="grid grid--four-columns">
+      <div class="grid__1">
+        <div class="base-card base-card--orange">
+          <div class="base-card__content">
+            <h2 class="base-card__title">{{"{:,.0f}".format(grants|length)}}</h2>
+            <p class="base-card__text">Grants</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__1">
+        <div class="base-card base-card--teal">
+          <div class="base-card__content">
+            <h2 class="base-card__title">{{"{:,.0f}".format(recipients|length)}}</h2>
+            <p class="base-card__text">Recipients</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__1">
+        <div class="base-card base-card--teal">
+          <div class="base-card__content">
+            <h2 class="base-card__title">{{"{:,.0f}".format(funders|length)}}</h2>
+            <p class="base-card__text">Funders</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__1">
+        <div class="base-card base-card--yellow">
+          <div class="base-card__content">
+            <h2 class="base-card__title">&pound;{{"{:,.0f}".format(amountAwarded.get('GBP', 0))}}</h2>
+            <p class="base-card__text">Total</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="spacer-3"></div>
+
+  <div class="grid grid--two-columns">
+    <div class="grid__all"><div class="base-card base-card--red">
+        <div class="base-card__content">
+            <header class="base-card__header">
+            <h3 class="base-card__heading">Grants over time</h3>
+            <h4 class="base-card__subheading">Cumulative total (&pound;)</h4>
+            </header>
+            <canvas id="overtimechart" width="400" height="125"></canvas>
+        </div>
+    </div>
+  </div>
+
+    <div class="grid__all">
+    
+
+    <h3 class="h3">Grants</h3>
+<div class="table table--zebra">
+    <table>
+
+        <thead>
+            <th>Organisations</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Date</th>
+        </thead>
+
+        <tbody>
+            {% for g in grants %}
+            <tr>
+                <td class="" data-header="Organisations">
+                    From <strong style='font-weight:500;'>{{ g.fundingOrganization.0.name }}</strong><br>
+                    to <strong style='font-weight:500;'>{{ g.recipientOrganization.0.name }}</strong><br>
+                    <a href="http://grantnav.threesixtygiving.org/grant/{{g.id}}">View on GrantNav</a>
+                </td>
+                <td data-header="Description"><strong style='font-weight:500;'>{{g.title}}</strong><br>{{g.description}}</td>
+                <td data-header="Amount" style='text-align: right;'>
+                    {% if g.currency != 'GBP' %}{{ g.currency }}{% else %}£{% endif %}
+                    {{- "{:,.0f}".format(g.amountAwarded) -}}
+                </td>
+                <td data-header="Date">{{ g.awardDate[0:10] }}</td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  </main>
+
+  <footer class="layout__footer">
+    
+      <div class="subscribe-section">
+  <div class="subscribe-section__wrapper">
+    <form action="#" class="subscribe-section__form">
+      <input type="email" placeholder="Subscribe to our newsletter">
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer__row wrapper">
+    <div class="footer__column-2 footer__branding">
+      <div class="footer__logo"><img src="/images/360-giving-logo-white.svg" alt="360Giving"></div>
+      <p class="footer__tagline">Open data for more effective grantmaking</p>
+    </div>
+    <div class="footer__column-1 footer__social">
+      <a href="#" class="github-icon"><img src="/images/github-logo.svg" alt="Check our Github"></a>
+      <a href="#" class="twitter-icon"><img src="/images/twitter-logo.svg" alt="Follow us on Twitter"></a>
+    </div>
+  </div>
+  
+  <div class="footer__row wrapper">
+    <div class="footer__column-2 footer__section medium-up">
+      <h3 class="footer__heading">Products</h3>
+      <ul>
+        <li><a href="#">GrantNav</a></li>
+        <li><a href="#">Insights</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Cove</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__column-2 footer__section medium-up">
+      <h3 class="footer__heading">Other Products</h3>
+      <ul>
+        <li><a href="#">Data Registry</a></li>
+        <li><a href="#">Data Standard</a></li>
+        <li><a href="#">Data Challenge</a></li>
+        <li><a href="#">Data Champions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__column-3 footer__section">
+      <h3 class="footer__heading">360 Resources</h3>
+      <p>Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the 360Giving JSON Schemas. Anyone automating the publication of their data from their internal databases or via</p>
+    </div>
+
+    <div class="footer__column-3 footer__section">
+      <h3 class="footer__heading">360 Resources</h3>
+      <p>Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the 360Giving JSON Schemas. Anyone automating the publication of their data from their internal databases or via</p>
+
+    </div>
+  </div>
+
+  <div class="wrapper footer__small-print">
+    <a href="#" class="edit-github button button--small button--yellow">Edit on Github</a>
+    <p>© Copyright 2016-2017, 360Giving, licensed under a Creative Commons Attribution 4.0 International License. <br>Icons from the Noun Project: Document by Jamison Wieser and JSON File by useiconic.com. Revision e76b5687.</p>
+  </div>
+
+  <div class="footer__row wrapper footer__small-print">
+    
+    <div class="footer__column-2">
+      <p>360Giving: Company 09668396 Charity 1164883</p>
+    </div>
+    <div class="footer__column-2 footer__policy-links">
+      <p><a href="#">Privacy Notice</a> | <a href="#">Terms & Conditions</a> | <a href="#">Cookie Policy</a> | <a href="#">Take Down Policy</a> | <a href="#">License</a></p>
+    </div>
+  </div>
+</footer>
+    
+  </footer>
+</div>
+
+<script type='text/javascript'>
+    var amountByDate = {{amountByDate|tojson}};
+    var ctx = document.getElementById('overtimechart').getContext('2d');
+    const cumulativeSum = (sum => value => sum += value)(0);
+    amountAwardedCumulative = Object.values(amountByDate).map(v=>v.amount).map(cumulativeSum);
+    amountAwardedDates = Object.keys(amountByDate).map(v=>new Date(v));
+    console.log(amountAwardedDates.map((k, i) => ({x: k, y: amountAwardedDates[i]})));
+    Chart.defaults.global.defaultFontSize = '18';
+    Chart.defaults.global.defaultFontFamily = '"Roboto", sans-serif';
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: amountAwardedDates,
+            datasets: [{
+                label: 'Grant amount',
+                data: amountAwardedDates.map((k, i) => ({x: k, y: amountAwardedCumulative[i]})),
+                backgroundColor: '#bc2c26',
+                borderColor: '#bc2c26',
+                borderWidth: 1,
+                pointRadius: 0,
+                lineTension: 0,
+                steppedLine: true,
+            }]
+        },
+        options: {
+            legend: {
+                display: false
+            },
+            scales: {
+                xAxes: [{
+                    type: 'time',
+                    ticks: {
+                        maxTicksLimit: 5,
+                    },
+                    time: {
+                        unit: 'day',
+                        {# stepSize: 3, #}
+                    },
+                    gridLines: {
+                        display: false
+                    }
+                }],
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    },
+                    gridLines: {
+                        display: false
+                    },
+                    ticks: {
+                        maxTicksLimit: 5,
+                        callback: function(value, index, values) {
+                            return "£" + value.toLocaleString();
+                        }
+                    }
+                }]
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
