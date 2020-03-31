@@ -97,7 +97,8 @@
     <table>
 
         <thead>
-            <th>Organisations</th>
+            <th>Funder</th>
+            <th>Recipient</th>
             <th>Description</th>
             <th>Amount</th>
             <th>Date</th>
@@ -106,12 +107,13 @@
         <tbody>
             {% for g in grants %}
             <tr>
-                <td class="" data-header="Organisations">
-                    From <strong style='font-weight:500;'>{{ g.fundingOrganization.0.name }}</strong><br>
-                    to <strong style='font-weight:500;'>{{ g.recipientOrganization.0.name }}</strong><br>
+                <td class="table__lead-cell" data-header="Organisations">{{ g.fundingOrganization.0.name }}</td>
+                <td class="table__lead-cell" data-header="Organisations">{{ g.recipientOrganization.0.name }}</td>
+                <td data-header="Description">
+                    <strong style='font-weight:500;'>{{g.title}}</strong><br>
+                    {{g.description}}<br>
                     <a href="http://grantnav.threesixtygiving.org/grant/{{g.id}}">View on GrantNav</a>
                 </td>
-                <td data-header="Description"><strong style='font-weight:500;'>{{g.title}}</strong><br>{{g.description}}</td>
                 <td data-header="Amount" style='text-align: right;'>
                     {% if g.currency != 'GBP' %}{{ g.currency }}{% else %}£{% endif %}
                     {{- "{:,.0f}".format(g.amountAwarded) -}}
