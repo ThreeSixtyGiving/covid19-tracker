@@ -1,14 +1,14 @@
 {
     "grants": [
         {
-            "ID": "36857",
-            "id": "360G-woodward:WCT2962",
-            "title": "Emergency match funding appeal for those affect by COVID-19 virus",
+            "ID": "36858",
+            "id": "360G-woodward:WCT2963",
+            "title": "Emergency match funding appeal to raise money for those who will be affecte",
             "currency": "GBP",
             "awardDate": "2020-03-17",
             "description": "Towards the emergency match funding appeal to raise money for those who will be affected by the COVID-19 virus.",
-            "dateModified": "2020-03-26T10:18:11Z",
-            "amountAwarded": 10000,
+            "dateModified": "2020-03-26T10:18:18Z",
+            "amountAwarded": 2500,
             "beneficiaryLocation": [
                 {
                     "name": "UK",
@@ -33,14 +33,14 @@
             ]
         },
         {
-            "ID": "36858",
-            "id": "360G-woodward:WCT2963",
-            "title": "Emergency match funding appeal to raise money for those who will be affecte",
+            "ID": "36857",
+            "id": "360G-woodward:WCT2962",
+            "title": "Emergency match funding appeal for those affect by COVID-19 virus",
             "currency": "GBP",
             "awardDate": "2020-03-17",
             "description": "Towards the emergency match funding appeal to raise money for those who will be affected by the COVID-19 virus.",
-            "dateModified": "2020-03-26T10:18:18Z",
-            "amountAwarded": 2500,
+            "dateModified": "2020-03-26T10:18:11Z",
+            "amountAwarded": 10000,
             "beneficiaryLocation": [
                 {
                     "name": "UK",
@@ -117,37 +117,6 @@
             ]
         },
         {
-            "ID": "36759",
-            "id": "360G-indigotrust:IND494",
-            "title": "Supporting their Coronavirus appeal",
-            "currency": "GBP",
-            "awardDate": "2020-03-19",
-            "description": "Unrestricted core funding.",
-            "dateModified": "2020-03-30T11:54:08Z",
-            "amountAwarded": 1000000,
-            "beneficiaryLocation": [
-                {
-                    "name": "UK",
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1075920",
-                    "name": "Indigo Trust"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1182809",
-                    "name": "National Emergencies Trust",
-                    "postalCode": "EC2Y 9AL",
-                    "charityNumber": "1182809",
-                    "addressCountry": "UK"
-                }
-            ]
-        },
-        {
             "ID": "36820",
             "id": "360G-gatsbyfoundation:GAT3763",
             "title": "Core costs",
@@ -180,6 +149,37 @@
                     "postalCode": "SP2 7HL",
                     "addressRegion": "Wiltshire",
                     "charityNumber": "GB-CHC-1110522",
+                    "addressCountry": "UK"
+                }
+            ]
+        },
+        {
+            "ID": "36758",
+            "id": "360G-indigotrust:IND493",
+            "title": "To support its work during the Covid-19 emergency",
+            "currency": "GBP",
+            "awardDate": "2020-03-19",
+            "description": "Core unrestricted funding.",
+            "dateModified": "2020-03-30T11:53:50Z",
+            "amountAwarded": 500000,
+            "beneficiaryLocation": [
+                {
+                    "name": "UK",
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation",
+                    "postalCode": "OX1 1HD",
+                    "charityNumber": "1151621 ",
                     "addressCountry": "UK"
                 }
             ]
@@ -221,37 +221,6 @@
             ]
         },
         {
-            "ID": "36758",
-            "id": "360G-indigotrust:IND493",
-            "title": "To support its work during the Covid-19 emergency",
-            "currency": "GBP",
-            "awardDate": "2020-03-19",
-            "description": "Core unrestricted funding.",
-            "dateModified": "2020-03-30T11:53:50Z",
-            "amountAwarded": 500000,
-            "beneficiaryLocation": [
-                {
-                    "name": "UK",
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1075920",
-                    "name": "Indigo Trust"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1151621",
-                    "name": "Oxfordshire Community Foundation",
-                    "postalCode": "OX1 1HD",
-                    "charityNumber": "1151621 ",
-                    "addressCountry": "UK"
-                }
-            ]
-        },
-        {
             "ID": "36746",
             "id": "360G-indigotrust:IND492",
             "title": "Emergency funding to help most vulnerable during Covid-19 crisis",
@@ -279,6 +248,37 @@
                     "postalCode": "SP2 7HL",
                     "addressRegion": "Wiltshire",
                     "charityNumber": "GB-CHC-1110522",
+                    "addressCountry": "UK"
+                }
+            ]
+        },
+        {
+            "ID": "36759",
+            "id": "360G-indigotrust:IND494",
+            "title": "Supporting their Coronavirus appeal",
+            "currency": "GBP",
+            "awardDate": "2020-03-19",
+            "description": "Unrestricted core funding.",
+            "dateModified": "2020-03-30T11:54:08Z",
+            "amountAwarded": 1000000,
+            "beneficiaryLocation": [
+                {
+                    "name": "UK",
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1182809",
+                    "name": "National Emergencies Trust",
+                    "postalCode": "EC2Y 9AL",
+                    "charityNumber": "1182809",
                     "addressCountry": "UK"
                 }
             ]
@@ -352,37 +352,6 @@
             ]
         },
         {
-            "ID": "36862",
-            "id": "360G-indigotrust:IND497",
-            "title": "Unrestricted core funding during Covid-19 crisis",
-            "currency": "GBP",
-            "awardDate": "2020-03-24",
-            "description": "Unrestricted core funding.",
-            "dateModified": "2020-03-30T11:54:56Z",
-            "amountAwarded": 6000,
-            "beneficiaryLocation": [
-                {
-                    "name": "UK",
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1075920",
-                    "name": "Indigo Trust"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1151911",
-                    "name": "Sufra NW London",
-                    "postalCode": "NW10 0PW",
-                    "charityNumber": "1151911",
-                    "addressCountry": "UK"
-                }
-            ]
-        },
-        {
             "ID": "36861",
             "id": "360G-indigotrust:IND496",
             "title": "Unrestricted core funding during the Covid-19 crisis",
@@ -410,6 +379,37 @@
                     "postalCode": "NW10 2JR",
                     "addressRegion": "London",
                     "charityNumber": "1077038",
+                    "addressCountry": "UK"
+                }
+            ]
+        },
+        {
+            "ID": "36862",
+            "id": "360G-indigotrust:IND497",
+            "title": "Unrestricted core funding during Covid-19 crisis",
+            "currency": "GBP",
+            "awardDate": "2020-03-24",
+            "description": "Unrestricted core funding.",
+            "dateModified": "2020-03-30T11:54:56Z",
+            "amountAwarded": 6000,
+            "beneficiaryLocation": [
+                {
+                    "name": "UK",
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1151911",
+                    "name": "Sufra NW London",
+                    "postalCode": "NW10 0PW",
+                    "charityNumber": "1151911",
                     "addressCountry": "UK"
                 }
             ]
@@ -476,6 +476,45 @@
                     "alternateName": "Community Foundation - Northumberland, Tyne & Wear",
                     "charityNumber": "700510",
                     "addressCountry": "UK"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A546169",
+            "title": "Grant to Homeless Action Resource Project",
+            "currency": "GBP",
+            "awardDate": "2020-03-27T00:00:00+00:00",
+            "description": "to support homeless people in Southend during the COVID19 crisis",
+            "dateModified": "2020-03-30T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "amountAppliedFor": 15000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Southend-on-Sea",
+                    "geoCode": "E06000033",
+                    "countryCode": "GB",
+                    "geoCodeType": "UA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1098126",
+                    "url": "http://www.harpsouthend.org.uk",
+                    "name": "Homeless Action Resource Project",
+                    "description": "HARP is the leading homeless charity in Southend. Our aim is to help prevent homelessness with early intervention as well as helping people overcome homelessness for good. Everything we do is geared towards helping people move away from homelessness permanently, enabling them to lead happy, independent and fulfilling lives within the community. We support over 1,200 people on average every year and as the amount of people affected by homelessness grows so does the demand for our services. At HARP, we are always looking at new ways to help people get off the streets - and stay off the streets. The number of bed spaces we are able to offer has grown, as part of HARP\u2019s response to the growing need in the town, from 174 in mid-2018 to 214 today, plus additional sleeping spaces in our Extended Emergency Service - an overnight shelter at our Bradbury Centre for those in immediate need. we have always emphasised that rough sleeping is just the tip of the iceberg in terms of overall levels of homelessness. Although this is the most visible and dangerous aspect, there are countless more people in precarious accommodation, sofa-surfing, or staying in temporary housing who need ongoing support to avoid and overcome homelessness. And new people are finding themselves in these precarious and often dangerous circumstances every day.Nearly half of the people who came to HARP for help in 2019 were using our services for the first time, and over half of those new visitors were sofa surfing, had no fixed abode, or were at risk of losing their accommodation and were in need of help and support to keep it. This only goes to show how many local people are struggling to keep a roof over their heads and are in danger of ending up on the streets. We desperately need more social housing and affordable accommodation (and this means properties to rent, not just \u201caffordable housing\u201d for people fortunate enough to be able to purchase), as well as better support for people struggling with their financial and housing situations, and a genuine effort to tackle the root causes of homelessness.",
+                    "charityNumber": "1098126"
                 }
             ]
         },
@@ -550,6 +589,48 @@
                     "name": "Halstead Day Centre",
                     "description": "The Day Centre is intended for people over 60 to help alleviate isolation and loneliness for people who are not able to build links with their community by reason's of poor health, disabilities, impairment and other needs, including regaining confidence after a stay in hospital or after a fall. The Centre has a strong commitment to enable older people to address the factors that protect and create general health and well being. Our main objectives are to provide a range of preventative activities that enable people to live as independent as possible in their own home and remain healthy and have non-judgemental support for that choice. Our services include. Transport to and from peoples homes, as well as transport to other health care appointments on the days they attend The Centre. A daily shopping service. A bathing service, especially beneficial to the more frail members and also their family carers. A daily seated exercise class which benefits physical and mental well being. A 2 course freshly cooked lunch and beverages throughout the day. Other activities include, board & card games, quizzes, Bingo, debates, showing of old movies, speakers, entertainers, and trips out to various places of interest. The Centre also has a visiting chiropodist helping to ensure good foot care without the stress of attending a clinic. Our strategy is to work from a comprehensive range of information between, ourselves, the members and other health organisations.",
                     "charityNumber": "280552"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A546813",
+            "title": "Grant to Maldon & District Community Voluntary Services",
+            "currency": "GBP",
+            "awardDate": "2020-03-27T00:00:00+00:00",
+            "description": "to support community response helping people during the COVID19 pandemic in rural districts of Maldon",
+            "dateModified": "2020-03-30T00:00:00+00:00",
+            "amountAwarded": 12000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 12000,
+            "Primary beneficiary": "People with mental health issues",
+            "beneficiaryLocation": [
+                {
+                    "name": "Maldon",
+                    "geoCode": "E07000074",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-04170241",
+                    "url": "http://www.maldoncvs.org.uk",
+                    "name": "Maldon & District Community Voluntary Services",
+                    "description": "Maldon and District CVS is the infrastructure charity for Maldon Districts voluntary sector. We have a membership of 130 charites and community groups that work in the Maldon District and offer services such as funding advice, governance advice, information provision and representation. In addition we also host the districts Volunteer Centre and other projects that support people with Maldon District to be more involved with their community. At the current time these projects include - The Essex Shed Network: after successfully launching the Maldon Shed in 2014 Maldon and District CVS were approached by other districts to support them to set up similar projects. Men in Shed projects provide community spaces with a focus on practical activities such as woodwork. These spaces enable local men to build friendships and gain/offer peer support which has the ultimate outcome of improving social connections and decreasing feelings of loneliness. The Essex Shed Network provides support, information and networking opportunities to people involved with or wishing to be involved with Men in Shed projects - Blokes: - spinning off from the Essex Shed Network we are working in partnership with Active Maldon to facilitate local men having support to access existing local services and activities that have positive health outcomes such as walking football or weight management schemes. - Southminster Patio Project: - working with the Memorial Hall in Southminster we are setting up a community gardening space at the rear of their project to enhance the Memorial Halls offer as a community hub for Southminster and to have wellbeing outcomes for local people - Harbour: - running for ten years this project provides social support to local people who are a risk of social isolation. As a weekly coffee morning it offers access to Connect Well social prescribing and wellbeing activities such as gardening, singing and crafts as well as the opportunity to make friendships. - Wellbeing walks: Weekly walks at Maldon Prom Park to encourage people to walk socially as a first step to healthier lives. - The Maldon Active Support Team: this project add value to all the above and the wider sector through the Volunteer Centre and other contacts. Working in a person centred way the project provides bespoke one to one support to people who have barriers to community involvement such as mental health conditions, physical disabilities, low income or low confidence. The Coordinator works with them to explore options they may be interested in and facilitate their involvement, this includes help with form filling, accompanied visits, adaption of opportunities and ongoing support. The MAST project also hosts some small group activities as tasters for community involvement, these are being merged with some of the above projects as the MAST project comes to an end in December 2018 and we are working as an organisation to preserving the legacy of the project.",
+                    "charityNumber": "1086460",
+                    "companyNumber": "04170241"
                 }
             ]
         },
@@ -632,87 +713,6 @@
                     "description": "Chelmsford Community Transport offers affordable and accessible travel options to those who may be isolated, lonely or unable to access public transport because of physical or mental disabilities or through rural isolation. Our aim is to provide transport for the most vulnerable people in our community - mostly elderly and disabled. Transport is door-to-door for medical, social or shopping trips; we also organise social excursions each Saturday and monthly social trips for retirement home residents. Using 7 wheelchair accessible minibuses and 15 volunteer car drivers we are a lifeline to many who would not travel without us. We connect people with their communities and ensure they are able to access all the services available to them. In addition to our minibus services we offer a bespoke car service run by volunteer car drivers in their own cars. This service is tailored to the individual and volunteers are able to assist passengers with shopping or sit with them at medical appointments or support groups. We are also able to offer transport for people to visit their loved ones in hospital or in care homes. Our services are much sought after and we are always running at full capacity. Approximately 50 new members join the scheme every month and we carry out approximately 3000 trips per month.",
                     "charityNumber": "1075724",
                     "companyNumber": "03726024"
-                }
-            ]
-        },
-        {
-            "id": "360G-EssexCF-A546169",
-            "title": "Grant to Homeless Action Resource Project",
-            "currency": "GBP",
-            "awardDate": "2020-03-27T00:00:00+00:00",
-            "description": "to support homeless people in Southend during the COVID19 crisis",
-            "dateModified": "2020-03-30T00:00:00+00:00",
-            "amountAwarded": 15000,
-            "grantProgramme": [
-                {
-                    "code": "2019/20",
-                    "title": "Essex Coronavirus Response and Recovery Programme"
-                }
-            ],
-            "amountAppliedFor": 15000,
-            "beneficiaryLocation": [
-                {
-                    "name": "Southend-on-Sea",
-                    "geoCode": "E06000033",
-                    "countryCode": "GB",
-                    "geoCodeType": "UA"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1052061",
-                    "name": "Essex Community Foundation"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1098126",
-                    "url": "http://www.harpsouthend.org.uk",
-                    "name": "Homeless Action Resource Project",
-                    "description": "HARP is the leading homeless charity in Southend. Our aim is to help prevent homelessness with early intervention as well as helping people overcome homelessness for good. Everything we do is geared towards helping people move away from homelessness permanently, enabling them to lead happy, independent and fulfilling lives within the community. We support over 1,200 people on average every year and as the amount of people affected by homelessness grows so does the demand for our services. At HARP, we are always looking at new ways to help people get off the streets - and stay off the streets. The number of bed spaces we are able to offer has grown, as part of HARP\u2019s response to the growing need in the town, from 174 in mid-2018 to 214 today, plus additional sleeping spaces in our Extended Emergency Service - an overnight shelter at our Bradbury Centre for those in immediate need. we have always emphasised that rough sleeping is just the tip of the iceberg in terms of overall levels of homelessness. Although this is the most visible and dangerous aspect, there are countless more people in precarious accommodation, sofa-surfing, or staying in temporary housing who need ongoing support to avoid and overcome homelessness. And new people are finding themselves in these precarious and often dangerous circumstances every day.Nearly half of the people who came to HARP for help in 2019 were using our services for the first time, and over half of those new visitors were sofa surfing, had no fixed abode, or were at risk of losing their accommodation and were in need of help and support to keep it. This only goes to show how many local people are struggling to keep a roof over their heads and are in danger of ending up on the streets. We desperately need more social housing and affordable accommodation (and this means properties to rent, not just \u201caffordable housing\u201d for people fortunate enough to be able to purchase), as well as better support for people struggling with their financial and housing situations, and a genuine effort to tackle the root causes of homelessness.",
-                    "charityNumber": "1098126"
-                }
-            ]
-        },
-        {
-            "id": "360G-EssexCF-A546813",
-            "title": "Grant to Maldon & District Community Voluntary Services",
-            "currency": "GBP",
-            "awardDate": "2020-03-27T00:00:00+00:00",
-            "description": "to support community response helping people during the COVID19 pandemic in rural districts of Maldon",
-            "dateModified": "2020-03-30T00:00:00+00:00",
-            "amountAwarded": 12000,
-            "grantProgramme": [
-                {
-                    "code": "2019/20",
-                    "title": "Essex Coronavirus Response and Recovery Programme"
-                }
-            ],
-            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
-            "amountAppliedFor": 12000,
-            "Primary beneficiary": "People with mental health issues",
-            "beneficiaryLocation": [
-                {
-                    "name": "Maldon",
-                    "geoCode": "E07000074",
-                    "countryCode": "GB",
-                    "geoCodeType": "NMD"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1052061",
-                    "name": "Essex Community Foundation"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-COH-04170241",
-                    "url": "http://www.maldoncvs.org.uk",
-                    "name": "Maldon & District Community Voluntary Services",
-                    "description": "Maldon and District CVS is the infrastructure charity for Maldon Districts voluntary sector. We have a membership of 130 charites and community groups that work in the Maldon District and offer services such as funding advice, governance advice, information provision and representation. In addition we also host the districts Volunteer Centre and other projects that support people with Maldon District to be more involved with their community. At the current time these projects include - The Essex Shed Network: after successfully launching the Maldon Shed in 2014 Maldon and District CVS were approached by other districts to support them to set up similar projects. Men in Shed projects provide community spaces with a focus on practical activities such as woodwork. These spaces enable local men to build friendships and gain/offer peer support which has the ultimate outcome of improving social connections and decreasing feelings of loneliness. The Essex Shed Network provides support, information and networking opportunities to people involved with or wishing to be involved with Men in Shed projects - Blokes: - spinning off from the Essex Shed Network we are working in partnership with Active Maldon to facilitate local men having support to access existing local services and activities that have positive health outcomes such as walking football or weight management schemes. - Southminster Patio Project: - working with the Memorial Hall in Southminster we are setting up a community gardening space at the rear of their project to enhance the Memorial Halls offer as a community hub for Southminster and to have wellbeing outcomes for local people - Harbour: - running for ten years this project provides social support to local people who are a risk of social isolation. As a weekly coffee morning it offers access to Connect Well social prescribing and wellbeing activities such as gardening, singing and crafts as well as the opportunity to make friendships. - Wellbeing walks: Weekly walks at Maldon Prom Park to encourage people to walk socially as a first step to healthier lives. - The Maldon Active Support Team: this project add value to all the above and the wider sector through the Volunteer Centre and other contacts. Working in a person centred way the project provides bespoke one to one support to people who have barriers to community involvement such as mental health conditions, physical disabilities, low income or low confidence. The Coordinator works with them to explore options they may be interested in and facilitate their involvement, this includes help with form filling, accompanied visits, adaption of opportunities and ongoing support. The MAST project also hosts some small group activities as tasters for community involvement, these are being merged with some of the above projects as the MAST project comes to an end in December 2018 and we are working as an organisation to preserving the legacy of the project.",
-                    "charityNumber": "1086460",
-                    "companyNumber": "04170241"
                 }
             ]
         }
