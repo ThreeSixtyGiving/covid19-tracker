@@ -25,13 +25,11 @@
         </div>
         <div class="hero__column hero__lead">
             <h2 class="hero__title">Coronavirus response grants tracker</h2>
-            <p class="hero__blurb">Based on data published by UK grantmakers to the 360Giving Data Standard.</p>
+            <p class="hero__blurb">Based on data published by UK grantmakers in the 360Giving Data Standard</p>
         </div>  
         </div>
     </div>
     </div>
-    
-  
 
   </header>
 
@@ -435,7 +433,7 @@
 </div>
 
 <script type='text/javascript'>
-    var amountByDate = {"2020-03-14": {"amount": 0, "grants": 0}, "2020-03-17": {"amount": 12500, "grants": 2}, "2020-03-19": {"amount": 1010000.0, "grants": 2}, "2020-03-23": {"amount": 22500, "grants": 2}, "2020-03-24": {"amount": 10000, "grants": 2}, "2020-03-26": {"amount": 20000, "grants": 2}, "2020-03-27": {"amount": 12212, "grants": 1}};
+    var amountByDate = {"2020-03-14": {"amount": 0, "grants": 0}, "2020-03-17": {"amount": 12500, "grants": 2}, "2020-03-19": {"amount": 4510000.0, "grants": 6}, "2020-03-23": {"amount": 22500, "grants": 2}, "2020-03-24": {"amount": 10000, "grants": 2}, "2020-03-26": {"amount": 20000, "grants": 2}, "2020-03-27": {"amount": 57462, "grants": 6}};
     var ctx = document.getElementById('overtimechart').getContext('2d');
     const cumulativeSum = (sum => value => sum += value)(0);
     amountAwardedCumulative = Object.values(amountByDate).map(v=>v.amount).map(cumulativeSum);

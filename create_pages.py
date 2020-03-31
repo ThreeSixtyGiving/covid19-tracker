@@ -21,7 +21,7 @@ for g in grants:
     awardDate = g['awardDate'][0:10]
     if g['currency'] not in amountAwarded:
         amountAwarded[g['currency']] = 0
-    if g['awardDate'] not in amountByDate:
+    if awardDate not in amountByDate:
         amountByDate[awardDate] = {
             'grants': 0,
             "amount": 0,
