@@ -40,8 +40,11 @@ select distinct g.data->'fundingOrganization'->0->>'id' as "fundingOrganization.
 from view_latest_grant g 
 ''')
 funders = []
+with open('docs/data/funder_ids.json', 'r') as a:
+    funders.extend(json.load(a).get('funders', []))
 for row in result:
     funders.append(row['fundingOrganization.0.id'])
+funders = sorted(set(funders))
 print('Found {:,.0f} funder IDs'.format(len(funders)))
 
 print('Saving to file')
