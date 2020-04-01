@@ -65,6 +65,58 @@
             ]
         },
         {
+            "id": "360G-EFF-20-0465",
+            "title": "Grant to The Social Investment Business Group",
+            "currency": "GBP",
+            "awardDate": "2020-03-19T00:00:00.000Z",
+            "description": "Towards project costs for building an insight tool for needs analysis of communities during the covid-9 pandemic.",
+            "dateModified": "2020-03-20T12:05:29.000Z",
+            "plannedDates": [
+                {
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000.0,
+            "grantProgramme": [
+                {
+                    "title": "Main Grant"
+                }
+            ],
+            "classifications": [
+                {
+                    "title": "Funding priority / Other"
+                },
+                {
+                    "title": "Social Change"
+                },
+                {
+                    "title": "digital innovation,COVID19"
+                },
+                {
+                    "title": "Beneficiary / Society"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "UK Whole"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-200051",
+                    "name": "Esm\u00e9e Fairbairn Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-EFF-001b000003VLyGR",
+                    "url": "http://www.sibgroup.org.uk",
+                    "name": "The Social Investment Business Group",
+                    "postalCode": "WC1H 8AG"
+                }
+            ]
+        },
+        {
             "ID": "36820",
             "id": "360G-gatsbyfoundation:GAT3763",
             "title": "Core costs",
@@ -97,37 +149,6 @@
                     "postalCode": "SP2 7HL",
                     "addressRegion": "Wiltshire",
                     "charityNumber": "GB-CHC-1110522",
-                    "addressCountry": "UK"
-                }
-            ]
-        },
-        {
-            "ID": "36759",
-            "id": "360G-indigotrust:IND494",
-            "title": "Supporting their Coronavirus appeal",
-            "currency": "GBP",
-            "awardDate": "2020-03-19",
-            "description": "Unrestricted core funding.",
-            "dateModified": "2020-03-30T11:54:08Z",
-            "amountAwarded": 1000000,
-            "beneficiaryLocation": [
-                {
-                    "name": "UK",
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1075920",
-                    "name": "Indigo Trust"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1182809",
-                    "name": "National Emergencies Trust",
-                    "postalCode": "EC2Y 9AL",
-                    "charityNumber": "1182809",
                     "addressCountry": "UK"
                 }
             ]
@@ -232,54 +253,64 @@
             ]
         },
         {
-            "id": "360G-EFF-20-0465",
-            "title": "Grant to The Social Investment Business Group",
+            "ID": "36759",
+            "id": "360G-indigotrust:IND494",
+            "title": "Supporting their Coronavirus appeal",
             "currency": "GBP",
-            "awardDate": "2020-03-19T00:00:00.000Z",
-            "description": "Towards project costs for building an insight tool for needs analysis of communities during the covid-9 pandemic.",
-            "dateModified": "2020-03-20T12:05:29.000Z",
-            "plannedDates": [
-                {
-                    "duration": 6
-                }
-            ],
-            "amountAwarded": 10000.0,
-            "grantProgramme": [
-                {
-                    "title": "Main Grant"
-                }
-            ],
-            "classifications": [
-                {
-                    "title": "Funding priority / Other"
-                },
-                {
-                    "title": "Social Change"
-                },
-                {
-                    "title": "digital innovation,COVID19"
-                },
-                {
-                    "title": "Beneficiary / Society"
-                }
-            ],
+            "awardDate": "2020-03-19",
+            "description": "Unrestricted core funding.",
+            "dateModified": "2020-03-30T11:54:08Z",
+            "amountAwarded": 1000000,
             "beneficiaryLocation": [
                 {
-                    "name": "UK Whole"
+                    "name": "UK",
+                    "countryCode": "GB"
                 }
             ],
             "fundingOrganization": [
                 {
-                    "id": "GB-CHC-200051",
-                    "name": "Esm\u00e9e Fairbairn Foundation"
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
                 }
             ],
             "recipientOrganization": [
                 {
-                    "id": "360G-EFF-001b000003VLyGR",
-                    "url": "http://www.sibgroup.org.uk",
-                    "name": "The Social Investment Business Group",
-                    "postalCode": "WC1H 8AG"
+                    "id": "GB-CHC-1182809",
+                    "name": "National Emergencies Trust",
+                    "postalCode": "EC2Y 9AL",
+                    "charityNumber": "1182809",
+                    "addressCountry": "UK"
+                }
+            ]
+        },
+        {
+            "ID": "36852",
+            "id": "360G-indigotrust:IND495",
+            "title": "Emergency funding during Covid-19 Crisis",
+            "currency": "GBP",
+            "awardDate": "2020-03-23",
+            "description": "Core unrestricted funding to support its work during the Covid-19 crisis.",
+            "dateModified": "2020-03-30T11:54:25Z",
+            "amountAwarded": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "UK",
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1075920:org-41512",
+                    "name": "Oxford Food Bank",
+                    "postalCode": "OX2 0LX",
+                    "addressRegion": "Botley",
+                    "addressCountry": "UK"
                 }
             ]
         },
@@ -321,14 +352,14 @@
             ]
         },
         {
-            "ID": "36852",
-            "id": "360G-indigotrust:IND495",
-            "title": "Emergency funding during Covid-19 Crisis",
+            "ID": "36861",
+            "id": "360G-indigotrust:IND496",
+            "title": "Unrestricted core funding during the Covid-19 crisis",
             "currency": "GBP",
-            "awardDate": "2020-03-23",
-            "description": "Core unrestricted funding to support its work during the Covid-19 crisis.",
-            "dateModified": "2020-03-30T11:54:25Z",
-            "amountAwarded": 10000,
+            "awardDate": "2020-03-24",
+            "description": "Unrestricted core funding.",
+            "dateModified": "2020-03-30T11:54:42Z",
+            "amountAwarded": 4000,
             "beneficiaryLocation": [
                 {
                     "name": "UK",
@@ -343,10 +374,11 @@
             ],
             "recipientOrganization": [
                 {
-                    "id": "GB-CHC-1075920:org-41512",
-                    "name": "Oxford Food Bank",
-                    "postalCode": "OX2 0LX",
-                    "addressRegion": "Botley",
+                    "id": "GB-CHC-1077038",
+                    "name": "Brent Mencap",
+                    "postalCode": "NW10 2JR",
+                    "addressRegion": "London",
+                    "charityNumber": "1077038",
                     "addressCountry": "UK"
                 }
             ]
@@ -383,14 +415,14 @@
             ]
         },
         {
-            "ID": "36861",
-            "id": "360G-indigotrust:IND496",
-            "title": "Unrestricted core funding during the Covid-19 crisis",
+            "ID": "36865",
+            "id": "360G-indigotrust:IND498",
+            "title": "Emergency funding during the Covid-19 crisis",
             "currency": "GBP",
-            "awardDate": "2020-03-24",
-            "description": "Unrestricted core funding.",
-            "dateModified": "2020-03-30T11:54:42Z",
-            "amountAwarded": 4000,
+            "awardDate": "2020-03-26",
+            "description": "Core unrestricted funding.",
+            "dateModified": "2020-03-30T11:55:12Z",
+            "amountAwarded": 10000,
             "beneficiaryLocation": [
                 {
                     "name": "UK",
@@ -405,11 +437,11 @@
             ],
             "recipientOrganization": [
                 {
-                    "id": "GB-CHC-1077038",
-                    "name": "Brent Mencap",
-                    "postalCode": "NW10 2JR",
+                    "id": "GB-CHC-1152007",
+                    "name": "Greenwich Foodbank",
+                    "postalCode": "SE9 1HN",
                     "addressRegion": "London",
-                    "charityNumber": "1077038",
+                    "charityNumber": "1152007",
                     "addressCountry": "UK"
                 }
             ]
@@ -448,34 +480,115 @@
             ]
         },
         {
-            "ID": "36865",
-            "id": "360G-indigotrust:IND498",
-            "title": "Emergency funding during the Covid-19 crisis",
+            "id": "360G-EssexCF-A545425",
+            "title": "Grant to Halstead Day Centre",
             "currency": "GBP",
-            "awardDate": "2020-03-26",
-            "description": "Core unrestricted funding.",
-            "dateModified": "2020-03-30T11:55:12Z",
-            "amountAwarded": 10000,
+            "awardDate": "2020-03-27T00:00:00+00:00",
+            "description": "to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID 19 crisis",
+            "dateModified": "2020-03-30T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "amountAppliedFor": 15000,
             "beneficiaryLocation": [
                 {
-                    "name": "UK",
                     "countryCode": "GB"
                 }
             ],
             "fundingOrganization": [
                 {
-                    "id": "GB-CHC-1075920",
-                    "name": "Indigo Trust"
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
                 }
             ],
             "recipientOrganization": [
                 {
-                    "id": "GB-CHC-1152007",
-                    "name": "Greenwich Foodbank",
-                    "postalCode": "SE9 1HN",
-                    "addressRegion": "London",
-                    "charityNumber": "1152007",
-                    "addressCountry": "UK"
+                    "id": "GB-CHC-280552",
+                    "url": "http://www.halsteaddc.org",
+                    "name": "Halstead Day Centre",
+                    "description": "The Day Centre is intended for people over 60 to help alleviate isolation and loneliness for people who are not able to build links with their community by reason's of poor health, disabilities, impairment and other needs, including regaining confidence after a stay in hospital or after a fall. The Centre has a strong commitment to enable older people to address the factors that protect and create general health and well being. Our main objectives are to provide a range of preventative activities that enable people to live as independent as possible in their own home and remain healthy and have non-judgemental support for that choice. Our services include. Transport to and from peoples homes, as well as transport to other health care appointments on the days they attend The Centre. A daily shopping service. A bathing service, especially beneficial to the more frail members and also their family carers. A daily seated exercise class which benefits physical and mental well being. A 2 course freshly cooked lunch and beverages throughout the day. Other activities include, board & card games, quizzes, Bingo, debates, showing of old movies, speakers, entertainers, and trips out to various places of interest. The Centre also has a visiting chiropodist helping to ensure good foot care without the stress of attending a clinic. Our strategy is to work from a comprehensive range of information between, ourselves, the members and other health organisations.",
+                    "charityNumber": "280552"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A545609",
+            "title": "Grant to Mind in West Essex",
+            "currency": "GBP",
+            "awardDate": "2020-03-27T00:00:00+00:00",
+            "description": "to provide a response and recovery grant during the COVID19 crisis to an organisation supporting those with mental health issues in West Essex",
+            "dateModified": "2020-03-30T00:00:00+00:00",
+            "amountAwarded": 12212,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 12212,
+            "Primary beneficiary": "People with mental health issues",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1091154",
+                    "url": "http://www.mindinwestessex.org.uk",
+                    "name": "Mind in West Essex",
+                    "description": "Mind in West Essex supports people affected by mental ill health, predominantly across West Essex to make positive changes in their lives and to improve their emotional resilience. We also aim to normalise the conversation around mental health and in doing so reduce the stigma that can be a barrier to people accessing the support that could help them to improve their quality of life. We provide a range of services in order to help us deliver on these aims, these include: counselling as part of the NHS psychological therapies service; a private counselling service that provides a wide range of therapeutic interventions and Life Management skills; Mental Health First Aid (MHFA) training; emotional resilience training; peer support; befriending to reduce isolation; bereavement work and community support. In addition to the above client facing services we also run a Mental Health Referral Triage service on behalf of West Essex CCG. This service processes all GP mental health referrals across West Essex and passes them on to the relevant provider. We have an active presence on social media platforms as part of our efforts to normalise mental health and engage with the public in a way that is accessible to a wide range of people. We are also actively engaged with the Time to Change Movement, particularly through engagement with local employers. We aspire to ensure that the following values can be clearly visible throughout our organisation: Welcoming: to everyone who comes into contact with any part of our organisation. Open: to all forms of feedback and open to change. Inclusive: everyone who is part of our organisation feels included and involved. Informed: We listen to what people are telling us and keep up to date with information about best practice. Responsive: We strive to be responsive to the changing needs of the population of West Essex and to the changing requirements of those who commission services from us. Effective: everyone who receives a service from us is helped to move forward on their journey towards mental wellbeing. Giving people the skills and techniques to deal with these issues again in the future.",
+                    "charityNumber": "1091154"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A546169",
+            "title": "Grant to Homeless Action Resource Project",
+            "currency": "GBP",
+            "awardDate": "2020-03-27T00:00:00+00:00",
+            "description": "to support homeless people in Southend during the COVID19 crisis",
+            "dateModified": "2020-03-30T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "amountAppliedFor": 15000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Southend-on-Sea",
+                    "geoCode": "E06000033",
+                    "countryCode": "GB",
+                    "geoCodeType": "UA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1098126",
+                    "url": "http://www.harpsouthend.org.uk",
+                    "name": "Homeless Action Resource Project",
+                    "description": "HARP is the leading homeless charity in Southend. Our aim is to help prevent homelessness with early intervention as well as helping people overcome homelessness for good. Everything we do is geared towards helping people move away from homelessness permanently, enabling them to lead happy, independent and fulfilling lives within the community. We support over 1,200 people on average every year and as the amount of people affected by homelessness grows so does the demand for our services. At HARP, we are always looking at new ways to help people get off the streets - and stay off the streets. The number of bed spaces we are able to offer has grown, as part of HARP\u2019s response to the growing need in the town, from 174 in mid-2018 to 214 today, plus additional sleeping spaces in our Extended Emergency Service - an overnight shelter at our Bradbury Centre for those in immediate need. we have always emphasised that rough sleeping is just the tip of the iceberg in terms of overall levels of homelessness. Although this is the most visible and dangerous aspect, there are countless more people in precarious accommodation, sofa-surfing, or staying in temporary housing who need ongoing support to avoid and overcome homelessness. And new people are finding themselves in these precarious and often dangerous circumstances every day.Nearly half of the people who came to HARP for help in 2019 were using our services for the first time, and over half of those new visitors were sofa surfing, had no fixed abode, or were at risk of losing their accommodation and were in need of help and support to keep it. This only goes to show how many local people are struggling to keep a roof over their heads and are in danger of ending up on the streets. We desperately need more social housing and affordable accommodation (and this means properties to rent, not just \u201caffordable housing\u201d for people fortunate enough to be able to purchase), as well as better support for people struggling with their financial and housing situations, and a genuine effort to tackle the root causes of homelessness.",
+                    "charityNumber": "1098126"
                 }
             ]
         },
@@ -516,42 +629,6 @@
                     "description": "Citizens Advice Harlow has been serving the the community since 1956. We are here to give people the knowledge and the confidence they need to find their way forward - whoever they are, and whatever their problem. We offer free independant, confidential and impartial advice 5 days per week. This covers benefits, debt, housing, employment to name a few. We also offer specialist Law Clinics and free legal advice as part of our blended offer of advice. We deliver an outreach well as the Permitted Development Housing site at Templefields in Harlow.",
                     "charityNumber": "617624",
                     "companyNumber": "07013193"
-                }
-            ]
-        },
-        {
-            "id": "360G-EssexCF-A545425",
-            "title": "Grant to Halstead Day Centre",
-            "currency": "GBP",
-            "awardDate": "2020-03-27T00:00:00+00:00",
-            "description": "to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID 19 crisis",
-            "dateModified": "2020-03-30T00:00:00+00:00",
-            "amountAwarded": 15000,
-            "grantProgramme": [
-                {
-                    "code": "2019/20",
-                    "title": "Essex Coronavirus Response and Recovery Programme"
-                }
-            ],
-            "amountAppliedFor": 15000,
-            "beneficiaryLocation": [
-                {
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1052061",
-                    "name": "Essex Community Foundation"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-280552",
-                    "url": "http://www.halsteaddc.org",
-                    "name": "Halstead Day Centre",
-                    "description": "The Day Centre is intended for people over 60 to help alleviate isolation and loneliness for people who are not able to build links with their community by reason's of poor health, disabilities, impairment and other needs, including regaining confidence after a stay in hospital or after a fall. The Centre has a strong commitment to enable older people to address the factors that protect and create general health and well being. Our main objectives are to provide a range of preventative activities that enable people to live as independent as possible in their own home and remain healthy and have non-judgemental support for that choice. Our services include. Transport to and from peoples homes, as well as transport to other health care appointments on the days they attend The Centre. A daily shopping service. A bathing service, especially beneficial to the more frail members and also their family carers. A daily seated exercise class which benefits physical and mental well being. A 2 course freshly cooked lunch and beverages throughout the day. Other activities include, board & card games, quizzes, Bingo, debates, showing of old movies, speakers, entertainers, and trips out to various places of interest. The Centre also has a visiting chiropodist helping to ensure good foot care without the stress of attending a clinic. Our strategy is to work from a comprehensive range of information between, ourselves, the members and other health organisations.",
-                    "charityNumber": "280552"
                 }
             ]
         },
@@ -636,83 +713,6 @@
                     "description": "Chelmsford Community Transport offers affordable and accessible travel options to those who may be isolated, lonely or unable to access public transport because of physical or mental disabilities or through rural isolation. Our aim is to provide transport for the most vulnerable people in our community - mostly elderly and disabled. Transport is door-to-door for medical, social or shopping trips; we also organise social excursions each Saturday and monthly social trips for retirement home residents. Using 7 wheelchair accessible minibuses and 15 volunteer car drivers we are a lifeline to many who would not travel without us. We connect people with their communities and ensure they are able to access all the services available to them. In addition to our minibus services we offer a bespoke car service run by volunteer car drivers in their own cars. This service is tailored to the individual and volunteers are able to assist passengers with shopping or sit with them at medical appointments or support groups. We are also able to offer transport for people to visit their loved ones in hospital or in care homes. Our services are much sought after and we are always running at full capacity. Approximately 50 new members join the scheme every month and we carry out approximately 3000 trips per month.",
                     "charityNumber": "1075724",
                     "companyNumber": "03726024"
-                }
-            ]
-        },
-        {
-            "id": "360G-EssexCF-A546169",
-            "title": "Grant to Homeless Action Resource Project",
-            "currency": "GBP",
-            "awardDate": "2020-03-27T00:00:00+00:00",
-            "description": "to support homeless people in Southend during the COVID19 crisis",
-            "dateModified": "2020-03-30T00:00:00+00:00",
-            "amountAwarded": 15000,
-            "grantProgramme": [
-                {
-                    "code": "2019/20",
-                    "title": "Essex Coronavirus Response and Recovery Programme"
-                }
-            ],
-            "amountAppliedFor": 15000,
-            "beneficiaryLocation": [
-                {
-                    "name": "Southend-on-Sea",
-                    "geoCode": "E06000033",
-                    "countryCode": "GB",
-                    "geoCodeType": "UA"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1052061",
-                    "name": "Essex Community Foundation"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1098126",
-                    "url": "http://www.harpsouthend.org.uk",
-                    "name": "Homeless Action Resource Project",
-                    "description": "HARP is the leading homeless charity in Southend. Our aim is to help prevent homelessness with early intervention as well as helping people overcome homelessness for good. Everything we do is geared towards helping people move away from homelessness permanently, enabling them to lead happy, independent and fulfilling lives within the community. We support over 1,200 people on average every year and as the amount of people affected by homelessness grows so does the demand for our services. At HARP, we are always looking at new ways to help people get off the streets - and stay off the streets. The number of bed spaces we are able to offer has grown, as part of HARP\u2019s response to the growing need in the town, from 174 in mid-2018 to 214 today, plus additional sleeping spaces in our Extended Emergency Service - an overnight shelter at our Bradbury Centre for those in immediate need. we have always emphasised that rough sleeping is just the tip of the iceberg in terms of overall levels of homelessness. Although this is the most visible and dangerous aspect, there are countless more people in precarious accommodation, sofa-surfing, or staying in temporary housing who need ongoing support to avoid and overcome homelessness. And new people are finding themselves in these precarious and often dangerous circumstances every day.Nearly half of the people who came to HARP for help in 2019 were using our services for the first time, and over half of those new visitors were sofa surfing, had no fixed abode, or were at risk of losing their accommodation and were in need of help and support to keep it. This only goes to show how many local people are struggling to keep a roof over their heads and are in danger of ending up on the streets. We desperately need more social housing and affordable accommodation (and this means properties to rent, not just \u201caffordable housing\u201d for people fortunate enough to be able to purchase), as well as better support for people struggling with their financial and housing situations, and a genuine effort to tackle the root causes of homelessness.",
-                    "charityNumber": "1098126"
-                }
-            ]
-        },
-        {
-            "id": "360G-EssexCF-A545609",
-            "title": "Grant to Mind in West Essex",
-            "currency": "GBP",
-            "awardDate": "2020-03-27T00:00:00+00:00",
-            "description": "to provide a response and recovery grant during the COVID19 crisis to an organisation supporting those with mental health issues in West Essex",
-            "dateModified": "2020-03-30T00:00:00+00:00",
-            "amountAwarded": 12212,
-            "grantProgramme": [
-                {
-                    "code": "2019/20",
-                    "title": "Essex Coronavirus Response and Recovery Programme"
-                }
-            ],
-            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
-            "amountAppliedFor": 12212,
-            "Primary beneficiary": "People with mental health issues",
-            "beneficiaryLocation": [
-                {
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1052061",
-                    "name": "Essex Community Foundation"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1091154",
-                    "url": "http://www.mindinwestessex.org.uk",
-                    "name": "Mind in West Essex",
-                    "description": "Mind in West Essex supports people affected by mental ill health, predominantly across West Essex to make positive changes in their lives and to improve their emotional resilience. We also aim to normalise the conversation around mental health and in doing so reduce the stigma that can be a barrier to people accessing the support that could help them to improve their quality of life. We provide a range of services in order to help us deliver on these aims, these include: counselling as part of the NHS psychological therapies service; a private counselling service that provides a wide range of therapeutic interventions and Life Management skills; Mental Health First Aid (MHFA) training; emotional resilience training; peer support; befriending to reduce isolation; bereavement work and community support. In addition to the above client facing services we also run a Mental Health Referral Triage service on behalf of West Essex CCG. This service processes all GP mental health referrals across West Essex and passes them on to the relevant provider. We have an active presence on social media platforms as part of our efforts to normalise mental health and engage with the public in a way that is accessible to a wide range of people. We are also actively engaged with the Time to Change Movement, particularly through engagement with local employers. We aspire to ensure that the following values can be clearly visible throughout our organisation: Welcoming: to everyone who comes into contact with any part of our organisation. Open: to all forms of feedback and open to change. Inclusive: everyone who is part of our organisation feels included and involved. Informed: We listen to what people are telling us and keep up to date with information about best practice. Responsive: We strive to be responsive to the changing needs of the population of West Essex and to the changing requirements of those who commission services from us. Effective: everyone who receives a service from us is helped to move forward on their journey towards mental wellbeing. Giving people the skills and techniques to deal with these issues again in the future.",
-                    "charityNumber": "1091154"
                 }
             ]
         },
