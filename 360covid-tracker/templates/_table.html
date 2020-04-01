@@ -17,7 +17,7 @@
                 {% if g.recipientOrganization.0.id in all_funders %}
                 <td class="" data-header="Recipient">
                     <strong>{{ g.recipientOrganization.0.name }}*</strong><br>
-                    <small>*This organisation is also a funder so this grant may be passed on to other organisations.</small>
+                    <small>*This organisation is also a funder so this grant may be intended for re-distribution as grants</small>
                 </td>
                 {% else %}
                 <td class="table__lead-cell" data-header="Recipient">{{ g.recipientOrganization.0.name }}</td>
