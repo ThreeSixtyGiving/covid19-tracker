@@ -36,6 +36,9 @@
             color: rgba(21, 54, 52, 0.7);
             background-color: transparent;
         }
+        .dataTable-sorter::before, .dataTable-sorter::after {
+            opacity: 0.1;
+        }
     </style>
 </head>
 <body>
@@ -145,7 +148,7 @@
             <th>Funder</th>
             <th>Recipient</th>
             <th>Description</th>
-            <th>Amount</th>
+            <th data-type="number">Amount</th>
             <th>Date</th>
         </thead>
 
@@ -581,7 +584,7 @@
                            class="button button--orange" target="_blank">Search on GrantNav</a>
                         <div class="spacer-3"></div>
                         <p>
-                            <small><em>Last updated 2020-04-02 04:07</em></small>
+                            <small><em>Last updated 2020-04-02 13:23</em></small>
                         </p>
                     </div>
                 </div>
