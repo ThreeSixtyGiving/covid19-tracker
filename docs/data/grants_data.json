@@ -484,8 +484,8 @@
             "title": "Grant to Halstead Day Centre",
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
-            "description": "to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID 19 crisis",
-            "dateModified": "2020-03-30T00:00:00+00:00",
+            "description": "to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID19 crisis",
+            "dateModified": "2020-04-01T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -521,7 +521,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to provide a response and recovery grant during the COVID19 crisis to an organisation supporting those with mental health issues in West Essex",
-            "dateModified": "2020-03-30T00:00:00+00:00",
+            "dateModified": "2020-04-01T00:00:00+00:00",
             "amountAwarded": 12212,
             "grantProgramme": [
                 {
@@ -559,7 +559,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to support homeless people in Southend during the COVID19 crisis",
-            "dateModified": "2020-03-30T00:00:00+00:00",
+            "dateModified": "2020-04-01T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -598,7 +598,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "To supply additional IT equipment to staff and volunteers to ensure they can respond to an increased demand to the COVID19 pandemic",
-            "dateModified": "2020-03-30T00:00:00+00:00",
+            "dateModified": "2020-04-01T00:00:00+00:00",
             "amountAwarded": 2000,
             "grantProgramme": [
                 {
@@ -638,7 +638,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to support community response helping people during the COVID19 pandemic in rural districts of Maldon",
-            "dateModified": "2020-03-30T00:00:00+00:00",
+            "dateModified": "2020-04-01T00:00:00+00:00",
             "amountAwarded": 12000,
             "grantProgramme": [
                 {
@@ -680,7 +680,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to provide a shopping service for older people and a transport service for those with health conditions receiving vital treatment at Broomfield Hospital during the COVID19 pandemic",
-            "dateModified": "2020-03-30T00:00:00+00:00",
+            "dateModified": "2020-04-01T00:00:00+00:00",
             "amountAwarded": 1250,
             "grantProgramme": [
                 {
@@ -775,6 +775,201 @@
                     "postalCode": "SW9 8DJ",
                     "charityNumber": "1091263",
                     "addressCountry": "UK"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A545389",
+            "title": "Grant to BCCS",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "for IT equipment to provide online counselling and to develop online resources for young people with mental health issues and their families while face to face support cannot be accessed during the COVID19 pandemic",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "amountAppliedFor": 15000,
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1000661",
+                    "url": "http://www.bccs.org.uk",
+                    "name": "BCCS",
+                    "description": "At bccs our concern and core business is the emotional health and well-being of children and young people with the main focus of our work being the early intervention, prevention and lessening of behavioural and emotional problems in children and young people. We employ qualified and dedicated Social Workers & Counsellors to deliver a caring professional service, which is structured and intensive where necessary. Our unique approach is to intervene a soon as problems are identified and work with the children for a long as it takes to put things right. Mental health problems affect about 1 in 10 children or young people and are often a direct response to what is happening in their lives. Without effective intervention, these conditions can have a significant impact on their life chances. Our experienced mental health professionals not only support the child through one to one counselling sessions but also, by conducting thorough assessments are able to provide expert advice and support to both school staff, parents and families. The majority of children we help come to us, or are referred to us through their school and it is a fact that a child with emotional and behavioural problems can often cause disruption in a classroom and generally hinder their own learning and that of the other children in the class. Through our intervention we are able to offer support to the child or young person, their families as well as both the school and their staff.",
+                    "charityNumber": "1000661"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A546097",
+            "title": "Grant to Chelmsford Council for Voluntary Services",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "towards the volunteer expenses of the Chelmsford community hub established to help older and vulnerable people during the COVID19 pandemic",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "amountAwarded": 3000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "amountAppliedFor": 0,
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05586169",
+                    "url": "http://chelmsfordcvs.org.uk",
+                    "name": "Chelmsford Council for Voluntary Services",
+                    "description": "Chelmsford Council for Voluntary Service (CVS) works to support, promote and develop local voluntary action to improve the effectiveness of voluntary and community activity in Chelmsford. Based at the Centre Supporting Voluntary Action we host small community projects, such as the Supported Volunteer Craft Group and run a busy Volunteering Centre. Last year the CVS worked directly with 317 different charities, voluntary and community groups and with 8 local strategic partners. Types of groups range from small entirely voluntary up to large multi million pond charites such as Farleigh. We support small group development in many different ways including constitutions, policies, becoming fit for grant funding, improving branding and marketing, finding funding. We also act as a central point for information cascade sending out weekly e-bulletins, information, facilitating forums, and delivering major events to bring together strategic influencers and the local voluntary sector.",
+                    "charityNumber": "1112483",
+                    "companyNumber": "05586169"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A546869",
+            "title": "Grant to Basildon Community Resource Centre",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "to provide remote advice and support to vulnerable people including those who do not have access to the internet or those who are homeless in Basildon during the COVID19 pandemic",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "amountAwarded": 12500,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 20000,
+            "Primary beneficiary": "People living in poverty",
+            "beneficiaryLocation": [
+                {
+                    "name": "Basildon",
+                    "geoCode": "E07000066",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1082442",
+                    "url": "http://basildoncrc.weebly.com",
+                    "name": "Basildon Community Resource Centre",
+                    "description": "To provide a safe, professional and comforting environment for those in crisis to receive help. To ensure a listening ear approach in a non-judgemental and kindly manner. To offer support and advice via welfare rights and benefit guidance, specialist housing advice, accommodation at affordable rents, online and paper applications and letters of all descriptions, liaison with utility companies to arrange payment plans to clear arrears, liaison with bailiffs and mortgage companies and landlords to help arrangement payment to avoid repossession or eviction. Liaison with loan companies to ensure clients are being treated fairly. We also mediate between private landlords and tenants to resolve disagreements before any situation goes beyond redemption. Full assistance with disability issues and completion of Personal Independence Payment (PIP), children's Disability Living Allowance (DLA) and Attendance Allowance (AA) forms, mandatory reconsiderations and appeals. Whilst not a foodbank we provide and have done for over 13 years , sets of parcels of food and toiletries, loo rolls, baby essentials including nappies, household goods and cleaning liquids to those in an emergency need situation - issued on production of a written referral only from an agency. Staff have the authority to provide goods if necessary. These goods are all donated by churches and other faith organisations, schools and the general public and local businesses. Via a CVS Winter Warmth Grant we provide top ups for gas and electricity meters, in emergency only. We also help with the purchase of uniform for children in an impoverished family situation; these funds are donated to us specifically. We give out tents, airbeds, sleeping bags and chairs to those sleeping rough on the streets and in vehicles; donated via V Festival Clearance and Lighthouse Furniture Project. Also duvets, bedding and towels are provided to those in need once a tenancy has been arranged and where they have no funds to buy such items having paid out deposits and rent in advance to secure a home. We give out what comes in by way of donations as many individuals and agencies both statutory, nonstatutory, voluntary sector, local businesses such as Co-op, Johnsons, Howdens Joinery, Pipetech, individuals, churches and faith organisations give to the Centre. We operate a subsidised canteen serving hot and cold drinks and cold snacks at incredibly cheap prices. Specific Universal Credit assistance is provided, especially with online application and set up and then ongoing via a claimant's journal. Often clients are not able or have the wherewithal or access to a computer for this type of benefit take up and regularly we see people in obvious distress concerning this situation. We are experienced in helping and supporting claimants in enabling access to in order fulfil the requirements of the benefit itself. This is an essential and valuable service and extremely time consuming as more and more folk are being transferred over to UC and then are panicking about application and budgeting the new type of payment. This help was requested by local claimants and by the Job Centre Plus office as they are unable to assist directly with a claim or a setup of a UC account.",
+                    "charityNumber": "1082442"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547284",
+            "title": "Grant to Home-Start Colchester",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "to provide emergency supplies to vulnerable families in need in Colchester and Clacton during the COVID19 pandemic",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "amountAwarded": 4250,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 4250,
+            "Primary beneficiary": "Families/Parents/Lone parents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Tendring",
+                    "geoCode": "E07000076",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05070675",
+                    "url": "http://www.homestartcolchester.org.uk",
+                    "name": "Home-Start Colchester",
+                    "description": "Our aim is to make a real difference to the lives of local children and their families.\u201d To safeguard, protect and preserve the good health, both mental and physical of children and parents of children: To prevent cruelty to or maltreatment of children; to relieve sickness, poverty and need amongst children and parents of children: To promote the education of the public in better standards of child care within the area of Colchester and South Tendring. To achieve our aims we provide bespoke mentoring and befriending services via one to one or in groups to benefit both parents and their children up to the age of 11 years. Group mentoring is in response to identified needs in our local community and we reach out to families most in need. Our core work is a Home-Start model of which independent research found 3 years after support ended both parent and child outcomes continued. Volunteers play an important role and offer the assistance of another person to provide both emotional and practical mentoring support in supervised role. Alongside this core work we identify need and pop up innovative projects in response. All our projects work on the principle of building skills and not building dependency with the goals to make life long changes that will support lasting change for local children we support.",
+                    "charityNumber": "1116639",
+                    "companyNumber": "05070675"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547298",
+            "title": "Grant to Council for Voluntary Service Uttlesford",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "For the community hub and telephone helpline established to help vulnerable and older people in need during the COVID19 pandemic in Uttlesford",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-04709512",
+                    "url": "http://www.cvsu.org.uk",
+                    "name": "Council for Voluntary Service Uttlesford",
+                    "description": "Council for Voluntary Service Uttlesford (CVSU) is a charitable company with over 30 years experience of supporting the voluntary sector. We are very proud of the contribution the voluntary sector makes to the lives of people in Uttlesford and we work with both existing and new groups, providing a range of specialist services and advising on issues such as funding and governance. We work hard to ensure the voluntary sector has the strength and resilience to thrive in a changing and challenging environment. CVSU also represents the sector at a strategic level and through engagement , partnership and collaboration we ensure the sectors influence is strengthened and that diverse voices are heard within all sectors. When we identify a need in the community or gaps in service provision we develop community projects to address these issues. Our projects include; various Community Builder initiatives, Men's Sheds, Dementia Cafe, Digital Inclusion and Friendship Dogs linked to loneliness & Isolation. We also piloted in 2018 the Green Matters gardening project..",
+                    "charityNumber": "1098627",
+                    "companyNumber": "04709512"
                 }
             ]
         }
