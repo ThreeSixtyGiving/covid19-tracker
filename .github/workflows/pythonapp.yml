@@ -1,7 +1,6 @@
 name: Update with latest grants
 
 on:
-  push:
   schedule:
     - cron: '5 4 * * *'
 
