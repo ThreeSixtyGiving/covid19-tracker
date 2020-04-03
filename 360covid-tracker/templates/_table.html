@@ -6,7 +6,7 @@
             <th>Funder</th>
             <th>Recipient</th>
             <th>Description</th>
-            <th data-type="number">Amount</th>
+            <th data-type="number">£</th>
             <th>Date</th>
         </thead>
 
@@ -28,7 +28,7 @@
                     <a href="http://grantnav.threesixtygiving.org/grant/{{g.id}}" target="_blank">View on GrantNav</a>
                 </td>
                 <td data-header="Amount" style='text-align: right;'>
-                    {% if g.currency != 'GBP' %}{{ g.currency }}{% else %}£{% endif %}
+                    {# {% if g.currency != 'GBP' %}{{ g.currency }}{% else %}£{% endif %} #}
                     {{- "{:,.0f}".format(g.amountAwarded) -}}
                 </td>
                 <td data-header="Date">{{ g.awardDate[0:10] }}</td>
