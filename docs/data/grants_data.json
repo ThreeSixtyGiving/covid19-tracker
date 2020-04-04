@@ -485,7 +485,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID19 crisis",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-02T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -493,7 +493,9 @@
                     "title": "Essex Coronavirus Response and Recovery Programme"
                 }
             ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
             "amountAppliedFor": 15000,
+            "Primary beneficiary": "Older People",
             "beneficiaryLocation": [
                 {
                     "countryCode": "GB"
@@ -521,7 +523,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to provide a response and recovery grant during the COVID19 crisis to an organisation supporting those with mental health issues in West Essex",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-02T00:00:00+00:00",
             "amountAwarded": 12212,
             "grantProgramme": [
                 {
@@ -559,7 +561,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to support homeless people in Southend during the COVID19 crisis",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-02T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -567,7 +569,9 @@
                     "title": "Essex Coronavirus Response and Recovery Programme"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 15000,
+            "Primary beneficiary": "Homeless people",
             "beneficiaryLocation": [
                 {
                     "name": "Southend-on-Sea",
@@ -597,8 +601,8 @@
             "title": "Grant to Harlow Citizens Advice Bureau",
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
-            "description": "To supply additional IT equipment to staff and volunteers to ensure they can respond to an increased demand to the COVID19 pandemic",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "description": "to supply additional IT equipment to staff and volunteers to ensure they can respond to an increased demand to the COVID19 pandemic",
+            "dateModified": "2020-04-02T00:00:00+00:00",
             "amountAwarded": 2000,
             "grantProgramme": [
                 {
@@ -606,7 +610,9 @@
                     "title": "Essex Coronavirus Response and Recovery Programme"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 2000,
+            "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
                 {
                     "name": "Harlow",
@@ -638,7 +644,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to support community response helping people during the COVID19 pandemic in rural districts of Maldon",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-02T00:00:00+00:00",
             "amountAwarded": 12000,
             "grantProgramme": [
                 {
@@ -648,7 +654,7 @@
             ],
             "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 12000,
-            "Primary beneficiary": "People with mental health issues",
+            "Primary beneficiary": "Local residents",
             "beneficiaryLocation": [
                 {
                     "name": "Maldon",
@@ -680,7 +686,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to provide a shopping service for older people and a transport service for those with health conditions receiving vital treatment at Broomfield Hospital during the COVID19 pandemic",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-02T00:00:00+00:00",
             "amountAwarded": 1250,
             "grantProgramme": [
                 {
@@ -784,7 +790,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "for IT equipment to provide online counselling and to develop online resources for young people with mental health issues and their families while face to face support cannot be accessed during the COVID19 pandemic",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-03T00:00:00+00:00",
             "amountAwarded": 6000,
             "grantProgramme": [
                 {
@@ -792,10 +798,15 @@
                     "title": "Essex Coronavirus Response and Recovery Programme"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 15000,
+            "Primary beneficiary": "Children and Young People",
             "beneficiaryLocation": [
                 {
-                    "countryCode": "GB"
+                    "name": "Brentwood",
+                    "geoCode": "E07000068",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
                 }
             ],
             "fundingOrganization": [
@@ -820,7 +831,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "towards the volunteer expenses of the Chelmsford community hub established to help older and vulnerable people during the COVID19 pandemic",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-02T00:00:00+00:00",
             "amountAwarded": 3000,
             "grantProgramme": [
                 {
@@ -828,10 +839,15 @@
                     "title": "Essex Coronavirus Response and Recovery Programme"
                 }
             ],
+            "Impact Category": "Maximise ability to strengthen community cohesion and build social capacity",
             "amountAppliedFor": 0,
+            "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
                 {
-                    "countryCode": "GB"
+                    "name": "Chelmsford",
+                    "geoCode": "E07000070",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
                 }
             ],
             "fundingOrganization": [
@@ -857,7 +873,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "to provide remote advice and support to vulnerable people including those who do not have access to the internet or those who are homeless in Basildon during the COVID19 pandemic",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-03T00:00:00+00:00",
             "amountAwarded": 12500,
             "grantProgramme": [
                 {
@@ -867,7 +883,7 @@
             ],
             "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
             "amountAppliedFor": 20000,
-            "Primary beneficiary": "People living in poverty",
+            "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
                 {
                     "name": "Basildon",
@@ -898,7 +914,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "to provide emergency supplies to vulnerable families in need in Colchester and Clacton during the COVID19 pandemic",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "dateModified": "2020-04-03T00:00:00+00:00",
             "amountAwarded": 4250,
             "grantProgramme": [
                 {
@@ -908,7 +924,7 @@
             ],
             "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 4250,
-            "Primary beneficiary": "Families/Parents/Lone parents",
+            "Primary beneficiary": "Children and Young People",
             "beneficiaryLocation": [
                 {
                     "name": "Tendring",
@@ -939,8 +955,8 @@
             "title": "Grant to Council for Voluntary Service Uttlesford",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
-            "description": "For the community hub and telephone helpline established to help vulnerable and older people in need during the COVID19 pandemic in Uttlesford",
-            "dateModified": "2020-04-01T00:00:00+00:00",
+            "description": "for the community hub and telephone helpline established to help vulnerable and older people in need during the COVID19 pandemic in Uttlesford",
+            "dateModified": "2020-04-03T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -948,12 +964,14 @@
                     "title": "Essex Coronavirus Response and Recovery Programme"
                 }
             ],
-            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 15000,
-            "Primary beneficiary": "Older People",
+            "Primary beneficiary": "Local residents",
             "beneficiaryLocation": [
                 {
-                    "countryCode": "GB"
+                    "name": "Uttlesford",
+                    "geoCode": "E07000077",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
                 }
             ],
             "fundingOrganization": [
@@ -970,6 +988,251 @@
                     "description": "Council for Voluntary Service Uttlesford (CVSU) is a charitable company with over 30 years experience of supporting the voluntary sector. We are very proud of the contribution the voluntary sector makes to the lives of people in Uttlesford and we work with both existing and new groups, providing a range of specialist services and advising on issues such as funding and governance. We work hard to ensure the voluntary sector has the strength and resilience to thrive in a changing and challenging environment. CVSU also represents the sector at a strategic level and through engagement , partnership and collaboration we ensure the sectors influence is strengthened and that diverse voices are heard within all sectors. When we identify a need in the community or gaps in service provision we develop community projects to address these issues. Our projects include; various Community Builder initiatives, Men's Sheds, Dementia Cafe, Digital Inclusion and Friendship Dogs linked to loneliness & Isolation. We also piloted in 2018 the Green Matters gardening project..",
                     "charityNumber": "1098627",
                     "companyNumber": "04709512"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A545537",
+            "title": "Grant to Age Concern - Southend",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "to help older people living in Southend during the COVID19 pandemic with care packages, befriending and information and advice",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Southend-on-Sea",
+                    "geoCode": "E06000033",
+                    "countryCode": "GB",
+                    "geoCodeType": "UA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1160916",
+                    "url": "http://www.acsos.co.uk",
+                    "name": "Age Concern - Southend",
+                    "description": "ACSOS offers a friendship/befriending service for older adults; a low cost transport service (driver mileage reimbursement only) which offers lifts to and from medical appointments, shopping, day centres/clubs and visits to loved ones in hospital/homes, a \u2018handyman\u2019 service to provide assistance with small repairs along with information, wheelchair hire, hearing aid battery replacement, advice and signposting to other services and agencies. The friendship/befriending service seeks to provide comfort, friendship and practical help to residents in the borough of Southend-on-Sea and in Castle Point and Rochford who feel isolated or who need support in maintaining the lifestyle they wish to lead. In addition to providing company, weekly visits or telephone calls also enable the volunteer to monitor the well-being of the person being visited/called (the \"visitee\"). This is an invaluable service in that any signs of deterioration in the health of the visitee can be reported to the appropriate authority at the earliest possible stage. ACSOS currently befriends c.300 older people. The transport service provided by ACSOS has grown substantially over the past 5 years from c.600 lifts in 2013 to over 4,000 lifts in the past year. ACSOS receives no funding for this service, the only charge being a mileage charge of 47p per mile paid directly to our volunteer drivers. ACSOS has recently merged with Club 50+ CIO (reg. no. 1152184). The club provides health promoting activities such as tai chi, yoga and \u201ckeep fit\u201d classes as well as table tennis, short mat bowls, snooker and darts. It also provides line, modern ballroom, sequence and belly dancing tuition and offers lessons to help older people to improve their computer literacy and understand how to use the internet. Members can also play whist and bridge and there are facilities for them to develop skills in arts and crafts. As, due to age, many of its members are not as fit and active as they used to be the club tries to tailor its classes to meet their specific needs. For those that are less active and just want company, the club also has a \u201ctea bar\u201d where members can buy hot or cold drinks and light snacks. As most of its members are pensioners and many are on low incomes, the club has endeavoured to keep its charges as low as possible while trying to ensure that it can pay its bills. For example, charges for tutor-led activities (\u00a32.50 per session) and \u201ctea bar\u201d charges (50p for a cup of tea) are lower than those charged by most other activity clubs or cafes. These activities are much needed as, compared to the national average, Southend has: * a higher than average number of people over 65; * a higher percentage of older people living in deprivation; and * significantly more older people who live alone. Older adults in Southend on Sea are also 2.5% more likely to suffer with multiple long term health conditions than the rest of the UK. ACSOS has recently obtained planning permission from Southend Borough Council to convert the Grade II listed, Havens department store in Westcliff-on-Sea into a \"one-stop\" centre housing all of the facilities and services need by the older people of Southend and surrounding areas.The community hub is located in an area of Southend that houses a significant percentage of the older residents of the Borough many of whom are on low incomes. The hub will house not only ACSOS but also other local charities such as advocacy, bereavement support and services for those suffering from dementia. It will also house rooms for public health and social services and provide older people with chiropody, hairdressing and beauty treatment services. The hub will also include a caf\u00e9 which will offer hot and cold meals and drinks at a reasonable cost throughout the day and will be open to anyone. Club 50+, which has over 200 members, will be relocated to the first floor of hub from its current premises in Queens Road, Southend that is being converted into flats at the beginning of 2019. The hub will offer a range of regular \u2018pop up\u2019 services delivered by the Police, Fire Service, Peabody, Alzheimers Society and any other local organizations and charities who can offer services or information appropriate for the service users. There will be a number of opportunities for the sharing of experience and skills through inter-generational activities, for example, a \u201cMen's Shed\u201d will be in situ at the Hub which will offer people (both men and women) the chance to develop woodworking and metal working skills.",
+                    "charityNumber": "1160916"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A546873",
+            "title": "Grant to Colchester Foodbank",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "to provide additional staff time, volunteer expenses and purchase food to enable a timely response to COVID19 pandemic",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "amountAwarded": 14850,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 14850,
+            "Primary beneficiary": "Disadvantaged / Low Income",
+            "beneficiaryLocation": [
+                {
+                    "name": "Colchester",
+                    "geoCode": "E07000071",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1152387",
+                    "url": "http://www.colchester.foodbank.org.uk",
+                    "name": "Colchester Foodbank",
+                    "description": "What we want to see happen in the longer term (Our vision) To end hunger and poverty in the UK. What we intend to do to help make this happen (Our Aims) The prevention or relief of poverty in Colchester and the surrounding area, in particular, but not exclusively, by providing emergency food supplies to individuals in need and/or charities or other organisations working to prevent or relieve poverty. What we do (Our Mission) The Foodbank exists to prevent or relieve poverty in Colchester and the surrounding area, in particular, but not exclusively, by providing emergency food supplies to individuals with assessed short-term need and/or to charities or other organisations working towards the same aims. How we help (Delivering for the common good /public benefit) Colchester Foodbank provides short-term emergency support to individuals and families in a crisis within Colchester and the surrounding area, including Brightlingsea. We also work with other local food banks and regularly review our areas of coverage in response to need. To qualify for help, families and individuals must be referred by a professional from a partner organisation, such as Social Services, One Support, Community Mental Health Team, local housing groups, Citizens Advice Bureau and Age UK. We also work with Churches, Schools, GP Surgeries, philanthropic individuals and businesses. The need for referral to Colchester Foodbank is usually caused by a complex combination of events that may include factors like benefits delays, unemployment, illness and domestic violence. Where possible we refer or signpost people to relevant agencies, so they can get the additional help they need. This enables them to more fully understand the reality of their issues and how to get through them, seeking appropriate support and targeted transitional intervention. Also for us, to be able to monitor our longer term social impact. The way we behave while doing what we do (Our values) Colchester Foodbank is committed to community built on diversity, tolerance, cooperation, and mutual respect; we want to contribute to society and demonstrate social responsibility. Our values are important to us, and we aim to live them out in all areas of our work. We are passionate about what we do and the difference it makes in the lives of others We are compassionate; we give selflessly and put others before ourselves We hold ourselves accountable: we acknowledge and assume responsibility for actions, decisions, and consequences \u2013 as individuals and as an organisation. We are innovative, with the ambition to pursue new and creative ideas that have the potential to change lives for the better. We empower and encourage staff, volunteers and clients to take the initiative and achieve their best, in a safe environment where mistakes are viewed as learning opportunities. We provide three days\u2019 nutritionally balanced emergency food and support to local people who are referred to us in crisis. Our emergency three day food parcels contain: Tinned soup; beans; vegetables; fish; & Meat; pasta, rice & spaghetti; cook-in sauces; Cereals; long-life milk; sugar; tea and coffee; fruit juices/squash; biscuits; jams; tinned fruit and puddings. Additional optional items (Specifically single item packs that are small and easy to carry) \u2022 Toiletry items such as: toothpaste; shower gel; shampoo; deodorant \u2022 Baby items as required: food; wipes and nappies \u2022 Small Washing up liquid and small washing powder packs \u2022 Some cooking utensils as sometimes clients do not have access to these, plus tin openers. \u2022 Pet food as required Plus \u201dBags for life\u201d, we use 3 for every adult emergency food parcel, 6 for a family emergency food parcel. We provide a small number of homeless parcels which include food items that don\u2019t require a kitchen including just add hot water packets (pot noodles/ porridge), ring pulled tins (fruit, ham, corned beef) our main partner agency in distributing these is Beacon House. Our parcels are generically made up but we then work with each client, to make them bespoke to their personal needs. Be it food that doesn\u2019t require cooking, gluten free, Kosher, Halal, vegetarian, vegan, apescatarian or if they just don\u2019t like something in particular we will remove it from the parcel and try to exchange it. We provide information about our services to school assemblies, voluntary organisations and at events. We offer guided tours and talks to scouts, schools and other interested parties. Between August 2016 and July 2017 the Foodbank provided 743 family parcels and 1879 standard parcels. This fed 6090 people, of which 3478 were adults and 2612 were children. We provide well over 200 emergency food parcels every month, feeding about 500 people every month. We also provide ingredients to support the charity food 4 kids, so they can bake cakes for children's birthdays. Two years ago, we provided individuals and families in crisis with three day emergency food parcels, specifically to support 4,919 people. Last year the demand for our service increased by 342, so we fed 5,261 people. This year, demand has increased by a further 507 people, so we fed 5,768 people.",
+                    "charityNumber": "1152387"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A546941",
+            "title": "Grant to Citizens Advice Bureau - Chelmsford",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "to provide IT equipment to enable CAB staff and volunteers to continue to provide much needed services from home during the COVID19 pandemic",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Disadvantaged / Low Income",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-04063248",
+                    "url": "http://www.chelmsfordcab.org",
+                    "name": "Citizens Advice Bureau - Chelmsford",
+                    "description": "Citizens Advice Chelmsford (CAC) aims to provide the advice people need for the problems they face and campaigns to improve policies and practices that affect people\u2019s lives. CAC is accessible to all residents within the borough of Chelmsford, Essex, offering a free to access service that helps people to resolve the issues they face in their lives. Our service users access our support in times of crisis, when they do not know where to turn, are uncertain of their rights and are suffering wider impacts such as; unemployment, financial difficulties, family breakdown, mental health issues and learning disabilities.",
+                    "charityNumber": "1088290",
+                    "companyNumber": "04063248"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547334",
+            "title": "Grant to Sanctus Homeless Charity",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "to provide takeaway food and drinks to Chelmsford homeless community during COVID19 pandemic",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "amountAwarded": 6900,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 6900,
+            "Primary beneficiary": "Homeless people",
+            "beneficiaryLocation": [
+                {
+                    "name": "Chelmsford",
+                    "geoCode": "E07000070",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1150313",
+                    "url": "http://www.sanctus-home.com",
+                    "name": "Sanctus Homeless Charity",
+                    "description": "Sanctus was originally set up to provide a free daily hot meal to all the homeless and vulnerable in Chelmsford from our caf\u00e9. Following a closure of a Day Care centre we extended our opening hours to the full day. This year we launched our Sanctus Support Hub that was set up following ever increasing demand for additional services we provide such as finding Housing, providing budgeting and debt management support and advice, help with life skills such as cooking, job applications, cv writing and access to agencies concerned with addiction and mental health. Our motto is Love All Serve All.",
+                    "charityNumber": "1150313"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547643",
+            "title": "Grant to Rainbow Services",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "to provide a response scheme to the Harlow community during the COVID19 pandemic",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "amountAwarded": 10643,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 10643,
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Harlow",
+                    "geoCode": "E07000073",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03826440",
+                    "url": "http://www.rainbowservices.org.uk",
+                    "name": "Rainbow Services",
+                    "description": "Rainbow Services (Harlow) is a local charity which acts as the infrastructure support services provider for the VCSE across Harlow with extensive networks across communities, businesses and voluntary sector organisations and delivers several community projects with vulnerable and disadvantaged communities in the town, including older residents, those living in the Permitted Housing developments, young people at risk of crime and gangs, offenders, and vulnerable communities: - Rainbow Services provides infrastructure support to local voluntary and community groups, holding regular meetings, workshops and publishing a weekly e-bulletin sharing information on subjects relevant to the sector. As part of this role we also encourage the forming of partnerships and collaborative working across Harlow and the wider voluntary sector. We currently co-ordinate 3 partnerships of statutory, private, and VCSE organisations working together to identify solutions to some of the most pressing problems facing communities within Harlow (Permitted Housing Developments; youth and anti-social behaviour; worklessness). We also work closely with Harlow Volunteer Centre and catalyse volunteering across Harlow. This includes through providing direct support to the Tempo Time Credits scheme, promoting it across communities and enabling our affiliates to sign up, providing training sessions and one off volunteering opportunities to earn Time Credits. - Rainbow Services provides direct services to the local community via our Community Builder project, which is currently supporting local older residents to identify and utilise personal and community assets to reduce social isolation and loneliness. We now support this programme across West Essex. We have also introduced a digital element to this and we are providing Digital Buddies to older residents to help them use technological solutions to maintain their independence and social networks. - Our Business Engagement project is working to facilitate a more structured approach to Corporate Social Responsibility and to create a better pipeline for business involvement and volunteering opportunities with the wider Voluntary Sector and local community. - Our Recycling Workshop currently offers 2 projects: the first is a contracted arrangement (with Sodexo) to provide a workplace environment for offenders who have received a community service order through the courts in an environment that is, whilst punitive, also rehabilitative and constructive. This project is the only community and voluntary sector run programme which Sodexo offers in Essex and is creating real opportunities for offenders to give back to their community by building and refurbishing items for local groups and organisations, whilst developing transferable skills which could lead to more positive activities on completion of their order. Service users from this project are involved in a new community venture with St Clare Hospice, upcycling donated furniture for resale in their stores across the region. The second project currently running from the workshop is for young people aged 14 - 18 who are disengaging from school and society and are at risk of crime, violence, gangs, drugs and anti-social behaviour. We offer supported positive activity sessions each week for up to 40 young people each year and accept referrals of from local schools, youth services, the local Community Safety Team and the Youth Offending team. The sessions provide positive, skills based activities supported by adults who have been screened and trained to help the young people learn new skills and positive behaviours through focused, mentored activity for 6 - 8 weeks. We act as a Hub for Youthbuild Essex in delivering 2 Gateway qualifications which young people can work towards. The young people make items for both themselves/their family (enabling them to develop self-esteem and showcase their achievements) and for local community projects for example bird and bat boxes for the local nature reserve (which they then put up and which they can take friend and family to see, developing self-worth and sense of community belonging). Rainbow has a well established reputation for delivering local projects individually and in partnership with others. Rainbow Services is the partner of choice for Harlow District Council and West Essex CCG in matters of community development and consultation, and we are currently supporting Essex Count Council to trial new methods of consultation with a pilot in Harlow. We have been asked by Harlow Council to co-ordinate a consultation into diverse communities.",
+                    "charityNumber": "1077228",
+                    "companyNumber": "03826440"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547722",
+            "title": "Grant to Billericay Street Pastors",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "to meet fuel costs of moving vital food and medical supplies in conjunction with Billericay foodbank to vulnerable people during the COVID19 pandemic",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 1000,
+            "Primary beneficiary": "Disadvantaged / Low Income",
+            "beneficiaryLocation": [
+                {
+                    "name": "Basildon",
+                    "geoCode": "E07000066",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1162343",
+                    "url": "https://www.facebook.com/billericay.streetpastors",
+                    "name": "Billericay Street Pastors",
+                    "description": "Street Pastors (SP) was introduce to provide a reassuring presence in the local communities. The whole ethos of SP is to listen, care, help and to engage with not only those who are out enjoying themselves within the night-time economy but also those who have found themselves in difficulties. We are trained volunteers from local churches who care about our community. We patrol in teams in town centres usually from 9pm to 2am on a Friday and/or Saturday night offering a helping hand to those who are in need on the streets. We seek to discourage anti-social behaviour by way of being a presence on the streets. This in turn decreases unnecessary call-outs to the emergency services allowing their time to be utilised elsewhere. We provide practical help, which includes handing out flip-flops to those in need, give out free bottled water and lollipops (which surprisingly has a way a diffusing potential altercations). We assist the homeless and rough sleepers with clothes, refreshments, sleeping bags or space blankets. We are called upon by some Councils and the Police to set up in areas which require our input. Alongside SP, new initiatives like Schools Pastors, Rail Pastors and Response Pastors which deal with major incidents assisting the Police and the emergency services/agencies are taking place throughout Essex and other areas. A number of our activities include, signposting individuals and those seeking help and advice to local support services and agencies. We take part in fundraising events to continue the work we are doing and to support those in need. We attend and are invited to various events/meetings run by the Council, the Voluntary sector, Police, Charities, local companies and organisations, we then provide awareness of the services we offer. Billericay Street Pastors (SP) was launched November 2013. We run and take part in outreach events at Summerfest, Soap Box Derby, Remembrance Day and the Christmas Markets. The Coordinator has regular meetings with the Police, Councils and other agencies tackling lower crime and making communities safer. We patrol twice a week on Fridays and Saturdays. We have built up strong links with the night time economy venue owners as a way of information sharing/gathering. Basildon Street Pastors - Launched August 2016. With the support of local Councillors, we were able to open a office space and we are also looking to provide a community hub in the Town Centre to facilitate various groups and offer a drop-in centre. It will signpost individuals/families to supportive services, alleviate suffering, help combat loneliness, homelessness and those disenfranchised from the community. We have had the opportunity of running an outreach tent as part of the 'Love your Borough Day' in Basildon Town centre and also Basildon MAYFEST. These are crucial events to heighten awareness of Street Pastors to different communities informing them we are here to help them. Southend Street Pastors - We attend public meetings which includes Love Southend events, Community in Harmony and the Faith Forum at the Civic Centre. The Coordinator also attends the Purple Flag meetings. Southend is one of the recipients of the Purple Flag, given by the Association of Town Centre Management. The scheme, similar to the Blue Flag for beaches, praised the town's high street and seafront for being \"welcoming, safe and clean\" and recipient of the Queens Award in 2015. Response Pastors - Our Response Pastors are active on the national database to respond to national crisis impacting our communities. Twelve are from Essex who work with the Police. Schools Pastors - This is to supply pastoral care within local Secondary schools. Links are well under way with 3 Projects. Two of these launched in 2018 at Billericay School and William De Ferrers school at South Woodham Ferrers. Cecil Jones School, Eastwood and Becket Keys in Brentwood are also in early stages of acceptance. This is a joint scheme between Schools Pastors, Council, Police, Church and other schools. Schools Pastors also assist with being a presence on routes home after school to discourage bullying and anti-social behaviour. Rail Pastors - This is the newly formed Project with research and ground work already carried out by the Coordinator which in turn has formed relationships with all interested parties along the C2C line and now the Abellio East Anglia in Essex. The Coordinator attends the Police and Communities Together (PACT) and route Crime monthly meetings. Preliminary meetings have taken place with C2C, Abellio East Anglia, Network Rail and British Transport Police (BTP) to secure a working framework and joined up services to support the work of this local Project. In-house Training - We have trained 24 Response Pastors, some of who have since be deployed nationwide to support communities with major incidents. We carry out county-wide recruitment and shared training sessions for newcomers, refresher training thus creating value for money. Regular meetings - These take place with the 12 Initiatives based in Essex at Police HQ to share best practices and being debriefed on current activities. To keep abreast of current trends, community/service knowledge and information sharing, a number of meetings are attended which is paramount to the continuation of providing an informative service to our communities and the public: Strategic Independent Advisory Group (SIAG) \u2013 The Coordinator is an active member of the SIAG and now the local Basildon IAG rep. These groups meet at Police HQ to monitor and advise the police on their community activity. The Coordinator has been active at the SIAG for nearly a year and will continue to be part of this group whilst funding allows. Emergency Resilience Forum (ERF) - This is also attended by Essex Street Pastors. The Joint Emergency Services Inter-operationally Programme (JESIP) forum for the ERF is also attended as we are now a recognised body in Essex as Response Pastors. Pubwatch - These groups in Billericay, Basildon and Southend forms part of the Night Time Economy patrols providing a cohesive platform which continues to share best practices.",
+                    "charityNumber": "1162343"
                 }
             ]
         }
