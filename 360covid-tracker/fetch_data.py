@@ -14,7 +14,7 @@ where (
         g.data->>'title' ~* 'covid|coronavirus|pandemic' or
         g.data->>'description' ~* 'covid|coronavirus|pandemic'
     )
-    and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-01-01'
+    and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-03-16'
 order by to_date(g.data->>'awardDate', 'YYYY-MM-DD'), g.data->>'id'
 '''
 outputfile = "docs/data/grants_data.json"
