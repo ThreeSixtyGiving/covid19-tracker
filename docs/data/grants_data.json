@@ -992,6 +992,328 @@
             ]
         },
         {
+            "id": "360G-CountyDurhamCF-A547205",
+            "title": "Haughton & Whinfield Covid-19 Emergency Fund",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "To support volunteer project working with vulnerable people, extending foodbank operations.",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-03-29T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 3500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "amountAppliedFor": 3500,
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 005B",
+                    "geoCode": "E01012326",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC925777",
+                    "url": "http://www.standrewshaughton.org.uk",
+                    "name": "St Andrew\u2019s Church Darlington",
+                    "description": " Church of England parish church on the North Eastern side of Darlington, which has an approximate parish population of 14,000 with a wide demographic of housing and population. "
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547209",
+            "title": "CoVid Dispatch Lounge",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "To support people to leave hospital safely",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "amountAppliedFor": 2500,
+            "beneficiaryLocation": [
+                {
+                    "name": "Middlesbrough 001G",
+                    "geoCode": "E01033468",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1148463",
+                    "url": "http://www.bloodrun.co.uk",
+                    "name": "Bloodrun EVS",
+                    "description": "Primarily to support human life by means of providing an out of hours transportationservice for our local NHS sites in Cleveland and the surrounding areas for themovement of blood and human tissue. ",
+                    "charityNumber": "1148463"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547405",
+            "title": "Coronavirus Support for Red Hall",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "To support elderly and vulnerable people affected by coronavirus",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-08-31T00:00:00+00:00",
+                    "duration": 4,
+                    "startDate": "2020-04-05T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 3740,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "amountAppliedFor": 3740,
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 009B",
+                    "geoCode": "E01012327",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1095822",
+                    "url": "https://www.facebook.com/Red-Hall-Partnership-531425977351096/",
+                    "name": "Red Hall Partnership",
+                    "description": "The aim of  Red Hall Partnership to help alleviate poverty, help increase levels of education and training, to assist with the preservation and protection of good health, and the provision of recreational and leisure facilities in the interests of social welfare.",
+                    "charityNumber": "1095822"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547439",
+            "title": "TEES Community Covid Responce",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "To establish emergency support centre in Redcar; foodbank, advice line, food delivery.",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-03-30T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-03-30T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "amountAppliedFor": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Redcar and Cleveland 001B",
+                    "geoCode": "E01012101",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1185327",
+                    "url": "http://www.teescommunity.co.uk",
+                    "name": "TEES Together,Engage,Encourage,Support CIO",
+                    "description": "Established to help alleviate some of the issues surrounding poverty and deprivation in the Tees Valley region.",
+                    "charityNumber": "1185327"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547441",
+            "title": "COVID 19 Community Food and Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "To establish food, medicine delivery service and and telephone support for those isolated.",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-22T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-03-23T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "amountAppliedFor": 3000,
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 010D",
+                    "geoCode": "E01020642",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1160715",
+                    "url": "http://www.derwentsidetrust.org",
+                    "name": "Derwentside Trust",
+                    "description": "Supporting the local community of Consett and surrounding areas ",
+                    "charityNumber": "1160715"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547453",
+            "title": "Stay Safe",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "To support older people with the impacts of coronavirus.",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-30T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "amountAppliedFor": 4792,
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 028C",
+                    "geoCode": "E01020690",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1122008",
+                    "url": "http://www.ageuk.org.uk/countydurham/",
+                    "name": "Age Concern Durham County",
+                    "description": "Age UK County Durham is the principal voluntary organisation working with and for older people, their families and carers throughout County Durham.",
+                    "charityNumber": "1122008"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547903",
+            "title": "Cockfield Community Covid19",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Cockfield Community Covid19 response team",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-03T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-05T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4853,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "amountAppliedFor": 4853,
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 064A",
+                    "geoCode": "E01020856",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-02703063",
+                    "url": "http://www.ymcateesdale.org.uk",
+                    "name": "YMCA North Tyneside",
+                    "description": "YMCA North Tyneside is an incorporated charity providing a supported accommodation programme for young homeless people, a health and wellbeing programme, training and education and youth work provision. ",
+                    "charityNumber": "1011495",
+                    "companyNumber": "02703063"
+                }
+            ]
+        },
+        {
             "id": "360G-EssexCF-A545537",
             "title": "Grant to Age Concern - Southend",
             "currency": "GBP",
