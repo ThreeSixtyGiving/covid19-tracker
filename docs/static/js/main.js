@@ -29,12 +29,13 @@ var myChart = new Chart(ctx, {
         datasets: [{
             label: 'Grant amount',
             data: amountAwardedDates.map((k, i) => ({ x: k, y: amountAwardedCumulative[i] })),
-            backgroundColor: '#bc2c26',
+            backgroundColor: 'rgb(188,44,38,0.5)',
             borderColor: '#bc2c26',
-            borderWidth: 1,
+            borderWidth: 3,
             pointRadius: 0,
             lineTension: 0,
             steppedLine: true,
+            fill: true,
         }]
     },
     options: {
@@ -64,7 +65,7 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     maxTicksLimit: 5,
                     callback: function (value, index, values) {
-                        return "£" + value.toLocaleString();
+                        return "£" + (value / 1000000).toLocaleString() + "m";
                     }
                 }
             }]
