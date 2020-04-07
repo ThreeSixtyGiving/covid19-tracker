@@ -12,7 +12,8 @@ select g.data
 from view_latest_grant g
 where (
         g.data->>'title' ~* 'covid|coronavirus|pandemic' or
-        g.data->>'description' ~* 'covid|coronavirus|pandemic'
+        g.data->>'description' ~* 'covid|coronavirus|pandemic' or
+        g.data->'grantProgramme'->0->>'title' ~* 'covid|coronavirus|pandemic'
     )
     and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-03-16'
 order by to_date(g.data->>'awardDate', 'YYYY-MM-DD'), g.data->>'id'
