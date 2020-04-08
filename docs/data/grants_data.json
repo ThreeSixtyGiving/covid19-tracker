@@ -926,6 +926,404 @@
             ]
         },
         {
+            "id": "360G-DevonCF-A547086",
+            "title": "COVID-19 Response",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to The Pioneers Project CIC",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-13T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-26T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 4610,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 4610,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 009B",
+                    "geoCode": "E01015142",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-10640783",
+                    "url": "http://Www.thepioneersproject.co.uk",
+                    "name": "The Pioneers Project CIC",
+                    "description": "The organisation works across disadvantaged communities, creating opportunities to improve life chances. It works directly with children, young people, parents and other community members. It delivers support to young people struggling in education due to mental ill health, a community caf\u00e9, a community allotment and art sessions.",
+                    "companyNumber": "10640783"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547087",
+            "title": "COVID-19 Emergency Meals",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to Ellacombe Community Partnership",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-14T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-06T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 765,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 765,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Torbay 006A",
+                    "geoCode": "E01015214",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1165031",
+                    "name": "Ellacombe Community Partnership",
+                    "description": "We enable and support community projects and run a Community Hub and Community cafe, providing hot meals. We offer an advice and support service and we are the referal centre for the Torquay Food Bank. Our client base is mostly the elderly, unemployed and most vulnerable.",
+                    "charityNumber": "1165031"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547089",
+            "title": "COVID-19 Food Buddies South West",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to Food is Fun CIC",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-11-05T00:00:00+00:00",
+                    "duration": 7,
+                    "startDate": "2020-04-05T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 1200,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 1200,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "White",
+            "Primary beneficiary": "Families/Parents/Lone parents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 019A",
+                    "geoCode": "E01015112",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-07132758",
+                    "url": "http://www.foodisfun.org.uk",
+                    "name": "Food is Fun CIC",
+                    "description": "We believe everyone has the right to good food. We teach children and adults the benefits of healthy eating, how to cook, budget and shop by delivering pop-up cookery workshops across Plymouth. We improve self-confidence, health and wellbeing through interactive sessions while encouraging social engagement and adding social value.",
+                    "companyNumber": "07132758"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547090",
+            "title": "COVID-19 Remote support",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to Pregnancy Crisis Care (Plymouth & SE Cornwall)",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-01T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Counselling/Advice/Mentoring",
+            "amountAwarded": 300,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 300,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Women",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 027G",
+                    "geoCode": "E01032658",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1153438",
+                    "url": "http://www.pregnancycrisiscare.org.uk",
+                    "name": "Pregnancy Crisis Care (Plymouth & SE Cornwall)",
+                    "description": "To provide free counselling for individuals and couples facing any kind of pregnancy-related crises - ie baby loss (stillbirth, miscarriage, newborn death), pregnancy loss (termination, ectopic pregnancy, failed IVF), traumatic birth, and support for those who are anxious/depressed within pregnancy.",
+                    "charityNumber": "1153438"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547091",
+            "title": "COVID-19 South Brent Community Crisis Assistance",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to South Brent & District Caring",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-08-31T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-03-09T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 6000,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White",
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Hams 002D",
+                    "geoCode": "E01020176",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1150875",
+                    "url": "http://sbadc.org.uk/",
+                    "name": "South Brent & District Caring",
+                    "description": "The relief of those in need living in or around South Brent. To promote social inclusion of those who are excluded from society because they are elderly have poor mental health, limited financial means, failing health, reduced mobility, or a full-time caring commitment where one is needed.",
+                    "charityNumber": "1150875"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547104",
+            "title": "COVID-19 Shaugh Prior Support Group",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to Shaugh Prior Parish Council",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-01T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Rural issues",
+            "amountAwarded": 250,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 250,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "White",
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Hams 001B",
+                    "geoCode": "E01020145",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-DevonCF-ACC943907",
+                    "url": "http://www.shaughpriorparish.gov.uk",
+                    "name": "Shaugh Prior Parish Council",
+                    "description": "A Corona Virus Support Group has been set-up to help residents who are self-isolating. This is being run by volunteers in the Parish with assistance from the Parish Council"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547126",
+            "title": "COVID-19 Tiverton Community Builders (TCP)",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to Tiverton Adventure Play",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-10T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-29T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 900,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 900,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "People with mental health issues",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mid Devon 004C",
+                    "geoCode": "E01020065",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1146910",
+                    "url": "https://www.facebook.com/groups/17263433509/",
+                    "name": "Tiverton Adventure Play",
+                    "description": "THE PROVISION OF FACILITIES FOR RECREATION AND OTHER LEISURE TIME OCCUPATION FOR CHILDREN, YOUNG PEOPLE AND THEIR FAMILIES RESIDENT IN TIVERTON DISTRICT.",
+                    "charityNumber": "1146910"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547132",
+            "title": "COVID-19 Additional Support",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Grant to Pete's Dragons",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-11T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-30T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 3864,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 3864,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "Any Other",
+            "Primary beneficiary": "People with mental health issues",
+            "beneficiaryLocation": [
+                {
+                    "name": "East Devon 018B",
+                    "geoCode": "E01019921",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1187394",
+                    "url": "http://www.petesdragons.org.uk",
+                    "name": "Pete's Dragons",
+                    "description": "- To preserve and protect the physical and mental health of this affected by suicide at whichever stage; post-mention, intervention or prevention; and - The relief of financial hardship and suffering of those affected by suicide.",
+                    "charityNumber": "1187394"
+                }
+            ]
+        },
+        {
             "id": "360G-EssexCF-A545389",
             "title": "Grant to BCCS",
             "currency": "GBP",
@@ -1685,6 +2083,354 @@
             ]
         },
         {
+            "id": "360G-DevonCF-A547103",
+            "title": "COVID-19 InTouch",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Grant to Family Compass",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-06T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Counselling/Advice/Mentoring",
+            "amountAwarded": 4560,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 4560,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Families/Parents/Lone parents",
+            "beneficiaryLocation": [
+                {
+                    "name": "North Devon 004A",
+                    "geoCode": "E01020090",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-10754466",
+                    "url": "http://www.familycompass.co.uk",
+                    "name": "Family Compass",
+                    "description": "We are dedicated to working alongside children and families, supporting early mental health needs and building skills of resilience. We provide group programmes, dramatherapy, theraplay, counselling, mentoring and sibling contact. Working towards the key outcomes: building confidence and self-belief, managing strong feelings and building positive relationships with others.",
+                    "companyNumber": "10754466"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547125",
+            "title": "COVID-19 Response",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Grant to Rising Moments Community Project group",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-22T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-16T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Domestic violence",
+            "amountAwarded": 397,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 397,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Victims of crime/violence/abuse",
+            "beneficiaryLocation": [
+                {
+                    "name": "Torbay 004A",
+                    "geoCode": "E01015257",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-DevonCF-ACC943925",
+                    "url": "http://risingmoments.weebly.com",
+                    "name": "Rising Moments Community Project group",
+                    "description": "To provide Essential and well-being items safely to women past and present effected by abuse crimes To provide support, encouragement and sign-posting to right support To provide groups, development drop in groups and create positive moments to help with isolation To raise awareness, self care and well-being and friendship."
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547129",
+            "title": "COVID-19 Helping Communities",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Grant to Mid Devon Mobility",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-11T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-30T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 1351.99,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 1351.99,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "Mixed",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mid Devon 004A",
+                    "geoCode": "E01020052",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1099477",
+                    "url": "http://www.middevonmobility.org.uk",
+                    "name": "Mid Devon Mobility",
+                    "description": "We provide a number of services aimed at increasing the independence, mobility, wellbeing and peace of mind of older, rurally isolated and disabled people in Mid Devon; helping to combat the problems of loneliness and isolation and enabling access to local services, social clubs, day care, health appointments and amenities.",
+                    "charityNumber": "1099477"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547131",
+            "title": "COVID-19 Keeping in Touch",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Grant to Young At Heart Club",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-15T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-03T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 1244,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 1244,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mid Devon 006A",
+                    "geoCode": "E01020045",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-DevonCF-ACC367035",
+                    "url": "http://www.youngatheartclub.co.uk",
+                    "name": "Young At Heart Club",
+                    "description": "We provide day services for older lonely people in our community, three days a week.The Young at Heart Club aims to relieve the feeling of rural isolation and loneliness for vulnerable older people living in Mid Devon. Members enjoy activities plus a nutritious meal and the opportunity to socialize."
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547458",
+            "title": "COVID-19 Expansion of our Anxiety and Depression Service online",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Grant to Youth Arts & Health Trust",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-06T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-06T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 4849.98,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 4849.98,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "Mixed",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Exeter 008E",
+                    "geoCode": "E01020018",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1170692",
+                    "url": "http://www.youthartsandhealth.org",
+                    "name": "Youth Arts & Health Trust",
+                    "description": "The protection and promotion of good health of children and young people aged 5 to 25 years who are experiencing, at risk of, or recovering from mental health difficulties, through the provision of arts therapies and the provision of opportunities to take part in creative arts activities",
+                    "charityNumber": "1170692"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547460",
+            "title": "COVID-19 Community Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Grant to Age UK Plymouth",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-17T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 3750,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 3750,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 021F",
+                    "geoCode": "E01015176",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-281820",
+                    "url": "http://www.ageukplymouth.org.uk",
+                    "name": "Age UK Plymouth",
+                    "description": "Age UK Plymouths role is to support older people in Plymouth to live independently with dignity and choice. Our focus is to help older people to keep active and purposeful within their community and to ensure they keep connected and not living in isolation.",
+                    "charityNumber": "281820"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547462",
+            "title": "COVID-19 Thrive Project",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Grant to Thrive Project",
+            "dateModified": "2020-04-01T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-03-31T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-03-30T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 500,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 500,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Homeless people",
+            "beneficiaryLocation": [
+                {
+                    "name": "Torbay 014D",
+                    "geoCode": "E01015233",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1184415",
+                    "url": "http://thriveprojecttorbay.wixsite.com/mysite",
+                    "name": "Thrive Project",
+                    "description": "We are a relatively new enterprise but feel that puts us in a positive position to evolve, learn and develop, being client led and focused. I believe that since its inception we have only impacted positively, bringing a strong social conscience, being mindful of our locality at all times.",
+                    "charityNumber": "1184415"
+                }
+            ]
+        },
+        {
             "id": "360G-CountyDurhamCF-A548545",
             "title": "Bowburn Holiday Club",
             "currency": "GBP",
@@ -1727,6 +2473,407 @@
                     "name": "Bowburn Community Association",
                     "description": "To promote the benefit of the inhabitants of Bowburn and district, including the Parish of Cassop-cum-Quarrington, and the neighbourhood  objects.",
                     "charityNumber": "508090"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547456",
+            "title": "COVID-19 Hot Food Service",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Kingsway Residents Association",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-10T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-05T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 1100,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 1100,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "White",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Teignbridge 010D",
+                    "geoCode": "E01020272",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1145886",
+                    "name": "Kingsway Residents Association",
+                    "description": "To benefit the residents of Teignmouth and the neighbourhood, without distinction of sex, sexual orientation, race or of political, religious or other opinions and to provide facilities in the interests of social welfare for recreation leisure time occupation with the objective of improving the conditions of life for the residents.",
+                    "charityNumber": "1145886"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547469",
+            "title": "COVID-19 Phab Club Lifeline",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Torquay PHAB",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-29T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 1200,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 1200,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "Other Mixed Ethnicity",
+            "Primary beneficiary": "People with learning difficulties",
+            "beneficiaryLocation": [
+                {
+                    "name": "Torbay 006D",
+                    "geoCode": "E01015218",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1187410",
+                    "url": "http://phabtorquay.info/",
+                    "name": "Torquay PHAB",
+                    "description": "THE OBJECT OF THE CIO SHALL BE THE PROVISION, OR ASSISTANCE IN THE PROVISION - IN THE INTERESTS OF SOCIAL WELFARE - OF FACILITIES FOR RECREATION OR OTHER LEISURE TIME OCCUPATION FOR PEOPLE WITH AND WITHOUT PHYSICAL DISABILITIES RESIDENT IN THE AREA OF TORQUAY.",
+                    "charityNumber": "1187410"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547597",
+            "title": "COVID-19 Honiton Support Team",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Honiton Health Matters",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-31T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-23T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 5700,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 5700,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "East Devon 002B",
+                    "geoCode": "E01019932",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1188528",
+                    "url": "http://www.honitonhealthmatters.org.uk",
+                    "name": "Honiton Health Matters",
+                    "description": "The relief of sickness and the preservation of health among people residing permanently or temporary in Honiton and surrounding areas, through such means as the trustees see fit and primarily (but not exclusively) by promoting and developing the capacity and skills of local health related voluntary groups and promoting networking.",
+                    "charityNumber": "1188528"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547603",
+            "title": "COVID-19 Remote wellbeing services",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Young Devon",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 4755,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 4755,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Hams 005A",
+                    "geoCode": "E01020161",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1057949",
+                    "url": "http://www.youngdevon.org",
+                    "name": "Young Devon",
+                    "description": "Provision of housing, lodgings and homelessness support for young people aged 16/17 and young care leavers. Provision of mental health, advice and wellbeing services for young people, including support for young victims of crime.",
+                    "charityNumber": "1057949"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547605",
+            "title": "COVID-19 'Emergency Youth Isolation Package'",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Plymouth YMCA",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-31T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Education, learning and training",
+            "amountAwarded": 9450,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 9450,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 011A",
+                    "geoCode": "E01015074",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03426094",
+                    "url": "http://www.ymcaplymouth.org.uk/",
+                    "name": "Plymouth YMCA",
+                    "description": "YMCA Plymouth is an education, health & families charity, serving some of the hardest to reach young people in our community. We are guided by a friendly & personable approach where all people can belong, contribute and thrive. We're big enough to share, whilst being small enough to care.",
+                    "charityNumber": "1066919",
+                    "companyNumber": "03426094"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547606",
+            "title": "COVID-19 High Need Support Service",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Age UK Mid Devon",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-04-24T00:00:00+00:00",
+                    "duration": 0,
+                    "startDate": "2020-04-06T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Caring responsibilities",
+            "amountAwarded": 3090,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 3090,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "White",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mid Devon 005B",
+                    "geoCode": "E01020078",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1070792",
+                    "url": "http://www.ageuk.org.uk/middevon",
+                    "name": "Age UK Mid Devon",
+                    "description": "Age UK Mid Devon is a small local charity affiliated with Age UK. Our mission is to improve the quality of life for older people and their carers\u2019. We seek to ensure that they maintain their self-respect and independence and enjoy freedom of choice and equal opportunities.",
+                    "charityNumber": "1070792"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547737",
+            "title": "COVID-19 Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Teignbridge Homeless Action Today",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-03-01T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Economy",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 1000,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "People living in poverty",
+            "beneficiaryLocation": [
+                {
+                    "name": "Teignbridge 009B",
+                    "geoCode": "E01020252",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-07418719",
+                    "url": "http://www.thafoodbank.com",
+                    "name": "Teignbridge Homeless Action Today",
+                    "description": "We are more than just a food bank.As well as supplying on referral tailored to need food and toiletry packs we provide new home packs, a mentorship scheme,fuel meter key top ups, bus vouchers,use of phone and a safe non-judgemental space where clients can discuss issues and have referrals.",
+                    "charityNumber": "1146610",
+                    "companyNumber": "07418719"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547759",
+            "title": "COVID-19 Foodbank",
+            "currency": "GBP",
+            "awardDate": "2020-04-02T00:00:00+00:00",
+            "description": "Grant to Churches Housing Action Team (CHAT) Mid-Devon Ltd",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-30T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 2085.55,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 2085.55,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "People living in poverty",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mid Devon 004A",
+                    "geoCode": "E01020052",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1049478",
+                    "url": "https://chatmid.org/",
+                    "name": "Churches Housing Action Team (CHAT) Mid-Devon Ltd",
+                    "description": "Tackling homelessness, avoiding evictions, bringing hope. CHAT believes that everyone is entitled to decent, secure and affordable accommodation across Mid Devon - somewhere to call \u2018home\u2019, and food to eat. We provide Housing Advice, Tenancy Support, Debt/ Money Advice, Food Bank and Fuel Poverty Fund.",
+                    "charityNumber": "1049478"
                 }
             ]
         },
@@ -1972,6 +3119,355 @@
                     "name": "Billericay Street Pastors",
                     "description": "Street Pastors (SP) was introduce to provide a reassuring presence in the local communities. The whole ethos of SP is to listen, care, help and to engage with not only those who are out enjoying themselves within the night-time economy but also those who have found themselves in difficulties. We are trained volunteers from local churches who care about our community. We patrol in teams in town centres usually from 9pm to 2am on a Friday and/or Saturday night offering a helping hand to those who are in need on the streets. We seek to discourage anti-social behaviour by way of being a presence on the streets. This in turn decreases unnecessary call-outs to the emergency services allowing their time to be utilised elsewhere. We provide practical help, which includes handing out flip-flops to those in need, give out free bottled water and lollipops (which surprisingly has a way a diffusing potential altercations). We assist the homeless and rough sleepers with clothes, refreshments, sleeping bags or space blankets. We are called upon by some Councils and the Police to set up in areas which require our input. Alongside SP, new initiatives like Schools Pastors, Rail Pastors and Response Pastors which deal with major incidents assisting the Police and the emergency services/agencies are taking place throughout Essex and other areas. A number of our activities include, signposting individuals and those seeking help and advice to local support services and agencies. We take part in fundraising events to continue the work we are doing and to support those in need. We attend and are invited to various events/meetings run by the Council, the Voluntary sector, Police, Charities, local companies and organisations, we then provide awareness of the services we offer. Billericay Street Pastors (SP) was launched November 2013. We run and take part in outreach events at Summerfest, Soap Box Derby, Remembrance Day and the Christmas Markets. The Coordinator has regular meetings with the Police, Councils and other agencies tackling lower crime and making communities safer. We patrol twice a week on Fridays and Saturdays. We have built up strong links with the night time economy venue owners as a way of information sharing/gathering. Basildon Street Pastors - Launched August 2016. With the support of local Councillors, we were able to open a office space and we are also looking to provide a community hub in the Town Centre to facilitate various groups and offer a drop-in centre. It will signpost individuals/families to supportive services, alleviate suffering, help combat loneliness, homelessness and those disenfranchised from the community. We have had the opportunity of running an outreach tent as part of the 'Love your Borough Day' in Basildon Town centre and also Basildon MAYFEST. These are crucial events to heighten awareness of Street Pastors to different communities informing them we are here to help them. Southend Street Pastors - We attend public meetings which includes Love Southend events, Community in Harmony and the Faith Forum at the Civic Centre. The Coordinator also attends the Purple Flag meetings. Southend is one of the recipients of the Purple Flag, given by the Association of Town Centre Management. The scheme, similar to the Blue Flag for beaches, praised the town's high street and seafront for being \"welcoming, safe and clean\" and recipient of the Queens Award in 2015. Response Pastors - Our Response Pastors are active on the national database to respond to national crisis impacting our communities. Twelve are from Essex who work with the Police. Schools Pastors - This is to supply pastoral care within local Secondary schools. Links are well under way with 3 Projects. Two of these launched in 2018 at Billericay School and William De Ferrers school at South Woodham Ferrers. Cecil Jones School, Eastwood and Becket Keys in Brentwood are also in early stages of acceptance. This is a joint scheme between Schools Pastors, Council, Police, Church and other schools. Schools Pastors also assist with being a presence on routes home after school to discourage bullying and anti-social behaviour. Rail Pastors - This is the newly formed Project with research and ground work already carried out by the Coordinator which in turn has formed relationships with all interested parties along the C2C line and now the Abellio East Anglia in Essex. The Coordinator attends the Police and Communities Together (PACT) and route Crime monthly meetings. Preliminary meetings have taken place with C2C, Abellio East Anglia, Network Rail and British Transport Police (BTP) to secure a working framework and joined up services to support the work of this local Project. In-house Training - We have trained 24 Response Pastors, some of who have since be deployed nationwide to support communities with major incidents. We carry out county-wide recruitment and shared training sessions for newcomers, refresher training thus creating value for money. Regular meetings - These take place with the 12 Initiatives based in Essex at Police HQ to share best practices and being debriefed on current activities. To keep abreast of current trends, community/service knowledge and information sharing, a number of meetings are attended which is paramount to the continuation of providing an informative service to our communities and the public: Strategic Independent Advisory Group (SIAG) \u2013 The Coordinator is an active member of the SIAG and now the local Basildon IAG rep. These groups meet at Police HQ to monitor and advise the police on their community activity. The Coordinator has been active at the SIAG for nearly a year and will continue to be part of this group whilst funding allows. Emergency Resilience Forum (ERF) - This is also attended by Essex Street Pastors. The Joint Emergency Services Inter-operationally Programme (JESIP) forum for the ERF is also attended as we are now a recognised body in Essex as Response Pastors. Pubwatch - These groups in Billericay, Basildon and Southend forms part of the Night Time Economy patrols providing a cohesive platform which continues to share best practices.",
                     "charityNumber": "1162343"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547426",
+            "title": "COVID-19 Letters To Our People",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Grant to bthechange",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-30T00:00:00+00:00",
+                    "duration": 6,
+                    "startDate": "2020-03-30T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Offending/At risk of offending",
+            "amountAwarded": 2806.69,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 2806.69,
+            "Primary age group": "Young Adults (19 \u2013 25)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Ex-offenders/offenders/At risk of offending",
+            "beneficiaryLocation": [
+                {
+                    "name": "Exeter 008C",
+                    "geoCode": "E01020016",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-10343989",
+                    "url": "http://www.bthechange.org.uk",
+                    "name": "bthechange",
+                    "description": "To reduce reoffending rates amongst a niche group by promoting active citizenship. As our clients engage they develop the skills and behaviours to become contributing members of society. To substantially reduce the emotional cost and monetary costs associated with offending. Reduction in court fees, Policing costs and incarceration costs.",
+                    "companyNumber": "10343989"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547766",
+            "title": "COVID-19 Paignton Community Larder",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Grant to Paignton Community Larder",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-15T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Emergency/Rescue services",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 5000,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "Any Other",
+            "Primary beneficiary": "Families/Parents/Lone parents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Torbay 012A",
+                    "geoCode": "E01015202",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1128706",
+                    "name": "Paignton Community Larder",
+                    "description": "Foodbank helping families and individuals who find themselves in a place of hardship.",
+                    "charityNumber": "1128706"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A547949",
+            "title": "COVID-19 Simply Corona Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Grant to Simply Counselling",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-31T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Domestic violence",
+            "amountAwarded": 1275,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 1275,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 024B",
+                    "geoCode": "E01015170",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05155862",
+                    "url": "http://www.simplycounselling.org",
+                    "name": "Simply Counselling",
+                    "description": "Provide affordable generic counselling service for individuals, couples, children, families. Address adversity, increase emotional awareness and functioning. Overcome social and economic deprivation and marginalisation. Improve communication skills, stop effects of toxic stress being passed between family generations. Increase wellbeing, mental health and improve relationships for stronger community stability and cohesion.",
+                    "companyNumber": "05155862"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A548004",
+            "title": "COVID-19\u2019 HITS Crisis Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Grant to Homeless in Teignbridge Support",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-26T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-14T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 6000,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Families/Parents/Lone parents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Teignbridge 013D",
+                    "geoCode": "E01020256",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1097540",
+                    "url": "http://www.hitsfoodbank.org",
+                    "name": "Homeless in Teignbridge Support",
+                    "description": "HITS Foodbank's objectives are to support the homeless, those in poverty and those in crisis and need in the Teignbridge catchment area..",
+                    "charityNumber": "1097540"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A548102",
+            "title": "COVID-19\u2019 Financial Inclusion",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Grant to Hele Village Community Association",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-01T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Financial exclusion and financial illiteracy",
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 2000,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Torbay 004A",
+                    "geoCode": "E01015257",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-299840",
+                    "url": "http://www.thewindmillcentretorquay.org.uk/",
+                    "name": "Hele Village Community Association",
+                    "description": "To promote the benefit of the residents without distinction of sex, politics, religion or other opinions by associating the local authorities, voluntary org's and inhabitants in a common effort to advance education and provide sustainable services in the interest of social welfare for the said inhabitants. .",
+                    "charityNumber": "299840"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A548116",
+            "title": "COVID-19 Mobile telephones fpr staff to work from home",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Grant to Devon & Cornwall Refugee Support",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-22T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-23T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Refugees/Asylum/Immigration",
+            "amountAwarded": 779.7,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 779.7,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "Mixed",
+            "Primary beneficiary": "Refugees/asylum seekers /immigrants",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 027E",
+                    "geoCode": "E01015156",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06271122",
+                    "url": "http://dcrs-plymouth.org",
+                    "name": "Devon & Cornwall Refugee Support",
+                    "description": "DCRS provides assistance to asylum seekers and refugees in Devon & Cornwall. DCRS endeavours to ensure that asylum seekers and refugees enjoy the full benefit of their entitlements under UK and international law. We aim to provide a culturally sensitive, practical response to the needs of the refugee community.",
+                    "charityNumber": "1130360",
+                    "companyNumber": "06271122"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A548149",
+            "title": "COVID-19\u2019 Peter Tvay Community Support Hub",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Grant to Peter Tavy Community Support Hub",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-20T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 300,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 300,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "West Devon 006B",
+                    "geoCode": "E01020324",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-DevonCF-ACC944853",
+                    "url": "http://www.petertavyparishcouncil.org/",
+                    "name": "Peter Tavy Community Support Hub",
+                    "description": "To enable the supply and delivery (to door) of food and essentials to vulnerable and self-isolating people in the Peter Tavy community during the covid-19 outbreak. To supply other support as requested / possible and to offer a phone befriending service for isolated members of the community."
                 }
             ]
         }
