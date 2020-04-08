@@ -21,7 +21,7 @@ jobs:
         pip install -r requirements.txt
     - name: Fetch data from database
       run: |
-        python 360covid-tracker/fetch_data.py
+        python covidtracker/fetch_data.py
       env:
         DB_URL: ${{ secrets.DB_URL }}
     - name: Recreate site
