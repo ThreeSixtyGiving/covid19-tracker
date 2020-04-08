@@ -2,6 +2,8 @@ import json
 import datetime
 from jinja2 import Environment, PackageLoader, select_autoescape
 
+from covidtracker.settings import GOOGLE_ANALYTICS
+
 env = Environment(
     loader=PackageLoader('covidtracker', 'templates'),
     autoescape=select_autoescape(['html', 'xml'])
@@ -43,6 +45,7 @@ page_content = template.render(
     amountByDate=amountByDate,
     all_funders=all_funders,
     now=datetime.datetime.now(),
+    google_analytics=GOOGLE_ANALYTICS,
 ).encode('utf-8')
 
 with open('docs/index.html', 'wb') as a:
