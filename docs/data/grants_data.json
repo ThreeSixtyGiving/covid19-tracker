@@ -1531,6 +1531,47 @@
             ]
         },
         {
+            "id": "360G-OCF-A546102",
+            "title": "COVID19 SOFEA's Commitment to Supply Food for Those in Need",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "Supply food to the more vulnerable in our communities.  provide food boxes to our Community Larder members in 12 locations across Oxfordshire at no charge = 39 tonnes of food each month, providing 97,500 meals.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Vale of White Horse 010D",
+                    "geoCode": "E01028753",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1155783",
+                    "url": "http://www.sofea.uk.com",
+                    "name": "South Oxfordshire Food and Education Alliance",
+                    "postalCode": "OX11 7HJ",
+                    "description": "Access to quality food and education are basic human rights. The mission of our charitable organization is to provide both to vulnerable individuals and communities that would otherwise be deprived. Our education programmes are aimed at uplifting local people disadvantaged in the labour market. We teach the generic employability skills of self-management, team work and communication on top of an accredited programme of essentials such as Maths and English, which are available at GCSE level. Our food-related services are where, in partnership with FareShare, we rescue and re-distribute hundreds of tonnes of food surplus each year to charities throughout the Thames Valley region, supporting families in need while reducing food waste.",
+                    "charityNumber": "1155783"
+                }
+            ]
+        },
+        {
             "id": "360G-CountyDurhamCF-A547194",
             "title": "LA United",
             "currency": "GBP",
@@ -3468,6 +3509,822 @@
                     "url": "http://www.petertavyparishcouncil.org/",
                     "name": "Peter Tavy Community Support Hub",
                     "description": "To enable the supply and delivery (to door) of food and essentials to vulnerable and self-isolating people in the Peter Tavy community during the covid-19 outbreak. To supply other support as requested / possible and to offer a phone befriending service for isolated members of the community."
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A547719",
+            "title": "COVID19 - rapid response",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Provide crisis services for rough sleepers and those living in temporary accommodation during this pandemic.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-31T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 5000,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Homeless people",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 008B",
+                    "geoCode": "E01028522",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1117726",
+                    "url": "http://www.aspireoxfordshire.org/",
+                    "name": "Aspire",
+                    "postalCode": "OX1 1NP",
+                    "description": "Aspire Oxford supports people facing multiple challenges to find employment and housing. We work with people who have a background of homelessness, offending histories, addiction or mental health difficulties. We provide support that is focused on the needs of each individual, helping them to move forward with their lives. Our support includes work experience on our enterprise businesses, access to training and adult education, homelessness prevention support, housing projects for rough sleepers and ex-offenders, sports and social activities and access to paid jobs with inclusive employers. Last year we supported over 2,000 people in Oxfordshire and Buckinghamshire. Aspire is a founder member of Oxford Homeless Movement and runs a range of programmes designed to prevent and tackle homelessness. We run a homelessness prevention programme which gives people the skills, confidence, knowledge and connections to prevent their own homelessness. We run Housing First projects in collaboration with local housing associations. In all of Aspire's programmes, we ensure that people with lived experience are involved at every stage, including co-designing the projects that we run and in 2019 helped to establish Oxfordshire's first Lived Experience Forum.",
+                    "charityNumber": "1117726"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A547726",
+            "title": "COVID19 response",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Provide online youth services for young people in a very disadvantaged area, supported by local volunteers, during this pandemic.",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-31T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Education, learning and training",
+            "amountAwarded": 650,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 650,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Oxfordshire 010C",
+                    "geoCode": "E01028623",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1176258",
+                    "url": "http://www.didcottrain.org.uk",
+                    "name": "Didcot TRAIN Youth Project",
+                    "postalCode": "OX11 8AB",
+                    "description": "The TRAIN charity operates within the town of Didcot, Oxfordshire. It works in the gap in provision of youth services for YP who do not easily engage with mainstream provision but nevertheless are vulnerable and at high risk and are exposed to educational failure, crime, child sexual exploitation, alcohol and substance abuse, and other risky behaviours. TRAIN\u2019s mission is to seek out, engage and empower these children and YP and reduce the negative impact upon both their short and longer-term life chances.",
+                    "charityNumber": "1176258"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A547977",
+            "title": "COVID",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Provide crisis services for rough sleepers and those living in temporary accommodation during this pandemic.",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-01T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 3446,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 3446,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Homeless people",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 009B",
+                    "geoCode": "E01028549",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1056921",
+                    "url": "http://www.edgehousing.org/",
+                    "name": "Edge Housing - Oxford Community Church",
+                    "postalCode": "OX2 0ES",
+                    "description": "Edge Housing works with those who have been homeless or vulnerably housed and seeks to support, signpost and mentor these residents into careers which will give them the stability to enter the private rented sector. We have two five bedroom houses and have an investor looking to purchase us a third. We support and challenge our residents to become all they want to be and lead successful lives. We have a team of volunteers who befriend and mentor the residents separately to encourage and listen and simply be a friend. We keep costs low so that when the resident gain employment we can subsidise the rent for three months to allow them to save. We work with Oxford University for careers, all the local support organisations and city councils in providing an individual approach in a home environment where we allow our residents to explore their own lives and we come alongside them. We are a Christian organisation and follow the biblical principle that we are all make for a purpose but we do not evangelise and our residents can be of any or no faith.",
+                    "charityNumber": "1056921"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A547995",
+            "title": "COVID19 - meals and safeguarding",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Since the beginning of the outbreak we have seen the demands for our services grow, we are now serving an average of 130 and on occasion we have served 150 meals per day.",
+            "dateModified": "2020-04-03T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-01T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 5194,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 5194,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Homeless people",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 011F",
+                    "geoCode": "E01028587",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1089612",
+                    "url": "http://www.theporch.org.uk/",
+                    "name": "The Porch",
+                    "postalCode": "OX4 1RL",
+                    "description": "We are a Christian based organisation whose mission is to help in a totally non-discriminatory way, homeless, recently re-housed homeless or vulnerably housed people. We encourage our service users (our members) to tackle the multiple disadvantages that prevent them from moving forwards towards a more positive lifestyle. We concentrate upon housing, companionship, learning skills, work related skills and opportunities for development. We offer a unique day centre based on two elements: one is the basic facilities (a caf\u00e9, a shower/laundry room, free internet access and a library). The other is the support side: we offer one-to-one support addressing the issues of housing, health, education, employment, and wellbeing. We seek to promote a sense of self-worth and purpose, and offer support and challenge to our members in the areas of: \u2022 Health -- access to medical/dental services and to the range of health care services we all need \u2022 Housing -- help to live where they need to \u2022 Education -- to develop their skills and abilities \u2022 Employment -- to lead a purposeful life",
+                    "charityNumber": "1089612"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548410",
+            "title": "COVID-19 Oxfordshire All In",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Oxfordshire All In platform of website and back-end tools for community engagement and support, data collection, mapping and coordination between organisations.",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-08T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-10T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 7650,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 7050,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 011B",
+                    "geoCode": "E01028580",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1157084",
+                    "url": "http://www.keenoxford.org",
+                    "name": "Keen",
+                    "postalCode": "OX1 3DH",
+                    "description": "KEEN is, in normal circumstances a charity focused on creating, supporting and promoting inclusion, particularly for people with additional needs. Our range of activities include inclusive community projects, partnership work to spread inclusion more widely, and youth-led campaigning for inclusion. In the current situation, we have redeployed our expertise and infratstructure in the above areas to support an effective voluntary sector and public sector response to coronavirus.",
+                    "charityNumber": "1157084"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A547688",
+            "title": "COVID19",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "70 hot meals for rough sleepers in the city per day, from our kitchens.",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-31T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 6150,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 6150,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Homeless people",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 003D",
+                    "geoCode": "E01028585",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1143136",
+                    "url": "http://www.actoxford.com",
+                    "name": "Aldates Community Transformation Initiatives",
+                    "postalCode": "OX2 6JU",
+                    "description": "ACT exists to provide relief to people in need in Oxford, in particular the homeless and ex-offenders. Committed to working towards a just society that allows those in need to flourish, we seek to understand each person\u2019s unique situation and to work closely and supportively with them to get their lives back on track. We aim to be a community where people who are homeless or recently released from prison receive intensive and bespoke support. This includes: - Weekly outreach to rough sleepers, inviting them to our Monday dinner from which they can begin to access further support - Provision of overnight accommodation through the Oxford Winter Night Shelter - Targeted support for people on release from prison or living in the local bail hostel through our Meet at the Gate project, designed to help minimise return to life on the streets or re-offending - Supported housing in 10 properties - 1:1 mentoring including life skills development and support to access employment In this way, ACT seeks to provide opportunities for people who are homeless or at risk of it to rebuild their lives for the long term \u2013 and the consistent, committed support they need to do this successfully.",
+                    "charityNumber": "1143136"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548512",
+            "title": "COVID-19 Didcot TRAIN Inspiring Young People",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Provide online youth services for young people in a very disadvantaged area, supported by local volunteers, during this pandemic.",
+            "dateModified": "2020-04-06T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-06T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-06T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Anti-social behaviour",
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "code": "Community Resilience",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 2000,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Oxfordshire 010C",
+                    "geoCode": "E01028623",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1176258",
+                    "url": "http://www.didcottrain.org.uk",
+                    "name": "Didcot TRAIN Youth Project",
+                    "postalCode": "OX11 8AB",
+                    "description": "The TRAIN charity operates within the town of Didcot, Oxfordshire. It works in the gap in provision of youth services for YP who do not easily engage with mainstream provision but nevertheless are vulnerable and at high risk and are exposed to educational failure, crime, child sexual exploitation, alcohol and substance abuse, and other risky behaviours. TRAIN\u2019s mission is to seek out, engage and empower these children and YP and reduce the negative impact upon both their short and longer-term life chances.",
+                    "charityNumber": "1176258"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548639",
+            "title": "COVID-19 COMMUNITY SUPPORT",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "We have donated over 250 food parcels to the elderly and a further 190 to the vulnerable and a further 50 to people self isolating. Parcels are home delivered.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-30T00:00:00+00:00",
+                    "duration": 6,
+                    "startDate": "2020-03-15T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 3320,
+            "grantProgramme": [
+                {
+                    "code": "Community Resilience",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 8640,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Cherwell 004H",
+                    "geoCode": "E01032942",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-900047",
+                    "url": "http://www.banburymasjid.org.uk/",
+                    "name": "Banbury Muslim Mosque Society",
+                    "postalCode": "OX16 4RX",
+                    "description": "Green Dome Trust Banbury Name: \u201cGreen Dome Trust Banbury\u201d Charitable Objectives For the public benefit, to provide support and assistance to vulnerable and marginalised individuals, groups and communities: - in Banbury, by raising awareness and running community activities and events; and - in Banbury and further afield by giving donations to those in need. We consider vulnerable and marginalised individuals, groups and communities without any distinction of colour, creed, race or religion.",
+                    "charityNumber": "900047"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548914",
+            "title": "COVID-19 Provision of urgent bilingual advice and support services for the vulnerable and self isolated Chinese in Oxfordshire",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "Our main annual fund raising event, the Chinese New Year celebration in February at the Oxford Town Hall, usually attended by over 1,000 people, and subsequent smaller fundraising events, were cancelled due to the Covid-19. We lost about \u00a320,000 income for this financial year. We are working hard to raise funds to assist our elderly, non-English speaking, vulnerable and self isolated members during this pandemic the best we can.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-31T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "Community Resilience",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 8000,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "Chinese",
+            "Primary beneficiary": "Black, Asian and minority ethnic",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 011B",
+                    "geoCode": "E01028580",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1006710",
+                    "url": "http://www.occac.org.uk",
+                    "name": "Oxfordshire Chinese Community & Advice Centre",
+                    "postalCode": "OX4 1DD",
+                    "description": "1. To help the needy by the provision of advice and assistance 2. To provide interpreting and translation services 3. To provide recreational, cultural, art and music activities to combat social isolation and improve quality of life 4. To advance education and improve living and employment skills 5. To provide health and mental health talks and information and therapeutic intervention to promote healthy living and lifestyle 6. To act as a bridge between the Chinese community, the wider community and public bodies",
+                    "charityNumber": "1006710"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548956",
+            "title": "COVID-19 Faringdon Viral Kindness",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "We are led and run by volunteers. We have a managment team consisting of skilled, experienced Crisis Mangers (including ex military and ex social care managers) and experinced Volunteer Manager. We are working closely with the local Health Care Team, Police, Town and District Councils to ensure safety of the people we are providing help to as well as out volunteers. ",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-28T00:00:00+00:00",
+                    "duration": 6,
+                    "startDate": "2020-03-23T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 600,
+            "grantProgramme": [
+                {
+                    "code": "Community Resilience",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 600,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Vale of White Horse 009D",
+                    "geoCode": "E01028719",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-OCF-ACC945514",
+                    "url": "http://www.facebook.com/faringdonviralkindness/",
+                    "name": "Faringdon Volunteer Community Support",
+                    "postalCode": "SN7 7EY",
+                    "description": "We help people stay safe and comfortable during self issolation by helping with: 1) Urgent supplies 2) A friendly person to talk to 3) Collecting prescriptions"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548959",
+            "title": "COVID-19 Cholsey Coronavirus Support Group",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "The Day Centre closed its doors before the general lockdown in recognition of the increased risk to its elderly client group. It immediately set up the Cholsey Coronavirus Support Group (CCSG) in concert with Cholsey Older Persons Activities/Befriending Service (COPA, and organised a village meeting including the Parish Council and St Marys Church. The original aim was to maintain contact with our members and contacts, but as the crisis escalated we aimed to work with and for the village, and sent out a leaflet to every household with the DC contact number as the new Cholsey Helpline.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 4000,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 4000,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Oxfordshire 015B",
+                    "geoCode": "E01028619",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-900522",
+                    "name": "Cholsey Day Centre Trust",
+                    "postalCode": "OX10 9PQ",
+                    "description": "Cholsey Day Centre Trust runs a day centre for up to 35 members three times a week, and is open to the elderly, those with mild to moderate impairment issues, and mild to moderate dementia. As well as a cooked meal at lunchtime the Day Centre offers an increasingly diverse range of activities and entertainments, as well as providing a limited range of outreach provision.",
+                    "charityNumber": "900522"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548966",
+            "title": "COVID-19 Responding Positively",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "We are closed and therefore not receiving the weekly attendance fees from members. Our major fundraiser , the Easter bazaar has had to be cancelled .We are continuing to fully employ our Coordinator to maintain at least regular weekly contact with members ( by phone , letter and e mail) and their family many of whom live away and in any case cannot visit. ",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-02T00:00:00+00:00",
+                    "duration": 4,
+                    "startDate": "2020-03-12T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 2900,
+            "grantProgramme": [
+                {
+                    "code": "Community Resilience",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 2900,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "West Oxfordshire 003C",
+                    "geoCode": "E01028798",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03526286",
+                    "name": "The Wychwoods Day Centre Ltd",
+                    "postalCode": "OX7 6LL",
+                    "description": "We are a locally based Day Centre for the Elderly with 22 members(average age 85) We meet once a week offering refreshments and a two course home cooked lunch with activities ranging from music therapy to church services, scrabble to quizzes. Our aim is to reduce social isolation and enable people to remain at home for as long as possible .We are the only type of provision of its kind in the Wychwood Villages and apart from a part time paid Coordinator exist entirely through the efforts of approximately 50 volunteers who drive, help and cook.",
+                    "charityNumber": "1072037",
+                    "companyNumber": "03526286"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A548994",
+            "title": "COVID-19 Creatively Clever",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "We are setting up a programme of online and at home resources for young people aged 13-19. We will provide bespoke tutorials and any equpiment needed to access them in topics of interest to young people. We will also be providing virtual youth club spaces hosted by qualified youth workers to support young people facing disadvantage and dealing with pressure created by the pandemic.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-01T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-13T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 8990,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 8990,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "Any Other",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 018A",
+                    "geoCode": "E01028520",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06918476",
+                    "url": "http://www.leyscdi.co.uk",
+                    "name": "Leys CDI",
+                    "postalCode": "OX4 7UF",
+                    "description": "Leys CDI is a local charity which develops and co-ordinates projects of long-term benefit to the Blackbird Leys and Greater Leys estates in Oxford. It is a grass roots project that is led by local people and focuses on delivering a project for young people aged 9-25 and an over 50's project called The Clockhouse. The organisations strengths lie in its community roots and its trusted relationships with local people who are at the heart of the organisation. Leys CDI strongly believes in enabling local people to get involved and learn new skills and progress through the project to leadership.",
+                    "charityNumber": "1137129",
+                    "companyNumber": "06918476"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A549093",
+            "title": "COVID-19 MLMC Coronavirus Service",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "Following Government advice and to ensure the health and safety of our members with a learning disability and our staff and volunteers, we have taken the decision to close our office and put all of our activities, projects and group work on hold. In order to secure the financial sustainability of the charity we have cut all unnecessary costs and taken advantage of the Government\u2019s Staff Retention Scheme. However, we recognise that during this crisis, the physical and mental health of our members is at risk due to the loneliness, isolation, worry, confusion, and in some cases lack of support that they will experience.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-19T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-03-23T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 8000,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 8000,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "White",
+            "Primary beneficiary": "People with learning difficulties",
+            "beneficiaryLocation": [
+                {
+                    "name": "Oxford 013E",
+                    "geoCode": "E01028557",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1073247",
+                    "url": "https://www.mylifemychoice.org.uk",
+                    "name": "Oxfordshire My Life My Choice Association",
+                    "postalCode": "OX4 6NF",
+                    "description": "Our mission is threefold: 1. To make sure that there is independent support for people with learning disabilities in Oxfordshire to have their say, claim their rights and to take control of their own lives. 2. To make sure that the views of people with learning disabilities are taken seriously by both professionals in the services they use and the wider public. 3. To \u201cPower Up\u201d their lives so they can make a positive contribution to society. Our activities include a peer-led travel training scheme, user-led training, a learning disability nightclub, Gig Buddies, a campaigns team and 13 self-advocacy groups.",
+                    "charityNumber": "1073247"
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A549120",
+            "title": "COVID-19 Kirtlington Youth Club Survival",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "We have shut down our club night and our youth leader is staying in contact with all our members through social media. He provides puzzles, tasks and challenges to the group whilst at the same time keeping very close contact with our more vunerable members ( bullying being the main issue ). Due to Covis 19 we have lost three very valuable income streams that would have ensured our survival until our main fund raiser in Nov ( ? ).",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-30T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-05-04T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Rural issues",
+            "amountAwarded": 600,
+            "grantProgramme": [
+                {
+                    "code": "Community Resilience",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 600,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Cherwell 016B",
+                    "geoCode": "E01028497",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-OCF-ACC037453",
+                    "name": "Kirtlington Youth Club",
+                    "postalCode": "OX5 3HS",
+                    "description": "Kirtlington Youth Club caters for the young people of both Kirtlington and the surrounding villages ( Bletchington, Weston on the Green etc, ). We aim to provide a safe and secure enviroment for young people ( age 10-16) in a rural area to meet and overcome some of the restrictions that living in a rural village give young people. We look to integrate the young people into the village community and give them a voice."
+                }
+            ]
+        },
+        {
+            "id": "360G-OCF-A549139",
+            "title": "COVID-19 Emergency Family Support Project",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "Oxfordshire Family Support Network is facing an unprecedented need for support from an incredibly vulnerable demographic. We are currently operating in an adapted way, without face to face contact - but continue to proactively support families. Whilst we are able to quickly adapt, the needs we are seeing dwarf the level of support we have needed to supply in the past.",
+            "dateModified": "2020-04-08T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-12T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-12T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Caring responsibilities",
+            "amountAwarded": 7820,
+            "grantProgramme": [
+                {
+                    "code": "NET March 20",
+                    "title": "COVID19"
+                }
+            ],
+            "amountAppliedFor": 7820,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Carers",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Oxfordshire 009E",
+                    "geoCode": "E01028629",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1151621",
+                    "name": "Oxfordshire Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1143367",
+                    "url": "http://www.oxfsn.org.uk",
+                    "name": "Oxfordshire Family Support Network",
+                    "postalCode": "OX11 7QH",
+                    "description": "Oxfordshire Family Support Network exists to support and empower the family carers of people with learning disabilities. We provide information, advice and 1:1 support - helping carers to self advocate and enabling them to ensure the right support for their family member. The families we work with tend to be caring for a loved one with severe or profound needs, who is unable to live independently. Whilst we work with famiy carers - the adults and children with learning disabilities that they support are our ultiamate beneficiaries.",
+                    "charityNumber": "1143367"
                 }
             ]
         }
