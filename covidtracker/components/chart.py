@@ -4,14 +4,27 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-def chart(data):
+def chart(data, chart_type="amount"):
     return html.Div(
         className="base-card base-card--red",
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[
                     html.H3(className="base-card__heading", children="Grants over time"),
-                    html.H4(className="base-card__subheading", children="Cumulative total (£ million)"),
+                    dcc.RadioItems(
+                        options=[
+                            {'label': 'Cumulative total (£ million)', 'value': 'amount'},
+                            {'label': 'Number of grants', 'value': 'grants'},
+                        ],
+                        value=chart_type,
+                        labelStyle={
+                            'display': 'inline-block',
+                            'marginRight': '8px',
+                        },
+                        inputStyle={'marginRight': '4px'},
+                        id="chart-type",
+                        className='base-card__subheading',
+                    ),
                 ]),
                 dcc.Graph(
                     id='grants-over-time',
@@ -19,13 +32,13 @@ def chart(data):
                         'data': [
                             {
                                 'x': list(data["amountByDate"].keys()),
-                                'y': list(accumulate([d["amount"] for d in data["amountByDate"].values()])),
+                                'y': list(accumulate([d[chart_type] for d in data["amountByDate"].values()])),
                                 'type': 'scatter',
                                 'name': 'Grant amount',
                                 'fill': 'tozeroy',
                                 'mode': 'lines',
                                 'line': {
-                                    'shape': 'vh',
+                                    'shape': 'hv',
                                     'color': 'rgb(188,44,38)',
                                     'width': 3,
                                 }

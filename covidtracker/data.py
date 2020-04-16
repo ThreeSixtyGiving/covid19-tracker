@@ -2,17 +2,40 @@ import json
 import datetime
 import re
 
+import requests
+import requests_cache
+
+requests_cache.install_cache(
+    'fetch_cache',
+    expire_after=60 * 60 * 2 # two hours
+)
+
 from settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 def get_data():
 
-    with open(GRANTS_DATA_FILE) as a:
-        grantsdata = json.load(a)
-        grants = grantsdata['grants']
-        last_updated = datetime.datetime.fromisoformat(grantsdata["last_updated"])
+    print("Fetching data")
 
-    with open(FUNDER_IDS_FILE) as a:
-        all_funders = json.load(a)['funders']
+    if GRANTS_DATA_FILE.startswith("http"):
+        r = requests.get(GRANTS_DATA_FILE)
+        grantsdata = r.json()
+    else:
+        with open(GRANTS_DATA_FILE) as a:
+            grantsdata = json.load(a)
+
+    if FUNDER_IDS_FILE.startswith("http"):
+        r = requests.get(FUNDER_IDS_FILE)
+        fundersdata = r.json()
+    else:
+        with open(FUNDER_IDS_FILE) as a:
+            fundersdata = json.load(a)
+
+    grants = grantsdata['grants']
+    if grantsdata.get("last_updated"):
+        last_updated = datetime.datetime.fromisoformat(grantsdata["last_updated"])
+    else:
+        last_updated = datetime.datetime.now()
+    all_funders = fundersdata['funders']
 
     funders = list(set([
         (g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])
@@ -105,6 +128,10 @@ def filter_data(all_data, **filters):
         if g['currency'] == 'GBP':
             amountByDate[awardDate]['grants'] += 1
             amountByDate[awardDate]['amount'] += g['amountAwarded']
+    
+    todays_date = datetime.datetime.now().date().isoformat()
+    if todays_date not in amountByDate:
+        amountByDate[todays_date] = {'grants':0, 'amount': 0}
 
     return {
         **all_data,

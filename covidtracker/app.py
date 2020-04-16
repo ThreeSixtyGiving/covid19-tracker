@@ -26,7 +26,7 @@ app.layout = html.Div(id="main-div", children=[
                 dcc.Dropdown(
                     options=[
                         {'label': fname, 'value': fid}
-                        for fid, fname in all_data["funders"]
+                        for fid, fname in sorted(all_data["funders"], key=lambda x: x[1])
                     ],
                     searchable=True,
                     multi=True,
@@ -130,10 +130,12 @@ app.layout = html.Div(id="main-div", children=[
      Output(component_id='data-table', component_property='children')],
     [Input(component_id='funder-filter', component_property='value'),
      Input(component_id='search-filter', component_property='value'),
-     Input(component_id='doublecount-filter', component_property='value')]
+     Input(component_id='doublecount-filter', component_property='value'),
+     Input(component_id='chart-type', component_property='value')]
 )
-def update_output_div(funder_value, search_value, doublecount_value):
+def update_output_div(funder_value, search_value, doublecount_value, chart_type):
 
+    all_data = get_data()
     data = filter_data(all_data, **{
         'funder': funder_value,
         'search': search_value,
@@ -142,7 +144,7 @@ def update_output_div(funder_value, search_value, doublecount_value):
 
     return (
         cards(data),
-        chart(data),
+        chart(data, chart_type),
         table(data),
     )
 
