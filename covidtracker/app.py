@@ -4,8 +4,9 @@ import os
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+from dash.dependencies import Input, Output
 
-from data import get_data
+from data import get_data, filter_data
 from components import cards, chart, table
 
 app = dash.Dash(__name__)
@@ -13,14 +14,47 @@ app = dash.Dash(__name__)
 with open(os.path.join(os.path.dirname(__file__), 'templates/dash.html'), encoding='utf8') as a:
     app.index_string = a.read()
 
-data = get_data()
+all_data = get_data()
+data = filter_data(all_data)
 
-app.layout = html.Div(children=[
-
-    cards(data),
+app.layout = html.Div(id="main-div", children=[
+    html.Div(id="data-cards", children=cards(data)),
+    html.Div(className="spacer-3"),
+    html.Div(className="filter-section", children=[
+        html.Div(className="wrapper filter-section__panel", children=[
+            html.Div(className="filter-section__buttons filters", children=[
+                dcc.Dropdown(
+                    options=[
+                        {'label': fname, 'value': fid}
+                        for fid, fname in all_data["funders"]
+                    ],
+                    searchable=True,
+                    multi=True,
+                    id="funder-filter",
+                    style={
+                        'width': '300px',
+                        'fontSize': '14px',
+                        'textAlign': 'left',
+                        # 'marginTop': '8px',
+                        # 'marginBottom': '8px',
+                    },
+                    placeholder="Filter by funder...",
+                    className='f6'
+                ),
+            ]),
+            html.Div(className='filter-section__search', children=[
+                dcc.Input(
+                    id="search-filter",
+                    type="search",
+                    placeholder="Search grants...",
+                    className="search-field",
+                ),
+            ]),
+        ]),
+    ]),
     html.Div(className="spacer-3"),
     html.Div(className="grid grid--two-columns", children=[
-        html.Div(className="grid__all", children=[
+        html.Div(id="data-chart", className="grid__all", children=[
             chart(data),
         ]),
     ]),
@@ -31,20 +65,42 @@ app.layout = html.Div(children=[
                 This data is based on UK foundations reporting grants using the
                 360Giving Data Standard. It only includes grants that have already
                 been made (rather than amounts committed to grant programmes).
+                
+                Not all foundations publish their grants as open data, and some
+                publishers do not immediately publish their latest data. 
             ''')
         ]),
         html.Div(className="grid__1", children=[
             dcc.Markdown('''
-                Not all foundations publish their grants as open data, and some
-                publishers do not immediately publish their latest data. 
-
+                Some of the data includes grants made to other grantmakers to distribute. You can choose to exclude
+                these grants from the analysis to prevent double counting.
+            '''),
+            dcc.Checklist(
+                options=[
+                    {'label': 'Don\'t include grants to other grantmakers', 'value': 'exclude'},
+                ],
+                id="doublecount-filter",
+                value=[],
+                inputStyle={
+                    'marginRight': '4px',
+                },
+                labelStyle={
+                    'display': 'inline-block'
+                },
+            ),
+            dcc.Markdown('''
                 For more information please contact [labs@threesixtygiving.org](mailto:labs@threesixtygiving.org).
             '''),
         ]),
     ]),
     html.Div(className="grid grid--two-columns", children=[
         html.Div(className="grid__all", children=[
-            table(data),
+            html.Div([
+                html.H3(className='h3', children="Grants"),
+                html.Div(className='table table--zebra', id="data-table", children=[
+                    table(data)
+                ])
+            ])
         ]),
         html.Div(className="grid__all", children=[
             dcc.Markdown('''
@@ -67,6 +123,28 @@ app.layout = html.Div(children=[
         ]),
     ]),
 ])
+
+@app.callback(
+    [Output(component_id='data-cards', component_property='children'),
+     Output(component_id='data-chart', component_property='children'),
+     Output(component_id='data-table', component_property='children')],
+    [Input(component_id='funder-filter', component_property='value'),
+     Input(component_id='search-filter', component_property='value'),
+     Input(component_id='doublecount-filter', component_property='value')]
+)
+def update_output_div(funder_value, search_value, doublecount_value):
+
+    data = filter_data(all_data, **{
+        'funder': funder_value,
+        'search': search_value,
+        'doublecount': doublecount_value,
+    })
+
+    return (
+        cards(data),
+        chart(data),
+        table(data),
+    )
 
 if __name__ == '__main__':
     app.run_server(debug=True)
