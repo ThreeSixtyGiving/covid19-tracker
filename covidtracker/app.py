@@ -11,6 +11,7 @@ from components import cards, chart, table
 from settings import GRANTS_DATA_URL
 
 app = dash.Dash(__name__)
+server = app.server
 
 with open(os.path.join(os.path.dirname(__file__), 'templates/dash.html'), encoding='utf8') as a:
     app.index_string = a.read()
