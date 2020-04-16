@@ -10,7 +10,7 @@ requests_cache.install_cache(
     expire_after=60 * 60 * 2 # two hours
 )
 
-from settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_URL, FUNDER_IDS_FILE, FUNDER_IDS_URL
+from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_URL, FUNDER_IDS_FILE, FUNDER_IDS_URL
 
 def get_data():
 

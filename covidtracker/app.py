@@ -6,9 +6,9 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
-from data import get_data, filter_data
-from components import cards, chart, table
-from settings import GRANTS_DATA_URL
+from .data import get_data, filter_data
+from .components import cards, chart, table
+from .settings import GRANTS_DATA_URL
 
 app = dash.Dash(__name__)
 server = app.server
@@ -155,6 +155,3 @@ def update_output_div(funder_value, search_value, doublecount_value, chart_type)
             "{:%Y-%m-%d %H:%M}".format(data["last_updated"]),
         ]
     )
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
