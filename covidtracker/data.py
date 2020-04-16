@@ -14,11 +14,12 @@ from settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 def get_data():
 
-    print("Fetching data")
 
     if GRANTS_DATA_FILE.startswith("http"):
         r = requests.get(GRANTS_DATA_FILE)
         grantsdata = r.json()
+        if not getattr(r, 'from_cache', False):
+            print("Fetch data from github")
     else:
         with open(GRANTS_DATA_FILE) as a:
             grantsdata = json.load(a)
