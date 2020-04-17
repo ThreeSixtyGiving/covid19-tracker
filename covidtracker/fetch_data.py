@@ -4,7 +4,7 @@ import datetime
 
 from sqlalchemy import create_engine
 
-from .settings import DB_URL, GRANTS_DATA_FILE, FUNDER_IDS_FILE
+from settings import DB_URL, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 engine = create_engine(DB_URL)
 conn = engine.connect()
