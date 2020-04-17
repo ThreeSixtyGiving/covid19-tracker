@@ -24,9 +24,6 @@ jobs:
         python covidtracker/fetch_data.py
       env:
         DB_URL: ${{ secrets.DB_URL }}
-    - name: Recreate site
-      run: |
-        python create_pages.py
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
