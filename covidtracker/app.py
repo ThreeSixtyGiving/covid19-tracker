@@ -147,9 +147,11 @@ def update_output_div(funder_value, search_value, doublecount_value, chart_type)
         'doublecount': doublecount_value,
     })
 
+    show_grantmakers = data['grants_grantmakers'] > 0
+
     return (
         cards(data),
-        chart(data, chart_type, show_grantmakers = ('exclude' not in doublecount_value)),
+        chart(data, chart_type, show_grantmakers=show_grantmakers),
         table(data),
         [
             'Last updated ',

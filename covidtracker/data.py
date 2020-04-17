@@ -118,6 +118,7 @@ def filter_data(all_data, **filters):
             'amount_other': 0,
         },
     }
+    grants_grantmakers = 0
     for g in grants:
         funders.add((g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name']))
         recipients.add(g['recipientOrganization'][0]['id'])
@@ -141,6 +142,7 @@ def filter_data(all_data, **filters):
             if g['recipientOrganization'][0]['id'] in all_data['all_funders']:
                 amountByDate[awardDate]['grants_grantmakers'] += 1
                 amountByDate[awardDate]['amount_grantmakers'] += g['amountAwarded']
+                grants_grantmakers += 1
             else:
                 amountByDate[awardDate]['grants_other'] += 1
                 amountByDate[awardDate]['amount_other'] += g['amountAwarded']
@@ -163,4 +165,5 @@ def filter_data(all_data, **filters):
         "amountAwarded": amountAwarded,
         "amountByDate": amountByDate,
         "grants": grants,
+        "grants_grantmakers": grants_grantmakers,
     }
