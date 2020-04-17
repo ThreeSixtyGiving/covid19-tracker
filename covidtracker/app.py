@@ -65,8 +65,9 @@ app.layout = html.Div(id="main-div", children=[
         html.Div(className="grid__1", children=[
             dcc.Markdown('''
                 This data is based on UK foundations reporting grants using the
-                360Giving Data Standard. It only includes grants that have already
-                been made (rather than amounts committed to grant programmes).
+                360Giving Data Standard. It only includes grants awarded in 
+                British Pounds that have already been made (rather than amounts 
+                committed to grant programmes).
                 
                 Not all foundations publish their grants as open data, and some
                 publishers do not immediately publish their latest data. 
