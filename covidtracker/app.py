@@ -131,7 +131,8 @@ app.layout = html.Div(id="main-div", children=[
     [Output(component_id='data-cards', component_property='children'),
      Output(component_id='data-chart', component_property='children'),
      Output(component_id='data-table', component_property='children'),
-     Output(component_id='last-updated', component_property='children')],
+     Output(component_id='last-updated', component_property='children'),
+     Output(component_id='funder-filter', component_property='options')],
     [Input(component_id='funder-filter', component_property='value'),
      Input(component_id='search-filter', component_property='value'),
      Input(component_id='doublecount-filter', component_property='value'),
@@ -153,5 +154,9 @@ def update_output_div(funder_value, search_value, doublecount_value, chart_type)
         [
             'Last updated ',
             "{:%Y-%m-%d %H:%M}".format(data["last_updated"]),
+        ],
+        [
+            {'label': fname, 'value': fid}
+            for fid, fname in sorted(all_data["funders"], key=lambda x: x[1])
         ]
     )
