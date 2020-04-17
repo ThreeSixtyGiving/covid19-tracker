@@ -1,8 +1,10 @@
 import json
+import os
+import datetime
 
 from sqlalchemy import create_engine
 
-from settings import DB_URL
+from .settings import DB_URL, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 engine = create_engine(DB_URL)
 conn = engine.connect()
@@ -18,7 +20,6 @@ where (
     and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-03-16'
 order by to_date(g.data->>'awardDate', 'YYYY-MM-DD'), g.data->>'id'
 '''
-outputfile = "docs/data/grants_data.json"
 
 print('Fetching grants')
 result = conn.execute(grant_sql)
@@ -29,11 +30,12 @@ for row in result:
 print('Found {:,.0f} grants'.format(len(grants)))
 
 print('Saving to file')
-with open(outputfile, 'w') as a:
+with open(GRANTS_DATA_FILE, 'w') as a:
     json.dump({
         "grants": grants,
+        "last_updated": datetime.datetime.now().isoformat()
     }, a, indent=4)
-print('Saved to `{}`'.format(outputfile))
+print('Saved to `{}`'.format(GRANTS_DATA_FILE))
 
 print('Fetching funders')
 result = conn.execute('''
@@ -41,7 +43,7 @@ select distinct g.data->'fundingOrganization'->0->>'id' as "fundingOrganization.
 from view_latest_grant g 
 ''')
 funders = []
-with open('docs/data/funder_ids.json', 'r') as a:
+with open(FUNDER_IDS_FILE, 'r') as a:
     funders.extend(json.load(a).get('funders', []))
 for row in result:
     funders.append(row['fundingOrganization.0.id'])
@@ -49,8 +51,8 @@ funders = sorted(set(funders))
 print('Found {:,.0f} funder IDs'.format(len(funders)))
 
 print('Saving to file')
-with open('docs/data/funder_ids.json', 'w') as a:
+with open(FUNDER_IDS_FILE, 'w') as a:
     json.dump({
         "funders": funders,
     }, a, indent=4)
-print('Saved to `{}`'.format('docs/data/funder_ids.json'))
+print('Saved to `{}`'.format(FUNDER_IDS_FILE))
