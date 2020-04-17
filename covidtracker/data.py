@@ -104,19 +104,24 @@ def filter_data(all_data, **filters):
             if all(include_grant):
                 grants.append(g)
     
-    funders = list(set([
-        (g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])
-        for g in grants]))
-    recipients = list(set([
-        g['recipientOrganization'][0]['id']
-        for g in grants
-    ]))
+    funders = set()
+    recipients = set()
 
     amountAwarded = {}
     amountByDate = {
-        '2020-03-14': {'grants':0, 'amount': 0},
+        '2020-03-14': {
+            'grants': 0,
+            "amount": 0,
+            'grants_grantmakers': 0,
+            'amount_grantmakers': 0,
+            'grants_other': 0,
+            'amount_other': 0,
+        },
     }
     for g in grants:
+        funders.add((g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name']))
+        recipients.add(g['recipientOrganization'][0]['id'])
+
         awardDate = g['awardDate'][0:10]
         if g['currency'] not in amountAwarded:
             amountAwarded[g['currency']] = 0
@@ -124,20 +129,37 @@ def filter_data(all_data, **filters):
             amountByDate[awardDate] = {
                 'grants': 0,
                 "amount": 0,
+                'grants_grantmakers': 0,
+                'amount_grantmakers': 0,
+                'grants_other': 0,
+                'amount_other': 0,
             }
         amountAwarded[g['currency']] += g['amountAwarded']
         if g['currency'] == 'GBP':
             amountByDate[awardDate]['grants'] += 1
             amountByDate[awardDate]['amount'] += g['amountAwarded']
+            if g['recipientOrganization'][0]['id'] in all_data['all_funders']:
+                amountByDate[awardDate]['grants_grantmakers'] += 1
+                amountByDate[awardDate]['amount_grantmakers'] += g['amountAwarded']
+            else:
+                amountByDate[awardDate]['grants_other'] += 1
+                amountByDate[awardDate]['amount_other'] += g['amountAwarded']
     
     todays_date = datetime.datetime.now().date().isoformat()
     if todays_date not in amountByDate:
-        amountByDate[todays_date] = {'grants':0, 'amount': 0}
+        amountByDate[todays_date] = {
+                'grants': 0,
+                "amount": 0,
+                'grants_grantmakers': 0,
+                'amount_grantmakers': 0,
+                'grants_other': 0,
+                'amount_other': 0,
+            }
 
     return {
         **all_data,
-        'funders': funders,
-        'recipients': recipients,
+        'funders': list(funders),
+        'recipients': list(recipients),
         "amountAwarded": amountAwarded,
         "amountByDate": amountByDate,
         "grants": grants,
