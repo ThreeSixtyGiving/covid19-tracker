@@ -10,26 +10,15 @@ requests_cache.install_cache(
     expire_after=60 * 60 * 2 # two hours
 )
 
-from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_URL, FUNDER_IDS_FILE, FUNDER_IDS_URL
+from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 def get_data():
 
+    with open(GRANTS_DATA_FILE) as a:
+        grantsdata = json.load(a)
 
-    if GRANTS_DATA_URL:
-        r = requests.get(GRANTS_DATA_URL)
-        grantsdata = r.json()
-        if not getattr(r, 'from_cache', False):
-            print("Fetch data from github")
-    else:
-        with open(GRANTS_DATA_FILE) as a:
-            grantsdata = json.load(a)
-
-    if FUNDER_IDS_URL:
-        r = requests.get(FUNDER_IDS_URL)
-        fundersdata = r.json()
-    else:
-        with open(FUNDER_IDS_FILE) as a:
-            fundersdata = json.load(a)
+    with open(FUNDER_IDS_FILE) as a:
+        fundersdata = json.load(a)
 
     grants = grantsdata['grants']
     if grantsdata.get("last_updated"):
