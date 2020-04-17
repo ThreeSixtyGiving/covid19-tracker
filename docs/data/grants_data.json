@@ -12744,6 +12744,264 @@
             ]
         },
         {
+            "id": "360G-trustforlondon-COVID19 07 04 20-1",
+            "title": "Shpresa Programme",
+            "currency": "GBP",
+            "awardDate": "2020-04-07",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is for: phone credit to keep vulnerable unaccompanied asylum-seeking children in touch, food packs for self-isolating/sick asylum seekers. These needs arise from the COVID19 emergency.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 4
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "London-wide"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1110688",
+                    "url": "http://www.shpresaprogramme.com/",
+                    "name": "Shpresa Programme",
+                    "postalCode": "E13 8HT",
+                    "description": "Shpresa Programme is a user-led organisation, promoting the participation and contribution of the Albanian-speaking community in the UK, enabling them to play a positive & active role in the communities where they now live. It develops holistic, user-led services with, rather than for, people.",
+                    "charityNumber": "1110688",
+                    "companyNumber": "10556197",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19 07 04 20-2",
+            "title": "Action for Refugees in Lewisham",
+            "currency": "GBP",
+            "awardDate": "2020-04-07",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is for grants and additional support for asylum seeker, refugee, and migrant families in South London in response to the COVID19 emergency.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 4
+                }
+            ],
+            "amountAwarded": 3900,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lewisham"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1116344",
+                    "url": "http://www.afril.org.uk/",
+                    "name": "Action for Refugees in Lewisham",
+                    "postalCode": "SE13 5ES",
+                    "description": "AFIL gives refugees, asylum seekers, and vulnerable migrants the skills, knowledge, and support required to integrated into the community and prosper in their new home. Provide a range of services in Lewisham, including supplementary school for children, advice service and adult language classes.",
+                    "charityNumber": "1116344",
+                    "companyNumber": "0",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19 07 04 20-3",
+            "title": "Just for Kids Law",
+            "currency": "GBP",
+            "awardDate": "2020-04-07",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is for supporting the urgent needs of young people aged up to the age of 25 facing immediate crisis, such as paying for food, utilities, accommodation, heating and clothing, as well as providing for the essential needs of their own young families. These needs arise from the COVID19 emergency.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 4
+                }
+            ],
+            "amountAwarded": 4000,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "London-wide"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1121638",
+                    "url": "http://www.justforkidslaw.org/",
+                    "name": "Just for Kids Law",
+                    "postalCode": "N1 3QP",
+                    "description": "Just for Kids Law (JfKL) provides holistic representation and support to vulnerable children and young people through child-centred advocacy, legal services and youth opportunities. It also works towards systemic change and promotes the rights of children through strategic litigation, policy and public affairs work, and research.",
+                    "charityNumber": "1121638",
+                    "companyNumber": "0",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19 07 04 20-4",
+            "title": "Freedom From Torture",
+            "currency": "GBP",
+            "awardDate": "2020-04-07",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is for COVID19 emergency relief packages to be made available to clients, including data and phone credit, advance cash relief payments to cover additional weeks to enable clients to stock up on essentials and look after themselves for longer, and, for those clients who need them, smart phones.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 4
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "London-wide"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1000340",
+                    "url": "http://www.freedomfromtorture.org/",
+                    "name": "Freedom From Torture",
+                    "postalCode": "N7 7JW",
+                    "description": "Freedom from Torture provides expert holistic therapeutic and practical support to torture survivors to help them rehabilitate and overcome their multiple and complex problems. It undertakes a wide range of policy advocacy activities to protect and promote the rights of torture survivors in the UK.",
+                    "charityNumber": "1000340",
+                    "companyNumber": "0",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19 07 04 20-5",
+            "title": "Kanlungan Filipino Consortium",
+            "currency": "GBP",
+            "awardDate": "2020-04-07",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is to provide free provision of food, groceries, medicines for migrant nurses/carers, elderly affected by COVID19",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 4
+                }
+            ],
+            "amountAwarded": 4870,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "London-wide"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1077224",
+                    "url": "http://www.kanlungan.org.uk/",
+                    "name": "Kanlungan Filipino Consortium",
+                    "postalCode": "WC1H 9AJ",
+                    "description": "Kanlungan Filipino Consortium provides advice, education, training to Filipino migrants & families to improve their welfare. We support vulnerable Filipino migrants, mostly those working as frontline nurses and care workers and their family members, especially women who have issues with employment, immigration and welfare. We also support people with mental health issues, through arts therapy, creative writing etc. We support women from a range of countries who have been trafficked as domestic workers or who are victims of abuse and violence by their employers. We support elderly people in our community through health and well being activities.",
+                    "charityNumber": "1077224",
+                    "companyNumber": "4249530",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19 07 04 20-6",
+            "title": "Africa Advocacy Foundation",
+            "currency": "GBP",
+            "awardDate": "2020-04-07",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is for providing urgent support for vulnerable individuals at risk and lacking food and essential items due to the COVID19 emergency.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 4
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "London-wide"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1164778",
+                    "url": "http://www.africadvocacy.org/",
+                    "name": "Africa Advocacy Foundation",
+                    "postalCode": "SE24 9LT",
+                    "description": "Africa Advocacy Foundation provides practical support, advice and information to address ill health, poverty, isolation. We support individuals and families including:\n\u2022           People living with HIV\n\u2022           Older people\n\u2022           Women affected by violence e.g. Female Genital Mutilation, sexual exploitation;\n\u2022           Refugees, undocumented individuals and asylum seekers with no recourse to public funds",
+                    "charityNumber": "1164778",
+                    "companyNumber": "1993854",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
             "id": "360G-DevonCF-A549042",
             "title": "COVID 19 Befriending Support",
             "currency": "GBP",
@@ -13218,6 +13476,48 @@
                     "name": "Community 360",
                     "description": "Community360 (C360) is an independent charity formed in 1968. We are committed to a vision to build \u201cthriving local communities\u201d. Our Mission is: - \u201cTo inspire and enable local community action to improve quality of life\u201d. We aim to do this in line with our core values, which are to: - provide passionate, intelligent leadership for the sector in Colchester, Essex and beyond; - empower people, groups and organisations through high quality support - -be creative and innovative in meeting the needs of local communities and the voluntary and community groups and organisations that serve them; and - be fair and honest in everything we do We achieve this through a number of projects, including an experienced Community Development team, Community Accounts Service and Business Bank. As a result, staff lead on community volunteering programmes with more than 400 volunteers, work with over 300 community groups a year to access funding, embed good financial practices, recruit their own volunteers, plan and train, as well as network and promote what they do. We value working in partnership and consult regularly with the sector to guide the development of policy, co-produce new projects and deliver services. We also manage programmes that provide fundamental, practical support to the community. Our Community Transport schemes facilitate over 50,000 trips each year and we hire scooters and wheelchairs to people 5 days a week. Our organisation is constantly evolving, anticipating opportunities in our community and seeking to maximise the impact that we can all have to make our vision a reality. As the provider of Community Voluntary Services (CVS) for Braintree District, we deliver projects that improve the quality of life for local residents and enable voluntary action to impact in neighborhoods and parishes. At the heart of what we do is Community Development. We support charities and non-profit making groups to form, establish their activities and continue to operate, whilst upholding good standards of practice. We help them to find the resources they need (i.e. funds or in kind donations), network and collaborate to enhance their opportunities (such as through Lunch and Learn sessions) and to learn and develop with the provision of courses and bespoke training. We are involved in many fora and committees to work well across the voluntary and community sector. We identify gaps and develop services to meet them. For example, we have established the Braintree District Older Persons forum, where agencies that support older people can network and work together on shared agendas to support older residents in the district. We manage Braintree Time Bank \u2013 we encourage social action through the principles co-production, time bank members use time as currency to exchange skills and support. Over the past year 57 new time bank members have exchanged 2000 hours of time to support the local community through initiatives such as a Community Caretakers scheme and i-tea computing sessions. We oversee Braintree Volunteer Centre \u2013 as 1 of 14 centres in the Volunteer Essex network we advertise and recruit volunteers for 200 organisations as well as provide guidance and support around volunteer management and best practice. We have placed 69 volunteers in the first six months of the year. We are introducing a Slipper Exchange as part of our falls prevention agenda. Braintree residents can exchange old, sloppy and worn slipper for a new well fitted pair as well as find out information on support services and community activities. We have already exchanged 45 pairs with plans to expand this during the Winter period. We also have a strong commitment to health and wellbeing initiatives, which we would like to continue to expand. We embed good health and wellbeing throughout all of our programmes. However, we seek to offer targeted support where possible. This may be through volunteering, our community weight management service, providing social groups or monthly Tree-Mendous walks of Braintree and Bocking Gardens. Throughout Mid Essex we work with a range of partners and have particular strong working synergies with Braintree District Council as part of the Live Well Child campaign (addressing childhood obesity and working with ten schools in the district), Active Braintree Network and the Strategic Health and Wellbeing Board. We pride ourselves on providing proactive community engagement, meaning we like to take our services to people. Working throughout the district we understand the challenges faced by town and rural communities, particularly with regards to accessing services. We are adept at working with residents to establish activities based on their needs, rather than prescribing a \u2018one size fits all approach\u2019.",
                     "charityNumber": "1092567"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547743",
+            "title": "Grant to Volunteer Centre Uttlesford",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "to increase staff hours who are coordinating volunteers to respond during the COVID19 pandemic in Uttlesford",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "amountAwarded": 5500,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 5500,
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Uttlesford",
+                    "geoCode": "E07000077",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05801122",
+                    "url": "http://volunteeruttlesford.org.uk",
+                    "name": "Volunteer Centre Uttlesford",
+                    "description": "Volunteer Uttlesford was established in 1995 to support the community of Uttlesford which is the largest geographical district in Essex and the most rural. The overall aim of the organisation is to 'make volunteering a part of everyday life in Uttlesford' we aim to achieve this by:- promoting and developing volunteering across Uttlesford acting as a broker by matching volunteers with appropriate opportunities, identifying, creating and developing volunteering opportunities, marketing the benefits of volunteering publicising the health, well-being and social benefits of volunteering broadening the impact of volunteering through innovation providing skills to improve the quality of volunteers enhancing the quality of life, health and well-being of individuals through volunteering Our current projects include: Working with young people aged from 9 years, encouraging them to be helpful and supportive to others who may have some additional requirements, giving them an early insight into volunteering and it's benefits to the community. Petal Wave Art Trail: an inter-generational art project, which is helping to raise awareness of dementia throughout Uttlesford. It is a voluntary project and as such encourages people of all ages to volunteer, in a fun and positive way. Employee Volunteering - working with local employers, to encourage volunteer employee schemes, in the past year we have had many successful employee volunteering days working with Organisations who have a short project, needing attention. Youth 16-19 promoting the idea of volunteering as a positive activity. Befriending - in partnership with St. Claire Hospice, running workshops for potential befrienders and supporters. Dementia Cafe - Managing a dementia cafe in Saffron Walden, for those living with and those caring for people with dementia, this is run almost exclusively by volunteers. All of these projects take place in sourcing, interviewing and placing general volunteers with Organisations and Timebank volunteers (being neighbourly) in your local community.",
+                    "charityNumber": "1114907",
+                    "companyNumber": "05801122"
                 }
             ]
         },
@@ -15932,7 +16232,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to help sustain an organisation supporting young people in Rochford and Castle Point during the COVID19 pandemic",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-15T00:00:00+00:00",
             "amountAwarded": 10000,
             "grantProgramme": [
                 {
@@ -15941,6 +16241,7 @@
                 }
             ],
             "amountAppliedFor": 10000,
+            "Primary beneficiary": "Children and Young People",
             "beneficiaryLocation": [
                 {
                     "countryCode": "GB"
@@ -15968,7 +16269,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to respond to the needs of family carers during the COVID19 pandemic by improving IT, expanding volunteer response and help sustain the organisation",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-15T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -16166,12 +16467,51 @@
             ]
         },
         {
+            "id": "360G-EssexCF-A549238",
+            "title": "Grant to Age UK - Essex",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "towards the operational costs of supporting the increase in referrals from elderly people isolating across Essex during COVID19",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-04309519",
+                    "url": "http://www.ageukessex.org.uk/",
+                    "name": "Age UK - Essex",
+                    "description": "At Age UK Essex we aim to promote the wellbeing of all older people in Essex and be there to support people to live fulfilling and enjoyable lives. We believe in a society in which people in later life from all communities have equal access to services, where they are free from discrimination and their human rights are promoted and protected. Age UK Essex has achieved the Age UK Charity National Quality Standard (CQS). The CQS is externally assessed by quality assessment experts SGS. Our services are listed below and operate at a countywide level Countywide Befriending Service Home/Telephone (free service) Our Countywide Befriending Service offers companionship through a weekly home visit or phone call. It\u2019s the perfect opportunity for clients to relax in their own home and have a catch up over a cup of tea with one of our screened and trained volunteer befrienders. The aim of the service is to help alleviate the debilitating effects of loneliness and/or social isolation. With people now living longer, this is growing problem with demand increasing across all parts of Essex, Thurrock and Southend. Home Help Service The service has been designed to help older people to live independently and remain in their own homes for longer. and aims to provide practical and emotional support as listed below. Dusting and polishing furniture Cleaning baths, sinks and toilets Washing floors Laundry Changing beds Emptying rubbish bins. Shopping Collecting weekly shopping from the local supermarket Accompanied shopping Collecting prescriptions. Food Preparation Service Outdoor Activity Support Sitting and Companionship Service Toenail Cutting Service The service gives people the chance to have their toenails trimmed by fully trained staff in a friendly and welcoming environment. We hold regular toenail cutting clinics at over 100 easily-accessible venues throughout Essex and we also offer home visits if they find it hard to get out and about. All of our toenail trimmers are trained and assessed by the NHS podiatry service and our Home Visiting service is CQC registered. The service operates every six to eight weeks and helps clients to benefit from the following To remain mobile To avoid becoming isolated and housebound To reduce the likelihood of having a fall To avoid the general discomfort which accompanies long toenails. To help with remaining independant for as long as possible and enhance quality of life Information & Advice Service The Age UK Essex Information and Advice service is a free, impartial and confidential advice service for anyone aged 50 or over, their friends, family, professionals and carers. The service makes asking for help easy. Our team of professional advisors are only a phone call away and are fully trained to offer help and advice on a huge range of issues that affect older people. Our advisors can help people confidently navigate some of the most difficult questions and situations that arise in later life and are experts in giving the support needed. Some of the most common enquires are listed below; Benefits entitlement Housing issues Social care Legal - advisors can provide information about making a will, dealing with an estate or make financial and Welfare decisions Bereavement support Voice Network It's really important that older people in Essex know where to go if they need help and who they can turn to for support. Our Voice Network share information on local services and give older people a voice within their community. Visiting clubs and groups across the county, the Voice Network's team of specially trained volunteers go out and about to give talks about the services and facilities available for older people in their local area. They also help older people get their opinions heard by gathering their views and feeding them back to the local authority and key decision makers. The Voice Network operates across Essex including Southend and Thurrock and also visits organisations such as housing associations, carers groups, GP surgeries, patient groups and other charities. Advocacy Service (In House) Our Advocacy Service operates on a small scale and will support any clients using any our services. The service is managed by our Head of Service for Information & Advice who is also a fully qualified Advocate, providing confidential advice and supporting the most vulnerable members of our society to access information and services. Trading Our Trading subsidiary contributes vital unrestricted income to help fund our services to older people in Essex. It's team of expert arrangers help customers to access products and services, Home Insurance, Motor Insurance, Motor Breakdown, Funeral Plans and Personal Alarms.",
+                    "charityNumber": "1091058",
+                    "companyNumber": "04309519"
+                }
+            ]
+        },
+        {
             "id": "360G-EssexCF-A549865",
             "title": "Grant to Castle Point Association of Voluntary Services",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to provide an emergency response to support the vulnerable in Castle Point during COVID19",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-15T00:00:00+00:00",
             "amountAwarded": 5000,
             "grantProgramme": [
                 {
@@ -16839,6 +17179,178 @@
             ]
         },
         {
+            "id": "360G-trustforlondon-COVID19-09 04 20-10",
+            "title": "Passage 2000",
+            "currency": "GBP",
+            "awardDate": "2020-04-09",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is towards consumable goods urgently needed to enable us to cook and deliver hot food to homeless people in Westminster. COVID19 response.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Westminster"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1079764",
+                    "url": "https://passage.org.uk",
+                    "name": "Passage 2000",
+                    "postalCode": "SW1P 1NL",
+                    "description": "The Passage runs a range of services to prevent and end homelessness. The main activities include: street outreach work, a resource centre, an assessment hostel, managing self-contained accommodation for previously homeless people, follow-on resettlement support and homelessness prevention work",
+                    "charityNumber": "1079764",
+                    "companyNumber": "0",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19-09 04 20-11",
+            "title": "Refugee Action Kingston",
+            "currency": "GBP",
+            "awardDate": "2020-04-09",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is towards a hardship fund to provide for vulnerable clients. COVID19 response. ",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 4900,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Kingston Upon Thames"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1176768",
+                    "url": "https://refugeeactionkingston.org.uk/",
+                    "name": "Refugee Action Kingston",
+                    "postalCode": "KT2 6LX",
+                    "description": "Refugee Action Kingston supports refugees in Kingston. Activities and services include advice and information on immigration, housing and benefits;  an accredited counselling service; as well as other services to ease and support the resettlement of refugees in  its borough, including ESOL support.",
+                    "charityNumber": "1176768",
+                    "companyNumber": "4763838",
+                    "addressLocality": "Kingston upon Thames"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19-09 04 20-8",
+            "title": "Mind in Barnet",
+            "currency": "GBP",
+            "awardDate": "2020-04-09",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is towards unlimited calls and data sim cards for staff to enable them to remain in touch with vulnerable clients. COVID19 response.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 12
+                }
+            ],
+            "amountAwarded": 2070,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Barnet"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-\u00a0295701",
+                    "url": "http://www.mindinbarnet.org.uk/",
+                    "name": "Mind in Barnet",
+                    "postalCode": "N12 0DG",
+                    "description": "Mind in Barnet is a mental health charity affiliated to National Mind. It provides counselling, advocacy, employment support services, and social clubs primarily to people living in LB Barnet",
+                    "charityNumber": "\u00a0295701",
+                    "companyNumber": "0",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-trustforlondon-COVID19-09 04 20-9",
+            "title": "Age UK Camden",
+            "currency": "GBP",
+            "awardDate": "2020-04-09",
+            "dataSource": "https://www.trustforlondon.org.uk/",
+            "description": "The funding is towards the purchase of emergency food and provisions to include 800 parcels to deliver to older people. COVID19 response.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Decent living standards"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-205629",
+                    "name": "Trust for London"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-293446",
+                    "url": "http://www.ageukcamden.org.uk/",
+                    "name": "Age UK Camden",
+                    "postalCode": "WC1H 9NA",
+                    "description": "Age UK Camden offers services to support older residents in Camden. It provides information and advice, counselling, social support as well as services to enable older people to remain in the community, including support over direct payments.",
+                    "charityNumber": "293446",
+                    "companyNumber": "1854266",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
             "id": "360G-DevonCF-A550299",
             "title": "COVID-19 Supporting Communities Programme",
             "currency": "GBP",
@@ -17033,6 +17545,204 @@
                     "name": "All Nations Ministries",
                     "description": "To relieve poverty and improve quality of life and health/wellbeing of refugees, asylum seekers and marginalised people including homeless/rough sleepers by providing them with counselling, advice, practical support and educational opportunities. To provide homeless people with meal, free toiletries, clothing and access to support at weekly Drop In facility.",
                     "charityNumber": "1106013"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547420",
+            "title": "Grant to Michael Roberts Charitable Trust",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "to help support the increased demand on a foodbank supporting vulnerable clients in Harlow during COVID19",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "amountAwarded": 9200,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 17281,
+            "Primary beneficiary": "Disadvantaged / Low Income",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03439299",
+                    "url": "http://www.mrct.org.uk",
+                    "name": "Michael Roberts Charitable Trust",
+                    "description": "As a Harlow based charity our aims and objectives are to develop voluntary work and social opportunities for people who are often perceived as being disadvantaged, either through a disability or social difficulty. \u2022 Providing inclusive drop-in centres for adults with a range of abilities / disabilities \u2022 Providing an emergency non-perishable food service for people in crisis and a fresh food service to front-line care professionals \u2022 Promoting a team philosophy \u2013 together everybody achieves more \u2022 Promoting the ability of all people \u2013 encouraging social inclusion Since the formation of the charity in 1997 MRCT has sought to involve people with a disability and socially disadvantaged people in all aspects of its work, promoting the value and significance of each person as an individual, encouraging them to take an active role in decision-making and future planning. Our key aim is the inclusion of all people, irrespective of social status, ability, disability, age, ethnic grouping or religious belief. This work includes: \u2022 Maybury Open Door \u2013 Adult drop-in centre based at two church locations in Harlow and open 3 days a week. \u2022 Harlow Foodbank \u2013 Proving emergency non-perishable food for people in crisis in Harlow and the surrounding area. \u2022 Bounty Club \u2013 Surplus fresh food is donated by local companies and distributed to front-line care professionals, charities, organisations, schools and homeless projects for the benefit of the community. * Stansted Airport Partnership - Recycling passengers surrendered / restricted non-perishable food, soft drinks, toiletries and gifts to front-line care professionals, charities, organisations, schools and homeless projects for the benefit of the community. Poundland Partnership - working with the Poundland Distribution Centre in Harlow who provide the foodbank with a range of non-perishable food, toiletries and household items. * St Margaret's Hospital Partnership - Currently working in partnership with St Margaret's hospital in Epping providing emergency food boxes for elderly patients leaving hospital with no family support. Country Food Trust - provides the foodbank with partridge and pheasant sachet food",
+                    "charityNumber": "1065006",
+                    "companyNumber": "03439299"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A548518",
+            "title": "Grant to Tendring Rural South Neighbourhood Action Panel",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "responding to the COVID19 pandemic to help cover the cost of volunteer expenses and purchase of food and essential items for vulnerable people living in the village of Alresford and its environs",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "Response",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 1000,
+            "Primary beneficiary": "Disadvantaged / Low Income",
+            "beneficiaryLocation": [
+                {
+                    "name": "Tendring",
+                    "geoCode": "E07000076",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-EssexCF-ACC034061",
+                    "name": "Tendring Rural South Neighbourhood Action Panel",
+                    "description": "We are a community group who work closely with Essex Police and other partners to promote community safety. Our aim is to engage with people and organisations across the Tendring area (mainly to the south of the district)and to implement projects that reduce crime, improve safety - especially road safety. We meet regularly with the police and hold public meetings - from our discussions we focus on problems and try to find solutions. We have helped set up Youth Clubs and events, organised road safety campaigns and have provided specialist equipment to help combat crime. We help direct resources to where they are needed and our volunteers give hands on help to many community projects. We work with the Essex Probation service and British Transport Police and have representatives on our panel from local businesses, Parish and Town Councils, The District Council, Youth Work and local residents."
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A548704",
+            "title": "Grant to Supporting Carers and Families Together",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "to purchase laptop computers and meet additional costs involved in responding to the COVID19 pandemic and helping to sustain an organisation supporting vulnerable young carers in the Rochford area",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "amountAwarded": 8500,
+            "grantProgramme": [
+                {
+                    "code": "Response",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 8500,
+            "Primary beneficiary": "Families",
+            "beneficiaryLocation": [
+                {
+                    "name": "Rochford",
+                    "geoCode": "E07000075",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06972805",
+                    "url": "http://www.scaft.org",
+                    "name": "Supporting Carers and Families Together",
+                    "description": "To relieve the social, emotional, physical and educational needs of carers and their families living in Essex, particularly the Rochford District, where most of our services are targeted. This is achieved through group centered support sessions, one to one support including advocacy as required along with providing a range of information relevant to the needs of carers including national and local policy change and benefit changes and review, advice including information about additional support services, training to improve the ability to care and ensure their own wellbeing is also provided for, along with a number of days out and other activities, including family days for the whole family to participate and spent quality time together. SCAFT supports young carers aged 6 -18 years through group sessions and activities, as well as individual one to one work. Group session provide a safe, understanding environment for young carers to take a few hours respite from their caring responsibilities offering fun games and sports, creative and craft activities, informal and formal learning and days out. For many of our young carers it might be one of the few breaks they get from their caring role and gives them a valuable opportunity to share with others in a similar situation, tackling the social isolation felt by many carers. The One2One service operates through the districts schools, providing weekly or fortnightly individual opportunities to express their anxieties and concerns about their caring role, gain advice and signposting to additional services. The weekly Support Workers visits to schools also provide a chance for staff to consult on the best ways to offer students with caring responsibilities additional support and our staff have been closely involved in assisting schools working towards nationally recognised 'Young Carers in Schools' Awards. The schools support work is currently active in 3 out of the 4 secondary schools in the district and 5 primary schools, with a further 3 primary schools expected to join the scheme at the start of the new school year. SCAFT has also recently championed the introduction of Young Carers Passports to the secondary schools it works with; the scheme is designed to give schools an opportunity to help identify and recognise the caring responsibilities held by young carers; as well as a way of affirming their support to these students. The scheme also gives young carers a visual record of the concessions given to them by the school in terms of additional support; and means that they don\u2019t have to explain their story to each individual member of staff in order to access those support mechanisms. It gives staff reassurance that a student claiming access to a support strategy has the entitlement to do so and that their circumstances and needs have been assessed by the Young Carers Lead. The passport is designed to be personalised to each school and to be tailored to individual student needs. Like a real passport \u2018visa stamps\u2019 can be added to show the particular entitlements of the holder. e.g. that they may register late or leave early, that they may need extra time to complete homework, may need access to a phone to check the situation at home is stable, may need to be excused from afternoon detentions or may need time-out from class to compose themselves if they become distracted or distressed.",
+                    "charityNumber": "1136245",
+                    "companyNumber": "06972805"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A548910",
+            "title": "Grant to Waltham Abbey Youth 2000",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "to cover additional costs for a counsellor at a youth organisation to increase her working hours until the end of June in response to the COVID19 pandemic",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Improve life skills, education, employability and enterprise",
+            "amountAppliedFor": 5000,
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Epping Forest",
+                    "geoCode": "E07000072",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03325776",
+                    "name": "Waltham Abbey Youth 2000",
+                    "description": "Waltham Abbey is a town of considerable deprivation. One of the 4 wards in the town is the 3rd most deprived area in Essex. It suffers from broken families, low educational attainment, youth crime and unemployment. A considerable percentage of the District\u2019s NEET\u2019s live in the town. The sole local secondary school receives Pupil Premium for over 30% of its pupils to close the gap between disadvantaged and non-disadvantaged young people. Waltham Abbey Youth 2000 (WAY 2000) provides a community resource and seeks to improve sporting, leisure, cultural, education and employment opportunities for the young people of Waltham Abbey. We believe that all our young people deserve a safe and healthy environment, should have facilities which enable them to make gainful use of their leisure time, should understand their duties and responsibilities both to themselves and the community at large and take responsibility for their own actions. WAY2000 is committed to supporting and realising these aspirations by providing a safe, attractive and affordable social environment with a choice of opportunities together with a counselling service. We provide a wide range of quality facilities and opportunities at our youth centre for 2 age ranges: Yip Yop Youth for 7 to 11 year olds and New Images for school years 7 to 11. There is a wide variety of activities at the centre including table tennis, table football, air hockey, games consoles e.g. Xbox, Wii, PS3 etc. Arts and Crafts and a computer suite. These facilities encourage children and young people to interact and socialise with their peers in person rather than sit at home on their mobile phones etc. Various one off activities are organised during the holidays including an Activity Day at Stubbers Adventure Centre, Dodgeball Sessions, visit to the Fire Station etc. WAY2COOK our very popular cookery club focusing on healthy eating and balanced diets is due to be re-opened shortly having now raised sufficient funding to cover costs. Whilst this facility is restricted due to the kitchen space, it has attracted a wide variety of young people including sufferers of aspergers syndrome and autism who mix well with the other participants. The facility was set up in 2013 following a very successful cookery session run by Epping Forest District Council as part of their Summer Programme and following statistics issued by Essex County Council shortly afterwards highlighting an obesity issue amongst the young people of Waltham Abbey. Recipes include burgers etc. but these are made with very low fat meat and are a healthy version. They are always enjoyed by the young people. In addition to the wide variety of activities & leisure facilities provided at our youth centre in Brooker Road, we run a highly acclaimed Counselling Service. WAY Forward Counselling seeks to improve emotional well-being and/or mental health amongst vulnerable young people aged 11-18, with family members if appropriate, together with group work involving younger children to improve self-esteem and self-confidence to lead to improved attainment and ambition for the future and to prevent them from spiralling downwards into self-harming actions, drugs and criminal activities. Having involved parents and family members for some years, with the feedback from them, it is clear that parents realise that there is something causing their child anxiety but do not know how to deal with it. Many contact our counsellor because they feel that CAMHS do not understand their needs. They cannot get help from the local health centre as it has no provision for mental health services for young people and they also make referrals to our counsellor recognising the impact it has on the young peoples' wellbeing and lives . All of this has resulted in us providing a Parent Drop-In facility at our centre to enable parents to come and chat about issues they are experiencing with their children. We now provide this on a weekly basis to meet a much higher demand than was originally anticipated and have developed it to include a variety of activities encouraging relaxation in addition to the counselling and advisory service. The Parent Drop-In facility has highlighted that the parents are experiencing personal issues such as partnership splits and domestic violence which are having a detrimental effect on the children and young people in the families. Our Counsellor helps them cope with their situations and is able to signpost the parents to other organisations who can help and advise with issues such as finance and housing. Numerous young people are tell our Counsellor that they have nowhere quiet at home where they can complete their homework. This means that they fall behind with their lessons, fail exams and their futures are ruined. As a result of this we are now developing a Homework Club. Mental Health issues amongst young people and the lack of support for them is currently headline news. It was recently reported that more than half of prisoners had been excluded from school at some point. Our Counsellor\u2019s work at King Harold Academy, the sole secondary school in the town, has been recognised as improving classroom behaviour and unauthorised absences which otherwise would often lead to exlcusion. Our facility helps to prevent this situation in Waltham Abbey. We have been providing these services for 25 years and continually develop them to meet the needs and aspirations of the young people in the community. Hundreds of young people have benefited resulting in them achieving more academically than they originally expected and giving them greatly improved life chances rather than ending up homeless living on the streets, on drugs or involved in criminal activities as a way of escapism. The value of the facilities and services WAY2000 provides for the benefit of the community is recognised by Waltham Abbey Town Council and Epping Forest District Council who support the Charity in a variety of ways. WAY 2000 is one of the charities based in Essex to be nominated for a Queen's Award for Voluntary Service in recognition of the value of our facilities and the services we provide..",
+                    "charityNumber": "1071248",
+                    "companyNumber": "03325776"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A551453",
+            "title": "Grant to South Essex Advocacy Services",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "towards the staff costs of an organisation providing advocacy and emergency response provision to older people and those with a disability in Southend, Rayleigh and Rochford during COVID19",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "amountAwarded": 13140,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "amountAppliedFor": 13140,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1164092",
+                    "url": "http://www.southessexadvocacy.org",
+                    "name": "South Essex Advocacy Services",
+                    "description": "South Essex Advocacy Services (SEAS) was formerly known as South East Essex Advocacy for Older People since forming in 1994. Our name changed in 2017 to enable us to provide advocacy services to all people across the whole of south Essex. Advocacy is perhaps one of the most overlooked services that aim to improve the lives of vulnerable people. Our provision ensures that people can voice their own concerns and wishes regarding their healthcare, accommodation, finances and welfare. Our service users include: \u2022 People with mental health problems \u2022 Older people \u2022 People with learning disabilities \u2022 People who lack mental capacity \u2022 People experiencing financial abuse \u2022 People living in poverty We support in excess of 2,000 people each year to: \u2022 Understand and participate in decisions about their care and treatment under the Mental Health Act 1983. \u2022 Maximise their entitled benefits, so that they can afford the care and support to which they are entitled. \u2022 Communicate their healthcare and accommodation wishes to professionals and family. \u2022 Understand their personal budget and reduce their debts. \u2022 Reduce anxiety and social isolation and improve their confidence, mental and emotional wellbeing and quality of life. \u2022 Safeguarding them against further financial abuse and recover their lost finances. We employ qualified advocates to deliver our service across south Essex and we are supported by a team of volunteers. We are contracted by Southend Borough Council to deliver advocacy services under the Care Act, but there are many more vulnerable and isolated people in our local area who do not fulfil the Care Act criteria, but still desperately need someone to speak on their behalf. These people will not have Social Services involvement, yet they still require support to make their voice heard and to reach decisions regarding their needs. These people may be older, have difficulty communicating or struggle with their literacy and comprehension skills. They may have a long-term health condition or have difficulties with their accommodation provider. Without our support, they will struggle to reach positive outcomes and to make positive changes in their lives to improve their wellbeing, health and living conditions. We deliver our services within our office in Southend, in various community Hubs and at people\u2019s homes (particularly if they are bed-bound or would struggle to get to our office).",
+                    "charityNumber": "1164092"
                 }
             ]
         },
