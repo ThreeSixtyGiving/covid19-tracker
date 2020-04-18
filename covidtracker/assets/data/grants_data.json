@@ -470,7 +470,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-24T00:00:00+00:00",
             "description": "COVID19 Emergency food bank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -517,7 +517,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-24T00:00:00+00:00",
             "description": "COVID19 Emergency food bank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -607,7 +607,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-25T00:00:00+00:00",
             "description": "COVID19 Emergency food bank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -653,7 +653,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-25T00:00:00+00:00",
             "description": "COVID19 Emergency food bank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -1127,7 +1127,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-26T00:00:00+00:00",
             "description": "COVID19 Emergency foodbank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2407,7 +2407,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Meal delivery service and virtual counselling for vulnerable people in Wells",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2443,7 +2443,7 @@
                     "id": "GB-CHC-251549",
                     "url": "http://www.connect-centre.org.uk",
                     "name": "Elim Connect Centre",
-                    "description": "Here at the Elim Connect Centre we love participating in community life and believe we all have something to give and something we need. Far more than just a community project, we are committed to the discovery of hope, meaning and strength through the connecting of our lives.",
+                    "description": "Our aim is to serve the social, physical, spiritual, mental and emotional needs of the community in an accessible way. Connect Elim is about the discovery of hope, meaning and strength through the connecting of our lives. We deliver a series of projects and services, for the benefit of those most in need in our local community, those facing poverty, homelessness, mental ill health, social isolation and life controlling issues. The impact has been loss of 5k per month room hire income, additional staff and travel costs to continue supporting people in lock down and client food and resources.",
                     "charityNumber": "251549"
                 }
             ]
@@ -2454,7 +2454,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Community kitchen to supply hot meals to vulnerable people",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2499,7 +2499,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Food parcels for vulnerable families in the Halcon Estate, Taunton",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2547,7 +2547,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Community kitchen to supply hot meals to vulnerable people in Taunton",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2594,7 +2594,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Virtual volunteer-led advice service",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2641,7 +2641,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Hot meals and support to vulnerable families and homeless people in Bridgwater",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-13T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2688,7 +2688,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Volunteer support for isolated people in Frome",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2735,7 +2735,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Food parcels for vulnerable families and support to the homeless in Taunton",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2782,7 +2782,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Care packages for isolated older people in Bruton",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2829,7 +2829,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Virtual therapy sessions for children with disabilities and additional needs",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2876,7 +2876,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Contribution towards a hospice at home service in Mendip",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2923,7 +2923,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Virtual antenatal classes for women in West Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-13T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -2970,7 +2970,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Coordination of local volunteers and targeted support for vulnerable groups in Watchet",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-13T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -3017,7 +3017,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for people with mental health needs",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4087,7 +4087,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual support for young people exploited by county lines gangs",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4134,7 +4134,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual mental health peer support groups",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4181,7 +4181,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Volunteer support for isolated people",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4226,7 +4226,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual youth work in West Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4273,7 +4273,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for people with mental health needs",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4320,7 +4320,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Activities and peer support for families of children with disabilities",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4367,7 +4367,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Subsidised grocery delivery service for vulnerable people in South Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4415,7 +4415,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual youth work in Taunton",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4462,7 +4462,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual alternative education provision for vulnerable young people",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4509,7 +4509,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Postal library for blind and partially sighted people of all ages",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4557,7 +4557,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual youth work across Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4605,7 +4605,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Emergency food bank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4652,7 +4652,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Virtual support service for people with mental health needs in Bridgwater",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4699,7 +4699,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Subsidised grocery delivery service for vulnerable people in Mendip and South Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4746,7 +4746,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Coordination of care provisions for vulnerable people in Wiveliscombe",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -4793,7 +4793,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "COVID19 Emergency food bank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -6486,7 +6486,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for people with mental health needs",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -6533,7 +6533,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "COVID19 Activity packs for children in Wilstock",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -7608,7 +7608,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "COVID19 Strategic infrastructure support for community groups and charities",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -7655,7 +7655,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "COVID19 Strategic infrastructure support for community groups and charities",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9573,7 +9573,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Emergency food bank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9588,6 +9588,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 1000,
             "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
@@ -9620,7 +9621,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Free bike hire for NHS workers",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9668,7 +9669,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 24 hour advice line for people facing a life limiting illness and their carers",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9715,7 +9716,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for young people in Burnham and Highbridge",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9762,7 +9763,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Support for expectant and new parents in Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9807,7 +9808,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Coordination of local volunteers and targeted support for vulnerable groups",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9854,7 +9855,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Virtual support for vulnerable families in Taunton",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9901,7 +9902,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Coordination of of food supplies for vulnerable people in West Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9948,7 +9949,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for people with eating disorders",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -9963,6 +9964,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 5000,
             "Primary beneficiary": "People with mental health difficulties",
             "beneficiaryLocation": [
@@ -9995,7 +9997,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Community kitchen to supply hot meals to vulnerable people in Stoke St Gregory",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -10010,6 +10012,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 2300,
             "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
@@ -10042,7 +10045,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Volunteer support for isolated people",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -10057,6 +10060,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 400,
             "Primary beneficiary": "Older People",
             "beneficiaryLocation": [
@@ -10088,7 +10092,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for people with mental health needs",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -10103,6 +10107,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 72,
             "Primary beneficiary": "People with mental health difficulties",
             "beneficiaryLocation": [
@@ -10135,7 +10140,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Support for new parents in South Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -10150,6 +10155,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 3000,
             "Primary beneficiary": "Families/Parents/Lone parents",
             "beneficiaryLocation": [
@@ -10182,7 +10188,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for people with mental health needs",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -10197,6 +10203,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 3000,
             "Primary beneficiary": "People with mental health difficulties",
             "beneficiaryLocation": [
@@ -10584,7 +10591,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-06T00:00:00+00:00",
             "description": "COVID19 Subsidised grocery delivery service for vulnerable people in Mendip",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -10599,6 +10606,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 5000,
             "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
@@ -12188,6 +12196,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 2000,
             "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
@@ -12314,7 +12323,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "COVID19 donor breast milk bank deliveries",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -12361,7 +12370,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "COVID19 Strategic support for isolated and older people across Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-12T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -12550,7 +12559,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "COVID19 Emergency foodbank funding",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -12565,6 +12574,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 2000,
             "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
@@ -14067,7 +14077,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Support for new parents in Somerset",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -14114,7 +14124,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Meal delivery service for vulnerable people",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -14159,7 +14169,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Virtual support for adults with learning disabilities in Yeovil",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -14207,7 +14217,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Virtual support service for people with mental health needs in Wells",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -14254,7 +14264,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Information, advice and entertainment",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -14301,7 +14311,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Stillbirth and neonatal bereavement support in Yeovil",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -14348,7 +14358,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Volunteer support for isolated people",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -14394,7 +14404,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "COVID19 Coordination of local volunteers and targeted support for vulnerable groups",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -16553,7 +16563,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "COVID19 Virtual counselling service for care leavers",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -16646,7 +16656,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "COVID19 Coordination of local volunteers and targeted support for vulnerable groups in Wells",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -16661,6 +16671,7 @@
                     "title": "Grants to Groups"
                 }
             ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
             "amountAppliedFor": 3500,
             "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
@@ -16693,7 +16704,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "COVID19 Virtual support service for isolated older people in Wellington",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -16741,7 +16752,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "COVID19 Virtual support for adults with learning disabilities",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -16788,7 +16799,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "COVID19 Community kitchen to supply hot meals to vulnerable people in Glastonbury",
-            "dateModified": "2020-04-10T00:00:00+00:00",
+            "dateModified": "2020-04-14T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -17747,6 +17758,97 @@
             ]
         },
         {
+            "id": "360G-SomersetCF-A550248",
+            "title": "COVID19 Food distribution networks in Taunton",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "COVID19 Food distribution networks in Taunton",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 4000,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Taunton Deane 010D",
+                    "geoCode": "E01029301",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC946738",
+                    "name": "Wilton and Sherford Community Interest Company",
+                    "description": "We have set up the Wilton and Sherford Community Interest Company to open a pop up shop in Wilton and Sherford, Taunton. Operating from Middleway Meeting Hall, this will provide basic groceries and provisions to a large population (2,000 in Wilton and Sherford and 2,000 in Manor and Parkfield) who currently have NO access whatsoever to local amenities There is no local shop here and the nearest is a large Tesco with 3 hour queues. The age profile here is older than most and our volunteers need access to a local shop to provide elderly with food"
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551574",
+            "title": "COVID19 play resources for disadvantaged families",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "COVID19 play resources for disadvantaged families",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 2500,
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mendip 003C",
+                    "geoCode": "E01029032",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC841856",
+                    "url": "http://www.fromechildrensfestival.org",
+                    "name": "Purple Elephant Productions CIC",
+                    "description": "Purple Elephant is a small non-profit organisation which runs projects for children, young people and families in Frome and the local area. Our overall aims are to support social inclusion and integration, helping to develop a more supportive community. Within this aim we focus on supporting disadvantaged children and families, and those with additional needs, often in partnership with other organisations. Our projects are always free or low cost to attend and include annual events such as Frome Children's Festival and family support services including the Toy Library and Family Holiday Fun (activities in each school holiday)."
+                }
+            ]
+        },
+        {
             "id": "360G-SuffolkCF-A547540",
             "title": "Dance Academy On-Line",
             "currency": "GBP",
@@ -17895,7 +17997,466 @@
                     "charityNumber": "1083876"
                 }
             ]
+        },
+        {
+            "id": "360G-SomersetCF-A549317",
+            "title": "COVID19 Online fitness classes for children with special educational needs in Mendip",
+            "currency": "GBP",
+            "awardDate": "2020-04-15T00:00:00+00:00",
+            "description": "COVID19 Online fitness classes for children with special educational needs in Mendip",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1800,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 1775,
+            "Primary beneficiary": "People with learning difficulties",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mendip 004D",
+                    "geoCode": "E01029043",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC879679",
+                    "url": "http://www.mojomoves.co.uk",
+                    "name": "Rare Species Theatre C.I.C",
+                    "description": "Rare Species CIC is a theatre company providing comic interventions with health and wellbeing outcomes, most specifically the feel good aerobics classes \"Mojo Moves\" helping people to get active whilst strengthening mental health & positivity through dance & comedy theatre. Prior to Coronavirus we had built a community of over 400 Mojo Movers meeting in various venues which are now closed. Classes were also held in schools including Critchill school for children with additional needs and have had to cease. The general classes have moved online but our technology is old."
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A550620",
+            "title": "COVID19 Food distribution networks in Martock",
+            "currency": "GBP",
+            "awardDate": "2020-04-15T00:00:00+00:00",
+            "description": "COVID19 Food distribution networks in Martock",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 4950,
+            "Primary beneficiary": "People living in poverty",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Somerset 009C",
+                    "geoCode": "E01029204",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC927238",
+                    "name": "Martock Parish Council",
+                    "description": "The Parish Council is an elected body of members of the parish of Martock (encompassing Martock, Hurst, Bower Hinton, Coat, Stapleton and part of Highway). Its role is to: represent the views of everyone living within the parish; raise issues of public concern with other authorities, such as the County and District Councils and the police; provide and maintain public areas and facilities, including: - the Recreation Ground and the Pavilion, - the Parish Hall, - the Market House, - the Churchyard; make planning recommendations; support community projects to improve the overall quality of life in our parish."
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551179",
+            "title": "COVID Support to families with children with additional needs",
+            "currency": "GBP",
+            "awardDate": "2020-04-15T00:00:00+00:00",
+            "description": "COVID Support to families with children with additional needs",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 9331,
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Somerset 004C",
+                    "geoCode": "E01029222",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1057635",
+                    "url": "http://www.bibic.org.uk",
+                    "name": "BIBIC",
+                    "description": "bibic supports vulnerable children and young people with a range of disabilities, difficulties and conditions through holistic therapy programmes.\u2028 We are now unable to deliver any services at our National Centre or in the family home and, at the same time, the impact of the pandemic on bibic families has been profound. Parents are reporting that children are experiencing increased anxiety, frustration and challenging behaviours (e.g. aggression, self harm, meltdowns). Parents feel on the brink of being unable to cope. Simultaneously, bibic face a 50% drop in income and severe financial risk.",
+                    "charityNumber": "1057635"
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551831",
+            "title": "COVID19 Local food deliveries for people who are self isolating",
+            "currency": "GBP",
+            "awardDate": "2020-04-15T00:00:00+00:00",
+            "description": "COVID19 Local food deliveries for people who are self isolating",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 400,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 400,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mendip 005A",
+                    "geoCode": "E01029052",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC948372",
+                    "name": "Wookey Parish Council",
+                    "description": "Parish council for Wookey"
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551178",
+            "title": "COVID19 Virtual social club to reduce isolation among older volunteers",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "COVID19 Virtual social club to reduce isolation among older volunteers",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 250,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 427.5,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Taunton Deane 001A",
+                    "geoCode": "E01029258",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-02968284",
+                    "url": "https://www.wsra.org.uk/",
+                    "name": "West Somerset Railway Association (WSRA)",
+                    "description": "The West Somerset Railway is a 23-mile long steam heritage railway running through the heart of West Somerset. Started in 1871 the railway is one of the largest tourist attractions in the area bringing around 200,000 visitors each year. The organisation has become an integral part of the wider local community, providing employment and volunteering opportunities and boosting the local economy through tourism. Our services have closed entirely due to the Covid-19 pandemic - we are particularly concerned about our team of 1,200 volunteers, many of whom are elderly and self isolating and consequently at risk of loneliness and distress.",
+                    "charityNumber": "1041901",
+                    "companyNumber": "02968284"
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551673",
+            "title": "COVID19 Volunteer support for isolated people",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "COVID19 Volunteer support for isolated people",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 2000,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "West Somerset 004E",
+                    "geoCode": "E01029343",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC948192",
+                    "name": "Williton Parish Council",
+                    "description": "A community help group, with the support of Williton Parish Council, has been set up to coordinate response and aid within the community of Williton. This is by means of a dedicated helpline that residents can call when they require assistance with shopping, prescriptions, or just for a chat to ease their mind. We have already received well over 100 calls wanting help and support, not just from residents, but also from worried family members who live further away. A fantastic team of over 50 volunteers have come forward offering their help."
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551669",
+            "title": "COVID19 support and advocacy for vulnerable pregnant and post-natal women",
+            "currency": "GBP",
+            "awardDate": "2020-04-17T00:00:00+00:00",
+            "description": "COVID19 support and advocacy for vulnerable pregnant and post-natal women",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 4700,
+            "Primary beneficiary": "Women",
+            "beneficiaryLocation": [
+                {
+                    "name": "Mendip 009A",
+                    "geoCode": "E01029062",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1143376",
+                    "url": "http://whiteribbonalliance.org.uk/",
+                    "name": "White Ribbon Alliance UK",
+                    "description": "White Ribbon Alliance UK, based in Shepton Mallet, advocates for women\u2019s rights to safe and dignified maternity care. We believe everyone has the right to respectful reproductive care. These rights are not always respected in the UK. We support women to share their stories and voices in order that maternal and new-born mortality and stillbirths are reduced and universal access to sexual and reproductive health services are achieved. COVID 19 has had a huge impact on maternity care and we need to ensure that the most vulnerable women in Somerset can access continuity of prenatal, post-natal and breast-feeding support.",
+                    "charityNumber": "1143376"
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551908",
+            "title": "COVID19 shopping and prescription delivery for voulnerable people",
+            "currency": "GBP",
+            "awardDate": "2020-04-17T00:00:00+00:00",
+            "description": "COVID19 shopping and prescription delivery for voulnerable people",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 300,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 300,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Somerset 017D",
+                    "geoCode": "E01029192",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC948437",
+                    "name": "Somerton Community Lifeline"
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551947",
+            "title": "COVID19 Food distribution networks in Brent Knoll",
+            "currency": "GBP",
+            "awardDate": "2020-04-17T00:00:00+00:00",
+            "description": "COVID19 Food distribution networks in Brent Knoll",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 2500,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Sedgemoor 002F",
+                    "geoCode": "E01029140",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-SomersetCF-ACC948495",
+                    "name": "Brent Knoll Parish Council",
+                    "description": "Having recently lost the Village Store and Post Office the Village has started the process of setting up a Community Shop with helpful advice from the Plunkett Foundation. Due to the recent COVID 19 emergency and in view of the number of villagers who are unable to venture out it has been decided to set up an emergency shop to cater for the day to day needs of the vulnerable residents in the village."
+                }
+            ]
+        },
+        {
+            "id": "360G-SomersetCF-A551949",
+            "title": "COVID19 Hot meals and support for homeless people",
+            "currency": "GBP",
+            "awardDate": "2020-04-17T00:00:00+00:00",
+            "description": "COVID19 Hot meals and support for homeless people",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "code": "2020/21 COVID19",
+                    "title": "Grants to Groups"
+                }
+            ],
+            "amountAppliedFor": 1819,
+            "Primary beneficiary": "Homeless people",
+            "beneficiaryLocation": [
+                {
+                    "name": "West Somerset 001F",
+                    "geoCode": "E01032636",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-04530979",
+                    "name": "Somerset Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1143770",
+                    "url": "https://www.thehopecentreminehead.org.uk/",
+                    "name": "The Minehead Hope Centre",
+                    "description": "Relieving the needs of people in Minehead and West Somerset who suffer from drug and/or alcohol abuse or homelessness and the consequences of such. Promoting social inclusion by relieving the needs of those people who are socially excluded and assisting them to integrate into society. Since the virus outbreak we have had to close the Centre but are still providing takeaway meals and are opening an extra day a week, as the demand for food is great. This has incurred additional costs in respect of wages, food, takeaway containers, disposable cutlery, aprons, masks, gloves and premises costs.",
+                    "charityNumber": "1143770"
+                }
+            ]
         }
     ],
-    "last_updated": "2020-04-17T16:16:03.141598"
+    "last_updated": "2020-04-18T04:06:31.105973"
 }
