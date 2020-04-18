@@ -1,5 +1,6 @@
 import json
 import os
+import urllib.parse
 
 import dash
 import dash_core_components as dcc
@@ -20,6 +21,8 @@ data = filter_data(all_data)
 
 app.title = 'Coronavirus response grants tracker'
 app.layout = html.Div(id="main-div", children=[
+    dcc.Location(id='url', refresh=False),
+    dcc.Store(id='filters'),
     html.Div(id="data-cards", children=cards(data)),
     html.Div(className="spacer-3"),
     html.Div(className="filter-section", children=[
@@ -128,24 +131,72 @@ app.layout = html.Div(id="main-div", children=[
 ])
 
 @app.callback(
+    [Output(component_id='filters', component_property='data'),
+     Output(component_id='url', component_property='pathname'),
+     Output(component_id='url', component_property='search')],
+    [Input(component_id='funder-filter', component_property='value'),
+     Input(component_id='search-filter', component_property='value'),
+     Input(component_id='doublecount-filter', component_property='value')]
+)
+def update_output_div(funder_value, search_value, doublecount_value):
+
+    filters = {
+        "funder": funder_value,
+        "search": search_value,
+        "doublecount": doublecount_value,
+    }
+
+    base = '/'
+    if funder_value:
+        base = '/funder/' + "+".join(funder_value)
+    query_params = {}
+    if search_value:
+        query_params['search'] = search_value
+    if doublecount_value and 'exclude' in doublecount_value:
+        query_params['exclude'] = True
+    if query_params:
+        return (filters, base, "?" + urllib.parse.urlencode(query_params))
+    return (filters, base, "")
+
+
+@app.callback(
+    [Output(component_id='funder-filter', component_property='value'),
+     Output(component_id='search-filter', component_property='value'),
+     Output(component_id='doublecount-filter', component_property='value')],
+    [Input(component_id='url', component_property='href')]
+)
+def update_output_div(url):
+    url = urllib.parse.urlparse(url)
+    filters = {}
+    if url.path and url.path !="/":
+        filters["funder"] = url.path.replace("/funder/", "").split("+")
+    if url.query:
+        params = urllib.parse.parse_qs(url.query)
+        if params.get("search"):
+            filters["search"] = params.get("search")
+        if params.get("exclude"):
+            filters["exclude"] = ['exclude']
+    return (
+        filters.get("funder", []),
+        filters.get("search", ''),
+        filters.get("exclude", []),
+    )
+
+
+
+@app.callback(
     [Output(component_id='data-cards', component_property='children'),
      Output(component_id='data-chart', component_property='children'),
      Output(component_id='data-table', component_property='children'),
      Output(component_id='last-updated', component_property='children'),
      Output(component_id='funder-filter', component_property='options')],
-    [Input(component_id='funder-filter', component_property='value'),
-     Input(component_id='search-filter', component_property='value'),
-     Input(component_id='doublecount-filter', component_property='value'),
+    [Input(component_id='filters', component_property='data'),
      Input(component_id='chart-type', component_property='value')]
 )
-def update_output_div(funder_value, search_value, doublecount_value, chart_type):
+def update_output_div(filters, chart_type):
 
     all_data = get_data()
-    data = filter_data(all_data, **{
-        'funder': funder_value,
-        'search': search_value,
-        'doublecount': doublecount_value,
-    })
+    data = filter_data(all_data, **filters)
 
     show_grantmakers = data['grants_grantmakers'] > 0
 
