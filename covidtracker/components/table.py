@@ -15,7 +15,7 @@ def table(data):
 
 {g["description"]}
 
-[View on GrantNav](http://grantnav.threesixtygiving.org/grant/{g['id']})
+[View on GrantNav](http://grantnav.threesixtygiving.org/grant/{g['id'].replace(" ", "%20")})
             ''',
             "amountAwarded": g["amountAwarded"],
             "awardDate": g["awardDate"][0:10],
