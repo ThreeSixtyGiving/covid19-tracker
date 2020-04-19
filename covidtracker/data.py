@@ -68,7 +68,8 @@ def filter_data(all_data, **filters):
             # funder filter
             if filters.get("funder"):
                 include_grant.append(
-                    g['fundingOrganization'][0]['id'] in filters['funder']
+                    g['fundingOrganization'][0]['id'] in filters['funder'] or \
+                    g['recipientOrganization'][0]['id'] in filters['funder']
                 )
 
             # search filter
