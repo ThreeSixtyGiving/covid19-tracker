@@ -117,15 +117,17 @@
             ]
         },
         {
-            "ID": "36820",
+            "ID": "1580",
             "id": "360G-gatsbyfoundation:GAT3763",
             "title": "Core costs",
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.",
-            "dateModified": "2020-03-30T15:59:40Z",
+            "dateModified": "2020-04-13T03:26:40Z",
             "plannedDates": [
                 {
+                    "endDate": "2021-03-19",
+                    "startDate": "2020-03-19",
                     "Duration  months": "12"
                 }
             ],
@@ -154,15 +156,17 @@
             ]
         },
         {
-            "ID": "36822",
+            "ID": "4062",
             "id": "360G-gatsbyfoundation:GAT3764",
             "title": "Core costs",
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.",
-            "dateModified": "2020-03-30T16:00:39Z",
+            "dateModified": "2020-04-13T09:32:28Z",
             "plannedDates": [
                 {
+                    "endDate": "2021-03-19",
+                    "startDate": "2020-03-19",
                     "Duration  months": "12"
                 }
             ],
@@ -190,13 +194,20 @@
             ]
         },
         {
-            "ID": "36746",
+            "ID": "1579",
             "id": "360G-indigotrust:IND492",
             "title": "Emergency funding to help most vulnerable during Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-03-30T11:53:27Z",
+            "dateModified": "2020-04-13T03:26:38Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-19",
+                    "startDate": "2020-03-19",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 1000000,
             "beneficiaryLocation": [
                 {
@@ -222,13 +233,20 @@
             ]
         },
         {
-            "ID": "36758",
+            "ID": "2717",
             "id": "360G-indigotrust:IND493",
             "title": "To support its work during the Covid-19 emergency",
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-03-30T11:53:50Z",
+            "dateModified": "2020-04-13T06:29:47Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-19",
+                    "startDate": "2020-03-19",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 500000,
             "beneficiaryLocation": [
                 {
@@ -253,13 +271,20 @@
             ]
         },
         {
-            "ID": "36759",
+            "ID": "4061",
             "id": "360G-indigotrust:IND494",
             "title": "Supporting their Coronavirus appeal",
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Unrestricted core funding.",
-            "dateModified": "2020-03-30T11:54:08Z",
+            "dateModified": "2020-04-13T09:32:26Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-19",
+                    "startDate": "2020-03-19",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 1000000,
             "beneficiaryLocation": [
                 {
@@ -284,13 +309,20 @@
             ]
         },
         {
-            "ID": "36852",
+            "ID": "4018",
             "id": "360G-indigotrust:IND495",
             "title": "Emergency funding during Covid-19 Crisis",
             "currency": "GBP",
             "awardDate": "2020-03-23",
             "description": "Core unrestricted funding to support its work during the Covid-19 crisis.",
-            "dateModified": "2020-03-30T11:54:25Z",
+            "dateModified": "2020-04-13T09:26:33Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-23",
+                    "startDate": "2020-03-23",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 10000,
             "beneficiaryLocation": [
                 {
@@ -315,15 +347,17 @@
             ]
         },
         {
-            "ID": "36873",
+            "ID": "4067",
             "id": "360G-tedworth:TED479",
             "title": "COVID-19 Emergency Appeal",
             "currency": "GBP",
             "awardDate": "2020-03-23",
             "description": "To The Big Give Trust COVID-19 Emergency Appeal.",
-            "dateModified": "2020-03-30T11:58:53Z",
+            "dateModified": "2020-04-13T09:32:44Z",
             "plannedDates": [
                 {
+                    "endDate": "2021-03-23",
+                    "startDate": "2020-03-23",
                     "Duration  months": "12"
                 }
             ],
@@ -402,13 +436,20 @@
             ]
         },
         {
-            "ID": "36861",
+            "ID": "4064",
             "id": "360G-indigotrust:IND496",
             "title": "Unrestricted core funding during the Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-24",
             "description": "Unrestricted core funding.",
-            "dateModified": "2020-03-30T11:54:42Z",
+            "dateModified": "2020-04-13T09:32:38Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-24",
+                    "startDate": "2020-03-24",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 4000,
             "beneficiaryLocation": [
                 {
@@ -434,13 +475,20 @@
             ]
         },
         {
-            "ID": "36862",
+            "ID": "3628",
             "id": "360G-indigotrust:IND497",
             "title": "Unrestricted core funding during Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-24",
             "description": "Unrestricted core funding.",
-            "dateModified": "2020-03-30T11:54:56Z",
+            "dateModified": "2020-04-13T08:37:35Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-24",
+                    "startDate": "2020-03-24",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 6000,
             "beneficiaryLocation": [
                 {
@@ -598,6 +646,78 @@
                     "url": "http://darleyvillage.info",
                     "name": "Darley Church Committee for Darley Community Support Group",
                     "description": "At the present time proving support to those who need it in the village. Visiting, shopping, caring. Recruiting younger volunteers to assist the elderly and anyone who needs to self isolate."
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A546153",
+            "title": "COVID 19 community support Stonehouse",
+            "currency": "GBP",
+            "awardDate": "2020-03-25T00:00:00+00:00",
+            "description": "COVID 19 community support.",
+            "dateModified": "2020-03-26T00:00:00+00:00",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Banks Kype Muir Community Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Stonehouse - 07",
+                    "geoCode": "S01012682",
+                    "countryCode": "GB",
+                    "geoCodeType": "DZ"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC943076",
+                    "url": "https://www.stonehousetowncouncil.com/your-council/coronavirus-covid-19-information/",
+                    "name": "Stonehouse Coronavirus Community Support"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A546313",
+            "title": "Covid 19 support in Strathaven",
+            "currency": "GBP",
+            "awardDate": "2020-03-25T00:00:00+00:00",
+            "description": "To support the vulnerable during Covid 19 pandemic.",
+            "dateModified": "2020-03-26T00:00:00+00:00",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Banks Kype Muir Community Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Whitehill - 01",
+                    "geoCode": "S01012793",
+                    "countryCode": "GB",
+                    "geoCodeType": "DZ"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC943220",
+                    "url": "https://www.facebook.com/groups/strathaven/permalink/10157140241262742/",
+                    "name": "The Strathaven Community Resilience Group"
                 }
             ]
         },
@@ -1057,13 +1177,20 @@
             ]
         },
         {
-            "ID": "36865",
+            "ID": "4068",
             "id": "360G-indigotrust:IND498",
             "title": "Emergency funding during the Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-26",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-03-30T11:55:12Z",
+            "dateModified": "2020-04-13T09:32:49Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-26",
+                    "startDate": "2020-03-26",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 10000,
             "beneficiaryLocation": [
                 {
@@ -1089,13 +1216,20 @@
             ]
         },
         {
-            "ID": "36866",
+            "ID": "1182",
             "id": "360G-indigotrust:IND499",
             "title": "Emergency funding during the Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-26",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-03-30T11:55:26Z",
+            "dateModified": "2020-04-13T01:59:49Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-26",
+                    "startDate": "2020-03-26",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 10000,
             "beneficiaryLocation": [
                 {
@@ -1112,10 +1246,9 @@
             "recipientOrganization": [
                 {
                     "id": "GB-CHC-700510",
-                    "name": "Community Foundation",
+                    "name": "Community Foundation - Northumberland, Tyne & Wear",
                     "postalCode": "NE3 1DD",
                     "addressRegion": "Newcastle Upon Tyne",
-                    "alternateName": "Community Foundation - Northumberland, Tyne & Wear",
                     "charityNumber": "700510",
                     "addressCountry": "UK"
                 }
@@ -2186,7 +2319,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 30000,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 055A",
@@ -2206,7 +2338,6 @@
                     "id": "GB-COH-07931440",
                     "url": "http://www.aucklandproject.org",
                     "name": "The Auckland Project",
-                    "description": "The Auckland Project was set up to use culture and heritage as a catalyst for regeneration in order to reinvigorate the town of Bishop Auckland. ",
                     "charityNumber": "1146219",
                     "companyNumber": "07931440"
                 }
@@ -2233,7 +2364,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 5639,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 046E",
@@ -2253,7 +2383,6 @@
                     "id": "GB-COH-00309329",
                     "url": "http://www.durhamcommunityaction.org.uk",
                     "name": "Durham Community Action",
-                    "description": "Providing\u00a0advice and information to tackle queries, issues and concerns, help to find solutions to problems, and support to develop new and existing projects and initiatives",
                     "charityNumber": "229119",
                     "companyNumber": "00309329"
                 }
@@ -2280,7 +2409,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 3900,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 046E",
@@ -2300,7 +2428,6 @@
                     "id": "GB-COH-00309329",
                     "url": "http://www.durhamcommunityaction.org.uk",
                     "name": "Durham Community Action",
-                    "description": "Providing\u00a0advice and information to tackle queries, issues and concerns, help to find solutions to problems, and support to develop new and existing projects and initiatives",
                     "charityNumber": "229119",
                     "companyNumber": "00309329"
                 }
@@ -3060,13 +3187,20 @@
             ]
         },
         {
-            "ID": "36880",
+            "ID": "3774",
             "id": "360G-threeguineas:TGT468",
             "title": "To support disabled people's organisations response to the coronavirus.",
             "currency": "GBP",
             "awardDate": "2020-03-30",
             "description": "To support disabled people's organisations response to the coronavirus pandemic.",
-            "dateModified": "2020-03-31T12:16:50Z",
+            "dateModified": "2020-04-13T08:57:33Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-30",
+                    "startDate": "2020-03-30",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 81000,
             "beneficiaryLocation": [
                 {
@@ -3091,13 +3225,20 @@
             ]
         },
         {
-            "ID": "36881",
+            "ID": "4070",
             "id": "360G-threeguineas:TGT469",
             "title": "To the Coronavirus Appeal for regranting to small charities and grassroots ",
             "currency": "GBP",
             "awardDate": "2020-03-30",
             "description": "To the London Communities Coronavirus Appeal for regranting to small charities and grassroots organisations across the capital.",
-            "dateModified": "2020-03-31T12:17:15Z",
+            "dateModified": "2020-04-13T09:32:57Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-03-30",
+                    "startDate": "2020-03-30",
+                    "Duration  months": "0"
+                }
+            ],
             "amountAwarded": 250000,
             "beneficiaryLocation": [
                 {
@@ -5601,7 +5742,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 5000,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 029D",
@@ -5621,7 +5761,6 @@
                     "id": "GB-CHC-1007837",
                     "url": "https://www.facebook.com/pages/category/Community-Center/Laurel-Avenue-Community-Association-425582224212846/",
                     "name": "Laurel Avenue Community Association",
-                    "description": " To promote the benefit of the inhabitants of Sherburn Road by associating together the said inhabitants and the local authorities, voluntary and other organisations in a common effort to advance education and to provide facilities in the interest of social welfare for the recreation and leisure time occupation with the object of improving the conditions of life for the said inhabitants. ",
                     "charityNumber": "1007837"
                 }
             ]
@@ -5647,7 +5786,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 2432,
             "beneficiaryLocation": [
                 {
                     "name": "Stockton-on-Tees 014G",
@@ -5667,7 +5805,6 @@
                     "id": "GB-CHC-1178162",
                     "url": "http://www.littlesprouts.org.uk",
                     "name": "Little Sprouts Catering CIC",
-                    "description": "Little Sprouts Health and Wellbeing commit to use food and nutrition to support our vulnerable adults and communities improve their wellbeing through our community cooking clubs and cafes.  ",
                     "charityNumber": "1178162"
                 }
             ]
@@ -5678,7 +5815,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "To support volunteer project working with vulnerable people, extending foodbank operations.",
-            "dateModified": "2020-04-03T00:00:00+00:00",
+            "dateModified": "2020-04-09T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -5693,7 +5830,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 3500,
             "beneficiaryLocation": [
                 {
                     "name": "Darlington 005B",
@@ -5712,8 +5848,7 @@
                 {
                     "id": "360G-CountyDurhamCF-ACC925777",
                     "url": "http://www.standrewshaughton.org.uk",
-                    "name": "St Andrew\u2019s Church Darlington",
-                    "description": " Church of England parish church on the North Eastern side of Darlington, which has an approximate parish population of 14,000 with a wide demographic of housing and population. "
+                    "name": "St Andrew\u2019s Church Darlington"
                 }
             ]
         },
@@ -5738,7 +5873,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 2500,
             "beneficiaryLocation": [
                 {
                     "name": "Hartlepool 007D",
@@ -5757,8 +5891,7 @@
                 {
                     "id": "360G-CountyDurhamCF-ACC854933",
                     "url": "http://www.hartlepower.co.uk",
-                    "name": "Hartlepower CIC",
-                    "description": "A not for profit community interest company."
+                    "name": "Hartlepower CIC"
                 }
             ]
         },
@@ -5783,7 +5916,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 2500,
             "beneficiaryLocation": [
                 {
                     "name": "Middlesbrough 001G",
@@ -5803,7 +5935,6 @@
                     "id": "GB-CHC-1148463",
                     "url": "http://www.bloodrun.co.uk",
                     "name": "Bloodrun EVS",
-                    "description": "Primarily to support human life by means of providing an out of hours transportationservice for our local NHS sites in Cleveland and the surrounding areas for themovement of blood and human tissue. ",
                     "charityNumber": "1148463"
                 }
             ]
@@ -5829,7 +5960,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 3740,
             "beneficiaryLocation": [
                 {
                     "name": "Darlington 009B",
@@ -5849,7 +5979,6 @@
                     "id": "GB-CHC-1095822",
                     "url": "https://www.facebook.com/Red-Hall-Partnership-531425977351096/",
                     "name": "Red Hall Partnership",
-                    "description": "The aim of  Red Hall Partnership to help alleviate poverty, help increase levels of education and training, to assist with the preservation and protection of good health, and the provision of recreational and leisure facilities in the interests of social welfare.",
                     "charityNumber": "1095822"
                 }
             ]
@@ -5875,7 +6004,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 5000,
             "beneficiaryLocation": [
                 {
                     "name": "Redcar and Cleveland 001B",
@@ -5895,7 +6023,6 @@
                     "id": "GB-CHC-1185327",
                     "url": "http://www.teescommunity.co.uk",
                     "name": "TEES Together,Engage,Encourage,Support CIO",
-                    "description": "Established to help alleviate some of the issues surrounding poverty and deprivation in the Tees Valley region.",
                     "charityNumber": "1185327"
                 }
             ]
@@ -5906,7 +6033,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "To establish food, medicine delivery service and and telephone support for those isolated.",
-            "dateModified": "2020-04-03T00:00:00+00:00",
+            "dateModified": "2020-04-09T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-22T00:00:00+00:00",
@@ -5921,7 +6048,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 3000,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 010D",
@@ -5941,7 +6067,6 @@
                     "id": "GB-CHC-1160715",
                     "url": "http://www.derwentsidetrust.org",
                     "name": "Derwentside Trust",
-                    "description": "Supporting the local community of Consett and surrounding areas ",
                     "charityNumber": "1160715"
                 }
             ]
@@ -5967,7 +6092,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 2298.94,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 024A",
@@ -5987,7 +6111,6 @@
                     "id": "GB-CHC-1188538",
                     "url": "http://www.citysafedurham.co.uk",
                     "name": "CitySafe",
-                    "description": "Providing community aid across County Durham",
                     "charityNumber": "1188538"
                 }
             ]
@@ -5998,7 +6121,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "To support older people with the impacts of coronavirus.",
-            "dateModified": "2020-04-03T00:00:00+00:00",
+            "dateModified": "2020-04-09T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-09-30T00:00:00+00:00",
@@ -6013,7 +6136,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 4792,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 028C",
@@ -6033,7 +6155,6 @@
                     "id": "GB-CHC-1122008",
                     "url": "http://www.ageuk.org.uk/countydurham/",
                     "name": "Age Concern Durham County",
-                    "description": "Age UK County Durham is the principal voluntary organisation working with and for older people, their families and carers throughout County Durham.",
                     "charityNumber": "1122008"
                 }
             ]
@@ -6059,7 +6180,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 4853,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 064A",
@@ -6079,7 +6199,6 @@
                     "id": "GB-COH-02703063",
                     "url": "http://www.ymcateesdale.org.uk",
                     "name": "YMCA North Tyneside",
-                    "description": "YMCA North Tyneside is an incorporated charity providing a supported accommodation programme for young homeless people, a health and wellbeing programme, training and education and youth work provision. ",
                     "charityNumber": "1011495",
                     "companyNumber": "02703063"
                 }
@@ -6106,7 +6225,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 4680,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 066B",
@@ -6126,9 +6244,44 @@
                     "id": "GB-COH-07871055",
                     "url": "http://www.tcrhub.co.uk",
                     "name": "Teesdale Community Resources",
-                    "description": "The organisation provides resources and opportunities for the people of Teesdale by the bringing together of volunteers, with a specific focus on young people where possible.",
                     "charityNumber": "1172652",
                     "companyNumber": "07871055"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A548016",
+            "title": "Food Provision during National Emergency Coronavirus Covid 19",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "Food Provision during National Emergency Coronavirus Covid 19",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Hook Moor Wind Farm"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Harewood",
+                    "geoCode": "E05011396",
+                    "countryCode": "GB",
+                    "geoCodeType": "WD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC944741",
+                    "url": "https://www.ourwatch.org.uk/scheme/21222/green-lane-neighbourhood-watch",
+                    "name": "Neighbourhood Elders Team"
                 }
             ]
         },
@@ -6916,7 +7069,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "To provide food for children attending Bowburn Holiday Club.",
-            "dateModified": "2020-04-06T00:00:00+00:00",
+            "dateModified": "2020-04-20T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2021-09-30T00:00:00+00:00",
@@ -6931,7 +7084,6 @@
                     "title": "Covid19 Sustainability Fund"
                 }
             ],
-            "amountAppliedFor": 2000,
             "beneficiaryLocation": [
                 {
                     "name": "County Durham 041C",
@@ -6949,9 +7101,7 @@
             "recipientOrganization": [
                 {
                     "id": "GB-CHC-508090",
-                    "url": "http://www.communitycentre.bowburn.net/",
                     "name": "Bowburn Community Association",
-                    "description": "To promote the benefit of the inhabitants of Bowburn and district, including the Parish of Cassop-cum-Quarrington, and the neighbourhood  objects.",
                     "charityNumber": "508090"
                 }
             ]
@@ -8962,6 +9112,42 @@
             ]
         },
         {
+            "id": "360G-CountyDurhamCF-A548892",
+            "title": "Coronavirus relief efforts in Lesmahagow CV19",
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Coronavirus relief efforts in Lesmahagow CV19",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Banks Kype Muir Community Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lesmahagow - 04",
+                    "geoCode": "S01012645",
+                    "countryCode": "GB",
+                    "geoCodeType": "DZ"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC945460",
+                    "url": "http://www.community-council.org.uk/lesmahagow/",
+                    "name": "Lesmahagow Community Council"
+                }
+            ]
+        },
+        {
             "id": "360G-DevonCF-A547426",
             "title": "COVID-19 Letters To Our People",
             "currency": "GBP",
@@ -10483,6 +10669,576 @@
             ]
         },
         {
+            "id": "360G-CountyDurhamCF-A547562",
+            "title": "Crafting in crisis",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Towards the provision of mental health support for local residents.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-29T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-13T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4890,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 004A",
+                    "geoCode": "E01020661",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC571230",
+                    "url": "http://justforwomencentre.org.uk",
+                    "name": "Just For Women Centre"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547757",
+            "title": "LettersOut",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "To support the delivery of activity packs for service users to promote wellbeing during lockdown period.",
+            "dateModified": "2020-04-14T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-11T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-20T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4935,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 031C",
+                    "geoCode": "E01020715",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC571519",
+                    "url": "http://www.lionmouth.org.uk",
+                    "name": "LionMouth CIC"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547906",
+            "title": "Isolation / Food Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "To provide food support.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-08-31T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 004A",
+                    "geoCode": "E01020661",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-10059977",
+                    "url": "https://www.facebook.com/PACTHouseStanley/",
+                    "name": "PACT House Stanley",
+                    "charityNumber": "1172612",
+                    "companyNumber": "10059977"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A548077",
+            "title": "Extend and Respond",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Extend and Respond - CV19 response in East Durham",
+            "dateModified": "2020-04-14T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-26T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-03-06T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 032C",
+                    "geoCode": "E01020757",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1117642",
+                    "url": "http://www.eatsdurhamtrust.org.uk",
+                    "name": "East Durham Community Development Trust Ltd",
+                    "charityNumber": "1117642"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A548909",
+            "title": "Reducing the vulnerability of young homeless people",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Theme 1 - Reducing the vulnerability of young homeless people.",
+            "dateModified": "2020-04-14T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-31T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-30T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 3150,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 022A",
+                    "geoCode": "E01020709",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05495172",
+                    "url": "http://www.movingondurham.org",
+                    "name": "Moving On (Durham)",
+                    "charityNumber": "1111581",
+                    "companyNumber": "05495172"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A548912",
+            "title": "TIN at home",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "To support the TIN at home project.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-03T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-27T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4728,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 023A",
+                    "geoCode": "E01020708",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05600161",
+                    "url": "http://tinarts.co.uk",
+                    "name": "Tin Arts Limited",
+                    "companyNumber": "05600161"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A548932",
+            "title": "Providing Patient Transport + Leaflets to give out to patients + Emergency Food Hampers",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Towards providing patient transport, leaflets and emergency food hampers.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-12-20T00:00:00+00:00",
+                    "duration": 8,
+                    "startDate": "2020-04-26T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4855,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 062A",
+                    "geoCode": "E01020825",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1188444",
+                    "url": "http://www.greataycliffecancersupportgroup.co.uk",
+                    "name": "Great Aycliffe Cancer Support Group",
+                    "charityNumber": "1188444"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549332",
+            "title": "To support Keep Connected project in Darlington",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "To support Keep Connected project in Darlington",
+            "dateModified": "2020-04-14T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-06T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 008E",
+                    "geoCode": "E01033483",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06688735",
+                    "url": "http://www.darlingtondisability.org",
+                    "name": "Darlington Association On Disability (DAD)",
+                    "charityNumber": "1125848",
+                    "companyNumber": "06688735"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549333",
+            "title": "Go Viral - Distancing Diaries",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "To support the go viral distancing diaries.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-31T00:00:00+00:00",
+                    "duration": 6,
+                    "startDate": "2020-04-26T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 3832,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 046D",
+                    "geoCode": "E01020899",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC571165",
+                    "url": "http://www.jackdrum.co.uk",
+                    "name": "Jack Drum Arts"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549338",
+            "title": "Handcrafted Covid-19 Relief Response",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "To support Handcrafted Covid-19 Relief Response.",
+            "dateModified": "2020-04-14T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-06T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-06T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4956.29,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 011B",
+                    "geoCode": "E01020593",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1146188",
+                    "url": "http://www.handcrafted.org.uk",
+                    "name": "Handcrafted Projects",
+                    "charityNumber": "1146188"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549343",
+            "title": "Covid19 emergency community support programme in Billingham",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Covid19 emergency community support programme in Billingham",
+            "dateModified": "2020-04-14T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-30T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-04-02T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Stockton-on-Tees 004B",
+                    "geoCode": "E01012279",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC935079",
+                    "url": "http://Www.bctaspire.co.uk",
+                    "name": "BCT Aspire CIC"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549350",
+            "title": "COVID-19 Food Provision",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Towards COVID-19 food provision.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-08-31T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-03-16T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 011B",
+                    "geoCode": "E01020593",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC926797",
+                    "url": "https://refusedurham.org.uk/",
+                    "name": "Refuse CIC"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549352",
+            "title": "Suicide Prevention and Mental Health Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Towards suicide prevention and mental health support.",
+            "dateModified": "2020-04-14T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-13T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-13T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 007A",
+                    "geoCode": "E01020596",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1142001",
+                    "url": "http://www.ifucareshare.co.uk",
+                    "name": "If U Care Share Foundation",
+                    "charityNumber": "1142001"
+                }
+            ]
+        },
+        {
             "id": "360G-OCF-A547688",
             "title": "COVID19",
             "currency": "GBP",
@@ -11467,6 +12223,173 @@
                     "companyNumber": "04199449",
                     "addressCountry": "UK",
                     "addressLocality": "SUNDERLAND"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547457",
+            "title": "Sensory Cafe Sustainability",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To sustain the organisation during period of lost income.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-08-01T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-08-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 010D",
+                    "geoCode": "E01020642",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-09196915",
+                    "url": "http://www.clartabout.co.uk",
+                    "name": "Clart About Ltd",
+                    "companyNumber": "09196915"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547569",
+            "title": "Live Well, Live Strong - Emotional and physcial wellbeing support",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To support the organisation to maintain services.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-26T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-12T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4748,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 019E",
+                    "geoCode": "E01020621",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC913942",
+                    "url": "http://www.livewellne.co.uk",
+                    "name": "Live Well North East C.I.C."
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A548896",
+            "title": "To support vulnerable young people in East Cleveland during CV19",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To support vulnerable young people in East Cleveland during CV19",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-04T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 3390,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Redcar and Cleveland 001A",
+                    "geoCode": "E01012100",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1026620",
+                    "url": "http://www.coathamhouse.org.uk",
+                    "name": "Coatham House Projects",
+                    "charityNumber": "1026620"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550080",
+            "title": "Covid-19 support",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To support vulnerable people in the area during the Covid-19 pandemic.",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Marr Wind Farm Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Doncaster 039D",
+                    "geoCode": "E01007615",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC946583",
+                    "url": "http://www.tickhilltowncouncil.co.uk/",
+                    "name": "Tickhill Town Council"
                 }
             ]
         },
@@ -17362,6 +18285,1061 @@
             ]
         },
         {
+            "id": "360G-CountyDurhamCF-A547891",
+            "title": "Together we can do anything",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support the together we can do anything project.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-03-31T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 024B",
+                    "geoCode": "E01020658",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC944642",
+                    "name": "DH7 Community Events"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A548200",
+            "title": "Face shields for the NHS",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Towards face shields for the NHS.",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Middlesbrough 001G",
+                    "geoCode": "E01033468",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1148463",
+                    "url": "http://www.bloodrun.co.uk",
+                    "name": "Bloodrun EVS",
+                    "charityNumber": "1148463"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549336",
+            "title": "Community Care Advice Service",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support Community Care Advice Service",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-31T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-05-04T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Newcastle upon Tyne 007D",
+                    "geoCode": "E01008321",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-01781525",
+                    "url": "http://www.disabilitynorth.org.uk",
+                    "name": "Disability North",
+                    "charityNumber": "514733",
+                    "companyNumber": "01781525"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549348",
+            "title": "To support Burnhope Volunteer Support Group",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Towards a Burnhope Volunteer Support Group during CV19",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-03T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 020A",
+                    "geoCode": "E01020633",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1162463",
+                    "url": "http://www.burnhopecommunitycentre.co.uk",
+                    "name": "Burnhope Community Centre",
+                    "charityNumber": "1162463"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549356",
+            "title": "LCBC COMMUNITY COVID19 SUPPORT PROJECT",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Towards a community support project.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-13T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 058A",
+                    "geoCode": "E01020884",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC811777",
+                    "url": "http://www.littlechefsbigchefs.org.uk",
+                    "name": "Little Chefs Big Chefs CIC"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549393",
+            "title": "COVID-19 Crisis Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Towards COVID-19 Crisis Support.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-08-01T00:00:00+00:00",
+                    "duration": 4,
+                    "startDate": "2020-04-07T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4980,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Hartlepool 005B",
+                    "geoCode": "E01011974",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-07025891",
+                    "url": "http://www.hartlepoolcarers.org.uk",
+                    "name": "Hartlepool Carers",
+                    "charityNumber": "1132951",
+                    "companyNumber": "07025891"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549399",
+            "title": "Butterwick COVID-19 Response",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Towards the Butterwick COVID-19 Response.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-15T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-15T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Stockton-on-Tees 009H",
+                    "geoCode": "E01032544",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1044816",
+                    "url": "http://www.butterwick.org.uk",
+                    "name": "Butterwick Hospice Limited",
+                    "charityNumber": "1044816"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550262",
+            "title": "Ladies of Steel - Helping hands.",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support the Ladies of Steel - Helping hands project.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Redcar and Cleveland 003F",
+                    "geoCode": "E01032561",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC946759",
+                    "url": "https://www.facebook.com/Ladies-of-Steel-497137780395015/",
+                    "name": "The Ladies of Steel"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550272",
+            "title": "Link CT- Keeping in touch",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support the Link CT- Keeping in touch project.",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-30T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4880,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Redcar and Cleveland 001A",
+                    "geoCode": "E01012100",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1166207",
+                    "url": "https://www.thelinkct.org.uk/",
+                    "name": "The Link Tees Valley Ltd (The Link Charitable Trust)",
+                    "charityNumber": "1166207"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550279",
+            "title": "Member support, staff efficiency & sustainability",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Towards member support, staff efficiency & sustainability.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-27T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-12T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 066C",
+                    "geoCode": "E01020854",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1079248",
+                    "url": "http://www.teesdaledayclubs.org.uk",
+                    "name": "Association of Teesdale Day Clubs",
+                    "charityNumber": "1079248"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550294",
+            "title": "Positive Opportunities Project (POP!)",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support the Positive Opportunities Project (POP!)",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-31T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-13T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2480,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 028E",
+                    "geoCode": "E01020692",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC859204",
+                    "url": "https://www.cwyproject.org.uk/wwp-home",
+                    "name": "The Wider World Project"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550488",
+            "title": "We're There For You",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support the Covid 19 We're There For You project.",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-12-31T00:00:00+00:00",
+                    "duration": 8,
+                    "startDate": "2020-04-10T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 030D",
+                    "geoCode": "E01033164",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-07527322",
+                    "url": "http://www.veteransatease.org",
+                    "name": "Veterans At Ease",
+                    "charityNumber": "1140832",
+                    "companyNumber": "07527322"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550504",
+            "title": "Shildon Alive Covid19 Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Towards Shildon Alive's Covid19 Support.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-06T00:00:00+00:00",
+                    "duration": 4,
+                    "startDate": "2020-03-30T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4996,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 059B",
+                    "geoCode": "E01020802",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1184489",
+                    "url": "http://shildonalive.org.uk/",
+                    "name": "Shildon Alive",
+                    "charityNumber": "1184489"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550531",
+            "title": "Sustaining Meals on Wheels service",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To Sustain the Meals on Wheels service during Covid-19.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-12T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-05-04T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 040A",
+                    "geoCode": "E01020788",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05067671",
+                    "url": "http://www.greenhillscentre.co.uk",
+                    "name": "Wheatley Hill Community Association",
+                    "charityNumber": "1105615",
+                    "companyNumber": "05067671"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550769",
+            "title": "The Moses Project Food Bank",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support Moses Project deliver emergency food parcels",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-12-31T00:00:00+00:00",
+                    "duration": 8,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Stockton-on-Tees 014F",
+                    "geoCode": "E01012267",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-08000972",
+                    "url": "http://www.themosesproject.co.uk",
+                    "name": "The Moses Project",
+                    "charityNumber": "1146989",
+                    "companyNumber": "08000972"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550772",
+            "title": "Uplifted Online",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support and build resilience for families with additional needs.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-12-31T00:00:00+00:00",
+                    "duration": 7,
+                    "startDate": "2020-05-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2646.68,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 052E",
+                    "geoCode": "E01020836",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC576835",
+                    "url": "http://www.feelgoodcic.com",
+                    "name": "Feel Good Factory C.I.C"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550775",
+            "title": "A Way Out",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support delivery of food & essential toiletries to vulnerable families/individuals affected by addiction, sexual abuse, homelessness, offending behaviour.",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-15T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-20T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4920,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Stockton-on-Tees 014G",
+                    "geoCode": "E01033477",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06265354",
+                    "url": "http://www.awayout.co.uk",
+                    "name": "A Way Out",
+                    "charityNumber": "1137535",
+                    "companyNumber": "06265354"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550777",
+            "title": "Addictions North East",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To provide online and telephone support to those with addiction issues",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-04-08T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-04-08T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 017C",
+                    "geoCode": "E01020742",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05028930",
+                    "url": "http://www.addictionsnortheast.com",
+                    "name": "Addictions North East",
+                    "charityNumber": "1102494",
+                    "companyNumber": "05028930"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550779",
+            "title": "WE WILL MEET AGAIN",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To provide support and activities for young people in Middlesbrough and emergency food parcels",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-11-01T00:00:00+00:00",
+                    "duration": 6,
+                    "startDate": "2020-05-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Middlesbrough 001G",
+                    "geoCode": "E01033468",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC570809",
+                    "url": "https://www.hemlingtonlinx.org",
+                    "name": "Hemlington Detached Youth Work Project"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550782",
+            "title": "Supporting County Durham Communities affected by COVID-19",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To provide bereavement support via telephone.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-05-01T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-05-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 033B",
+                    "geoCode": "E01020702",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-208078",
+                    "url": "http://www.cruse.org.uk",
+                    "name": "Cruse Bereavement Care Tees Valley",
+                    "charityNumber": "208078"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550785",
+            "title": "Specialist Huntington's Disease Advisory Service County Durham, Darlington & Tees Valley",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support those with Huntington's Disease to cope with impact of coronavirus.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-31T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-05-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 008D",
+                    "geoCode": "E01012355",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-02021975",
+                    "url": "http://www.hda.org.uk",
+                    "name": "Huntington's Disease Association",
+                    "charityNumber": "296453",
+                    "companyNumber": "02021975"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551183",
+            "title": "In it together",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support the In it together project.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-13T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-20T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 065C",
+                    "geoCode": "E01020865",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06054331",
+                    "url": "http://www.utass.org",
+                    "name": "Upper Teesdale Agricultural Support Services (UTASS)",
+                    "charityNumber": "1120120",
+                    "companyNumber": "06054331"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551197",
+            "title": "COMMUNITY KNOWING THEIR SUPPORTS",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "Emergency relief support for vulnerable people in Darlington",
+            "dateModified": "2020-04-15T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-31T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-25T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2105,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 007D",
+                    "geoCode": "E01012365",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC947722",
+                    "name": "i - LEARN SMART START ( LESS PROJECT)"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551201",
+            "title": "Supporting key workers to get to work safely",
+            "currency": "GBP",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "description": "To support key workers.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-21T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-19T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 3200,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 008F",
+                    "geoCode": "E01033484",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC936873",
+                    "url": "https://bikestop.org.uk",
+                    "name": "Bike Stop Darlington"
+                }
+            ]
+        },
+        {
             "id": "360G-DevonCF-A550299",
             "title": "COVID-19 Supporting Communities Programme",
             "currency": "GBP",
@@ -17999,6 +19977,95 @@
             ]
         },
         {
+            "id": "360G-CountyDurhamCF-A548957",
+            "title": "Hand in Hand",
+            "currency": "GBP",
+            "awardDate": "2020-04-15T00:00:00+00:00",
+            "description": "To support core costs during Covid-19 pandemic.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-07T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-04-16T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4997.5,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Hartlepool 007D",
+                    "geoCode": "E01011999",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-12051397",
+                    "url": "http://www.familiesfirstne.co.uk",
+                    "name": "Families First North East",
+                    "charityNumber": "1183964",
+                    "companyNumber": "12051397"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550497",
+            "title": "Keeping the Durham myasthenia community connected",
+            "currency": "GBP",
+            "awardDate": "2020-04-15T00:00:00+00:00",
+            "description": "Towards keeping the Durham myasthenia community connected.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-04-01T00:00:00+00:00",
+                    "duration": 227,
+                    "startDate": "2002-05-31T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 2677.5,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 011B",
+                    "geoCode": "E01020593",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1046443",
+                    "url": "http://WWW.Myaware.org",
+                    "name": "MyAware",
+                    "charityNumber": "1046443"
+                }
+            ]
+        },
+        {
             "id": "360G-SomersetCF-A549317",
             "title": "COVID19 Online fitness classes for children with special educational needs in Mendip",
             "currency": "GBP",
@@ -18178,6 +20245,314 @@
                     "id": "360G-SomersetCF-ACC948372",
                     "name": "Wookey Parish Council",
                     "description": "Parish council for Wookey"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547762",
+            "title": "COVID19 Sustainability Fund - 6 months projection",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Theme 2: to cover wages until gov furlough scheme starts (however, group also undertaking Theme 1 activities, but funding not requested for this)",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-30T00:00:00+00:00",
+                    "duration": 6,
+                    "startDate": "2020-03-23T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 039D",
+                    "geoCode": "E01020739",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-700295",
+                    "url": "http://www.facebook.com/groups/blackhallcommunitycentre",
+                    "name": "Blackhall Community Association",
+                    "charityNumber": "700295"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550271",
+            "title": "Streetwise Newsletter",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Towards a Streetwise Newsletter.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-04-30T00:00:00+00:00",
+                    "duration": 11,
+                    "startDate": "2020-05-03T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Middlesbrough 003B",
+                    "geoCode": "E01012037",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1174369",
+                    "url": "http://streetsaheadforinformation.co.uk",
+                    "name": "Streets Ahead for Information",
+                    "charityNumber": "1174369"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551226",
+            "title": "Keep Moving County Durham",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Keep Moving County Durham",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-07T00:00:00+00:00",
+                    "duration": 4,
+                    "startDate": "2020-05-04T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4464,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 025B",
+                    "geoCode": "E01020752",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC572280",
+                    "url": "http://www.nuvowellbeing.com",
+                    "name": "Nouveau Wellbeing CIC"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551286",
+            "title": "EDP Covid -19 response",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "To support the Covid-19 response project,",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-31T00:00:00+00:00",
+                    "duration": 4,
+                    "startDate": "2020-03-16T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 036A",
+                    "geoCode": "E01020764",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03055620",
+                    "url": "http://www.eastdurhampartnership.co.uk",
+                    "name": "East Durham Partnership",
+                    "charityNumber": "1090261",
+                    "companyNumber": "03055620"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551973",
+            "title": "Covid 19 Emergency Aid",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "To support the distribution of food parcels to families in need.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-03-31T00:00:00+00:00",
+                    "duration": 10,
+                    "startDate": "2020-05-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1040,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 064G",
+                    "geoCode": "E01020864",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1168962",
+                    "url": "https://www.beyondlimitscharity.org.uk/",
+                    "name": "Beyond Limits",
+                    "charityNumber": "1168962"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551977",
+            "title": "Lifeline Covid Response",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "To provide cleaning packs and baby supplies for families on low incomes.",
+            "dateModified": "2020-04-20T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-03-31T00:00:00+00:00",
+                    "duration": 10,
+                    "startDate": "2020-05-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 062A",
+                    "geoCode": "E01020825",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1168614",
+                    "url": "https://lifelinecommunityaction.co.uk",
+                    "name": "Lifeline Community Action",
+                    "charityNumber": "1168614"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A551983",
+            "title": "Supporting Trimdon Covid-19",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "To support a food delivery and medicine prescription pick up service.",
+            "dateModified": "2020-04-17T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-30T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 4380,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Covid19 Sustainability Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "County Durham 048E",
+                    "geoCode": "E01020827",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1157343",
+                    "url": "http://www.trimdongrangecommunitycentre.org.uk",
+                    "name": "Trimdon Grange Community Association",
+                    "charityNumber": "1157343"
                 }
             ]
         },
@@ -18458,5 +20833,5 @@
             ]
         }
     ],
-    "last_updated": "2020-04-20T04:06:33.229980"
+    "last_updated": "2020-04-21T04:06:35.715993"
 }
