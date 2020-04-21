@@ -3577,6 +3577,44 @@
             ]
         },
         {
+            "id": "360G-CountyDurhamCF-A547629",
+            "title": "CV19 Food Provision and Distribution",
+            "currency": "GBP",
+            "awardDate": "2020-03-31T00:00:00+00:00",
+            "description": "CV19 Food Provision and Distribution",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "amountAwarded": 13000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Banks Rusha Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Fauldhouse and the Breich Valley",
+                    "geoCode": "S13002825",
+                    "countryCode": "GB",
+                    "geoCodeType": "WD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-00446497",
+                    "url": "https://westcalder.org",
+                    "name": "West Calder & Harburn Community Development Trust Limited",
+                    "charityNumber": "SCO43914",
+                    "companyNumber": "00446497"
+                }
+            ]
+        },
+        {
             "id": "360G-DevonCF-A547086",
             "title": "COVID-19 Response",
             "currency": "GBP",
@@ -6246,6 +6284,42 @@
                     "name": "Teesdale Community Resources",
                     "charityNumber": "1172652",
                     "companyNumber": "07871055"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A547973",
+            "title": "Community CV19 Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "To support Dinnington local community during CV19",
+            "dateModified": "2020-04-02T00:00:00+00:00",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Brenkley Lane Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Newcastle-under-Lyme 001D",
+                    "geoCode": "E01029582",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC569454",
+                    "url": "http://www.spanglefish.com/dinnington/",
+                    "name": "Dinnington Parish Council"
                 }
             ]
         },
@@ -12358,6 +12432,212 @@
             ]
         },
         {
+            "id": "360G-CountyDurhamCF-A549955",
+            "title": "CV19 Food Provision and Distribution",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To provide food provision and distribution during CV19",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-07T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-07T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Moor House Small Grants Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 004D",
+                    "geoCode": "E01012352",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1113455",
+                    "url": "http://www.kingschurchdarlington.org",
+                    "name": "King's Church Darlington",
+                    "charityNumber": "1113455"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549959",
+            "title": "Support during CV19",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To support 700 Club deliver CV19 support",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-07T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-07T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Moor House Small Grants Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 008F",
+                    "geoCode": "E01033484",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03191544",
+                    "url": "http://www.700club.org.uk",
+                    "name": "700 Club",
+                    "charityNumber": "1056197",
+                    "companyNumber": "03191544"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549965",
+            "title": "To support elderly during CV19",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To support Age UK deliver CV19 support",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-07T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-07T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Moor House Small Grants Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington 008F",
+                    "geoCode": "E01033484",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06817492",
+                    "url": "https://www.ageuknyd.org.uk",
+                    "name": "Age UK North Yorkshire & Darlington",
+                    "charityNumber": "1128377",
+                    "companyNumber": "06817492"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549978",
+            "title": "To Support Bread and Butter deliver in Darlington CV19",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To Support Bread and Butter deliver in Darlington CV19",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Moor House Small Grants Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington",
+                    "geoCode": "E06000005",
+                    "countryCode": "GB",
+                    "geoCodeType": "UA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC946479",
+                    "url": "https://breadandbutterthing.org/news/archive/bringing-bread-and-butter-to-darlington/",
+                    "name": "The Bread and Butter Thing"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A549990",
+            "title": "To support Residents Mexborough CV19",
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "To support Mexborough Residents during CV19",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Marr Wind Farm Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Doncaster",
+                    "geoCode": "E08000017",
+                    "countryCode": "GB",
+                    "geoCodeType": "MD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC946489",
+                    "url": "https://www.facebook.com/mexboroughfoodbank/",
+                    "name": "Stronger Together (Mexborough Foodbank)"
+                }
+            ]
+        },
+        {
             "id": "360G-CountyDurhamCF-A550080",
             "title": "Covid-19 support",
             "currency": "GBP",
@@ -13931,6 +14211,42 @@
                     "charityNumber": "1164778",
                     "companyNumber": "1993854",
                     "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-CountyDurhamCF-A550219",
+            "title": "To Support North Newcastle Food Hub during CV19",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "To Support North Newcastle Food Hub during CV19",
+            "dateModified": "2020-04-09T00:00:00+00:00",
+            "amountAwarded": 500,
+            "grantProgramme": [
+                {
+                    "code": "2020",
+                    "title": "Banks Brenkley Lane Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Newcastle upon Tyne",
+                    "geoCode": "E08000021",
+                    "countryCode": "GB",
+                    "geoCodeType": "MD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1047625",
+                    "name": "County Durham Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CountyDurhamCF-ACC946712",
+                    "url": "https://www.families1st4additionalneeds.co.uk/",
+                    "name": "Families 1st 4 Additional Needs"
                 }
             ]
         },
@@ -20833,5 +21149,5 @@
             ]
         }
     ],
-    "last_updated": "2020-04-21T04:06:35.715993"
+    "last_updated": "2020-04-21T13:06:42.035827"
 }
