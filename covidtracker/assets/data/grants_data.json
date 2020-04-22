@@ -1661,7 +1661,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to help sustain a Centre dedicated to providing care for elderly people in Halstead and its rural surroundings during the COVID19 crisis",
-            "dateModified": "2020-04-02T00:00:00+00:00",
+            "dateModified": "2020-04-20T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -1674,7 +1674,10 @@
             "Primary beneficiary": "Older People",
             "beneficiaryLocation": [
                 {
-                    "countryCode": "GB"
+                    "name": "Braintree",
+                    "geoCode": "E07000067",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
                 }
             ],
             "fundingOrganization": [
@@ -1699,7 +1702,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to provide a response and recovery grant during the COVID19 crisis to an organisation supporting those with mental health issues in West Essex",
-            "dateModified": "2020-04-02T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 12212,
             "grantProgramme": [
                 {
@@ -1737,7 +1740,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to support homeless people in Southend during the COVID19 crisis",
-            "dateModified": "2020-04-02T00:00:00+00:00",
+            "dateModified": "2020-04-21T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -1778,7 +1781,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to supply additional IT equipment to staff and volunteers to ensure they can respond to an increased demand to the COVID19 pandemic",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 2000,
             "grantProgramme": [
                 {
@@ -1820,7 +1823,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to support community response helping people during the COVID19 pandemic in rural districts of Maldon",
-            "dateModified": "2020-04-03T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 12000,
             "grantProgramme": [
                 {
@@ -1862,7 +1865,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-27T00:00:00+00:00",
             "description": "to provide a shopping service for older people and a transport service for those with health conditions receiving vital treatment at Broomfield Hospital during the COVID19 pandemic",
-            "dateModified": "2020-04-02T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 1250,
             "grantProgramme": [
                 {
@@ -4018,7 +4021,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "for IT equipment to provide online counselling and to develop online resources for young people with mental health issues and their families while face to face support cannot be accessed during the COVID19 pandemic",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 6000,
             "grantProgramme": [
                 {
@@ -4059,7 +4062,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "towards the volunteer expenses of the Chelmsford community hub established to help older and vulnerable people during the COVID19 pandemic",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 3000,
             "grantProgramme": [
                 {
@@ -4101,7 +4104,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "to provide remote advice and support to vulnerable people including those who do not have access to the internet or those who are homeless in Basildon during the COVID19 pandemic",
-            "dateModified": "2020-04-03T00:00:00+00:00",
+            "dateModified": "2020-04-20T00:00:00+00:00",
             "amountAwarded": 12500,
             "grantProgramme": [
                 {
@@ -4142,7 +4145,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "to provide emergency supplies to vulnerable families in need in Colchester and Clacton during the COVID19 pandemic",
-            "dateModified": "2020-04-03T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 4250,
             "grantProgramme": [
                 {
@@ -4184,7 +4187,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "for the community hub and telephone helpline established to help vulnerable and older people in need during the COVID19 pandemic in Uttlesford",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -7587,7 +7590,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "to help older people living in Southend during the COVID19 pandemic with care packages, befriending and information and advice",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -7628,7 +7631,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "to provide additional staff time, volunteer expenses and purchase food to enable a timely response to COVID19 pandemic",
-            "dateModified": "2020-04-06T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 14850,
             "grantProgramme": [
                 {
@@ -14496,7 +14499,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "to respond to the COVID19 crisis and help sustain an organisation which supports children, young people and adults with a learning disability and their families in West Essex",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-20T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -14508,7 +14511,10 @@
             "Primary beneficiary": "Children and Young People",
             "beneficiaryLocation": [
                 {
-                    "countryCode": "GB"
+                    "name": "Harlow",
+                    "geoCode": "E07000073",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
                 }
             ],
             "fundingOrganization": [
@@ -14734,7 +14740,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "to increase staff hours who are coordinating volunteers to respond during the COVID19 pandemic in Uttlesford",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "amountAwarded": 5500,
             "grantProgramme": [
                 {
@@ -14776,7 +14782,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "for new IT and telephone systems to enable volunteers and staff to work remotely during the COVID19 pandemic",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 14360,
             "grantProgramme": [
                 {
@@ -14818,7 +14824,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "to provide an emergency response to support the homeless community of Colchester during COVID19",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -17481,7 +17487,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to help sustain an organisation supporting young people in Rochford and Castle Point during the COVID19 pandemic",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-20T00:00:00+00:00",
             "amountAwarded": 10000,
             "grantProgramme": [
                 {
@@ -17493,7 +17499,10 @@
             "Primary beneficiary": "Children and Young People",
             "beneficiaryLocation": [
                 {
-                    "countryCode": "GB"
+                    "name": "Rochford",
+                    "geoCode": "E07000075",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
                 }
             ],
             "fundingOrganization": [
@@ -17518,7 +17527,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to respond to the needs of family carers during the COVID19 pandemic by improving IT, expanding volunteer response and help sustain the organisation",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -17557,7 +17566,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "for additional capacity in bereavement and befriending services supporting older people in North East Essex during the COVID19 pandemic",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "Primary issue": "Counselling/Advice/Mentoring",
             "amountAwarded": 15000,
             "grantProgramme": [
@@ -17596,7 +17605,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to supply additional IT equipment to staff and volunteers to support the adaption of their services due to the COVID19 pandemic",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-21T00:00:00+00:00",
             "amountAwarded": 4000,
             "grantProgramme": [
                 {
@@ -17606,7 +17615,7 @@
             ],
             "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
             "amountAppliedFor": 6000,
-            "Primary beneficiary": "Families/Parents/Lone parents",
+            "Primary beneficiary": "Families",
             "beneficiaryLocation": [
                 {
                     "name": "Basildon",
@@ -17637,7 +17646,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to provide an emergency response through a community hub and food parcels for vulnerable people in Basildon district during COVID19",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "amountAwarded": 7500,
             "grantProgramme": [
                 {
@@ -17679,7 +17688,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to provide a comprehensive support service for vulnerable people in Epping Forest District in response to the COVID19 pandemic",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 10000,
             "grantProgramme": [
                 {
@@ -17721,7 +17730,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "towards the operational costs of supporting the increase in referrals from elderly people isolating across Essex during COVID19",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -17760,7 +17769,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "to provide an emergency response to support the vulnerable in Castle Point during COVID19",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 5000,
             "grantProgramme": [
                 {
@@ -19859,7 +19868,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "to help support the increased demand on a foodbank supporting vulnerable clients in Harlow during COVID19",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 9200,
             "grantProgramme": [
                 {
@@ -19872,7 +19881,10 @@
             "Primary beneficiary": "Disadvantaged / Low Income",
             "beneficiaryLocation": [
                 {
-                    "countryCode": "GB"
+                    "name": "Harlow",
+                    "geoCode": "E07000073",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
                 }
             ],
             "fundingOrganization": [
@@ -19898,7 +19910,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "responding to the COVID19 pandemic to help cover the cost of volunteer expenses and purchase of food and essential items for vulnerable people living in the village of Alresford and its environs",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "amountAwarded": 1000,
             "grantProgramme": [
                 {
@@ -19937,7 +19949,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "to purchase laptop computers and meet additional costs involved in responding to the COVID19 pandemic and helping to sustain an organisation supporting vulnerable young carers in the Rochford area",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "amountAwarded": 8500,
             "grantProgramme": [
                 {
@@ -19979,7 +19991,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "to cover additional costs for a counsellor at a youth organisation to increase her working hours until the end of June in response to the COVID19 pandemic",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 5000,
             "grantProgramme": [
                 {
@@ -20020,7 +20032,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "towards the staff costs of an organisation providing advocacy and emergency response provision to older people and those with a disability in Southend, Rayleigh and Rochford during COVID19",
-            "dateModified": "2020-04-15T00:00:00+00:00",
+            "dateModified": "2020-04-17T00:00:00+00:00",
             "amountAwarded": 13140,
             "grantProgramme": [
                 {
@@ -21147,7 +21159,584 @@
                     "charityNumber": "1143770"
                 }
             ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1537",
+            "url": "http://www.nondet.org.uk",
+            "title": "Grant to North Ormesby Neighbourhood Development Trust",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to North Ormesby Neighbourhood Development Trust to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Middlesbrough"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1083301",
+                    "name": "North Ormesby Neighbourhood Development Trust",
+                    "postalCode": "TS3 6NF",
+                    "addressRegion": "Teesside",
+                    "charityNumber": "1083301",
+                    "companyNumber": "3648835",
+                    "streetAddress": "8 Kings Road",
+                    "addressCountry": "United Kingdom"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1538",
+            "url": "http://www.keyproject.org.uk",
+            "title": "Grant to South Tyneside Churches KEY Project",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to South Tyneside Churches KEY Project to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "South Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1108921",
+                    "name": "South Tyneside Churches KEY Project",
+                    "postalCode": "NE33 2BA",
+                    "addressRegion": "Tyne and Wear",
+                    "charityNumber": "1108921",
+                    "companyNumber": "5031398",
+                    "streetAddress": "116 Baring Street",
+                    "addressCountry": "United Kingdom"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1539",
+            "url": "http://www.thefeed.org.uk",
+            "title": "Grant The Feed Enterprises CIC",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to The Feed Enterprises to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 8750,
+            "beneficiaryLocation": [
+                {
+                    "name": "Norfolk"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1176940",
+                    "name": "The Feed Enterprises CIC",
+                    "postalCode": "NR2 1EW",
+                    "addressRegion": "Norfolk",
+                    "charityNumber": "1176940",
+                    "companyNumber": "8915020",
+                    "streetAddress": "7 Upper Goat Lane, Norwich",
+                    "addressCountry": "United Kingdom"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1540",
+            "url": "http://www.mysistersplace.org.uk",
+            "title": "Grant to My Sisters Place",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to My Sisters Place to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 20000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 9200,
+            "beneficiaryLocation": [
+                {
+                    "name": "Tees Valley"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1137319",
+                    "name": "My Sisters Place",
+                    "postalCode": "TS1 3AN",
+                    "addressRegion": "Teesside",
+                    "charityNumber": "1137319",
+                    "companyNumber": "7233811",
+                    "streetAddress": "Borough road",
+                    "addressCountry": "United Kingdom",
+                    "addressLocality": "Borough road"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1541",
+            "url": "http://www.700club.org.uk",
+            "title": "Grant to 700 Club",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to 700 Club to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Darlington"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1056192",
+                    "name": "700 Club",
+                    "postalCode": "DL1 5SX",
+                    "addressRegion": "Durham",
+                    "charityNumber": "1056192",
+                    "companyNumber": "3191544",
+                    "streetAddress": "Beaumont Street West",
+                    "addressCountry": "United Kingdom",
+                    "addressLocality": "Darlington"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1543",
+            "url": "http://www.communitycampus87.com",
+            "title": "Grant to Community Campus 87 Ltd",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to Community Campus 87 Ltd to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Across Tees Valley"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-IP26020R",
+                    "name": "Community Campus 87 Ltd",
+                    "postalCode": "TS18 1UU",
+                    "addressRegion": "Cleveland",
+                    "companyNumber": "IP26020R",
+                    "streetAddress": "76 Brunswick St Stockton",
+                    "addressCountry": "United Kingdom"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1544",
+            "url": "http://www.sunderlandymca.co.uk",
+            "title": "Grant to Wearside YMCA",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to Wearside YMCA to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 8436,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 8436,
+            "beneficiaryLocation": [
+                {
+                    "name": "Sunderland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1059470",
+                    "name": "Wearside YMCA",
+                    "postalCode": "SR1 2QF",
+                    "addressRegion": "tyne & wear",
+                    "charityNumber": "1059470",
+                    "companyNumber": "3281486",
+                    "streetAddress": "2-3 Toward road",
+                    "addressCountry": "United Kingdom"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1546",
+            "url": "http://www.jackdrum.co.uk",
+            "title": "Grant to Jack Drum Arts",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to Jack Drum Arts to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Durham"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03428595",
+                    "name": "Jack Drum Arts",
+                    "postalCode": "DL15 9DN",
+                    "addressRegion": "Durham",
+                    "companyNumber": "3428595",
+                    "streetAddress": "St Cuthbert's Centre, Church Hill, Crook",
+                    "addressCountry": "United Kingdom",
+                    "addressLocality": "Crook"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1547",
+            "url": "http://www.charlesburrellcentre.org.uk",
+            "title": "Grant to Charles Burrell Centre Ltd",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to Charles Burrell Centre Ltd to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Norfolk"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-RS007064",
+                    "name": "Charles Burrell Centre Ltd",
+                    "postalCode": "IP24 3LH",
+                    "addressRegion": "Norfolk",
+                    "companyNumber": "RS007064",
+                    "streetAddress": "Charles Burrell Centre, Staniforth Road",
+                    "addressCountry": "United Kingdom",
+                    "addressLocality": "Kings Lynn"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1548",
+            "url": "http://www.facebook.com/edbertshouse1719",
+            "title": "Grant to Edberts House",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to Edberts House to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Gateshead"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1127388",
+                    "name": "Edberts House",
+                    "postalCode": "NE10 9AE",
+                    "addressRegion": "Tyne and Wear",
+                    "charityNumber": "1127388",
+                    "streetAddress": "17-19 St Edmunds Drive, High Lanes",
+                    "addressCountry": "United Kingdom",
+                    "addressLocality": "Gateshead"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1551",
+            "url": "http://www.familygateway.co.uk",
+            "title": "Grant to Family Gateway",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to Family Gateway to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 20000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Tyne and Wear"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1144453",
+                    "name": "Family Gateway",
+                    "postalCode": "NE28 0PP",
+                    "addressRegion": "Tyne and Wear",
+                    "charityNumber": "1144453",
+                    "companyNumber": "7583330",
+                    "streetAddress": "Denbigh Avenue",
+                    "addressCountry": "United Kingdom",
+                    "addressLocality": "North Tyneside"
+                }
+            ]
+        },
+        {
+            "id": "360G-virginmoneyfdn-1554",
+            "url": "http://www.teesmusicalliance.org.uk",
+            "title": "Grant to Tees Music Alliance",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "Grant to Tees Music Alliance to support the orgnisation through COVID19.",
+            "dateModified": "2020-04-20T00:00:00Z",
+            "fromOpenCall": "Yes",
+            "plannedDates": [
+                {
+                    "endDate": "2020-10-17",
+                    "duration": 6
+                }
+            ],
+            "amountAwarded": 20000,
+            "grantProgramme": [
+                {
+                    "code": "Resilience2020",
+                    "title": "Community Resilience Fund "
+                }
+            ],
+            "amountDisbursed": 0,
+            "amountAppliedFor": 9195,
+            "beneficiaryLocation": [
+                {
+                    "name": "Stockton"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1161290",
+                    "name": "Virgin Money Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-IP25169R",
+                    "name": "Tees Music Alliance",
+                    "postalCode": "TS18 1AE",
+                    "addressRegion": "Teesside",
+                    "companyNumber": "IP25169R",
+                    "streetAddress": "Green Dragon Yard",
+                    "addressCountry": "United Kingdom"
+                }
+            ]
         }
     ],
-    "last_updated": "2020-04-21T13:06:42.035827"
+    "last_updated": "2020-04-22T04:06:53.933319"
 }
