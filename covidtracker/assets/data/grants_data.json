@@ -2302,6 +2302,90 @@
             ]
         },
         {
+            "id": "360G-ClothworkersFdn-202000943",
+            "title": "Grant to National Emergencies Trust",
+            "currency": "GBP",
+            "Reference": "202000943",
+            "awardDate": "2020-03-30T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  towards the NET Coronavirus fund",
+            "fundingType": [
+                {
+                    "title": "Other"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 500000,
+            "grantProgramme": [
+                {
+                    "title": "COVID19 strategic initiatives"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "England - National"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1182809",
+                    "name": "National Emergencies Trust",
+                    "postalCode": "EC2Y 9AL",
+                    "charityNumber": "1182809",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000944",
+            "title": "Grant to City Bridge Trust",
+            "currency": "GBP",
+            "Reference": "202000944",
+            "awardDate": "2020-03-30T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  towards the London Communities Response Fund",
+            "fundingType": [
+                {
+                    "title": "Other"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 200000,
+            "grantProgramme": [
+                {
+                    "title": "COVID19 strategic initiatives"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Greater London"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1035628",
+                    "name": "City Bridge Trust",
+                    "postalCode": "EC2P 2EJ",
+                    "charityNumber": "1035628",
+                    "addressLocality": "London "
+                }
+            ]
+        },
+        {
             "id": "360G-CountyDurhamCF-A547207",
             "title": "CV19 Food Provision and Distribution",
             "currency": "GBP",
@@ -3619,11 +3703,11 @@
         },
         {
             "id": "360G-DevonCF-A547086",
-            "title": "COVID-19 Response",
+            "title": "COVID19 Response",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to The Pioneers Project CIC",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-13T00:00:00+00:00",
@@ -3669,11 +3753,11 @@
         },
         {
             "id": "360G-DevonCF-A547087",
-            "title": "COVID-19 Emergency Meals",
+            "title": "COVID19 Emergency Meals",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to Ellacombe Community Partnership",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-14T00:00:00+00:00",
@@ -3718,11 +3802,11 @@
         },
         {
             "id": "360G-DevonCF-A547089",
-            "title": "COVID-19 Food Buddies South West",
+            "title": "COVID19 Food Buddies South West",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to Food is Fun CIC",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-11-05T00:00:00+00:00",
@@ -3768,11 +3852,11 @@
         },
         {
             "id": "360G-DevonCF-A547090",
-            "title": "COVID-19 Remote support",
+            "title": "COVID19 Remote support",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to Pregnancy Crisis Care (Plymouth & SE Cornwall)",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-07-01T00:00:00+00:00",
@@ -3818,11 +3902,11 @@
         },
         {
             "id": "360G-DevonCF-A547091",
-            "title": "COVID-19 South Brent Community Crisis Assistance",
+            "title": "COVID19 South Brent Community Crisis Assistance",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to South Brent & District Caring",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-08-31T00:00:00+00:00",
@@ -3868,11 +3952,11 @@
         },
         {
             "id": "360G-DevonCF-A547104",
-            "title": "COVID-19 Shaugh Prior Support Group",
+            "title": "COVID19 Shaugh Prior Support Group",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to Shaugh Prior Parish Council",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-07-01T00:00:00+00:00",
@@ -3917,11 +4001,11 @@
         },
         {
             "id": "360G-DevonCF-A547126",
-            "title": "COVID-19 Tiverton Community Builders (TCP)",
+            "title": "COVID19 Tiverton Community Builders (TCP)",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to Tiverton Adventure Play",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-10T00:00:00+00:00",
@@ -3967,11 +4051,11 @@
         },
         {
             "id": "360G-DevonCF-A547132",
-            "title": "COVID-19 Additional Support",
+            "title": "COVID19 Additional Support",
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "Grant to Pete's Dragons",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-11T00:00:00+00:00",
@@ -6364,11 +6448,11 @@
         },
         {
             "id": "360G-DevonCF-A547103",
-            "title": "COVID-19 InTouch",
+            "title": "COVID19 InTouch",
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "Grant to Family Compass",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -6414,11 +6498,11 @@
         },
         {
             "id": "360G-DevonCF-A547125",
-            "title": "COVID-19 Response",
+            "title": "COVID19 Response",
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "Grant to Rising Moments Community Project group",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-22T00:00:00+00:00",
@@ -6463,11 +6547,11 @@
         },
         {
             "id": "360G-DevonCF-A547129",
-            "title": "COVID-19 Helping Communities",
+            "title": "COVID19 Helping Communities",
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "Grant to Mid Devon Mobility",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-11T00:00:00+00:00",
@@ -6513,11 +6597,11 @@
         },
         {
             "id": "360G-DevonCF-A547131",
-            "title": "COVID-19 Keeping in Touch",
+            "title": "COVID19 Keeping in Touch",
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "Grant to Young At Heart Club",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-15T00:00:00+00:00",
@@ -6562,11 +6646,11 @@
         },
         {
             "id": "360G-DevonCF-A547458",
-            "title": "COVID-19 Expansion of our Anxiety and Depression Service online",
+            "title": "COVID19 Expansion of our Anxiety and Depression Service online",
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "Grant to Youth Arts & Health Trust",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-07-06T00:00:00+00:00",
@@ -6612,11 +6696,11 @@
         },
         {
             "id": "360G-DevonCF-A547460",
-            "title": "COVID-19 Community Support",
+            "title": "COVID19 Community Support",
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "Grant to Age UK Plymouth",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-17T00:00:00+00:00",
@@ -6662,11 +6746,11 @@
         },
         {
             "id": "360G-DevonCF-A547462",
-            "title": "COVID-19 Thrive Project",
+            "title": "COVID19 Thrive Project",
             "currency": "GBP",
             "awardDate": "2020-04-01T00:00:00+00:00",
             "description": "Grant to Thrive Project",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2021-03-31T00:00:00+00:00",
@@ -7185,11 +7269,11 @@
         },
         {
             "id": "360G-DevonCF-A547456",
-            "title": "COVID-19 Hot Food Service",
+            "title": "COVID19 Hot Food Service",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Kingsway Residents Association",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-10T00:00:00+00:00",
@@ -7234,11 +7318,11 @@
         },
         {
             "id": "360G-DevonCF-A547469",
-            "title": "COVID-19 Phab Club Lifeline",
+            "title": "COVID19 Phab Club Lifeline",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Torquay PHAB",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-29T00:00:00+00:00",
@@ -7284,11 +7368,11 @@
         },
         {
             "id": "360G-DevonCF-A547597",
-            "title": "COVID-19 Honiton Support Team",
+            "title": "COVID19 Honiton Support Team",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Honiton Health Matters",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-31T00:00:00+00:00",
@@ -7334,11 +7418,11 @@
         },
         {
             "id": "360G-DevonCF-A547603",
-            "title": "COVID-19 Remote wellbeing services",
+            "title": "COVID19 Remote wellbeing services",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Young Devon",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -7384,11 +7468,11 @@
         },
         {
             "id": "360G-DevonCF-A547605",
-            "title": "COVID-19 'Emergency Youth Isolation Package'",
+            "title": "COVID19 'Emergency Youth Isolation Package'",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Plymouth YMCA",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-31T00:00:00+00:00",
@@ -7435,11 +7519,11 @@
         },
         {
             "id": "360G-DevonCF-A547606",
-            "title": "COVID-19 High Need Support Service",
+            "title": "COVID19 High Need Support Service",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Age UK Mid Devon",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-04-24T00:00:00+00:00",
@@ -7485,11 +7569,11 @@
         },
         {
             "id": "360G-DevonCF-A547737",
-            "title": "COVID-19 Support",
+            "title": "COVID19 Support",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Teignbridge Homeless Action Today",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2021-03-01T00:00:00+00:00",
@@ -7536,11 +7620,11 @@
         },
         {
             "id": "360G-DevonCF-A547759",
-            "title": "COVID-19 Foodbank",
+            "title": "COVID19 Foodbank",
             "currency": "GBP",
             "awardDate": "2020-04-02T00:00:00+00:00",
             "description": "Grant to Churches Housing Action Team (CHAT) Mid-Devon Ltd",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-09-30T00:00:00+00:00",
@@ -9226,11 +9310,11 @@
         },
         {
             "id": "360G-DevonCF-A547426",
-            "title": "COVID-19 Letters To Our People",
+            "title": "COVID19 Letters To Our People",
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "Grant to bthechange",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-09-30T00:00:00+00:00",
@@ -9276,11 +9360,11 @@
         },
         {
             "id": "360G-DevonCF-A547766",
-            "title": "COVID-19 Paignton Community Larder",
+            "title": "COVID19 Paignton Community Larder",
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "Grant to Paignton Community Larder",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-15T00:00:00+00:00",
@@ -9325,11 +9409,11 @@
         },
         {
             "id": "360G-DevonCF-A547949",
-            "title": "COVID-19 Simply Corona Support",
+            "title": "COVID19 Simply Corona Support",
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "Grant to Simply Counselling",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-31T00:00:00+00:00",
@@ -9375,11 +9459,11 @@
         },
         {
             "id": "360G-DevonCF-A548004",
-            "title": "COVID-19\u2019 HITS Crisis Support",
+            "title": "COVID19 HITS Crisis Support",
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "Grant to Homeless in Teignbridge Support",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-26T00:00:00+00:00",
@@ -9425,11 +9509,11 @@
         },
         {
             "id": "360G-DevonCF-A548102",
-            "title": "COVID-19\u2019 Financial Inclusion",
+            "title": "COVID19 Financial Inclusion",
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "Grant to Hele Village Community Association",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-07-01T00:00:00+00:00",
@@ -9475,11 +9559,11 @@
         },
         {
             "id": "360G-DevonCF-A548116",
-            "title": "COVID-19 Mobile telephones fpr staff to work from home",
+            "title": "COVID19 Mobile telephones fpr staff to work from home",
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "Grant to Devon & Cornwall Refugee Support",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-22T00:00:00+00:00",
@@ -9526,11 +9610,11 @@
         },
         {
             "id": "360G-DevonCF-A548149",
-            "title": "COVID-19\u2019 Peter Tvay Community Support Hub",
+            "title": "COVID19 Peter Tavy Community Support Hub",
             "currency": "GBP",
             "awardDate": "2020-04-03T00:00:00+00:00",
             "description": "Grant to Peter Tavy Community Support Hub",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -12678,11 +12762,11 @@
         },
         {
             "id": "360G-DevonCF-A548014",
-            "title": "COVID-19\u2019 Active together",
+            "title": "COVID19 Active together",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Plymouth Sports Charity",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-07-26T00:00:00+00:00",
@@ -12729,11 +12813,11 @@
         },
         {
             "id": "360G-DevonCF-A548019",
-            "title": "COVID-19 Protecting the Vulnerable in our Community",
+            "title": "COVID19 Protecting the Vulnerable in our Community",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to The Estuary League of Friends",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-31T00:00:00+00:00",
@@ -12784,7 +12868,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Link Academy Trust",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-15T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-08-31T00:00:00+00:00",
@@ -12830,11 +12914,11 @@
         },
         {
             "id": "360G-DevonCF-A548271",
-            "title": "COVID-19 Feast of Fun at Home",
+            "title": "COVID19 Feast of Fun at Home",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Transforming Plymouth Together",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-08-28T00:00:00+00:00",
@@ -12881,11 +12965,11 @@
         },
         {
             "id": "360G-DevonCF-A548272",
-            "title": "COVID-19\u2019 Decks Online",
+            "title": "COVID19 Decks Online",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Youth Genesis Trust Ltd",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-07-23T00:00:00+00:00",
@@ -12932,11 +13016,11 @@
         },
         {
             "id": "360G-DevonCF-A548273",
-            "title": "COVID-19 Response",
+            "title": "COVID19 Response",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to The Amber Foundation",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-20T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-11T00:00:00+00:00",
@@ -12983,11 +13067,11 @@
         },
         {
             "id": "360G-DevonCF-A548274",
-            "title": "COVID-19 Emergency",
+            "title": "COVID19 Emergency",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Alabare Christian Care and Support",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-01T00:00:00+00:00",
@@ -13033,11 +13117,11 @@
         },
         {
             "id": "360G-DevonCF-A548580",
-            "title": "COVID-19 Free fresh food deliveries for the vulnerable and support phone calls",
+            "title": "COVID19 Free fresh food deliveries for the vulnerable and support phone calls",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Health and Local Food for Families",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-31T00:00:00+00:00",
@@ -13083,11 +13167,11 @@
         },
         {
             "id": "360G-DevonCF-A549019",
-            "title": "COVID-19 Operation Recovery Maintenance",
+            "title": "COVID19 Operation Recovery Maintenance",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Trevi House Ltd",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-25T00:00:00+00:00",
@@ -13133,11 +13217,11 @@
         },
         {
             "id": "360G-DevonCF-A549022",
-            "title": "COVID 19 Yes! Brixham",
+            "title": "COVID19 Yes! Brixham",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Youth Enquiry Service (Brixham)",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-29T00:00:00+00:00",
@@ -13184,11 +13268,11 @@
         },
         {
             "id": "360G-DevonCF-A549027",
-            "title": "COVID 19 CYP Emergency wellbeing service.",
+            "title": "COVID19 CYP Emergency wellbeing service.",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to South West Family Values",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-11T00:00:00+00:00",
@@ -13234,11 +13318,11 @@
         },
         {
             "id": "360G-DevonCF-A549034",
-            "title": "COVID 19 Connecting the community",
+            "title": "COVID19 Connecting the community",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Memory Matters South West CIC",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-30T00:00:00+00:00",
@@ -13284,11 +13368,11 @@
         },
         {
             "id": "360G-DevonCF-A549040",
-            "title": "Covid-19 Response",
+            "title": "COVID19 Response",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Dartmouth Caring",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-15T00:00:00+00:00",
@@ -13334,11 +13418,11 @@
         },
         {
             "id": "360G-DevonCF-A549209",
-            "title": "COVID-19 Okehampton",
+            "title": "COVID19 Okehampton",
             "currency": "GBP",
             "awardDate": "2020-04-07T00:00:00+00:00",
             "description": "Grant to Okehampton Town Council",
-            "dateModified": "2020-04-07T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-15T00:00:00+00:00",
@@ -14255,11 +14339,11 @@
         },
         {
             "id": "360G-DevonCF-A549042",
-            "title": "COVID 19 Befriending Support",
+            "title": "COVID19 Befriending Support",
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "Grant to Plymouth Communities Befriending Consortium",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-04T00:00:00+00:00",
@@ -14304,11 +14388,11 @@
         },
         {
             "id": "360G-DevonCF-A549045",
-            "title": "COVID 19 Torbay Community Coronavirus Helpline",
+            "title": "COVID19 Torbay Community Coronavirus Helpline",
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "Grant to Torbay Community Development Trust",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-18T00:00:00+00:00",
@@ -14354,11 +14438,11 @@
         },
         {
             "id": "360G-DevonCF-A549211",
-            "title": "COVID 19 Flourishing Families",
+            "title": "COVID19 Flourishing Families",
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "Grant to Stop Abuse for Everyone (SAFE)",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-20T00:00:00+00:00",
@@ -14405,11 +14489,11 @@
         },
         {
             "id": "360G-DevonCF-A549213",
-            "title": "COVID 19 Volunteer Specialist Doctors",
+            "title": "COVID19 Volunteer Specialist Doctors",
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
             "description": "Grant to BASICS Devon",
-            "dateModified": "2020-04-08T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-13T00:00:00+00:00",
@@ -17184,11 +17268,11 @@
         },
         {
             "id": "360G-DevonCF-A549216",
-            "title": "COVID 19 Supporting families of blind and partially sighted kids at home",
+            "title": "COVID19 Supporting families of blind and partially sighted kids at home",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "Grant to Moorvision",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-08T00:00:00+00:00",
@@ -17234,11 +17318,11 @@
         },
         {
             "id": "360G-DevonCF-A549220",
-            "title": "COVID 19 PATH Torbay & Foodbank",
+            "title": "COVID19 PATH Torbay & Foodbank",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "Grant to PATH Torbay",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-25T00:00:00+00:00",
@@ -17283,11 +17367,11 @@
         },
         {
             "id": "360G-DevonCF-A549405",
-            "title": "COVID 19 Devon Disability Coronavirus Network (DDCN)",
+            "title": "COVID19 Devon Disability Coronavirus Network (DDCN)",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "Grant to Living Options Devon",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-05T00:00:00+00:00",
@@ -17334,11 +17418,11 @@
         },
         {
             "id": "360G-DevonCF-A549739",
-            "title": "COVID-19 Keep Axminster Food Bank open",
+            "title": "COVID19 Keep Axminster Food Bank open",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "Grant to Axminster Health and Wellbeing Centre",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-31T00:00:00+00:00",
@@ -17384,11 +17468,11 @@
         },
         {
             "id": "360G-DevonCF-A550039",
-            "title": "COVID 19 Educational Packs for Children at Risk of Falling Behind",
+            "title": "COVID19 Educational Packs for Children at Risk of Falling Behind",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "Grant to Halberton and Uplowman Federation",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-02T00:00:00+00:00",
@@ -17433,11 +17517,11 @@
         },
         {
             "id": "360G-DevonCF-A550059",
-            "title": "COVID-19 Sirona emergency",
+            "title": "COVID19 Sirona emergency",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
             "description": "Grant to Sirona Therapeutic Horsemanship CIO",
-            "dateModified": "2020-04-09T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-19T00:00:00+00:00",
@@ -18610,6 +18694,510 @@
             ]
         },
         {
+            "id": "360G-ClothworkersFdn-202000959",
+            "title": "Grant to Now! Charity Group",
+            "currency": "GBP",
+            "Reference": "202000959",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with homelessness in East Sussex ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 2394,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1048093",
+                    "name": "Now! Charity Group",
+                    "postalCode": "BN7 2PE",
+                    "charityNumber": "1048093",
+                    "addressLocality": "Lewes"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000962",
+            "title": "Grant to Disability Huntingdonshire",
+            "currency": "GBP",
+            "Reference": "202000962",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT and mobile phones for a charity that works with people with disabilities in Cambridgeshire",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 2000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1061702",
+                    "name": "Disability Huntingdonshire",
+                    "postalCode": "CB23 3UY",
+                    "charityNumber": "1061702",
+                    "addressLocality": "PAPWORTH EVERARD"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000964",
+            "title": "Grant to Kinship Care Northern Ireland",
+            "currency": "GBP",
+            "Reference": "202000964",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :   purchase IT and PPE equipment for a charity that works with older people in Northern Ireland. ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 4000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Northern Ireland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NIC-101036",
+                    "name": "Kinship Care Northern Ireland",
+                    "postalCode": "BT48 6JL",
+                    "charityNumber": "NIC101036",
+                    "addressLocality": "Derry"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000965",
+            "title": "Grant to Out There Supporting Families of Prisoners",
+            "currency": "GBP",
+            "Reference": "202000965",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with prisoners and ex-offenders in Greater Manchester ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 2400,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "North West"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1120342",
+                    "name": "Out There Supporting Families of Prisoners",
+                    "postalCode": "M167QQ",
+                    "charityNumber": "1120342",
+                    "addressLocality": "Manchester"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000967",
+            "title": "Grant to Nutrition Scotland",
+            "currency": "GBP",
+            "Reference": "202000967",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase cooking equipment for a charity that works with older people in Glasgow",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Scotland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-SC593956",
+                    "name": "Nutrition Scotland",
+                    "postalCode": "G12  0AR",
+                    "charityNumber": "SC593956",
+                    "addressLocality": "GLASGOW"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000968",
+            "title": "Grant to Plymouth Hope",
+            "currency": "GBP",
+            "Reference": "202000968",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment and software for a charity that works with disadvantaged minority communities in Devon",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South West"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1153472",
+                    "name": "Plymouth Hope",
+                    "postalCode": "PL1 0AY",
+                    "charityNumber": "1153472",
+                    "addressLocality": "Plymouth"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000969",
+            "title": "Grant to Communities Engage and Thrive",
+            "currency": "GBP",
+            "Reference": "202000969",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT Equipment for a charity that works with older people in West Midlands",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 550,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "West Midlands"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-12304429",
+                    "name": "Communities Engage and Thrive",
+                    "postalCode": "B12 8LF",
+                    "charityNumber": "NI12304429",
+                    "addressLocality": "Birmingham"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000970",
+            "title": "Grant to Anam Cara Community Counselling ",
+            "currency": "GBP",
+            "Reference": "202000970",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with homelessness in Newry and Mourne",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 1300,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Northern Ireland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-NI658485",
+                    "name": "Anam Cara Community Counselling ",
+                    "postalCode": "BT343SE",
+                    "charityNumber": "NI658485",
+                    "addressLocality": "Newry"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000971",
+            "title": "Grant to Encephalitis Support Group",
+            "currency": "GBP",
+            "Reference": "202000971",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment and software for a charity that works with disadvantaged minority communities in North Yorkshire ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 3418,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Yorks & Humberside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1087843",
+                    "name": "Encephalitis Support Group",
+                    "postalCode": "YO17 7DT",
+                    "charityNumber": "1087843",
+                    "addressLocality": "Malton"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000977",
+            "title": "Grant to Community Transport Glasgow",
+            "currency": "GBP",
+            "Reference": "202000977",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with older people in Glasgow",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 4500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Scotland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-SC-SC040374",
+                    "name": "Community Transport Glasgow",
+                    "postalCode": "G32 0HY",
+                    "charityNumber": "SC040374",
+                    "addressLocality": "Glasgow"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000979",
+            "title": "Grant to WILD Young Parents Project",
+            "currency": "GBP",
+            "Reference": "202000979",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with disadvantaged young people in Cornwall ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South West"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1097693",
+                    "name": "WILD Young Parents Project",
+                    "postalCode": "TR15 2QE",
+                    "charityNumber": "1097693",
+                    "addressLocality": "Redruth"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000980",
+            "title": "Grant to TLC: Talk, Listen, Change",
+            "currency": "GBP",
+            "Reference": "202000980",
+            "awardDate": "2020-04-14T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with domestic and sexual abuse in Greater Manchester",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 3500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "North West"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-512710",
+                    "name": "TLC: Talk, Listen, Change",
+                    "postalCode": "M16 9EZ",
+                    "charityNumber": "512710",
+                    "addressLocality": "Trafford"
+                }
+            ]
+        },
+        {
             "id": "360G-CountyDurhamCF-A547891",
             "title": "Together we can do anything",
             "currency": "GBP",
@@ -19666,11 +20254,11 @@
         },
         {
             "id": "360G-DevonCF-A550299",
-            "title": "COVID-19 Supporting Communities Programme",
+            "title": "COVID19 Supporting Communities Programme",
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "Grant to Moorland Community Care Group",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-31T00:00:00+00:00",
@@ -19716,11 +20304,11 @@
         },
         {
             "id": "360G-DevonCF-A550334",
-            "title": "Covid 19 Hawkchurch Action Response Team (CHART)",
+            "title": "COVID19 Hawkchurch Action Response Team (CHART)",
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "Grant to Covid Hawkchurch Action Response Team (CHART)",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-07-06T00:00:00+00:00",
@@ -19765,11 +20353,11 @@
         },
         {
             "id": "360G-DevonCF-A550422",
-            "title": "COVID 19 Helping Dawlish",
+            "title": "COVID19 Helping Dawlish",
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "Grant to Dawlish Town Council",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-06-05T00:00:00+00:00",
@@ -19814,11 +20402,11 @@
         },
         {
             "id": "360G-DevonCF-A550581",
-            "title": "COVID-19 RESPONSE",
+            "title": "COVID19 RESPONSE",
             "currency": "GBP",
             "awardDate": "2020-04-14T00:00:00+00:00",
             "description": "Grant to All Nations Ministries",
-            "dateModified": "2020-04-14T00:00:00+00:00",
+            "dateModified": "2020-04-16T00:00:00+00:00",
             "plannedDates": [
                 {
                     "endDate": "2020-05-26T00:00:00+00:00",
@@ -20577,6 +21165,48 @@
             ]
         },
         {
+            "id": "360G-ClothworkersFdn-202000973",
+            "title": "Grant to Ipswich Housing Action Group",
+            "currency": "GBP",
+            "Reference": "202000973",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase of IT equipment for a charity that works with homelessness in Suffolk",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 3700,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1107841",
+                    "name": "Ipswich Housing Action Group",
+                    "postalCode": "IP1 3RU",
+                    "charityNumber": "1107841",
+                    "addressLocality": "Ipswich"
+                }
+            ]
+        },
+        {
             "id": "360G-CountyDurhamCF-A547762",
             "title": "COVID19 Sustainability Fund - 6 months projection",
             "currency": "GBP",
@@ -20881,6 +21511,354 @@
                     "url": "http://www.trimdongrangecommunitycentre.org.uk",
                     "name": "Trimdon Grange Community Association",
                     "charityNumber": "1157343"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A550629",
+            "title": "COVID19 Virtual Youth Clubs",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Grant to South Molton and District YMCA",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-08T00:00:00+00:00",
+                    "duration": 1,
+                    "startDate": "2020-05-04T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 4854,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 4854,
+            "Primary age group": "Young People (13 \u2013 18)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "North Devon 013C",
+                    "geoCode": "E01020135",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-09473987",
+                    "url": "http://www.ymcasouthmolton.org.uk",
+                    "name": "South Molton and District YMCA",
+                    "description": "Our Community Centre provides a home where people can socialise, have fun and take part in activities that bind us together. We aim to create an extended family of connectedness. A particular focus is our youth service, where we aim to bring tangible transformation through building trusted intergenerational relationships.",
+                    "charityNumber": "1165990",
+                    "companyNumber": "09473987"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A550674",
+            "title": "COVID19 Holbeton Emergency Food Fund",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Grant to Holbeton Covid-19 Emergency Food Fund",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-07-01T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-04-14T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 2500,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Hams 008C",
+                    "geoCode": "E01020159",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-DevonCF-ACC947209",
+                    "name": "Holbeton Covid-19 Emergency Food Fund",
+                    "description": "To alleviate the immediate food requirements for those who have lost their income as a result of the Covid-19 pandemic, before other benefits have become available."
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A551147",
+            "title": "COVID19 Helping Hands",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Grant to Community Regeneration Outreach Projects",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-01T00:00:00+00:00",
+                    "duration": 2,
+                    "startDate": "2020-04-20T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 964,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 964,
+            "Primary age group": "Adults (26 \u2013 65)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Families/Parents/Lone parents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Plymouth 014B",
+                    "geoCode": "E01015040",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03715169",
+                    "name": "Community Regeneration Outreach Projects",
+                    "description": "Promote the benefit of the inhabitants of Keyham (hereinafter called \"the area of benefit\") without distinction of sex, sexual orientation, race or of political, religious or other opinions, by associating together the said inhabitants and the local authorities, voluntary and other organisations in a common effort to advance education and to provide facilities in the interests of social welfare for recreation and leisure-time occupation with the object of improving the conditions of life for the said inhabitants.",
+                    "charityNumber": "1085090",
+                    "companyNumber": "03715169"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A551148",
+            "title": "COVID19 Bereavement Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Grant to Balloons",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-01T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 2500,
+            "Primary age group": "Children (5 \u2013 12)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Exeter 014C",
+                    "geoCode": "E01019970",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-07849857",
+                    "url": "http://www.balloonscharity.co.uk",
+                    "name": "Balloons",
+                    "description": "Balloons provides pre- and post-bereavement support to C&YP. The death of a significant person is a critical moment; unsupported C&YP have poorer health and educational outcomes, are more likely to enter the criminal justice system, are more prone to a range of psychological disturbances. Balloons support mitigates against negative outcomes.",
+                    "charityNumber": "1158666",
+                    "companyNumber": "07849857"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A551150",
+            "title": "COVID19 Totnes Connection Hub Food Bank",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Grant to Market Place Ministries -Totnes Connection Hub Food Bank",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-06-23T00:00:00+00:00",
+                    "duration": 3,
+                    "startDate": "2020-03-23T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Poverty and disadvantage",
+            "amountAwarded": 3000,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 5000,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White",
+            "Primary beneficiary": "Families/Parents/Lone parents",
+            "beneficiaryLocation": [
+                {
+                    "name": "South Hams 003A",
+                    "geoCode": "E01020180",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-08815037",
+                    "url": "https://connectionhubs.weebly.com/totnes-hub.html",
+                    "name": "Market Place Ministries -Totnes Connection Hub Food Bank",
+                    "description": "We provide help and support to the homeless, vulnerable and those in need including those in financial poverty or emotionally in need. At our premises we offer showers/toilets, laundry facilities, access/support to computers, benefit and support services, form filling, identifying emotional and support needs.",
+                    "charityNumber": "1165695",
+                    "companyNumber": "08815037"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A551156",
+            "title": "COVID19 PTSD & C-PTSD TRAUMA SURVIVORS DEVON WEBSITE",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Grant to PTSD &C-PTSD TRAUMA SURVIVORS",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2021-04-18T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-04-19T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Mental health",
+            "amountAwarded": 300,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 300,
+            "Primary age group": "Young Adults (19 \u2013 25)",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "People with mental health issues",
+            "beneficiaryLocation": [
+                {
+                    "name": "Torbay 012C",
+                    "geoCode": "E01015204",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-DevonCF-ACC947682",
+                    "name": "PTSD &C-PTSD TRAUMA SURVIVORS",
+                    "description": "Our objective is to offer peer support to our member who have suffered some sort of trauma in their lives which includes childhood abuse, domestic abuse , RTA just a few to name. To help support these people and prevent hospital admissions due to self harm and suicide attempts"
+                }
+            ]
+        },
+        {
+            "id": "360G-DevonCF-A551158",
+            "title": "COVID19 Coronavirus Hardship Relief: Free Meals During COVID-19 Outbreak",
+            "currency": "GBP",
+            "awardDate": "2020-04-16T00:00:00+00:00",
+            "description": "Grant to Exeter Communities Together CIC",
+            "dateModified": "2020-04-16T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-09-30T00:00:00+00:00",
+                    "duration": 5,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Stronger communities/Community support and development",
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "code": "2020/R2",
+                    "title": "Devon Coronavirus Response and Recovery Fund"
+                }
+            ],
+            "amountAppliedFor": 2500,
+            "Primary age group": "All Ages",
+            "Primary ethnicity": "White British",
+            "Primary beneficiary": "People living in poverty",
+            "beneficiaryLocation": [
+                {
+                    "name": "Exeter 005A",
+                    "geoCode": "E01019980",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1057923",
+                    "name": "Devon Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-DevonCF-ACC947684",
+                    "url": "http://www.exetercommunitiestogether.org.uk",
+                    "name": "Exeter Communities Together CIC",
+                    "description": "We are a community interest company (CIC) that runs/manages Exwick Community Centre and holds a range of events and activities including fitness sessions as well as cultural and social to reduce social exclusion/isolation; build bridges, and understanding between all communities (including mainstream and diverse); break down barriers; and reduce discrimination."
                 }
             ]
         },
@@ -21736,7 +22714,889 @@
                     "addressCountry": "United Kingdom"
                 }
             ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000988",
+            "title": "Grant to Age UK Scarborough & District",
+            "currency": "GBP",
+            "Reference": "202000988",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase a van for a charity that helps older people in North Yorkshire",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Yorks & Humberside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1143893",
+                    "name": "Age UK Scarborough & District",
+                    "postalCode": "YO11 1BD",
+                    "charityNumber": "1143893",
+                    "addressLocality": "Scarborough"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000990",
+            "title": "Grant to St Anne's Hostel",
+            "currency": "GBP",
+            "Reference": "202000990",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase of security equipment for a charity that works with homelessness in West Midlands ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 1500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "West Midlands"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1037430",
+                    "name": "St Anne's Hostel",
+                    "postalCode": "B12 0RY",
+                    "charityNumber": "1037430",
+                    "addressLocality": "Birmingham"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000991",
+            "title": "Grant to Bright Light Relationship Counselling formerly known as Couple Counselling Lothian ",
+            "currency": "GBP",
+            "Reference": "202000991",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with domestic and sexual abuse in Scotland",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Scotland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-SC-SC011989",
+                    "name": "Bright Light Relationship Counselling formerly known as Couple Counselling Lothian ",
+                    "postalCode": "EH36QG",
+                    "charityNumber": "SC011989",
+                    "addressLocality": "Edinburgh"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000992",
+            "title": "Grant to Crawley Open House",
+            "currency": "GBP",
+            "Reference": "202000992",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with homelessness in West Sussex",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 3400,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1048919",
+                    "name": "Crawley Open House",
+                    "postalCode": "RH10 1TN",
+                    "charityNumber": "1048919",
+                    "addressLocality": "Crawley"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000993",
+            "title": "Grant to Brain Injury Matters (NI)",
+            "currency": "GBP",
+            "Reference": "202000993",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that woks with acquired brain injury survivors in Northern Ireland ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Northern Ireland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NIC-103691",
+                    "name": "Brain Injury Matters (NI)",
+                    "postalCode": "BT5 6BQ",
+                    "charityNumber": "NIC103691",
+                    "addressLocality": "Belfast"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000995",
+            "title": "Grant to FareShare Yorkshire",
+            "currency": "GBP",
+            "Reference": "202000995",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase of folk lift vehicle for a charity that works with older people in South Yorkshire",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Yorks & Humberside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1075477",
+                    "name": "FareShare Yorkshire",
+                    "postalCode": "S73 8HA",
+                    "charityNumber": "1075477",
+                    "addressLocality": "Barnsley"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000996",
+            "title": "Grant to Right Track Scotland",
+            "currency": "GBP",
+            "Reference": "202000996",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :   purchase IT equipment for a charity that works with disadvantaged young people in North Lanarkshire ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 3600,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Scotland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-SC-SC017314",
+                    "name": "Right Track Scotland",
+                    "postalCode": "ML5 2DJ",
+                    "charityNumber": "SC017314",
+                    "addressLocality": "Coatbridge"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202000997",
+            "title": "Grant to Hive Bradford",
+            "currency": "GBP",
+            "Reference": "202000997",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with disadvantged minority communities in West Yorkshire",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 4390,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Yorks & Humberside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1100741",
+                    "name": "Hive Bradford",
+                    "postalCode": "BD18 3EH",
+                    "charityNumber": "1100741",
+                    "addressLocality": "Bradford"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001003",
+            "title": "Grant to Ripon Community Link Company Limited",
+            "currency": "GBP",
+            "Reference": "202001003",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with people with disabilities in Ripon",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 2550,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Yorks & Humberside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1049030",
+                    "name": "Ripon Community Link Company Limited",
+                    "postalCode": "HG4 3HN",
+                    "charityNumber": "1049030",
+                    "addressLocality": "Ripon"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001004",
+            "title": "Grant to Dogs for Autism",
+            "currency": "GBP",
+            "Reference": "202001004",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with people with disabilities in Hampshire",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 900,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1181615",
+                    "name": "Dogs for Autism",
+                    "postalCode": "GU34 4AL",
+                    "charityNumber": "1181615",
+                    "addressLocality": "Alton"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001005",
+            "title": "Grant to RECLAIM Project",
+            "currency": "GBP",
+            "Reference": "202001005",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with disadvantaged young people in Greater Manchester",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 4790,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "North West"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1139807",
+                    "name": "RECLAIM Project",
+                    "postalCode": "M4 5BA",
+                    "charityNumber": "1139807",
+                    "addressLocality": "Manchester"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001007",
+            "title": "Grant to Trust Links Ltd",
+            "currency": "GBP",
+            "Reference": "202001007",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  Purchase of IT and security equipment for a charity that supports people sufferin from poor mental health in Essex ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 4825,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1092324",
+                    "name": "Trust Links Ltd",
+                    "postalCode": "SS0 9AG",
+                    "charityNumber": "1092324",
+                    "addressLocality": "Westcliff on Sea"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001011",
+            "title": "Grant to Jigsaw Recovery Project C.I.C.",
+            "currency": "GBP",
+            "Reference": "202001011",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase of IT equipment for a charity that works with disadvantaged young people in Tyne and Wear",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "North East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-10434463",
+                    "name": "Jigsaw Recovery Project C.I.C.",
+                    "postalCode": "NE8 3AA",
+                    "charityNumber": "NI10434463",
+                    "addressLocality": "Gateshead"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001012",
+            "title": "Grant to The Macari Foundation",
+            "currency": "GBP",
+            "Reference": "202001012",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  furnishing of the living pods for a charity that works with homelessness in Staffordshire",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 4950,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "West Midlands"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1168463",
+                    "name": "The Macari Foundation",
+                    "postalCode": "ST1 3EG",
+                    "charityNumber": "1168463",
+                    "addressLocality": "Stoke-on-Trent"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001013",
+            "title": "Grant to Hope Amplified",
+            "currency": "GBP",
+            "Reference": "202001013",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase of refrigerating equipment for a charity that works with disadvantaged minority communities in Glasgow",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 3000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Scotland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-SC-SC044265",
+                    "name": "Hope Amplified",
+                    "postalCode": "G1 4DF",
+                    "charityNumber": "SC044265",
+                    "addressLocality": "Glasgow"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001014",
+            "title": "Grant to St Michael's Parish Community Hall",
+            "currency": "GBP",
+            "Reference": "202001014",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  refurbishment of building saftey for a charity that works with alcohol and substance misuse in Greater Manchester",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "North West"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-REV-X88980",
+                    "name": "St Michael's Parish Community Hall",
+                    "postalCode": "M23 0PX",
+                    "charityNumber": "X88980",
+                    "addressLocality": "Manchester"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001015",
+            "title": "Grant to West Faversham Community Association",
+            "currency": "GBP",
+            "Reference": "202001015",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase kitchen utilities for a charity that works with older people in Kent ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 1250,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1139228",
+                    "name": "West Faversham Community Association",
+                    "postalCode": "ME13 8LH",
+                    "charityNumber": "1139228",
+                    "addressLocality": "Faversham"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001016",
+            "title": "Grant to Oxfordshire My Life My Choice Association",
+            "currency": "GBP",
+            "Reference": "202001016",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase of electronics for a charity that works with disabilities in Oxforshire ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 3500,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1073247",
+                    "name": "Oxfordshire My Life My Choice Association",
+                    "postalCode": "OX4 6NF",
+                    "charityNumber": "1073247",
+                    "addressLocality": "Oxford"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001017",
+            "title": "Grant to Bath and North East Somerset Carers Centre",
+            "currency": "GBP",
+            "Reference": "202001017",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase phone and IT equipment for a charity that works with older people in Somerset",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "South West"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1060080",
+                    "name": "Bath and North East Somerset Carers Centre",
+                    "postalCode": "BA2 9ES",
+                    "charityNumber": "1060080",
+                    "addressLocality": "Bath"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001025",
+            "title": "Grant to Harrogate & Area Council for Voluntary Service Ltd",
+            "currency": "GBP",
+            "Reference": "202001025",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT equipment for a charity that works with older people in North Yorkshire",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 1100,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Yorks & Humberside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1144758",
+                    "name": "Harrogate & Area Council for Voluntary Service Ltd",
+                    "postalCode": "HG1 5RR",
+                    "charityNumber": "1144758",
+                    "addressLocality": "Harrogate"
+                }
+            ]
+        },
+        {
+            "id": "360G-ClothworkersFdn-202001040",
+            "title": "Grant to Sydenham Garden",
+            "currency": "GBP",
+            "Reference": "202001040",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://foundation.clothworkers.co.uk/",
+            "description": "COVID19 :  purchase IT and communications equipment for a charity that works with older people in Lewisham ",
+            "fundingType": [
+                {
+                    "title": "Capital"
+                }
+            ],
+            "dateModified": "2020-04-22T00:00:00+00:00",
+            "fromOpenCall": "Yes",
+            "amountAwarded": 4530,
+            "grantProgramme": [
+                {
+                    "title": "Clothworkers' Emergency Capital Programme"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Greater London"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-274100",
+                    "name": "The Clothworkers Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1108100",
+                    "name": "Sydenham Garden",
+                    "postalCode": "SE23 2LW",
+                    "charityNumber": "1108100",
+                    "addressLocality": "London"
+                }
+            ]
         }
     ],
-    "last_updated": "2020-04-22T04:06:53.933319"
+    "last_updated": "2020-04-23T04:06:33.171571"
 }
