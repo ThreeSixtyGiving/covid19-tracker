@@ -1,11 +1,14 @@
 import json
 import os
+from io import StringIO
+import csv
 import urllib.parse
 
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+from flask import make_response
 
 from .data import get_data, filter_data
 from .components import cards, chart, table
@@ -18,6 +21,67 @@ with open(os.path.join(os.path.dirname(__file__), 'templates/dash.html'), encodi
 
 all_data = get_data()
 data = filter_data(all_data)
+
+@server.route('/data/grants.json')
+def get_all_grants():
+    return {
+        "grants": data['grants']
+    }
+
+@server.route('/data/grants.csv')
+def get_all_grants_csv():
+
+    def trim_date(value):
+        if not value:
+            return value
+        return value[0:10]
+
+    outputStream = StringIO()
+    writer = csv.DictWriter(outputStream, fieldnames=[
+        "Identifier",                      # id
+        "Title",                           # title
+        "Description",                     # description
+        "Currency",                        # currency
+        "Amount Awarded",                  # amountAwarded
+        "Award Date",                      # awardDate
+        "Planned Dates:Start Date",        # plannedDates.0.endDate
+        "Planned Dates:End Date",          # plannedDates.0.startDate
+        "Planned Dates:Duration (months)", # plannedDates.0.duration
+        "Recipient Org:Identifier",        # recipientOrganization.0.id
+        "Recipient Org:Name",              # recipientOrganization.0.name
+        "Recipient Org:Charity Number",    # recipientOrganization.0.charityNumber
+        "Recipient Org:Company Number",    # recipientOrganization.0.companyNumber
+        "Recipient Org:Postal Code",       # recipientOrganization.0.postalCode
+        "Funding Org:Identifier",          # fundingOrganization.0.id
+        "Funding Org:Name",                # fundingOrganization.0.name
+        "Grant Programme:Title",           # grantProgramme.0.title
+    ])
+    writer.writeheader()
+    for g in data["grants"]:
+        writer.writerow({
+            "Identifier":                       g.get('id'),                      # id
+            "Title":                            g.get("title"),                           # title
+            "Description":                      g.get("description"),                     # description
+            "Currency":                         g.get("currency"),                        # currency
+            "Amount Awarded":                   g.get("amountAwarded"),                  # amountAwarded
+            "Award Date":                       trim_date(g.get("awardDate")),                      # awardDate
+            "Planned Dates:Start Date":         trim_date(g.get("plannedDates", [{}])[0].get("startDate")),        # plannedDates.0.startDate
+            "Planned Dates:End Date":           trim_date(g.get("plannedDates", [{}])[0].get("endDate")),          # plannedDates.0.endDate
+            "Planned Dates:Duration (months)":  g.get("plannedDates", [{}])[0].get("duration"), # plannedDates.0.duration
+            "Recipient Org:Identifier":         g.get("recipientOrganization", [{}])[0].get("id"), # recipientOrganization.0.id
+            "Recipient Org:Name":               g.get("recipientOrganization", [{}])[0].get("name"), # recipientOrganization.0.name
+            "Recipient Org:Charity Number":     g.get("recipientOrganization", [{}])[0].get("charityNumber"), # recipientOrganization.0.charityNumber
+            "Recipient Org:Company Number":     g.get("recipientOrganization", [{}])[0].get("companyNumber"), # recipientOrganization.0.companyNumber
+            "Recipient Org:Postal Code":        g.get("recipientOrganization", [{}])[0].get("postalCode"), # recipientOrganization.0.postalCode
+            "Funding Org:Identifier":           g.get("fundingOrganization", [{}])[0].get("id"), # fundingOrganization.0.id
+            "Funding Org:Name":                 g.get("fundingOrganization", [{}])[0].get("name"), # fundingOrganization.0.name
+            "Grant Programme:Title":            g.get("grantProgramme", [{}])[0].get("title"), # grantProgramme.0.title
+        })
+
+    output = make_response(outputStream.getvalue())
+    output.headers["Content-Disposition"] = "attachment; filename=grants.csv"
+    output.headers["Content-type"] = "text/csv"
+    return output
 
 app.title = 'Coronavirus response grants tracker'
 app.layout = html.Div(id="main-div", children=[
@@ -114,7 +178,9 @@ app.layout = html.Div(id="main-div", children=[
                 for grants data. Explore and download in detail on where and how much funding 
                 goes across billions of pounds of grants.
             '''),
-            html.A(className='button button--orange', href=app.get_asset_url('data/grants_data.json'), target="_blank", children="Download (JSON)"),
+            html.A(className='button button--orange', href='/data/grants.csv', target="_blank", children="Download (CSV)"),
+            ' ',
+            html.A(className='button button--orange', href='/data/grants.json', target="_blank", children="Download (JSON)"),
             ' ',
             html.A(className='button button--orange', href="https://grantnav.threesixtygiving.org/search?json_query=%7B%22query%22%3A+%7B%22bool%22%3A+%7B%22must%22%3A+%7B%22query_string%22%3A+%7B%22query%22%3A+%22coronavirus+OR+pandemic+OR+covid+OR+%5C%22covid19%5C%22%22%2C+%22default_field%22%3A+%22%2A%22%7D%7D%2C+%22filter%22%3A+%5B%7B%22bool%22%3A+%7B%22should%22%3A+%5B%5D%7D%7D%2C+%7B%22bool%22%3A+%7B%22should%22%3A+%5B%5D%7D%7D%2C+%7B%22bool%22%3A+%7B%22should%22%3A+%5B%5D%2C+%22must%22%3A+%7B%7D%2C+%22minimum_should_match%22%3A+1%7D%7D%2C+%7B%22bool%22%3A+%7B%22should%22%3A+%7B%22range%22%3A+%7B%22amountAwarded%22%3A+%7B%7D%7D%7D%2C+%22must%22%3A+%7B%7D%2C+%22minimum_should_match%22%3A+1%7D%7D%2C+%7B%22bool%22%3A+%7B%22should%22%3A+%5B%7B%22range%22%3A+%7B%22awardDate%22%3A+%7B%22format%22%3A+%22year%22%2C+%22gte%22%3A+%222020%7C%7C%2Fy%22%2C+%22lte%22%3A+%222020%7C%7C%2Fy%22%7D%7D%7D%5D%7D%7D%2C+%7B%22bool%22%3A+%7B%22should%22%3A+%5B%5D%7D%7D%2C+%7B%22bool%22%3A+%7B%22should%22%3A+%5B%5D%7D%7D%2C+%7B%22bool%22%3A+%7B%22should%22%3A+%5B%5D%7D%7D%5D%7D%7D%2C+%22sort%22%3A+%7B%22_score%22%3A+%7B%22order%22%3A+%22desc%22%7D%7D%2C+%22aggs%22%3A+%7B%22fundingOrganization%22%3A+%7B%22terms%22%3A+%7B%22field%22%3A+%22fundingOrganization.id_and_name%22%2C+%22size%22%3A+50%7D%7D%2C+%22recipientOrganization%22%3A+%7B%22terms%22%3A+%7B%22field%22%3A+%22recipientOrganization.id_and_name%22%2C+%22size%22%3A+3%7D%7D%2C+%22recipientRegionName%22%3A+%7B%22terms%22%3A+%7B%22field%22%3A+%22recipientRegionName%22%2C+%22size%22%3A+3%7D%7D%2C+%22recipientDistrictName%22%3A+%7B%22terms%22%3A+%7B%22field%22%3A+%22recipientDistrictName%22%2C+%22size%22%3A+3%7D%7D%2C+%22currency%22%3A+%7B%22terms%22%3A+%7B%22field%22%3A+%22currency%22%2C+%22size%22%3A+3%7D%7D%7D%2C+%22extra_context%22%3A+%7B%22awardYear_facet_size%22%3A+3%2C+%22amountAwardedFixed_facet_size%22%3A+3%7D%7D", target="_blank", children="Search on GrantNav"),
             html.Div(className="spacer-3"),
