@@ -27918,6 +27918,58 @@
             ]
         },
         {
+            "id": "360G-PearsFdn-5753",
+            "title": "Grant to The Orpheus Centre",
+            "currency": "GBP",
+            "Reference": "5753",
+            "awardDate": "2020-04-17",
+            "dataSource": "https://pearsfoundation.org.uk/",
+            "description": "Core funding",
+            "fundingType": [
+                {
+                    "title": "Type of support",
+                    "Vocabluary": "Core Funding:Unrestricted"
+                }
+            ],
+            "dateModified": "2020-04-17T12:00:00Z",
+            "fromOpenCall": "No",
+            "plannedDates": [
+                {
+                    "endDate": "2021-04-01",
+                    "duration": 12,
+                    "startDate": "2020-04-01"
+                }
+            ],
+            "amountAwarded": 35000,
+            "amountDisbursed": 0,
+            "classifications": [
+                {
+                    "title": "Funding area",
+                    "vocabulary": "Covid-19 Response, SEN & Disability"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "UK-Wide        "
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1009195",
+                    "name": "Pears Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1105213",
+                    "name": "The Orpheus Centre",
+                    "postalCode": "RH9 8ND",
+                    "charityNumber": "1105213",
+                    "addressLocality": "Surrey"
+                }
+            ]
+        },
+        {
             "id": "360G-PearsFdn-5756",
             "title": "Grant to Institute for Voluntary Action Research",
             "currency": "GBP",
@@ -29955,6 +30007,58 @@
             ]
         },
         {
+            "id": "360G-PearsFdn-5764",
+            "title": "Grant to NCVO",
+            "currency": "GBP",
+            "Reference": "5764",
+            "awardDate": "2020-04-21",
+            "dataSource": "https://pearsfoundation.org.uk/",
+            "description": "Core funding",
+            "fundingType": [
+                {
+                    "title": "Type of support",
+                    "Vocabluary": "Core Funding:Unrestricted"
+                }
+            ],
+            "dateModified": "2020-04-21T12:00:00Z",
+            "fromOpenCall": "No",
+            "plannedDates": [
+                {
+                    "endDate": "2020-05-21",
+                    "duration": 1,
+                    "startDate": "2020-04-21"
+                }
+            ],
+            "amountAwarded": 20000,
+            "amountDisbursed": 0,
+            "classifications": [
+                {
+                    "title": "Funding area",
+                    "vocabulary": "Covid-19 Response, Voluntary Sector Infrastructure"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "UK-Wide        "
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1009195",
+                    "name": "Pears Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-225922",
+                    "name": "NCVO",
+                    "postalCode": "N1 9RL",
+                    "charityNumber": "225922",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
             "id": "360G-EssexCF-A546164",
             "title": "Grant to Safer Places",
             "currency": "GBP",
@@ -30192,5 +30296,5 @@
             ]
         }
     ],
-    "last_updated": "2020-04-24T04:06:47.210980"
+    "last_updated": "2020-04-24T14:57:22.650385"
 }

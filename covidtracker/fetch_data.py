@@ -22,7 +22,8 @@ def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file
     where (
             g.data->>'title' ~* 'covid|coronavirus|pandemic|cv-?19' or
             g.data->>'description' ~* 'covid|coronavirus|pandemic|cv-?19' or
-            g.data->'grantProgramme'->0->>'title' ~* 'covid|coronavirus|pandemic|cv-?19'
+            g.data->'grantProgramme'->0->>'title' ~* 'covid|coronavirus|pandemic|cv-?19' or
+            g.data->>'classifications' ~* 'covid|coronavirus|pandemic|cv-?19'
         )
         and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-03-16'
     order by to_date(g.data->>'awardDate', 'YYYY-MM-DD'), g.data->>'id'
