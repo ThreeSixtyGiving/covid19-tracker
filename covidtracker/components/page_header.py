@@ -20,5 +20,5 @@ def page_header(data):
             html.H2(className="header-group__title", children=[funder_name]),
             # html.H3(className="header-group__subtitle", children=dcc.Markdown(subheading)),
         ]),
-        html.P(className="header-group__excerpt", children=dcc.Markdown(subheading)),
+        html.P(className="header-group__excerpt", children=dcc.Markdown(subheading, dangerously_allow_html=True)),
     ]
