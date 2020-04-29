@@ -65,6 +65,45 @@
             ]
         },
         {
+            "id": "360G-CamdenGiving-0197",
+            "title": "C4WS - grant extension for Covid-19 response",
+            "currency": "GBP",
+            "awardDate": "2020-03-19T00:00:00+00:00",
+            "description": "To cover the rents of a group guests who had found hospitality jobs and homes, then lost them and were concerned about becoming homeless again. \nThis is an extension of a current grant they already have from us.",
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/grants/camden-givings-kings-cross-fund/",
+                    "title": "KX Fund - Grant Extension "
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1121919",
+                    "url": "http://c4wshomelessproject.org/",
+                    "name": "C4WS Homeless Project",
+                    "postalCode": "NW1 1NA",
+                    "Annual Income": 250794,
+                    "charityNumber": "1121919",
+                    "Area of Activity 1": "Homelessness",
+                    "Area of Activity 2": "Prevention or Relief of Poverty"
+                }
+            ]
+        },
+        {
             "id": "360G-EFF-20-0465",
             "title": "Grant to The Social Investment Business Group",
             "currency": "GBP",
@@ -123,7 +162,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.",
-            "dateModified": "2020-04-13T03:26:40Z",
+            "dateModified": "2020-04-28T06:22:42Z",
             "plannedDates": [
                 {
                     "endDate": "2021-03-19",
@@ -162,7 +201,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.",
-            "dateModified": "2020-04-13T09:32:28Z",
+            "dateModified": "2020-04-28T06:22:25Z",
             "plannedDates": [
                 {
                     "endDate": "2021-03-19",
@@ -200,7 +239,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-04-13T03:26:38Z",
+            "dateModified": "2020-04-28T06:21:57Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-19",
@@ -239,7 +278,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-04-13T06:29:47Z",
+            "dateModified": "2020-04-28T06:22:49Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-19",
@@ -277,7 +316,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-19",
             "description": "Unrestricted core funding.",
-            "dateModified": "2020-04-13T09:32:26Z",
+            "dateModified": "2020-04-28T06:23:10Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-19",
@@ -315,7 +354,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-23",
             "description": "Core unrestricted funding to support its work during the Covid-19 crisis.",
-            "dateModified": "2020-04-13T09:26:33Z",
+            "dateModified": "2020-04-28T06:23:05Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-23",
@@ -390,7 +429,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-23",
             "description": "To The Big Give Trust COVID-19 Emergency Appeal.",
-            "dateModified": "2020-04-13T09:32:44Z",
+            "dateModified": "2020-04-28T06:22:26Z",
             "plannedDates": [
                 {
                     "endDate": "2021-03-23",
@@ -519,7 +558,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-24",
             "description": "Unrestricted core funding.",
-            "dateModified": "2020-04-13T09:32:38Z",
+            "dateModified": "2020-04-28T06:23:11Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-24",
@@ -558,7 +597,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-24",
             "description": "Unrestricted core funding.",
-            "dateModified": "2020-04-13T08:37:35Z",
+            "dateModified": "2020-04-28T06:22:10Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-24",
@@ -1415,7 +1454,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-26",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-04-13T09:32:49Z",
+            "dateModified": "2020-04-28T06:22:26Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-26",
@@ -1454,7 +1493,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-26",
             "description": "Core unrestricted funding.",
-            "dateModified": "2020-04-13T01:59:49Z",
+            "dateModified": "2020-04-28T06:22:39Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-26",
@@ -2949,7 +2988,7 @@
                 }
             ],
             "dateModified": "2020-04-22T00:00:00+00:00",
-            "fromOpenCall": "Yes",
+            "fromOpenCall": "No",
             "amountAwarded": 500000,
             "grantProgramme": [
                 {
@@ -2991,7 +3030,7 @@
                 }
             ],
             "dateModified": "2020-04-22T00:00:00+00:00",
-            "fromOpenCall": "Yes",
+            "fromOpenCall": "No",
             "amountAwarded": 200000,
             "grantProgramme": [
                 {
@@ -3893,7 +3932,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30",
             "description": "To support disabled people's organisations response to the coronavirus pandemic.",
-            "dateModified": "2020-04-13T08:57:33Z",
+            "dateModified": "2020-04-28T06:22:11Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-30",
@@ -3931,7 +3970,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-30",
             "description": "To the London Communities Coronavirus Appeal for regranting to small charities and grassroots organisations across the capital.",
-            "dateModified": "2020-04-13T09:32:57Z",
+            "dateModified": "2020-04-28T06:22:26Z",
             "plannedDates": [
                 {
                     "endDate": "2020-03-30",
@@ -20859,6 +20898,1074 @@
             ]
         },
         {
+            "id": "360G-CamdenGiving-0168",
+            "title": "Opening Doors - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Funding for phone, online and food support form issolated older LGBT residents, plus covering loss of income from corporate supporters.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1167919",
+                    "url": "https://www.openingdoorslondon.org.uk/",
+                    "name": "Opening Doors London",
+                    "postalCode": "WC1H 9NA",
+                    "Annual Income": 457717,
+                    "charityNumber": "1167919"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0169",
+            "title": "RAaW Foundation - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "To create a be-friending project, that will run over a three-month period, with thirty Camden based children and young people, (aged 12 \u2013 30), to build confidence, develop trust in relationships, and promote and have fun with healthy minds and bodies, through this pandemic.",
+            "amountAwarded": 1450,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03851759",
+                    "url": "https://raawfoundation.com/",
+                    "name": "RAaW Foundation",
+                    "postalCode": "E4 8AZ",
+                    "Annual Income": 14767,
+                    "companyNumber": "03851759"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0170",
+            "title": "Latin American House - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Paying for IT equipment, for example two laptops or tablets, and we will have to buy at least one package for remote communications. This is to ensure continutity of free activities for BAME residents including advice and information on immigration, benefits, schools enrollment, applications for the EU Settlement Scheme, community, cultural, educational and social activities (ESOL, IT and Technology, how to access services (i.e. NHS) dancing classes and cultural events.",
+            "amountAwarded": 3000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1127253",
+                    "url": "https://www.casalatina.org.uk",
+                    "name": "Latin American House",
+                    "postalCode": "NW6 4TA",
+                    "Annual Income": 325000,
+                    "charityNumber": "1127253"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0171",
+            "title": "Urban Community Projects - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Support to pay a foodbank coordinator to help with facilitating emergency supply packages for residents ",
+            "amountAwarded": 1665,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1156156",
+                    "url": "https://www.urbancommunityprojects.org.uk/",
+                    "name": "Urban Community Projects",
+                    "postalCode": "NW1 1EE",
+                    "Annual Income": 34946,
+                    "charityNumber": "1156156"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0172",
+            "title": "Holborn Community Association - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Grant to plug the gap in their revenue income generation that has been lost, they cannot continue to pay the staff involved in the offer we had created to run but now cannot run them.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-801064",
+                    "url": "https://www.holborncommunity.co.uk/",
+                    "name": "Holborn Community Association",
+                    "postalCode": "WC1N 3EW",
+                    "Annual Income": 936573,
+                    "charityNumber": "801064"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0173",
+            "title": "Somers Town Community  Association - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Cover loss of income of rent and general running costs. They launched 'Somers Town Covidvirus Emergency Response Centre' supporting by offering a community fridge providing fresh produce inclusive of fruit and vegetables, dry goods and toiletries inclusive of sanitary products.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-292440",
+                    "url": "https://www.somerstown.org.uk",
+                    "name": "Somers Town Community Association",
+                    "postalCode": "NW1 1EE",
+                    "Annual Income": 593547,
+                    "charityNumber": "292440"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0174",
+            "title": "Coram's Fields - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Support for Young people from Camden and neighbouring boroughs with a digital programme of and 1-1 support \u2013 many of whom are at risk of anti-social behaviour/youth violence, or may be out of education/employment. The support we provide may not be food or shelter, but we know it is vital to the wellbeing of local young people, especially those from vulnerable households.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-302963",
+                    "url": "https://www.coramsfields.org/",
+                    "name": "Coram's Fields",
+                    "postalCode": "WC1N 1DN",
+                    "Annual Income": 1700000,
+                    "charityNumber": "302963"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0175",
+            "title": "Hopscotch Asian Women's Centre - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Hopscotch Asian Women's Centre require urgent funding for:-- work laptops for staff (we currently have 1)- work phones for all staff engaged in the crisis work- increased data for all work phones- \u00a310 per month towards broadband costs to staff working from home- should London Community Response not grant us \u00a35k to upgrade our archaic IT system, we will need money to do this tooTo help deliver outreach, online advertising of services, 121 phone/video  supportone to one video support where safe to do so, 3 a week group sessions on DV awareness & we will be producing visual guidance around Covid 19 which we will share to the public ",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1079574",
+                    "url": "http://www.hopscotchawc.org.uk/",
+                    "name": "Hopscotch Asian Women's Centre",
+                    "postalCode": "NW1 2PY",
+                    "Annual Income": 1493370,
+                    "charityNumber": "1079574"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0176",
+            "title": "Songhaven - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Audience donations and professional concert visits to care homes were our regular income stream to cover our activities and running costs-both income streams have halted due to COVID19 and resulted in a loss of \u00a34350 (1/3 of annual income). Instead, three Songhaven team members will each be devoting 2-4 days per week to work on Songhaven at Home - a virtual concert archive for people to enjoy at home.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-11317064",
+                    "url": "http://songhaven.co.uk/",
+                    "name": "Songhaven",
+                    "postalCode": "WC1N 3HZ",
+                    "Annual Income": 12000,
+                    "companyNumber": "11317064"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0177",
+            "title": "Kentish Town Community Centre - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Working with  Brecknock Primary School, Torriano Primary School , St Patricks Catholic Primary School we have launched the 'Happiness Hampers' project to provide immediate food to children from low income families/who are not in receipt of free school meals. who may be a risk of falling into food poverty as a result of a drop in their parents income. We will be providing fortnightly hampers with nice treats like nuttella, jam and honey, items which their parents may not be able to afford. ",
+            "amountAwarded": 4700,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1104278",
+                    "url": "https://www.ktcc.org.uk/",
+                    "name": "Kentish Town Community Centre (KTCC)",
+                    "postalCode": "NW5 2SP",
+                    "Annual Income": 285365,
+                    "charityNumber": "1104278"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0178",
+            "title": "The Winchester Project - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Financial support to get the resources out to: Parents living in temporary housing, who have experienced family breakdown, fled conflict and/or exploitative relationships; Low income families and children with SEND or known to social care, via our Play provision; Young people (75% BAME) affected by violence, transitioning schools and at risk of exclusion; Young adults experiencing poor mental health, insecure housing or homelessness, isolation and poverty; Older, isolated elder residents. In the medium-term, we will have to develop more of our digital offering and may need support developing this.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1055059",
+                    "url": "https://thewinch.org/",
+                    "name": "The Winchester Project",
+                    "postalCode": "NW3 3NR",
+                    "Annual Income": 937261,
+                    "charityNumber": "1055059"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0179",
+            "title": "Sir Hubert Von Herkomer Arts Foundation - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "30 vulnerable young people living in social housing and disadvantaged areas will attend a photography project each week,learning skills in documentary photography, research, discovering the outdoors, film making, editing their own 12-week mini photography documentary project of how it feels to live life in a PANDEMIC. We will need to allocate 10 laptops (to provide home learning which many young people DO NOT have access to it).",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1149607",
+                    "url": "http://vonherkomerfoundation.org/",
+                    "name": "SIR HUBERT VON HERKOMER ARTS FOUNDATION",
+                    "postalCode": "WC1N 1BD",
+                    "Annual Income": 41666,
+                    "charityNumber": "1149607"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0180",
+            "title": "The Whitefield Charity SK Corporation (Soup Kitchen London) - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "This grant will allow them to continue to operate a takeaway service 6 days a week for our homeless friends at breakfast and lunchtime, and make sure they have hot and nutritious food available to them - anxiety amongst our guests as most other places that feed homeless people have closed. A large part of this grant will go towards disposable supplies (takeaway containers, cups, utensils)  and a large part will go towards our food cost.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1051770",
+                    "url": "https://amchurch.co.uk/soup-kitchen/",
+                    "name": "The Whitefield Charity SK Corporation (Soup Kitchen London)",
+                    "postalCode": "W1T 4TD",
+                    "Annual Income": 164000,
+                    "charityNumber": "1051770"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0181",
+            "title": "STORE Schools & Projects CIC - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "The grant will provide some continuity and support for the students that we teach by transforming thier after school club so that it can exist online and sending out kits to students so that the classes do not discriminate against those without computers(30% of the students that we teach have no access to a computer but do have smart phones). ",
+            "amountAwarded": 4200,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-08902577",
+                    "url": "http://www.storeprojects.org/wp-content/uploads/2019/03/STORE-pamphlet-London-2019.pdf",
+                    "name": "STORE Schools & Projects CIC",
+                    "postalCode": "N1C 4DR",
+                    "Annual Income": 152092,
+                    "companyNumber": "08902577"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0182",
+            "title": "St. Pancras Way Tenants and Residents Association - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Established a helpline & peer support group online, a webspace for sharing emotions, thoughts & feelings for  all communities that reside on our estate, we have a high proportion of elderly, single parent and BAMER community. Creating a space for connections, concerns & community to exist.  ",
+            "amountAwarded": 5500,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CamdenGiving-St.Pancras_Way_Tenants_and_Residents_Association",
+                    "name": "St.Pancras Way Tenants and Residents Association",
+                    "postalCode": "NW1 9EH",
+                    "Annual Income": 2500
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0183",
+            "title": "The Voices of England's Lane - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "The Voices of England's Lane - Covid19 Charity Fund ",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CamdenGiving-St.Pancras_The_Voice_Of_England\u2019s_Lane",
+                    "name": "The Voice of England\u2019s Lane",
+                    "postalCode": "NW3 4XJ",
+                    "Annual Income": 0
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0184",
+            "title": "Little Village - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "We will be providing 'essentials packages' to struggling families, delivered directly and safely to their door. That package would contain a months\u2019 worth of nappies, wipes, adult and baby toiletries, sanitary products and household goods. For families with nothing, we will also gift on a bundle of clothes, and a safe place for the baby to sleep. Small cost with delivery if can't use volunteers. Configuration of website costs also. Providing solidarity and ensuring people know they are cared for. Will ensure utilising free donations and letters of support amongst the packs too. Costs related to hiring bike courier service.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1169735",
+                    "url": "https://littlevillagehq.org/",
+                    "name": "Little Village",
+                    "postalCode": "NW1 1EE",
+                    "Annual Income": 386000,
+                    "charityNumber": "1169735"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0185",
+            "title": "Bengali Workers Association - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Arranging food pack deliveries to vulnerable households, Calls to those at risk and our regular members to check how they are doing, Providing free information and advice on the pandemic. The grant will enable us to continue and grow the support we offer to our users: recruit a specialist financial and legal advisor who can provide advice on benefits and healthcare entitlement during the pandemic, and on how to apply for the assistance that the Government has announced to ease pressure on mortgage payers, prevent job losses in small companies etc. It will also cover costs of three mobile phones to help with keeping in touch; laptops for working from home; a virtual phone line to enable our volunteers to deal with and record enquiries; and online conference facilities.",
+            "amountAwarded": 5955,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1039551",
+                    "url": "http://bwa-surma.org/",
+                    "name": "Bengali Workers Association (BWA)",
+                    "postalCode": "NW1 3JU",
+                    "Annual Income": 266944,
+                    "charityNumber": "1039551"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0186",
+            "title": "Khulisa - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "To create digital solutions to serve vulnerable young people aged 11-18, and support for professionals who care for vulnerable young people on a daily basis (These sessions are typically delivered in person, via schools, PRUs and prisons). Require emergency funds to support the continued delivery of our much needed services in response to increased demand and to cover loss of income. Online services will include health & wellbeing & 1:1 sessions. Looking to make resources available for all current partners but also distribute wider too. Costs will include: software (Zoom), edit video content, enhanced insurance & online safeguarding training, tools to monitor impact of interventions.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1120562",
+                    "url": "https://www.khulisa.co.uk/",
+                    "name": "Khulisa",
+                    "postalCode": "WC1X 0LR",
+                    "Annual Income": 730211,
+                    "charityNumber": "1120562"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0187",
+            "title": "London Irish Centre - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Delivering food parcels and were the site of Camden's initial response, run in partnership with Camden Council. Set up a telephone health and wellbeing advice line, with support and advice by a registered nurse. Telephone Befriending service to provide emotional support and a friendly voice to people who are isolated. Online chat and telephone Advice service supporting people with benefits issues, including Universal Credit claims, housing and issuing crisis grants. Library outreach service with books delivered to people\u2019s homes, curated by our in-house librarian. ",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1149787",
+                    "url": "https://www.londonirishcentre.org/",
+                    "name": "London Irish Centre",
+                    "postalCode": "NW1 9XB",
+                    "Annual Income": 1543523,
+                    "charityNumber": "1149787"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0188",
+            "title": "Kentish Town City Farm - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "To cover the loss of income as the Community Farm is now not able to charge for certain activities (e.g pony rides), not open for public donations, loss of income from fundraising (May Day fundraiser), no group parties allowed and can't furlough all staff as need staff to care for animals. ",
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-294797",
+                    "url": "https://ktcityfarm.org.uk/",
+                    "name": "Kentish Town City Farm",
+                    "postalCode": "NW5 4BN",
+                    "Annual Income": 418420,
+                    "charityNumber": "294797"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0189",
+            "title": "Abbey Community Centre - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Moving services online, including: Telephone outreach, postal services of infromation for people who are not online, virtual activities. Continue to serve isolated people, keep people safe from scams and work in partnership with other organisations. Will support loss of income and additional costs such as new telephones etc. Focussing on supporting elderly and isolated groups first and then supporting the most vulnerable families over time. ",
+            "amountAwarded": 4875,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-295191",
+                    "url": "https://abbeycc-kilburn.org.uk/",
+                    "name": "Abbey Community Centre",
+                    "postalCode": "NW6 4DJ",
+                    "Annual Income": 297676,
+                    "charityNumber": "295191"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0190",
+            "title": "North London Cares - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "To provide connection, support and friendship to older people in Camden who, due to Covid 19, are experiencing increased isolation and loneliness.The grant will support a month\u2019s worth of activity in place of our Social Clubs programme - principally, phone calls and support for the most vulnerable, our Virtual Social Clubs and the Alone Together packs. These activities will reach at least 557 older neighbours (65+), offering a number of ways to stay connected in an isolating time.",
+            "amountAwarded": 5975,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1153137",
+                    "url": "https://northlondoncares.org.uk/home",
+                    "name": "North London Cares",
+                    "postalCode": "NW1 8NJ",
+                    "Annual Income": 437844,
+                    "charityNumber": "1153137"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0191",
+            "title": "Camden Carers Centre - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "The funding will support carers to keep emotionally well and will step in where other agencies are unable to help (as often funding is directed at the cared for). The fund may help but will not be limited to Shopping vouchers (food and hygiene products), on line subscriptions, art and crafts/games/books/magazines to help carers stay well mentally. Electronic devices to help carers stay in touch with other carers, family and friends, or to access services on line, essential cab fares. Also to support additional costs of extra purcahses of laptops, Zoom and equipment for working from home - this could also include training. ",
+            "amountAwarded": 3000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1042757",
+                    "url": "https://www.camdencs.org.uk/",
+                    "name": "Camden Carers Centre",
+                    "postalCode": "NW5 1LB",
+                    "Annual Income": 846000,
+                    "charityNumber": "1042757"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0192",
+            "title": "NW5 Community Play Project - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Helping to ensure the survival of the NW5 Project, the beneficiaries of the grant will be young people and their families in Kentish Town - in particular the most ecomically and socially disadvantaged and young people excluded or chosing not to be involved in mainstream provision. To maintain our services as best we can through regular phone calls to young people and families, facetime, use of all forms of our social media, emails , letters and postcards etc We have also arranged fun events for young people through group video links, spoke with families about finacial pressures and ",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1027125",
+                    "url": "http://www.nw5project.moonfruit.com/",
+                    "name": "NW5 Community Play Project",
+                    "postalCode": "NW5 2TU",
+                    "Annual Income": 113700,
+                    "charityNumber": "1027125"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0193",
+            "title": "Urban Outdoors London - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Home based Nature activities, a natural craft experiences posted directly to families. During the current lockdown there are many households with no gardens to access nature but families will be supported to use their 1 hour walk to better engage with nature and follow prepared activites. The project will support families, who qualify with free-school meal status, those in single parent households and those visiting local food banks. ",
+            "amountAwarded": 5500,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-09106431",
+                    "name": "Urban Outdoors London",
+                    "postalCode": "NW1 9AE",
+                    "Annual Income": 12000,
+                    "companyNumber": "09106431"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0194",
+            "title": "YES Outdoors - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Support young people trapped in very difficult home environments with no escape due to the restrictions put in place due to COVID-19.In some cases, our work might be the only positive mental stimulation they will get that is focused solely on them and their needs.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1144916",
+                    "url": "https://yesoutdoors.co.uk/",
+                    "name": "YES Outdoors",
+                    "postalCode": "N1 9JP",
+                    "Annual Income": 98560,
+                    "charityNumber": "1144916"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0195",
+            "title": "Clean Break - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Getting programmes online: these include theatre workshops for women who have experienced the criminal justice system, or have been identified as at risk of offending. Also coordinating letter writing to women in prison, setup phone call support, creating digital newletters & content. Also loss of income from space they let out for hire. Fundraising to get phones to women who do not have one (or one with the interent) and also setting up a hardship fund.",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1017560",
+                    "url": "https://www.cleanbreak.org.uk/",
+                    "name": "Clean Break",
+                    "postalCode": "NW5 2LB",
+                    "Annual Income": 1180939,
+                    "charityNumber": "1017560"
+                }
+            ]
+        },
+        {
+            "id": "360G-CamdenGiving-0196",
+            "title": "Unity Works Social Enterprises - Covid19 Charity Fund ",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Support people with disabilites with advice, connections & physcial & mental health. Grant would support getting services online / on the phone: tracking calls, online support, job searching, furlough advice, support with healthy eating. Also producing meals from their kitchen. Loss of income from cafes & other fundraising, so to support this",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "url": "https://www.camdengiving.org.uk/covid19fund",
+                    "title": "COVID19 Emergency Fund"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Camden",
+                    "geoCode": "E09000007",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1174463",
+                    "name": "Camden Giving"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1185113",
+                    "url": "http://www.unitykitchen.co.uk/social-enterprise",
+                    "name": "Unity Works Social Enterprises",
+                    "postalCode": "NW5 1LB",
+                    "Annual Income": 2000000,
+                    "charityNumber": "1185113"
+                }
+            ]
+        },
+        {
             "id": "360G-CFTyneWearNland-000010548",
             "url": "https://gateshead.foodbank.org.uk/",
             "title": "Providing food and other essentials to people affected by the COVID-19 outbreak",
@@ -28933,6 +30040,36 @@
             ]
         },
         {
+            "ID": "4098",
+            "id": "360G-indigotrust:IND501 ",
+            "title": "Community Justice Fund",
+            "currency": "GBP",
+            "awardDate": "2020-04-17",
+            "description": "To be regranted through the Community Justice Fund as a response to the Covid-19 emergency",
+            "dateModified": "2020-04-28T06:22:27Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-04-24",
+                    "startDate": "2020-04-24"
+                }
+            ],
+            "amountAwarded": 100000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1126147",
+                    "name": "Access to Justice Foundation",
+                    "postalCode": "WC2A 1JF",
+                    "charityNumber": "1126147"
+                }
+            ]
+        },
+        {
             "id": "360G-PearsFdn-5741",
             "title": "Grant to The Mix",
             "currency": "GBP",
@@ -33485,6 +34622,44 @@
             ]
         },
         {
+            "ID": "4096",
+            "id": "360G-indigotrust:IND500 ",
+            "title": "Covid-19 Emergency Funding",
+            "currency": "GBP",
+            "awardDate": "2020-04-23",
+            "description": "Core unrestricted funding",
+            "dateModified": "2020-04-28T11:02:51Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-04-23",
+                    "startDate": "2020-04-23"
+                }
+            ],
+            "amountAwarded": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "UK",
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1091001",
+                    "name": "Copenhagen Youth Project",
+                    "postalCode": "N1 0ST",
+                    "addressRegion": "London",
+                    "charityNumber": "GB-CHC-1091001",
+                    "addressCountry": "UK"
+                }
+            ]
+        },
+        {
             "id": "360G-SuffolkCF-A551642",
             "title": "African Food Pantry:",
             "currency": "GBP",
@@ -34746,6 +35921,36 @@
             ]
         },
         {
+            "ID": "4097",
+            "id": "360G-indigotrust:IND502 ",
+            "title": "Covid-19 Emergency Funding",
+            "currency": "GBP",
+            "awardDate": "2020-04-24",
+            "description": "Core unrestricted funding to support EYElliance during the Covid-19 emergency",
+            "dateModified": "2020-04-28T11:40:55Z",
+            "plannedDates": [
+                {
+                    "endDate": "2020-04-27",
+                    "startDate": "2020-04-27"
+                }
+            ],
+            "amountAwarded": 11956.5,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1075920",
+                    "name": "Indigo Trust"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1075920:org-42525",
+                    "name": "Eyelliance - Tides Center",
+                    "postalCode": "CA 94129",
+                    "addressRegion": "San Francisco"
+                }
+            ]
+        },
+        {
             "id": "360G-SomersetCF-A549313",
             "title": "COVID19 online workshops and support",
             "currency": "GBP",
@@ -35704,5 +36909,5 @@
             ]
         }
     ],
-    "last_updated": "2020-04-28T04:06:54.829861"
+    "last_updated": "2020-04-29T04:07:15.573407"
 }
