@@ -1,0 +1,4196 @@
+{
+    "areas": {
+        "E07000171": {
+            "active": true,
+            "areachect": 63780.33,
+            "areaehect": 63949.26,
+            "areaihect": 0.0,
+            "arealhect": 63780.33,
+            "child_count": 120,
+            "child_counts": {
+                "cmwd": 25,
+                "par": 70,
+                "ward": 25
+            },
+            "code": "E07000171",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "A3010",
+                "nhs": "127",
+                "ons": "37UC"
+            },
+            "has_boundary": true,
+            "name": "Bassetlaw",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000024",
+            "predecessor": [
+                "37UC"
+            ],
+            "sort_order": "E07000171",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000012": {
+            "active": true,
+            "areachect": 90162.73,
+            "areaehect": 90168.72,
+            "areaihect": 0.0,
+            "arealhect": 90162.73,
+            "child_count": 209,
+            "child_counts": {
+                "cmwd": 34,
+                "par": 115,
+                "ward": 60
+            },
+            "code": "E07000012",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "W0530",
+                "nhs": "295",
+                "ons": "12UG"
+            },
+            "has_boundary": true,
+            "name": "South Cambridgeshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000003",
+            "predecessor": [
+                "12UG"
+            ],
+            "sort_order": "E07000012",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000068": {
+            "active": true,
+            "areachect": 15312.41,
+            "areaehect": 15312.41,
+            "areaihect": 0.0,
+            "arealhect": 15312.41,
+            "child_count": 39,
+            "child_counts": {
+                "cmwd": 15,
+                "par": 9,
+                "ward": 15
+            },
+            "code": "E07000068",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "H1515",
+                "nhs": "134",
+                "ons": "22UD"
+            },
+            "has_boundary": true,
+            "name": "Brentwood",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UD"
+            ],
+            "sort_order": "E07000068",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000168": {
+            "active": true,
+            "areachect": 81648.71,
+            "areaehect": 82625.35,
+            "areaihect": 0.0,
+            "arealhect": 81648.71,
+            "child_count": 123,
+            "child_counts": {
+                "cmwd": 25,
+                "par": 53,
+                "ward": 45
+            },
+            "code": "E07000168",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "T2730",
+                "nhs": "289",
+                "ons": "36UG"
+            },
+            "has_boundary": true,
+            "name": "Scarborough",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000023",
+            "predecessor": [
+                "36UG"
+            ],
+            "sort_order": "E07000168",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000210": {
+            "active": true,
+            "areachect": 25832.11,
+            "areaehect": 25832.11,
+            "areaihect": 0.0,
+            "arealhect": 25832.11,
+            "child_count": 55,
+            "child_counts": {
+                "cmwd": 21,
+                "par": 13,
+                "ward": 21
+            },
+            "code": "E07000210",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "C3620",
+                "nhs": "251",
+                "ons": "43UE"
+            },
+            "has_boundary": true,
+            "name": "Mole Valley",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UE"
+            ],
+            "sort_order": "E07000210",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000165": {
+            "active": true,
+            "areachect": 130912.74,
+            "areaehect": 130912.74,
+            "areaihect": 118.05,
+            "arealhect": 130794.69,
+            "child_count": 250,
+            "child_counts": {
+                "cmwd": 35,
+                "ncp": 1,
+                "par": 139,
+                "ward": 75
+            },
+            "code": "E07000165",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "E2734",
+                "nhs": "224",
+                "ons": "36UD"
+            },
+            "has_boundary": true,
+            "name": "Harrogate",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000023",
+            "predecessor": [
+                "36UD"
+            ],
+            "sort_order": "E07000165",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000023": {
+            "active": true,
+            "areachect": 10970.01,
+            "areaehect": 23532.83,
+            "areaihect": 0.0,
+            "arealhect": 10970.01,
+            "child_count": 104,
+            "child_counts": {
+                "cmwd": 35,
+                "ward": 69
+            },
+            "code": "E06000023",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "Z0116",
+                "nhs": "909",
+                "ons": "00HB"
+            },
+            "has_boundary": true,
+            "name": "Bristol, City of",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000009",
+            "predecessor": [
+                "00HB"
+            ],
+            "sort_order": "E06000023",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000075": {
+            "active": true,
+            "areachect": 16949.54,
+            "areaehect": 26341.11,
+            "areaihect": 0.0,
+            "arealhect": 16949.54,
+            "child_count": 65,
+            "child_counts": {
+                "cmwd": 19,
+                "par": 14,
+                "ward": 32
+            },
+            "code": "E07000075",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "B1550",
+                "nhs": "281",
+                "ons": "22UL"
+            },
+            "has_boundary": true,
+            "name": "Rochford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UL"
+            ],
+            "sort_order": "E07000075",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000021": {
+            "active": true,
+            "areachect": 3726.12,
+            "areaehect": 3726.12,
+            "areaihect": 0.0,
+            "arealhect": 3726.12,
+            "child_count": 32,
+            "child_counts": {
+                "cmwd": 16,
+                "ward": 16
+            },
+            "code": "E09000021",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "Z5630",
+                "nhs": "729",
+                "ons": "00AX"
+            },
+            "has_boundary": true,
+            "name": "Kingston upon Thames",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AX"
+            ],
+            "sort_order": "E09000021",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000018": {
+            "active": true,
+            "areachect": 28653.43,
+            "areaehect": 28653.43,
+            "areaihect": 0.0,
+            "arealhect": 28653.43,
+            "child_count": 89,
+            "child_counts": {
+                "cmwd": 21,
+                "par": 45,
+                "ward": 23
+            },
+            "code": "E08000018",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "P4415",
+                "nhs": "206",
+                "ons": "00CF"
+            },
+            "has_boundary": true,
+            "name": "Rotherham",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000003",
+            "predecessor": [
+                "00CF"
+            ],
+            "sort_order": "E08000018",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000214": {
+            "active": true,
+            "areachect": 9509.3,
+            "areaehect": 9509.3,
+            "areaihect": 0.0,
+            "arealhect": 9509.3,
+            "child_count": 50,
+            "child_counts": {
+                "cmwd": 16,
+                "par": 4,
+                "ward": 30
+            },
+            "code": "E07000214",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "D3640",
+                "nhs": "340",
+                "ons": "43UJ"
+            },
+            "has_boundary": true,
+            "name": "Surrey Heath",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UJ"
+            ],
+            "sort_order": "E07000214",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000032": {
+            "active": true,
+            "areachect": 36641.98,
+            "areaehect": 36641.98,
+            "areaihect": 0.0,
+            "arealhect": 36641.98,
+            "child_count": 80,
+            "child_counts": {
+                "cmwd": 30,
+                "ncp": 1,
+                "par": 19,
+                "ward": 30
+            },
+            "code": "E08000032",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "W4705",
+                "nhs": "209",
+                "ons": "00CX"
+            },
+            "has_boundary": true,
+            "name": "Bradford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000003",
+            "predecessor": [
+                "00CX"
+            ],
+            "sort_order": "E08000032",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000209": {
+            "active": true,
+            "areachect": 27093.11,
+            "areaehect": 27093.11,
+            "areaihect": 0.0,
+            "arealhect": 27093.11,
+            "child_count": 68,
+            "child_counts": {
+                "cmwd": 22,
+                "par": 24,
+                "ward": 22
+            },
+            "code": "E07000209",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "Y3615",
+                "nhs": "208",
+                "ons": "43UD"
+            },
+            "has_boundary": true,
+            "name": "Guildford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UD"
+            ],
+            "sort_order": "E07000209",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000030": {
+            "active": true,
+            "areachect": 1978.64,
+            "areaehect": 2157.5,
+            "areaihect": 0.0,
+            "arealhect": 1978.64,
+            "child_count": 54,
+            "child_counts": {
+                "cmwd": 17,
+                "ward": 37
+            },
+            "code": "E09000030",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "E5900",
+                "nhs": "711",
+                "ons": "00BG"
+            },
+            "has_boundary": true,
+            "name": "Tower Hamlets",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00BG"
+            ],
+            "sort_order": "E09000030",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000057": {
+            "active": true,
+            "areachect": 502621.48,
+            "areaehect": 507818.02,
+            "areaihect": 1241.25,
+            "arealhect": 501380.23,
+            "child_count": 371,
+            "child_counts": {
+                "cmwd": 67,
+                "par": 171,
+                "ward": 133
+            },
+            "code": "E06000057",
+            "date_end": null,
+            "date_start": "Mon, 01 Apr 2013 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "P2935",
+                "nhs": "104",
+                "ons": "00EM"
+            },
+            "has_boundary": true,
+            "name": "Northumberland",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "E06000048",
+                "E08000020"
+            ],
+            "sort_order": "E06000057",
+            "statutory_instrument_id": "595/2013",
+            "statutory_instrument_title": "The Gateshead and Northumberland (Boundary Change) Order 2013",
+            "successor": []
+        },
+        "E07000083": {
+            "active": true,
+            "areachect": 41441.44,
+            "areaehect": 41497.6,
+            "areaihect": 0.0,
+            "arealhect": 41441.44,
+            "child_count": 127,
+            "child_counts": {
+                "cmwd": 22,
+                "par": 50,
+                "ward": 55
+            },
+            "code": "E07000083",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "G1630",
+                "nhs": "349",
+                "ons": "23UG"
+            },
+            "has_boundary": true,
+            "name": "Tewkesbury",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000013",
+            "predecessor": [
+                "23UG"
+            ],
+            "sort_order": "E07000083",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000024": {
+            "active": true,
+            "areachect": 3762.48,
+            "areaehect": 3762.48,
+            "areaihect": 0.0,
+            "arealhect": 3762.48,
+            "child_count": 40,
+            "child_counts": {
+                "cmwd": 20,
+                "ward": 20
+            },
+            "code": "E09000024",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "T5720",
+                "nhs": "730",
+                "ons": "00BA"
+            },
+            "has_boundary": true,
+            "name": "Merton",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00BA"
+            ],
+            "sort_order": "E09000024",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000009": {
+            "active": true,
+            "areachect": 10604.47,
+            "areaehect": 10604.47,
+            "areaihect": 0.0,
+            "arealhect": 10604.47,
+            "child_count": 46,
+            "child_counts": {
+                "cmwd": 21,
+                "par": 4,
+                "ward": 21
+            },
+            "code": "E08000009",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "Q4245",
+                "nhs": "312",
+                "ons": "00BU"
+            },
+            "has_boundary": true,
+            "name": "Trafford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "00BU"
+            ],
+            "sort_order": "E08000009",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000181": {
+            "active": true,
+            "areachect": 71442.2,
+            "areaehect": 71442.2,
+            "areaihect": 0.0,
+            "arealhect": 71442.2,
+            "child_count": 153,
+            "child_counts": {
+                "cmwd": 27,
+                "par": 92,
+                "ward": 34
+            },
+            "code": "E07000181",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "D3125",
+                "nhs": "370",
+                "ons": "38UF"
+            },
+            "has_boundary": true,
+            "name": "West Oxfordshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000025",
+            "predecessor": [
+                "38UF"
+            ],
+            "sort_order": "E07000181",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000005": {
+            "active": true,
+            "areachect": 4323.25,
+            "areaehect": 4323.25,
+            "areaihect": 0.0,
+            "arealhect": 4323.25,
+            "child_count": 42,
+            "child_counts": {
+                "cmwd": 21,
+                "ward": 21
+            },
+            "code": "E09000005",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "T5150",
+                "nhs": "719",
+                "ons": "00AE"
+            },
+            "has_boundary": true,
+            "name": "Brent",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AE"
+            ],
+            "sort_order": "E09000005",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000047": {
+            "active": true,
+            "areachect": 223154.22,
+            "areaehect": 223269.86,
+            "areaihect": 557.38,
+            "arealhect": 222596.84,
+            "child_count": 328,
+            "child_counts": {
+                "cmwd": 63,
+                "ncp": 1,
+                "par": 138,
+                "ward": 126
+            },
+            "code": "E06000047",
+            "date_end": null,
+            "date_start": "Wed, 01 Apr 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "X1355",
+                "nhs": "116",
+                "ons": "00EJ"
+            },
+            "has_boundary": true,
+            "name": "County Durham",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "E07000054",
+                "E07000055",
+                "E07000056",
+                "E07000057",
+                "E07000058",
+                "E07000059",
+                "E07000060"
+            ],
+            "sort_order": "E06000047",
+            "statutory_instrument_id": "493/2008",
+            "statutory_instrument_title": "The County Durham (Structural Change) Order 2008",
+            "successor": []
+        },
+        "W06000023": {
+            "active": true,
+            "areachect": 519532.07,
+            "areaehect": 519545.61,
+            "areaihect": 1464.03,
+            "arealhect": 518068.04,
+            "child_count": 256,
+            "child_counts": {
+                "cmwd": 71,
+                "com": 112,
+                "ward": 73
+            },
+            "code": "W06000023",
+            "date_end": null,
+            "date_start": "Mon, 01 Jun 2009 00:00:00 GMT",
+            "entity": "W06",
+            "equivalents": {
+                "mhclg": "T6850",
+                "nhs": "024",
+                "ons": "00NN",
+                "welsh_government": "524"
+            },
+            "has_boundary": true,
+            "name": "Powys",
+            "name_welsh": "Powys",
+            "owner": "WG (LGBC)",
+            "parent": "W92000004",
+            "predecessor": [
+                "W06000007"
+            ],
+            "sort_order": "W06000023",
+            "statutory_instrument_id": "889/2009",
+            "statutory_instrument_title": "The Merthyr Tydfil and Powys (Areas) Order 2009",
+            "successor": []
+        },
+        "E07000113": {
+            "active": true,
+            "areachect": 37446.7,
+            "areaehect": 42209.56,
+            "areaihect": 0.0,
+            "arealhect": 37446.7,
+            "child_count": 118,
+            "child_counts": {
+                "cmwd": 25,
+                "ncp": 2,
+                "par": 42,
+                "ward": 49
+            },
+            "code": "E07000113",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "V2255",
+                "nhs": "341",
+                "ons": "29UM"
+            },
+            "has_boundary": true,
+            "name": "Swale",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000016",
+            "predecessor": [
+                "29UM"
+            ],
+            "sort_order": "E07000113",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000213": {
+            "active": true,
+            "areachect": 5116.14,
+            "areaehect": 5116.14,
+            "areaihect": 627.34,
+            "arealhect": 4488.8,
+            "child_count": 26,
+            "child_counts": {
+                "cmwd": 13,
+                "ward": 13
+            },
+            "code": "E07000213",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "Z3635",
+                "nhs": "331",
+                "ons": "43UH"
+            },
+            "has_boundary": true,
+            "name": "Spelthorne",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UH"
+            ],
+            "sort_order": "E07000213",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000005": {
+            "active": true,
+            "areachect": 19747.58,
+            "areaehect": 19747.58,
+            "areaihect": 0.0,
+            "arealhect": 19747.58,
+            "child_count": 101,
+            "child_counts": {
+                "cmwd": 24,
+                "ncp": 1,
+                "par": 32,
+                "ward": 44
+            },
+            "code": "E06000005",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "N1350",
+                "nhs": "117",
+                "ons": "00EH"
+            },
+            "has_boundary": true,
+            "name": "Darlington",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00EH"
+            ],
+            "sort_order": "E06000005",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000216": {
+            "active": true,
+            "areachect": 34517.01,
+            "areaehect": 34517.01,
+            "areaihect": 0.0,
+            "arealhect": 34517.01,
+            "child_count": 79,
+            "child_counts": {
+                "cmwd": 29,
+                "par": 21,
+                "ward": 29
+            },
+            "code": "E07000216",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "R3650",
+                "nhs": "362",
+                "ons": "43UL"
+            },
+            "has_boundary": true,
+            "name": "Waverley",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UL"
+            ],
+            "sort_order": "E07000216",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000076": {
+            "active": true,
+            "areachect": 33773.65,
+            "areaehect": 36581.79,
+            "areaihect": 0.0,
+            "arealhect": 33773.65,
+            "child_count": 131,
+            "child_counts": {
+                "cmwd": 35,
+                "ncp": 1,
+                "par": 28,
+                "ward": 67
+            },
+            "code": "E07000076",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "P1560",
+                "nhs": "347",
+                "ons": "22UN"
+            },
+            "has_boundary": true,
+            "name": "Tendring",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UN"
+            ],
+            "sort_order": "E07000076",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000066": {
+            "active": true,
+            "areachect": 11002.53,
+            "areaehect": 11044.59,
+            "areaihect": 0.0,
+            "arealhect": 11002.53,
+            "child_count": 40,
+            "child_counts": {
+                "cmwd": 16,
+                "par": 8,
+                "ward": 16
+            },
+            "code": "E07000066",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "V1505",
+                "nhs": "125",
+                "ons": "22UB"
+            },
+            "has_boundary": true,
+            "name": "Basildon",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UB"
+            ],
+            "sort_order": "E07000066",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000013": {
+            "active": true,
+            "areachect": 1639.76,
+            "areaehect": 1715.41,
+            "areaihect": 0.0,
+            "arealhect": 1639.76,
+            "child_count": 32,
+            "child_counts": {
+                "cmwd": 16,
+                "ward": 16
+            },
+            "code": "E09000013",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "H5390",
+                "nhs": "705",
+                "ons": "00AN"
+            },
+            "has_boundary": true,
+            "name": "Hammersmith and Fulham",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AN"
+            ],
+            "sort_order": "E09000013",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000001": {
+            "active": true,
+            "areachect": 9355.95,
+            "areaehect": 9844.17,
+            "areaihect": 0.0,
+            "arealhect": 9355.95,
+            "child_count": 53,
+            "child_counts": {
+                "cmwd": 17,
+                "par": 8,
+                "ward": 28
+            },
+            "code": "E06000001",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "H0724",
+                "nhs": "111",
+                "ons": "00EB"
+            },
+            "has_boundary": true,
+            "name": "Hartlepool",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00EB"
+            ],
+            "sort_order": "E06000001",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000062": {
+            "active": true,
+            "areachect": 2972.41,
+            "areaehect": 3083.17,
+            "areaihect": 0.0,
+            "arealhect": 2972.41,
+            "child_count": 48,
+            "child_counts": {
+                "cmwd": 16,
+                "ward": 32
+            },
+            "code": "E07000062",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "B1415",
+                "nhs": "226",
+                "ons": "21UD"
+            },
+            "has_boundary": true,
+            "name": "Hastings",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000011",
+            "predecessor": [
+                "21UD"
+            ],
+            "sort_order": "E07000062",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000022": {
+            "active": true,
+            "areachect": 8231.72,
+            "areaehect": 8481.94,
+            "areaihect": 0.0,
+            "arealhect": 8231.72,
+            "child_count": 40,
+            "child_counts": {
+                "cmwd": 20,
+                "ward": 20
+            },
+            "code": "E08000022",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "W4515",
+                "nhs": "108",
+                "ons": "00CK"
+            },
+            "has_boundary": true,
+            "name": "North Tyneside",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00CK"
+            ],
+            "sort_order": "E08000022",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000024": {
+            "active": true,
+            "areachect": 13743.9,
+            "areaehect": 13963.02,
+            "areaihect": 0.0,
+            "arealhect": 13743.9,
+            "child_count": 53,
+            "child_counts": {
+                "cmwd": 25,
+                "par": 3,
+                "ward": 25
+            },
+            "code": "E08000024",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "J4525",
+                "nhs": "110",
+                "ons": "00CM"
+            },
+            "has_boundary": true,
+            "name": "Sunderland",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00CM"
+            ],
+            "sort_order": "E08000024",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000007": {
+            "active": true,
+            "areachect": 2178.95,
+            "areaehect": 2178.95,
+            "areaihect": 0.0,
+            "arealhect": 2178.95,
+            "child_count": 36,
+            "child_counts": {
+                "cmwd": 18,
+                "ward": 18
+            },
+            "code": "E09000007",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "X5210",
+                "nhs": "702",
+                "ons": "00AG"
+            },
+            "has_boundary": true,
+            "name": "Camden",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AG"
+            ],
+            "sort_order": "E09000007",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000032": {
+            "active": true,
+            "areachect": 3426.33,
+            "areaehect": 3522.01,
+            "areaihect": 0.0,
+            "arealhect": 3426.33,
+            "child_count": 40,
+            "child_counts": {
+                "cmwd": 20,
+                "ward": 20
+            },
+            "code": "E09000032",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "H5960",
+                "nhs": "712",
+                "ons": "00BJ"
+            },
+            "has_boundary": true,
+            "name": "Wandsworth",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00BJ"
+            ],
+            "sort_order": "E09000032",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000050": {
+            "active": true,
+            "areachect": 91670.05,
+            "areaehect": 94120.71,
+            "areaihect": 0.0,
+            "arealhect": 91670.05,
+            "child_count": 400,
+            "child_counts": {
+                "cmwd": 46,
+                "ncp": 2,
+                "par": 237,
+                "ward": 115
+            },
+            "code": "E06000050",
+            "date_end": null,
+            "date_start": "Wed, 01 Apr 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "A0665",
+                "nhs": "327",
+                "ons": "00EW"
+            },
+            "has_boundary": true,
+            "name": "Cheshire West and Chester",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "E07000013",
+                "E07000016",
+                "E07000018"
+            ],
+            "sort_order": "E06000050",
+            "statutory_instrument_id": "634/2008",
+            "statutory_instrument_title": "The Cheshire (Structural Changes) Order 2008",
+            "successor": []
+        },
+        "E09000020": {
+            "active": true,
+            "areachect": 1212.38,
+            "areaehect": 1238.37,
+            "areaihect": 0.0,
+            "arealhect": 1212.38,
+            "child_count": 54,
+            "child_counts": {
+                "cmwd": 18,
+                "ward": 36
+            },
+            "code": "E09000020",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "K5600",
+                "nhs": "707",
+                "ons": "00AW"
+            },
+            "has_boundary": true,
+            "name": "Kensington and Chelsea",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AW"
+            ],
+            "sort_order": "E09000020",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000009": {
+            "active": true,
+            "areachect": 5554.47,
+            "areaehect": 5554.47,
+            "areaihect": 0.0,
+            "arealhect": 5554.47,
+            "child_count": 46,
+            "child_counts": {
+                "cmwd": 23,
+                "ward": 23
+            },
+            "code": "E09000009",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "A5270",
+                "nhs": "722",
+                "ons": "00AJ"
+            },
+            "has_boundary": true,
+            "name": "Ealing",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AJ"
+            ],
+            "sort_order": "E09000009",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000240": {
+            "active": true,
+            "areachect": 16120.58,
+            "areaehect": 16120.58,
+            "areaihect": 0.0,
+            "arealhect": 16120.58,
+            "child_count": 10,
+            "child_counts": {
+                "par": 9,
+                "ward": 1
+            },
+            "code": "E07000240",
+            "date_end": null,
+            "date_start": "Sun, 01 Apr 2012 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "B1930",
+                "nhs": "332",
+                "ons": "26UG"
+            },
+            "has_boundary": true,
+            "name": "St Albans",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000015",
+            "predecessor": [
+                "E07000100"
+            ],
+            "sort_order": "E07000240",
+            "statutory_instrument_id": "667/2012",
+            "statutory_instrument_title": "The St Albans and Welwyn Hatfield (Boundary Change) Order 2012",
+            "successor": []
+        },
+        "E09000008": {
+            "active": true,
+            "areachect": 8649.47,
+            "areaehect": 8649.47,
+            "areaihect": 0.0,
+            "arealhect": 8649.47,
+            "child_count": 76,
+            "child_counts": {
+                "cmwd": 24,
+                "ward": 52
+            },
+            "code": "E09000008",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "L5240",
+                "nhs": "721",
+                "ons": "00AH"
+            },
+            "has_boundary": true,
+            "name": "Croydon",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AH"
+            ],
+            "sort_order": "E09000008",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000148": {
+            "active": true,
+            "areachect": 3902.35,
+            "areaehect": 4055.41,
+            "areaihect": 0.0,
+            "arealhect": 3902.35,
+            "child_count": 39,
+            "child_counts": {
+                "cmwd": 13,
+                "ward": 26
+            },
+            "code": "E07000148",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "G2625",
+                "nhs": "267",
+                "ons": "33UG"
+            },
+            "has_boundary": true,
+            "name": "Norwich",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000020",
+            "predecessor": [
+                "33UG"
+            ],
+            "sort_order": "E07000148",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000072": {
+            "active": true,
+            "areachect": 33898.42,
+            "areaehect": 33898.42,
+            "areaihect": 0.0,
+            "arealhect": 33898.42,
+            "child_count": 97,
+            "child_counts": {
+                "cmwd": 32,
+                "par": 31,
+                "ward": 34
+            },
+            "code": "E07000072",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "J1535",
+                "nhs": "185",
+                "ons": "22UH"
+            },
+            "has_boundary": true,
+            "name": "Epping Forest",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UH"
+            ],
+            "sort_order": "E07000072",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000069": {
+            "active": true,
+            "areachect": 4507.04,
+            "areaehect": 6369.84,
+            "areaihect": 0.0,
+            "arealhect": 4507.04,
+            "child_count": 29,
+            "child_counts": {
+                "cmwd": 14,
+                "par": 1,
+                "ward": 14
+            },
+            "code": "E07000069",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "M1520",
+                "nhs": "148",
+                "ons": "22UE"
+            },
+            "has_boundary": true,
+            "name": "Castle Point",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UE"
+            ],
+            "sort_order": "E07000069",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000028": {
+            "active": true,
+            "areachect": 2886.21,
+            "areaehect": 2991.34,
+            "areaihect": 0.0,
+            "arealhect": 2886.21,
+            "child_count": 65,
+            "child_counts": {
+                "cmwd": 21,
+                "ward": 44
+            },
+            "code": "E09000028",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "A5840",
+                "nhs": "710",
+                "ons": "00BE"
+            },
+            "has_boundary": true,
+            "name": "Southwark",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00BE"
+            ],
+            "sort_order": "E09000028",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000003": {
+            "active": true,
+            "areachect": 11564.86,
+            "areaehect": 11564.86,
+            "areaihect": 0.0,
+            "arealhect": 11564.86,
+            "child_count": 97,
+            "child_counts": {
+                "cmwd": 32,
+                "par": 1,
+                "ward": 64
+            },
+            "code": "E08000003",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "B4215",
+                "nhs": "306",
+                "ons": "00BN"
+            },
+            "has_boundary": true,
+            "name": "Manchester",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "00BN"
+            ],
+            "sort_order": "E08000003",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000022": {
+            "active": true,
+            "areachect": 2681.01,
+            "areaehect": 2724.93,
+            "areaihect": 0.0,
+            "arealhect": 2681.01,
+            "child_count": 42,
+            "child_counts": {
+                "cmwd": 21,
+                "ward": 21
+            },
+            "code": "E09000022",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "N5660",
+                "nhs": "708",
+                "ons": "00AY"
+            },
+            "has_boundary": true,
+            "name": "Lambeth",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AY"
+            ],
+            "sort_order": "E09000022",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000178": {
+            "active": true,
+            "areachect": 4560.28,
+            "areaehect": 4560.28,
+            "areaihect": 0.0,
+            "arealhect": 4560.28,
+            "child_count": 51,
+            "child_counts": {
+                "cmwd": 23,
+                "par": 4,
+                "ward": 24
+            },
+            "code": "E07000178",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "G3110",
+                "nhs": "270",
+                "ons": "38UC"
+            },
+            "has_boundary": true,
+            "name": "Oxford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000025",
+            "predecessor": [
+                "38UC"
+            ],
+            "sort_order": "E07000178",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "S12000046": {
+            "active": false,
+            "areachect": 17470.55,
+            "areaehect": 17644.88,
+            "areaihect": 0.0,
+            "arealhect": 17470.55,
+            "child_count": 785,
+            "child_counts": {
+                "iz": 136,
+                "ward": 10,
+                "wz11": 639
+            },
+            "code": "S12000046",
+            "date_end": "Sun, 31 Mar 2019 00:00:00 GMT",
+            "date_start": "Fri, 01 Apr 2011 00:00:00 GMT",
+            "entity": "S12",
+            "equivalents": {
+                "ons": "00QS"
+            },
+            "name": "Glasgow City",
+            "name_welsh": null,
+            "owner": "LGBC",
+            "parent": null,
+            "predecessor": [
+                "S12000009",
+                "S12000043"
+            ],
+            "sort_order": "S12000046",
+            "statutory_instrument_id": "353/2010",
+            "statutory_instrument_title": "The East Dunbartonshire Council Area and Glasgow City Council Area (Princes Gate and Greenacres by Robroyston) Boundaries Alteration Order 2010",
+            "successor": [
+                "S12000049"
+            ]
+        },
+        "E09000033": {
+            "active": true,
+            "areachect": 2148.7,
+            "areaehect": 2203.01,
+            "areaihect": 0.0,
+            "arealhect": 2148.7,
+            "child_count": 41,
+            "child_counts": {
+                "cmwd": 20,
+                "par": 1,
+                "ward": 20
+            },
+            "code": "E09000033",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "X5990",
+                "nhs": "713",
+                "ons": "00BK"
+            },
+            "has_boundary": true,
+            "name": "Westminster",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00BK"
+            ],
+            "sort_order": "E09000033",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000143": {
+            "active": true,
+            "areachect": 130511.67,
+            "areaehect": 130511.67,
+            "areaihect": 0.0,
+            "arealhect": 130511.67,
+            "child_count": 212,
+            "child_counts": {
+                "cmwd": 36,
+                "par": 113,
+                "ward": 63
+            },
+            "code": "E07000143",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "F2605",
+                "nhs": "133",
+                "ons": "33UB"
+            },
+            "has_boundary": true,
+            "name": "Breckland",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000020",
+            "predecessor": [
+                "33UB"
+            ],
+            "sort_order": "E07000143",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000054": {
+            "active": true,
+            "areachect": 325533.8,
+            "areaehect": 325533.8,
+            "areaihect": 0.0,
+            "arealhect": 325533.8,
+            "child_count": 482,
+            "child_counts": {
+                "cmwd": 98,
+                "par": 286,
+                "ward": 98
+            },
+            "code": "E06000054",
+            "date_end": null,
+            "date_start": "Wed, 01 Apr 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "Y3940",
+                "nhs": "817",
+                "ons": "00HY"
+            },
+            "has_boundary": true,
+            "name": "Wiltshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000009",
+            "predecessor": [
+                "E07000230",
+                "E07000231",
+                "E07000232",
+                "E07000233"
+            ],
+            "sort_order": "E06000054",
+            "statutory_instrument_id": "490/2008",
+            "statutory_instrument_title": "The Wiltshire (Structural Change) Order 2008",
+            "successor": []
+        },
+        "E07000177": {
+            "active": true,
+            "areachect": 58874.13,
+            "areaehect": 58874.13,
+            "areaihect": 0.0,
+            "arealhect": 58874.13,
+            "child_count": 178,
+            "child_counts": {
+                "ced": 7,
+                "cmwd": 28,
+                "par": 95,
+                "ward": 48
+            },
+            "code": "E07000177",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "C3105",
+                "nhs": "153",
+                "ons": "38UB"
+            },
+            "has_boundary": true,
+            "name": "Cherwell",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000025",
+            "predecessor": [
+                "38UB"
+            ],
+            "sort_order": "E07000177",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "S12000044": {
+            "active": false,
+            "areachect": 47221.62,
+            "areaehect": 47221.62,
+            "areaihect": 230.69,
+            "arealhect": 46990.93,
+            "child_count": 362,
+            "child_counts": {
+                "iz": 78,
+                "ward": 2,
+                "wz11": 282
+            },
+            "code": "S12000044",
+            "date_end": "Sun, 31 Mar 2019 00:00:00 GMT",
+            "date_start": "Thu, 01 Apr 2010 00:00:00 GMT",
+            "entity": "S12",
+            "equivalents": {
+                "ons": "00QZ"
+            },
+            "name": "North Lanarkshire",
+            "name_welsh": null,
+            "owner": "LGBC",
+            "parent": null,
+            "predecessor": [
+                "S12000022"
+            ],
+            "sort_order": "S12000044",
+            "statutory_instrument_id": "368/2009",
+            "statutory_instrument_title": "The Glasgow City Council Area and North Lanarkshire Council Area (Cardowan by Stepps) Boundaries Amendment Order 2009",
+            "successor": [
+                "S12000050"
+            ]
+        },
+        "E07000180": {
+            "active": true,
+            "areachect": 57864.45,
+            "areaehect": 57864.45,
+            "areaihect": 101.58,
+            "arealhect": 57762.87,
+            "child_count": 207,
+            "child_counts": {
+                "ced": 3,
+                "cmwd": 29,
+                "par": 103,
+                "ward": 72
+            },
+            "code": "E07000180",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "V3120",
+                "nhs": "358",
+                "ons": "38UE"
+            },
+            "has_boundary": true,
+            "name": "Vale of White Horse",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000025",
+            "predecessor": [
+                "38UE"
+            ],
+            "sort_order": "E07000180",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000019": {
+            "active": true,
+            "areachect": 1485.65,
+            "areaehect": 1485.65,
+            "areaihect": 0.0,
+            "arealhect": 1485.65,
+            "child_count": 32,
+            "child_counts": {
+                "cmwd": 16,
+                "ward": 16
+            },
+            "code": "E09000019",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "V5570",
+                "nhs": "706",
+                "ons": "00AU"
+            },
+            "has_boundary": true,
+            "name": "Islington",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AU"
+            ],
+            "sort_order": "E09000019",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000033": {
+            "active": true,
+            "areachect": 4175.57,
+            "areaehect": 6790.11,
+            "areaihect": 0.0,
+            "arealhect": 4175.57,
+            "child_count": 35,
+            "child_counts": {
+                "cmwd": 17,
+                "par": 1,
+                "ward": 17
+            },
+            "code": "E06000033",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "D1590",
+                "nhs": "621",
+                "ons": "00KF"
+            },
+            "has_boundary": true,
+            "name": "Southend-on-Sea",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "00KF"
+            ],
+            "sort_order": "E06000033",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "S12000017": {
+            "active": true,
+            "areachect": 2616279.94,
+            "areaehect": 2647291.06,
+            "areaihect": 50565.23,
+            "arealhect": 2565714.71,
+            "child_count": 370,
+            "child_counts": {
+                "iz": 56,
+                "ward": 43,
+                "wz11": 271
+            },
+            "code": "S12000017",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "S12",
+            "equivalents": {
+                "ons": "00QT"
+            },
+            "has_boundary": true,
+            "name": "Highland",
+            "name_welsh": null,
+            "owner": "LGBC",
+            "parent": null,
+            "predecessor": [
+                "00QT"
+            ],
+            "sort_order": "S12000017",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000070": {
+            "active": true,
+            "areachect": 34225.14,
+            "areaehect": 34299.72,
+            "areaihect": 346.93,
+            "arealhect": 33878.21,
+            "child_count": 75,
+            "child_counts": {
+                "cmwd": 24,
+                "par": 27,
+                "ward": 24
+            },
+            "code": "E07000070",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "W1525",
+                "nhs": "151",
+                "ons": "22UF"
+            },
+            "has_boundary": true,
+            "name": "Chelmsford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UF"
+            ],
+            "sort_order": "E07000070",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000034": {
+            "active": true,
+            "areachect": 16349.36,
+            "areaehect": 18431.8,
+            "areaihect": 0.0,
+            "arealhect": 16349.36,
+            "child_count": 40,
+            "child_counts": {
+                "cmwd": 20,
+                "ward": 20
+            },
+            "code": "E06000034",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "M1595",
+                "nhs": "622",
+                "ons": "00KG"
+            },
+            "has_boundary": true,
+            "name": "Thurrock",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "00KG"
+            ],
+            "sort_order": "E06000034",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000021": {
+            "active": true,
+            "areachect": 11345.63,
+            "areaehect": 11511.78,
+            "areaihect": 0.0,
+            "arealhect": 11345.63,
+            "child_count": 88,
+            "child_counts": {
+                "cmwd": 26,
+                "ncp": 1,
+                "par": 9,
+                "ward": 52
+            },
+            "code": "E08000021",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "M4510",
+                "nhs": "107",
+                "ons": "00CJ"
+            },
+            "has_boundary": true,
+            "name": "Newcastle upon Tyne",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00CJ"
+            ],
+            "sort_order": "E08000021",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000217": {
+            "active": true,
+            "areachect": 6360.34,
+            "areaehect": 6360.34,
+            "areaihect": 0.0,
+            "arealhect": 6360.34,
+            "child_count": 45,
+            "child_counts": {
+                "cmwd": 17,
+                "par": 1,
+                "ward": 27
+            },
+            "code": "E07000217",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "A3655",
+                "nhs": "374",
+                "ons": "43UM"
+            },
+            "has_boundary": true,
+            "name": "Woking",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UM"
+            ],
+            "sort_order": "E07000217",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000016": {
+            "active": true,
+            "areachect": 32907.77,
+            "areaehect": 32907.77,
+            "areaihect": 0.0,
+            "arealhect": 32907.77,
+            "child_count": 61,
+            "child_counts": {
+                "cmwd": 21,
+                "ncp": 1,
+                "par": 18,
+                "ward": 21
+            },
+            "code": "E08000016",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "B4405",
+                "nhs": "204",
+                "ons": "00CC"
+            },
+            "has_boundary": true,
+            "name": "Barnsley",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000003",
+            "predecessor": [
+                "00CC"
+            ],
+            "sort_order": "E08000016",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000002": {
+            "active": true,
+            "areachect": 5388.88,
+            "areaehect": 5455.37,
+            "areaihect": 0.0,
+            "arealhect": 5388.88,
+            "child_count": 68,
+            "child_counts": {
+                "cmwd": 23,
+                "par": 2,
+                "ward": 43
+            },
+            "code": "E06000002",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "W0734",
+                "nhs": "112",
+                "ons": "00EC"
+            },
+            "has_boundary": true,
+            "name": "Middlesbrough",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00EC"
+            ],
+            "sort_order": "E06000002",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000167": {
+            "active": true,
+            "areachect": 150659.37,
+            "areaehect": 150659.37,
+            "areaihect": 0.0,
+            "arealhect": 150659.37,
+            "child_count": 155,
+            "child_counts": {
+                "cmwd": 20,
+                "par": 115,
+                "ward": 20
+            },
+            "code": "E07000167",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "Y2736",
+                "nhs": "288",
+                "ons": "36UF"
+            },
+            "has_boundary": true,
+            "name": "Ryedale",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000023",
+            "predecessor": [
+                "36UF"
+            ],
+            "sort_order": "E07000167",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000074": {
+            "active": true,
+            "areachect": 35867.98,
+            "areaehect": 42668.87,
+            "areaihect": 0.0,
+            "arealhect": 35867.98,
+            "child_count": 67,
+            "child_counts": {
+                "cmwd": 17,
+                "par": 33,
+                "ward": 17
+            },
+            "code": "E07000074",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "X1545",
+                "nhs": "242",
+                "ons": "22UK"
+            },
+            "has_boundary": true,
+            "name": "Maldon",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UK"
+            ],
+            "sort_order": "E07000074",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000012": {
+            "active": true,
+            "areachect": 1904.92,
+            "areaehect": 1904.92,
+            "areaihect": 0.0,
+            "arealhect": 1904.92,
+            "child_count": 59,
+            "child_counts": {
+                "cmwd": 19,
+                "ward": 40
+            },
+            "code": "E09000012",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "U5360",
+                "nhs": "704",
+                "ons": "00AM"
+            },
+            "has_boundary": true,
+            "name": "Hackney",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AM"
+            ],
+            "sort_order": "E09000012",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000071": {
+            "active": true,
+            "areachect": 33318.52,
+            "areaehect": 34671.33,
+            "areaihect": 410.14,
+            "arealhect": 32908.38,
+            "child_count": 107,
+            "child_counts": {
+                "cmwd": 27,
+                "par": 36,
+                "ward": 44
+            },
+            "code": "E07000071",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "A1530",
+                "nhs": "160",
+                "ons": "22UG"
+            },
+            "has_boundary": true,
+            "name": "Colchester",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UG"
+            ],
+            "sort_order": "E07000071",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000077": {
+            "active": true,
+            "areachect": 64118.27,
+            "areaehect": 64118.27,
+            "areaihect": 0.0,
+            "arealhect": 64118.27,
+            "child_count": 147,
+            "child_counts": {
+                "cmwd": 27,
+                "par": 65,
+                "ward": 55
+            },
+            "code": "E07000077",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "C1570",
+                "nhs": "356",
+                "ons": "22UQ"
+            },
+            "has_boundary": true,
+            "name": "Uttlesford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UQ"
+            ],
+            "sort_order": "E07000077",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000121": {
+            "active": true,
+            "areachect": 57621.76,
+            "areaehect": 65421.01,
+            "areaihect": 0.0,
+            "arealhect": 57621.76,
+            "child_count": 122,
+            "child_counts": {
+                "cmwd": 27,
+                "ncp": 1,
+                "par": 39,
+                "ward": 55
+            },
+            "code": "E07000121",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "A2335",
+                "nhs": "238",
+                "ons": "30UH"
+            },
+            "has_boundary": true,
+            "name": "Lancaster",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000017",
+            "predecessor": [
+                "30UH"
+            ],
+            "sort_order": "E07000121",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000116": {
+            "active": true,
+            "areachect": 33132.87,
+            "areaehect": 33132.87,
+            "areaihect": 0.0,
+            "arealhect": 33132.87,
+            "child_count": 56,
+            "child_counts": {
+                "cmwd": 20,
+                "par": 16,
+                "ward": 20
+            },
+            "code": "E07000116",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "M2270",
+                "nhs": "355",
+                "ons": "29UQ"
+            },
+            "has_boundary": true,
+            "name": "Tunbridge Wells",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000016",
+            "predecessor": [
+                "29UQ"
+            ],
+            "sort_order": "E07000116",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000215": {
+            "active": true,
+            "areachect": 24819.48,
+            "areaehect": 24819.48,
+            "areaihect": 0.0,
+            "arealhect": 24819.48,
+            "child_count": 62,
+            "child_counts": {
+                "cmwd": 20,
+                "par": 22,
+                "ward": 20
+            },
+            "code": "E07000215",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "M3645",
+                "nhs": "344",
+                "ons": "43UK"
+            },
+            "has_boundary": true,
+            "name": "Tandridge",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UK"
+            ],
+            "sort_order": "E07000215",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000027": {
+            "active": true,
+            "areachect": 7797.86,
+            "areaehect": 13206.39,
+            "areaihect": 0.0,
+            "arealhect": 7797.86,
+            "child_count": 29,
+            "child_counts": {
+                "cmwd": 13,
+                "par": 3,
+                "ward": 13
+            },
+            "code": "E07000027",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "W0910",
+                "nhs": "124",
+                "ons": "16UC"
+            },
+            "has_boundary": true,
+            "name": "Barrow-in-Furness",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000006",
+            "predecessor": [
+                "16UC"
+            ],
+            "sort_order": "E07000027",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000208": {
+            "active": true,
+            "areachect": 3407.94,
+            "areaehect": 3407.94,
+            "areaihect": 0.0,
+            "arealhect": 3407.94,
+            "child_count": 26,
+            "child_counts": {
+                "cmwd": 13,
+                "ward": 13
+            },
+            "code": "E07000208",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "P3610",
+                "nhs": "186",
+                "ons": "43UC"
+            },
+            "has_boundary": true,
+            "name": "Epsom and Ewell",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UC"
+            ],
+            "sort_order": "E07000208",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000015": {
+            "active": true,
+            "areachect": 7803.11,
+            "areaehect": 7803.11,
+            "areaihect": 0.0,
+            "arealhect": 7803.11,
+            "child_count": 34,
+            "child_counts": {
+                "cmwd": 17,
+                "ward": 17
+            },
+            "code": "E06000015",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "C1055",
+                "nhs": "507",
+                "ons": "00FK"
+            },
+            "has_boundary": true,
+            "name": "Derby",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000004",
+            "predecessor": [
+                "00FK"
+            ],
+            "sort_order": "E06000015",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000212": {
+            "active": true,
+            "areachect": 7804.08,
+            "areaehect": 7804.08,
+            "areaihect": 0.0,
+            "arealhect": 7804.08,
+            "child_count": 42,
+            "child_counts": {
+                "cmwd": 14,
+                "ward": 28
+            },
+            "code": "E07000212",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "Q3630",
+                "nhs": "285",
+                "ons": "43UG"
+            },
+            "has_boundary": true,
+            "name": "Runnymede",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UG"
+            ],
+            "sort_order": "E07000212",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000226": {
+            "active": true,
+            "areachect": 4497.1,
+            "areaehect": 4497.1,
+            "areaihect": 0.0,
+            "arealhect": 4497.1,
+            "child_count": 43,
+            "child_counts": {
+                "cmwd": 15,
+                "ward": 28
+            },
+            "code": "E07000226",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "Q3820",
+                "nhs": "166",
+                "ons": "45UE"
+            },
+            "has_boundary": true,
+            "name": "Crawley",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000032",
+            "predecessor": [
+                "45UE"
+            ],
+            "sort_order": "E07000226",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000025": {
+            "active": true,
+            "areachect": 3620.17,
+            "areaehect": 3857.81,
+            "areaihect": 0.0,
+            "arealhect": 3620.17,
+            "child_count": 40,
+            "child_counts": {
+                "cmwd": 20,
+                "ward": 20
+            },
+            "code": "E09000025",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "G5750",
+                "nhs": "731",
+                "ons": "00BB"
+            },
+            "has_boundary": true,
+            "name": "Newham",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00BB"
+            ],
+            "sort_order": "E09000025",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000025": {
+            "active": true,
+            "areachect": 26779.13,
+            "areaehect": 26779.13,
+            "areaihect": 0.0,
+            "arealhect": 26779.13,
+            "child_count": 152,
+            "child_counts": {
+                "cmwd": 40,
+                "ncp": 1,
+                "par": 2,
+                "ward": 109
+            },
+            "code": "E08000025",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "P4605",
+                "nhs": "406",
+                "ons": "00CN"
+            },
+            "has_boundary": true,
+            "name": "Birmingham",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000005",
+            "predecessor": [
+                "00CN"
+            ],
+            "sort_order": "E08000025",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000021": {
+            "active": true,
+            "areachect": 9344.85,
+            "areaehect": 9344.85,
+            "areaihect": 0.0,
+            "arealhect": 9344.85,
+            "child_count": 94,
+            "child_counts": {
+                "cmwd": 37,
+                "ward": 57
+            },
+            "code": "E06000021",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "M3455",
+                "nhs": "414",
+                "ons": "00GL"
+            },
+            "has_boundary": true,
+            "name": "Stoke-on-Trent",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000005",
+            "predecessor": [
+                "00GL"
+            ],
+            "sort_order": "E06000021",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000014": {
+            "active": true,
+            "areachect": 2959.83,
+            "areaehect": 2959.83,
+            "areaihect": 0.0,
+            "arealhect": 2959.83,
+            "child_count": 38,
+            "child_counts": {
+                "cmwd": 19,
+                "ward": 19
+            },
+            "code": "E09000014",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "Y5420",
+                "nhs": "724",
+                "ons": "00AP"
+            },
+            "has_boundary": true,
+            "name": "Haringey",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AP"
+            ],
+            "sort_order": "E09000014",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000013": {
+            "active": true,
+            "areachect": 13635.87,
+            "areaehect": 13635.87,
+            "areaihect": 0.0,
+            "arealhect": 13635.87,
+            "child_count": 39,
+            "child_counts": {
+                "cmwd": 16,
+                "par": 7,
+                "ward": 16
+            },
+            "code": "E08000013",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "H4315",
+                "nhs": "318",
+                "ons": "00BZ"
+            },
+            "has_boundary": true,
+            "name": "St. Helens",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "00BZ"
+            ],
+            "sort_order": "E08000013",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000085": {
+            "active": true,
+            "areachect": 51443.21,
+            "areaehect": 51443.21,
+            "areaihect": 0.0,
+            "arealhect": 51443.21,
+            "child_count": 148,
+            "child_counts": {
+                "cmwd": 38,
+                "par": 41,
+                "ward": 69
+            },
+            "code": "E07000085",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "M1710",
+                "nhs": "176",
+                "ons": "24UC"
+            },
+            "has_boundary": true,
+            "name": "East Hampshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000014",
+            "predecessor": [
+                "24UC"
+            ],
+            "sort_order": "E07000085",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000207": {
+            "active": true,
+            "areachect": 9633.43,
+            "areaehect": 9633.43,
+            "areaihect": 128.2,
+            "arealhect": 9505.23,
+            "child_count": 61,
+            "child_counts": {
+                "cmwd": 22,
+                "par": 1,
+                "ward": 38
+            },
+            "code": "E07000207",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "K3605",
+                "nhs": "184",
+                "ons": "43UB"
+            },
+            "has_boundary": true,
+            "name": "Elmbridge",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UB"
+            ],
+            "sort_order": "E07000207",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000023": {
+            "active": true,
+            "areachect": 3514.88,
+            "areaehect": 3531.67,
+            "areaihect": 0.0,
+            "arealhect": 3514.88,
+            "child_count": 36,
+            "child_counts": {
+                "cmwd": 18,
+                "ward": 18
+            },
+            "code": "E09000023",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "C5690",
+                "nhs": "709",
+                "ons": "00AZ"
+            },
+            "has_boundary": true,
+            "name": "Lewisham",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AZ"
+            ],
+            "sort_order": "E09000023",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000012": {
+            "active": true,
+            "areachect": 11183.57,
+            "areaehect": 13353.4,
+            "areaihect": 0.0,
+            "arealhect": 11183.57,
+            "child_count": 60,
+            "child_counts": {
+                "cmwd": 30,
+                "ward": 30
+            },
+            "code": "E08000012",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "Z4310",
+                "nhs": "316",
+                "ons": "00BY"
+            },
+            "has_boundary": true,
+            "name": "Liverpool",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "00BY"
+            ],
+            "sort_order": "E08000012",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000202": {
+            "active": true,
+            "areachect": 3952.25,
+            "areaehect": 4030.02,
+            "areaihect": 0.0,
+            "arealhect": 3952.25,
+            "child_count": 32,
+            "child_counts": {
+                "cmwd": 16,
+                "ward": 16
+            },
+            "code": "E07000202",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "R3515",
+                "nhs": "234",
+                "ons": "42UD"
+            },
+            "has_boundary": true,
+            "name": "Ipswich",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000029",
+            "predecessor": [
+                "42UD"
+            ],
+            "sort_order": "E07000202",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000006": {
+            "active": true,
+            "areachect": 9719.74,
+            "areaehect": 9719.74,
+            "areaihect": 0.0,
+            "arealhect": 9719.74,
+            "child_count": 40,
+            "child_counts": {
+                "cmwd": 20,
+                "ward": 20
+            },
+            "code": "E08000006",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "U4230",
+                "nhs": "309",
+                "ons": "00BR"
+            },
+            "has_boundary": true,
+            "name": "Salford",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "00BR"
+            ],
+            "sort_order": "E08000006",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000073": {
+            "active": true,
+            "areachect": 3053.79,
+            "areaehect": 3053.79,
+            "areaihect": 0.0,
+            "arealhect": 3053.79,
+            "child_count": 22,
+            "child_counts": {
+                "cmwd": 11,
+                "ward": 11
+            },
+            "code": "E07000073",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "N1540",
+                "nhs": "223",
+                "ons": "22UJ"
+            },
+            "has_boundary": true,
+            "name": "Harlow",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UJ"
+            ],
+            "sort_order": "E07000073",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000011": {
+            "active": true,
+            "areachect": 4733.4,
+            "areaehect": 5044.19,
+            "areaihect": 0.0,
+            "arealhect": 4733.4,
+            "child_count": 34,
+            "child_counts": {
+                "cmwd": 17,
+                "ward": 17
+            },
+            "code": "E09000011",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "E5330",
+                "nhs": "703",
+                "ons": "00AL"
+            },
+            "has_boundary": true,
+            "name": "Greenwich",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AL"
+            ],
+            "sort_order": "E09000011",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000019": {
+            "active": true,
+            "areachect": 36793.02,
+            "areaehect": 36793.02,
+            "areaihect": 0.0,
+            "arealhect": 36793.02,
+            "child_count": 87,
+            "child_counts": {
+                "cmwd": 28,
+                "par": 3,
+                "ward": 56
+            },
+            "code": "E08000019",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "U4420",
+                "nhs": "207",
+                "ons": "00CG"
+            },
+            "has_boundary": true,
+            "name": "Sheffield",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000003",
+            "predecessor": [
+                "00CG"
+            ],
+            "sort_order": "E08000019",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000003": {
+            "active": true,
+            "areachect": 8674.82,
+            "areaehect": 8674.82,
+            "areaihect": 0.0,
+            "arealhect": 8674.82,
+            "child_count": 42,
+            "child_counts": {
+                "cmwd": 21,
+                "ward": 21
+            },
+            "code": "E09000003",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "N5090",
+                "nhs": "717",
+                "ons": "00AC"
+            },
+            "has_boundary": true,
+            "name": "Barnet",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AC"
+            ],
+            "sort_order": "E09000003",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000003": {
+            "active": true,
+            "areachect": 24482.02,
+            "areaehect": 25389.08,
+            "areaihect": 0.0,
+            "arealhect": 24482.02,
+            "child_count": 73,
+            "child_counts": {
+                "cmwd": 22,
+                "par": 5,
+                "ward": 46
+            },
+            "code": "E06000003",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "V0728",
+                "nhs": "113",
+                "ons": "00EE"
+            },
+            "has_boundary": true,
+            "name": "Redcar and Cleveland",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00EE"
+            ],
+            "sort_order": "E06000003",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000004": {
+            "active": true,
+            "areachect": 20496.24,
+            "areaehect": 20973.09,
+            "areaihect": 0.0,
+            "arealhect": 20496.24,
+            "child_count": 80,
+            "child_counts": {
+                "cmwd": 26,
+                "par": 28,
+                "ward": 26
+            },
+            "code": "E06000004",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "H0738",
+                "nhs": "114",
+                "ons": "00EF"
+            },
+            "has_boundary": true,
+            "name": "Stockton-on-Tees",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00EF"
+            ],
+            "sort_order": "E06000004",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E08000023": {
+            "active": true,
+            "areachect": 6439.43,
+            "areaehect": 6710.85,
+            "areaihect": 0.0,
+            "arealhect": 6439.43,
+            "child_count": 36,
+            "child_counts": {
+                "cmwd": 18,
+                "ward": 18
+            },
+            "code": "E08000023",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "A4520",
+                "nhs": "109",
+                "ons": "00CL"
+            },
+            "has_boundary": true,
+            "name": "South Tyneside",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "00CL"
+            ],
+            "sort_order": "E08000023",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "S12000036": {
+            "active": true,
+            "areachect": 26335.19,
+            "areaehect": 27300.42,
+            "areaihect": 0.0,
+            "arealhect": 26335.19,
+            "child_count": 689,
+            "child_counts": {
+                "iz": 111,
+                "ward": 34,
+                "wz11": 544
+            },
+            "code": "S12000036",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "S12",
+            "equivalents": {
+                "ons": "00QP"
+            },
+            "has_boundary": true,
+            "name": "City of Edinburgh",
+            "name_welsh": null,
+            "owner": "LGBC",
+            "parent": null,
+            "predecessor": [
+                "00QP"
+            ],
+            "sort_order": "S12000036",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000022": {
+            "active": true,
+            "areachect": 35112.34,
+            "areaehect": 35112.34,
+            "areaihect": 524.48,
+            "arealhect": 34587.86,
+            "child_count": 159,
+            "child_counts": {
+                "cmwd": 37,
+                "par": 52,
+                "ward": 70
+            },
+            "code": "E06000022",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "F0114",
+                "nhs": "908",
+                "ons": "00HA"
+            },
+            "has_boundary": true,
+            "name": "Bath and North East Somerset",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000009",
+            "predecessor": [
+                "00HA"
+            ],
+            "sort_order": "E06000022",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000051": {
+            "active": false,
+            "areachect": 40441.24,
+            "areaehect": 42758.38,
+            "areaihect": 0.0,
+            "arealhect": 40441.24,
+            "child_count": 46,
+            "child_counts": {
+                "cmwd": 14,
+                "par": 12,
+                "ward": 20
+            },
+            "code": "E07000051",
+            "date_end": "Sun, 31 Mar 2019 00:00:00 GMT",
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "B1225",
+                "nhs": "275",
+                "ons": "19UG"
+            },
+            "name": "Purbeck",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000009",
+            "predecessor": [
+                "19UG"
+            ],
+            "sort_order": "E07000051",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": [
+                "E06000059",
+                "E06000059"
+            ]
+        },
+        "E08000037": {
+            "active": true,
+            "areachect": 14235.93,
+            "areaehect": 14407.97,
+            "areaihect": 0.0,
+            "arealhect": 14235.93,
+            "child_count": 24,
+            "child_counts": {
+                "cmwd": 22,
+                "par": 1,
+                "ward": 1
+            },
+            "code": "E08000037",
+            "date_end": null,
+            "date_start": "Mon, 01 Apr 2013 00:00:00 GMT",
+            "entity": "E08",
+            "equivalents": {
+                "mhclg": "H4505",
+                "nhs": "106",
+                "ons": "00CH"
+            },
+            "has_boundary": true,
+            "name": "Gateshead",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000001",
+            "predecessor": [
+                "E08000020"
+            ],
+            "sort_order": "E08000037",
+            "statutory_instrument_id": "595/2013",
+            "statutory_instrument_title": "The Gateshead and Northumberland (Boundary Change) Order 2013",
+            "successor": []
+        },
+        "E07000211": {
+            "active": true,
+            "areachect": 12914.39,
+            "areaehect": 12914.39,
+            "areaihect": 0.0,
+            "arealhect": 12914.39,
+            "child_count": 55,
+            "child_counts": {
+                "cmwd": 19,
+                "par": 2,
+                "ward": 34
+            },
+            "code": "E07000211",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "L3625",
+                "nhs": "277",
+                "ons": "43UF"
+            },
+            "has_boundary": true,
+            "name": "Reigate and Banstead",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000030",
+            "predecessor": [
+                "43UF"
+            ],
+            "sort_order": "E07000211",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000031": {
+            "active": true,
+            "areachect": 34337.83,
+            "areaehect": 34343.8,
+            "areaihect": 0.0,
+            "arealhect": 34337.83,
+            "child_count": 99,
+            "child_counts": {
+                "cmwd": 24,
+                "par": 29,
+                "ward": 46
+            },
+            "code": "E06000031",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "J0540",
+                "nhs": "624",
+                "ons": "00JA"
+            },
+            "has_boundary": true,
+            "name": "Peterborough",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "00JA"
+            ],
+            "sort_order": "E06000031",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000029": {
+            "active": true,
+            "areachect": 4384.71,
+            "areaehect": 4384.71,
+            "areaihect": 0.0,
+            "arealhect": 4384.71,
+            "child_count": 36,
+            "child_counts": {
+                "cmwd": 18,
+                "ward": 18
+            },
+            "code": "E09000029",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "P5870",
+                "nhs": "734",
+                "ons": "00BF"
+            },
+            "has_boundary": true,
+            "name": "Sutton",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00BF"
+            ],
+            "sort_order": "E09000029",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000067": {
+            "active": true,
+            "areachect": 61170.81,
+            "areaehect": 61170.81,
+            "areaihect": 0.0,
+            "arealhect": 61170.81,
+            "child_count": 165,
+            "child_counts": {
+                "cmwd": 30,
+                "ncp": 1,
+                "par": 71,
+                "ward": 63
+            },
+            "code": "E07000067",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "Z1510",
+                "nhs": "132",
+                "ons": "22UC"
+            },
+            "has_boundary": true,
+            "name": "Braintree",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000012",
+            "predecessor": [
+                "22UC"
+            ],
+            "sort_order": "E07000067",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000145": {
+            "active": true,
+            "areachect": 17447.07,
+            "areaehect": 18247.2,
+            "areaihect": 0.0,
+            "arealhect": 17447.07,
+            "child_count": 55,
+            "child_counts": {
+                "cmwd": 17,
+                "par": 21,
+                "ward": 17
+            },
+            "code": "E07000145",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "U2615",
+                "nhs": "199",
+                "ons": "33UD"
+            },
+            "has_boundary": true,
+            "name": "Great Yarmouth",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000020",
+            "predecessor": [
+                "33UD"
+            ],
+            "sort_order": "E07000145",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E06000052": {
+            "active": true,
+            "areachect": 354950.05,
+            "areaehect": 361344.23,
+            "areaihect": 350.55,
+            "arealhect": 354599.5,
+            "child_count": 581,
+            "child_counts": {
+                "cmwd": 123,
+                "par": 213,
+                "ward": 245
+            },
+            "code": "E06000052",
+            "date_end": null,
+            "date_start": "Wed, 01 Apr 2009 00:00:00 GMT",
+            "entity": "E06",
+            "equivalents": {
+                "mhclg": "D0840",
+                "nhs": "902",
+                "ons": "00HE"
+            },
+            "has_boundary": true,
+            "name": "Cornwall",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000009",
+            "predecessor": [
+                "E07000019",
+                "E07000020",
+                "E07000021",
+                "E07000022",
+                "E07000023",
+                "E07000024"
+            ],
+            "sort_order": "E06000052",
+            "statutory_instrument_id": "491/2008",
+            "statutory_instrument_title": "The Cornwall (Structural Change) Order 2008",
+            "successor": []
+        },
+        "E07000179": {
+            "active": true,
+            "areachect": 67853.71,
+            "areaehect": 67853.71,
+            "areaihect": 0.0,
+            "arealhect": 67853.71,
+            "child_count": 221,
+            "child_counts": {
+                "ced": 10,
+                "cmwd": 29,
+                "par": 118,
+                "ward": 64
+            },
+            "code": "E07000179",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "Q3115",
+                "nhs": "383",
+                "ons": "38UD"
+            },
+            "has_boundary": true,
+            "name": "South Oxfordshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000025",
+            "predecessor": [
+                "38UD"
+            ],
+            "sort_order": "E07000179",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E07000063": {
+            "active": true,
+            "areachect": 29206.43,
+            "areaehect": 29438.93,
+            "areaihect": 0.0,
+            "arealhect": 29206.43,
+            "child_count": 92,
+            "child_counts": {
+                "cmwd": 21,
+                "par": 29,
+                "ward": 42
+            },
+            "code": "E07000063",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E07",
+            "equivalents": {
+                "mhclg": "P1425",
+                "nhs": "239",
+                "ons": "21UF"
+            },
+            "has_boundary": true,
+            "name": "Lewes",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E10000011",
+            "predecessor": [
+                "21UF"
+            ],
+            "sort_order": "E07000063",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E09000001": {
+            "active": true,
+            "areachect": 290.4,
+            "areaehect": 314.96,
+            "areaihect": 0.0,
+            "arealhect": 290.4,
+            "child_count": 54,
+            "child_counts": {
+                "cmwd": 4,
+                "ward": 50
+            },
+            "code": "E09000001",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E09",
+            "equivalents": {
+                "mhclg": "K5030",
+                "nhs": "714",
+                "ons": "00AA"
+            },
+            "has_boundary": true,
+            "name": "City of London",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000007",
+            "predecessor": [
+                "00AA"
+            ],
+            "sort_order": "E09000001",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000016": {
+            "active": true,
+            "areachect": 354605.56,
+            "areaehect": 363955.27,
+            "areaihect": 111.62,
+            "arealhect": 354493.94,
+            "child_count": 84,
+            "child_counts": {
+                "ced": 72,
+                "laua": 12
+            },
+            "code": "E10000016",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "W2275",
+                "nhs": "820",
+                "ons": "29"
+            },
+            "has_boundary": true,
+            "name": "Kent",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000008",
+            "predecessor": [
+                "29"
+            ],
+            "sort_order": "E10000016",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000009": {
+            "active": false,
+            "areachect": 254173.03,
+            "areaehect": 257297.32,
+            "areaihect": 0.0,
+            "arealhect": 254173.03,
+            "child_count": 46,
+            "child_counts": {
+                "ced": 40,
+                "laua": 6
+            },
+            "code": "E10000009",
+            "date_end": "Sun, 31 Mar 2019 00:00:00 GMT",
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "C1245",
+                "nhs": "809",
+                "ons": "19"
+            },
+            "name": "Dorset",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000009",
+            "predecessor": [
+                "19"
+            ],
+            "sort_order": "E10000009",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": [
+                "E10999999"
+            ]
+        },
+        "E10000023": {
+            "active": true,
+            "areachect": 804026.14,
+            "areaehect": 805294.03,
+            "areaihect": 259.97,
+            "arealhect": 803766.17,
+            "child_count": 75,
+            "child_counts": {
+                "ced": 68,
+                "laua": 7
+            },
+            "code": "E10000023",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "P2745",
+                "nhs": "218",
+                "ons": "36"
+            },
+            "has_boundary": true,
+            "name": "North Yorkshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000003",
+            "predecessor": [
+                "36"
+            ],
+            "sort_order": "E10000023",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000015": {
+            "active": true,
+            "areachect": 164306.5,
+            "areaehect": 164306.5,
+            "areaihect": 0.0,
+            "arealhect": 164306.5,
+            "child_count": 92,
+            "child_counts": {
+                "ced": 78,
+                "laua": 14
+            },
+            "code": "E10000015",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "M1900",
+                "nhs": "606",
+                "ons": "26"
+            },
+            "has_boundary": true,
+            "name": "Hertfordshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "26"
+            ],
+            "sort_order": "E10000015",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000032": {
+            "active": true,
+            "areachect": 199087.18,
+            "areaehect": 202346.34,
+            "areaihect": 0.0,
+            "arealhect": 199087.18,
+            "child_count": 77,
+            "child_counts": {
+                "ced": 70,
+                "laua": 7
+            },
+            "code": "E10000032",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "P3800",
+                "nhs": "807",
+                "ons": "45"
+            },
+            "has_boundary": true,
+            "name": "West Sussex",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000008",
+            "predecessor": [
+                "45"
+            ],
+            "sort_order": "E10000032",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000014": {
+            "active": true,
+            "areachect": 367889.94,
+            "areaehect": 373790.68,
+            "areaihect": 0.0,
+            "arealhect": 367889.94,
+            "child_count": 87,
+            "child_counts": {
+                "ced": 76,
+                "laua": 11
+            },
+            "code": "E10000014",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "Q1770",
+                "nhs": "812",
+                "ons": "24"
+            },
+            "has_boundary": true,
+            "name": "Hampshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000008",
+            "predecessor": [
+                "24"
+            ],
+            "sort_order": "E10000014",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000003": {
+            "active": true,
+            "areachect": 305251.35,
+            "areaehect": 305400.72,
+            "areaihect": 627.95,
+            "arealhect": 304623.4,
+            "child_count": 64,
+            "child_counts": {
+                "ced": 59,
+                "laua": 5
+            },
+            "code": "E10000003",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "E0535",
+                "nhs": "623",
+                "ons": "12"
+            },
+            "has_boundary": true,
+            "name": "Cambridgeshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "12"
+            ],
+            "sort_order": "E10000003",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000024": {
+            "active": true,
+            "areachect": 208471.13,
+            "areaehect": 208689.54,
+            "areaihect": 0.0,
+            "arealhect": 208471.13,
+            "child_count": 63,
+            "child_counts": {
+                "ced": 56,
+                "laua": 7
+            },
+            "code": "E10000024",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "L3055",
+                "nhs": "511",
+                "ons": "37"
+            },
+            "has_boundary": true,
+            "name": "Nottinghamshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000004",
+            "predecessor": [
+                "37"
+            ],
+            "sort_order": "E10000024",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000012": {
+            "active": true,
+            "areachect": 347198.1,
+            "areaehect": 369530.95,
+            "areaihect": 757.07,
+            "arealhect": 346441.03,
+            "child_count": 82,
+            "child_counts": {
+                "ced": 70,
+                "laua": 12
+            },
+            "code": "E10000012",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "Z1585",
+                "nhs": "620",
+                "ons": "22"
+            },
+            "has_boundary": true,
+            "name": "Essex",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "22"
+            ],
+            "sort_order": "E10000012",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000020": {
+            "active": true,
+            "areachect": 538160.56,
+            "areaehect": 550835.03,
+            "areaihect": 158.64,
+            "arealhect": 538001.92,
+            "child_count": 92,
+            "child_counts": {
+                "ced": 85,
+                "laua": 7
+            },
+            "code": "E10000020",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "X2600",
+                "nhs": "607",
+                "ons": "33"
+            },
+            "has_boundary": true,
+            "name": "Norfolk",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "33"
+            ],
+            "sort_order": "E10000020",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000029": {
+            "active": true,
+            "areachect": 380234.46,
+            "areaehect": 385357.46,
+            "areaihect": 139.25,
+            "arealhect": 380095.21,
+            "child_count": 72,
+            "child_counts": {
+                "ced": 63,
+                "laua": 9
+            },
+            "code": "E10000029",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "V3500",
+                "nhs": "609",
+                "ons": "42"
+            },
+            "has_boundary": true,
+            "name": "Suffolk",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000006",
+            "predecessor": [
+                "42"
+            ],
+            "sort_order": "E10000029",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000017": {
+            "active": true,
+            "areachect": 290454.0,
+            "areaehect": 308300.81,
+            "areaihect": 128.58,
+            "arealhect": 290325.42,
+            "child_count": 94,
+            "child_counts": {
+                "ced": 82,
+                "laua": 12
+            },
+            "code": "E10000017",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "Q2371",
+                "nhs": "323",
+                "ons": "30"
+            },
+            "has_boundary": true,
+            "name": "Lancashire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "30"
+            ],
+            "sort_order": "E10000017",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000013": {
+            "active": true,
+            "areachect": 265303.11,
+            "areaehect": 270452.83,
+            "areaihect": 0.0,
+            "arealhect": 265303.11,
+            "child_count": 59,
+            "child_counts": {
+                "ced": 53,
+                "laua": 6
+            },
+            "code": "E10000013",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "T1600",
+                "nhs": "904",
+                "ons": "23"
+            },
+            "has_boundary": true,
+            "name": "Gloucestershire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000009",
+            "predecessor": [
+                "23"
+            ],
+            "sort_order": "E10000013",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000006": {
+            "active": true,
+            "areachect": 682219.53,
+            "areaehect": 718247.22,
+            "areaihect": 5559.58,
+            "arealhect": 676659.95,
+            "child_count": 90,
+            "child_counts": {
+                "ced": 84,
+                "laua": 6
+            },
+            "code": "E10000006",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "H0900",
+                "nhs": "102",
+                "ons": "16"
+            },
+            "has_boundary": true,
+            "name": "Cumbria",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000002",
+            "predecessor": [
+                "16"
+            ],
+            "sort_order": "E10000006",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000011": {
+            "active": true,
+            "areachect": 171269.14,
+            "areaehect": 172516.86,
+            "areaihect": 413.52,
+            "arealhect": 170855.62,
+            "child_count": 55,
+            "child_counts": {
+                "ced": 50,
+                "laua": 5
+            },
+            "code": "E10000011",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "G1440",
+                "nhs": "815",
+                "ons": "21"
+            },
+            "has_boundary": true,
+            "name": "East Sussex",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000008",
+            "predecessor": [
+                "21"
+            ],
+            "sort_order": "E10000011",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000025": {
+            "active": true,
+            "areachect": 260594.77,
+            "areaehect": 260594.77,
+            "areaihect": 101.58,
+            "arealhect": 260493.19,
+            "child_count": 66,
+            "child_counts": {
+                "ced": 61,
+                "laua": 5
+            },
+            "code": "E10000025",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "U3100",
+                "nhs": "608",
+                "ons": "38"
+            },
+            "has_boundary": true,
+            "name": "Oxfordshire",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000008",
+            "predecessor": [
+                "38"
+            ],
+            "sort_order": "E10000025",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        },
+        "E10000030": {
+            "active": true,
+            "areachect": 167007.33,
+            "areaehect": 167007.33,
+            "areaihect": 755.54,
+            "arealhect": 166251.79,
+            "child_count": 93,
+            "child_counts": {
+                "ced": 82,
+                "laua": 11
+            },
+            "code": "E10000030",
+            "date_end": null,
+            "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+            "entity": "E10",
+            "equivalents": {
+                "mhclg": "B3600",
+                "nhs": "805",
+                "ons": "43"
+            },
+            "has_boundary": true,
+            "name": "Surrey",
+            "name_welsh": null,
+            "owner": "MHCLG",
+            "parent": "E12000008",
+            "predecessor": [
+                "43"
+            ],
+            "sort_order": "E10000030",
+            "statutory_instrument_id": "1111/1001",
+            "statutory_instrument_title": "GSS re-coding strategy",
+            "successor": []
+        }
+    }
+}

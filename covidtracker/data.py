@@ -1,6 +1,7 @@
 import json
 import datetime
 import re
+from collections import Counter
 
 import requests
 import requests_cache
@@ -10,7 +11,7 @@ requests_cache.install_cache(
     expire_after=60 * 60 * 2 # two hours
 )
 
-from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE
+from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE, AREAS_FILE
 
 def get_data():
 
@@ -20,6 +21,9 @@ def get_data():
     with open(FUNDER_IDS_FILE) as a:
         fundersdata = json.load(a)
 
+    with open(AREAS_FILE) as a:
+        areas = json.load(a)["areas"]
+
     grants = grantsdata['grants']
     if grantsdata.get("last_updated"):
         last_updated = datetime.datetime.fromisoformat(grantsdata["last_updated"])
@@ -27,18 +31,23 @@ def get_data():
         last_updated = datetime.datetime.now()
     all_funders = fundersdata['funders']
 
-    funders = list(set([
-        (g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])
-        for g in grants]))
-    recipients = list(set([
-        g['recipientOrganization'][0]['id']
-        for g in grants
-    ]))
+    funders = Counter()
+    recipients = set()
+    counties = set()
+    for g in grants:
+        funders[(g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])] += 1
+        recipients.add(g['recipientOrganization'][0]['id'])
+        if g['geo'].get('county'):
+            counties.add((
+                g['geo'].get('county'),
+                areas.get(g['geo'].get('county'), {}).get("name", g['geo'].get('county'))
+            ))
 
     return dict(
         grants=grants,
         funders=funders,
         recipients=recipients,
+        counties=counties,
         all_funders=all_funders,
         now=datetime.datetime.now(),
         last_updated=last_updated,
@@ -70,6 +79,12 @@ def filter_data(all_data, **filters):
                 include_grant.append(
                     g['fundingOrganization'][0]['id'] in filters['funder'] or \
                     g['recipientOrganization'][0]['id'] in filters['funder']
+                )
+
+            # area filter
+            if filters.get("area"):
+                include_grant.append(
+                    g['geo']['county'] in filters['area']
                 )
 
             # search filter
