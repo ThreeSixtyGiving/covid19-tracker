@@ -348,6 +348,75 @@
             ]
         },
         {
+            "id": "360G-CHK-126",
+            "title": "CHK Discretionary Grant",
+            "currency": "GBP",
+            "awardDate": "2020-03-23T00:00:00+00:00",
+            "description": "unrestricted ( response to COVID)",
+            "amountAwarded": 10000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1163055",
+                    "url": "http://www.cityharvest.org.uk/",
+                    "name": "Cityharvest",
+                    "postalCode": "W3 7QE",
+                    "charityNumber": "1163055"
+                }
+            ]
+        },
+        {
+            "id": "360G-CHK-127",
+            "title": "CHK Emergency /Disaster Grant",
+            "currency": "GBP",
+            "awardDate": "2020-03-23T00:00:00+00:00",
+            "description": "unrestricted ( response to COVID)",
+            "amountAwarded": 40000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1110522",
+                    "url": "https://www.trusselltrust.org/",
+                    "name": "Trussell Trust, The",
+                    "postalCode": "SP2 7HL",
+                    "charityNumber": "1110522"
+                }
+            ]
+        },
+        {
+            "id": "360G-CHK-128",
+            "title": "CHK Emergency /Disaster Grant",
+            "currency": "GBP",
+            "awardDate": "2020-03-23T00:00:00+00:00",
+            "description": "unrestricted ( response to COVID)",
+            "amountAwarded": 50000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1182809",
+                    "url": "https://nationalemergenciestrust.org.uk/",
+                    "name": "National Emergencies Trust",
+                    "postalCode": "EC2Y 9AL",
+                    "charityNumber": "1182809"
+                }
+            ]
+        },
+        {
             "ID": "4018",
             "id": "360G-indigotrust:IND495",
             "title": "Emergency funding during Covid-19 Crisis",
@@ -4965,7 +5034,7 @@
             "currency": "GBP",
             "awardDate": "2020-03-31T00:00:00+00:00",
             "description": "for the community hub and telephone helpline established to help vulnerable and older people in need during the COVID19 pandemic in Uttlesford",
-            "dateModified": "2020-04-17T00:00:00+00:00",
+            "dateModified": "2020-04-29T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -7697,6 +7766,29 @@
                     "description": "The aims of Voluntary Action Reigate & Banstead are to build the capacity of the voluntary, community and faith sector (VCFS) in the Borough and to support volunteers and volunteering. We deliver these aims in the following ways: - We provide information and advice to VCFS organisations, assist with fundraising, facilitate networking across the sector and campaign on issues relevant to the voluntary sector. - We promote involvement in volunteering (via events and other marketing) and then match volunteers with local opportunities. We provide personalised support to volunteers with additional needs and ongoing support and training for all volunteers and host organisations. Finally we celebrate the contribution made by volunteers through publicity and awards.",
                     "charityNumber": "1138897",
                     "companyNumber": "07217319"
+                }
+            ]
+        },
+        {
+            "id": "360G-CHK-142",
+            "title": "CHK Discretionary Grant",
+            "currency": "GBP",
+            "awardDate": "2020-04-01T00:00:00+00:00",
+            "description": "to support work undertaken with vulnerable young people during the COVID lockdown",
+            "amountAwarded": 5000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1086902",
+                    "url": "http://youthactionalliance.org/",
+                    "name": "Youth Action Alliance",
+                    "postalCode": "W10 5RE",
+                    "charityNumber": "1086902"
                 }
             ]
         },
@@ -12375,6 +12467,58 @@
             ]
         },
         {
+            "id": "360G-GSTC-GRA01959",
+            "title": "COVID 19 Wellbeing Zones",
+            "LineNo": 735,
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Wellbeing zones for Trust staff during COVID 19 crisis (Instalment)",
+            "amountAwarded": 35000,
+            "grantProgramme": [
+                {
+                    "title": "Health Innovation Fund"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NHS-RJ1",
+                    "name": "Guy's and St Thomas' NHS Foundation Trust"
+                }
+            ]
+        },
+        {
+            "id": "360G-GSTC-GRA01962",
+            "title": "COVID 19 Wellbeing Zones",
+            "LineNo": 738,
+            "currency": "GBP",
+            "awardDate": "2020-04-03T00:00:00+00:00",
+            "description": "Wellbeing zones for Trust staff during COVID 19 crisis (reimbursement)",
+            "amountAwarded": 35000,
+            "grantProgramme": [
+                {
+                    "title": "Health Innovation Fund"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NHS-RJ1",
+                    "name": "Guy's and St Thomas' NHS Foundation Trust"
+                }
+            ]
+        },
+        {
             "id": "360G-MercersCompany-17755",
             "title": "COVID19 Rapid Response Fund Grant to InCommon Living",
             "currency": "GBP",
@@ -13688,6 +13832,32 @@
             ]
         },
         {
+            "id": "360G-GSTC-GRA01963",
+            "title": "COVID 19 Clean air response",
+            "LineNo": 739,
+            "currency": "GBP",
+            "awardDate": "2020-04-05T00:00:00+00:00",
+            "description": "A project to understand the impact of Covid-19 on air pollution and the potential long-term implications.",
+            "amountAwarded": 93500,
+            "grantProgramme": [
+                {
+                    "title": "Urban Health R&D"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1026148",
+                    "name": "Global Action Plan"
+                }
+            ]
+        },
+        {
             "id": "360G-CountyDurhamCF-A547562",
             "title": "Crafting in crisis",
             "currency": "GBP",
@@ -14163,6 +14333,32 @@
                     "url": "http://www.ifucareshare.co.uk",
                     "name": "If U Care Share Foundation",
                     "charityNumber": "1142001"
+                }
+            ]
+        },
+        {
+            "id": "360G-GSTC-GRA01961",
+            "title": "COVID 19 Lambeth Response Fund",
+            "LineNo": 737,
+            "currency": "GBP",
+            "awardDate": "2020-04-06T00:00:00+00:00",
+            "description": "Restricted grant contribution towards the Lambeth Community Response Fund COVID-19",
+            "amountAwarded": 250000,
+            "grantProgramme": [
+                {
+                    "title": "Urban Health R&D"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-312800",
+                    "name": "Walcot Foundation"
                 }
             ]
         },
@@ -16371,6 +16567,32 @@
             ]
         },
         {
+            "id": "360G-GSTC-GRA01956",
+            "title": "COVID 19 Southwark",
+            "LineNo": 732,
+            "currency": "GBP",
+            "awardDate": "2020-04-07T00:00:00+00:00",
+            "description": "Restricted grant contribution towards the Southwark Community Response Fund COVID-19",
+            "amountAwarded": 250000,
+            "grantProgramme": [
+                {
+                    "title": "Urban Health R&D"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1103731",
+                    "name": "United St Saviour's Charity"
+                }
+            ]
+        },
+        {
             "id": "360G-SomersetCF-A548908",
             "title": "COVID19 Emergency foodbank funding",
             "currency": "GBP",
@@ -18206,6 +18428,75 @@
                     "name": "Possibility People",
                     "charityNumber": "1114435",
                     "companyNumber": "05706441"
+                }
+            ]
+        },
+        {
+            "id": "360G-CHK-143",
+            "title": "CHK Emergency /Disaster Grant",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "unrestricted ( response to COVID)",
+            "amountAwarded": 25000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1077265",
+                    "url": "https://www.sja.org.uk/",
+                    "name": "St John Ambulance",
+                    "postalCode": "EC1M 4DA",
+                    "charityNumber": "1077265"
+                }
+            ]
+        },
+        {
+            "id": "360G-CHK-144",
+            "title": "CHK Emergency /Disaster Grant",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "unrestricted ( response to COVID)",
+            "amountAwarded": 25000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1106864",
+                    "url": "https://safelives.org.uk/",
+                    "name": "Safelives",
+                    "postalCode": "BS1 2NT",
+                    "charityNumber": "1106864"
+                }
+            ]
+        },
+        {
+            "id": "360G-CHK-145",
+            "title": "CHK Emergency /Disaster Grant",
+            "currency": "GBP",
+            "awardDate": "2020-04-08T00:00:00+00:00",
+            "description": "to support the Gloucestershire Coronavirus Emergency Response Fund.",
+            "amountAwarded": 25000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-900239",
+                    "url": "https://www.gloucestershirecf.org.uk/",
+                    "name": "County of Gloucestershire Community Foundation",
+                    "postalCode": "GL51 0TJ",
+                    "charityNumber": "900239"
                 }
             ]
         },
@@ -22244,6 +22535,29 @@
             ]
         },
         {
+            "id": "360G-CHK-148",
+            "title": "CHK Emergency /Disaster Grant",
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "unrestricted ( response to COVID)",
+            "amountAwarded": 25000,
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1050900",
+                    "name": "CHK Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1178037",
+                    "url": "https://helpforce.community/",
+                    "name": "Helpforce Community Trust",
+                    "postalCode": "W11 2NG",
+                    "charityNumber": "1178037"
+                }
+            ]
+        },
+        {
             "id": "360G-DevonCF-A549216",
             "title": "COVID19 Supporting families of blind and partially sighted kids at home",
             "currency": "GBP",
@@ -22863,6 +23177,32 @@
                     "description": "CAVS was founded 25 years ago as a non for profit charity. CAVS provide support and services to our community and those most in need and vulnerable in our society. (Age range from pre birth to 104) CAVS' core service is the provision of support and promotion for the voluntary action and has a membership of over 350 local groups. The range of services include advice/guidance around structure, governance and finance. We provide up to date bulletins of local news, activity, events and networking opportunities, as well as hosting several annual community partnership events. CAVS operates a number of Schemes, vital for the local community and surrounding areas including: Befriending - 1,000 volunteers matched with isolated and lonely people since inception. Ways to Wellness - 1,500 people in the past three years supported, providing advice and guidance and signposting to appropriate services. Family Mentoring - Supporting families on a one to one basis who are vulnerable and often in distress. Reablement - This service has assisted 370 people in three years who wish to remain in their home having returned from long term care in hospital. Essex Children and Young Peoples Service - Supporting young people to make positive lifestyle choices.",
                     "charityNumber": "1103968",
                     "companyNumber": "04856677"
+                }
+            ]
+        },
+        {
+            "id": "360G-GSTC-GRA01964",
+            "title": "COVID 19 Mediation",
+            "LineNo": 740,
+            "currency": "GBP",
+            "awardDate": "2020-04-09T00:00:00+00:00",
+            "description": "Mediation support and training for difficult conversations",
+            "amountAwarded": 5760,
+            "grantProgramme": [
+                {
+                    "title": "Health Innovation Fund"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-7398812",
+                    "name": "Medical Mediation Foundation"
                 }
             ]
         },
@@ -32443,7 +32783,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-20T00:00:00+00:00",
             "description": "to support vital running costs to help sustain the radio station during the COVID19 pandemic",
-            "dateModified": "2020-04-21T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 6000,
             "grantProgramme": [
                 {
@@ -32598,6 +32938,84 @@
                     "description": "Our aim is to prevent / end homelessness. Our objectives are to provide opportunities for those most vulnerable in our community to improve their; confidence, well-being, self-esteem, employability, health, lifestyle and opportunities in life. In addition to securing accommodation, equipping them with skills to sustain a tenancy and gain support and assistance to overcome any issues they are facing such as drug / alcohol misuse, poor mental health and other issues that may hinder a positive lifestyle. By helping them to regain and build on their identity and healthy relationships. We provide a wrap-around service consisting of outreach visits on the streets to build trust and relationships and ensure the wellbeing of rough sleepers; a day centre that provides a safe and friendly environment, clean clothes, shower facilities, refreshments and meals. We also provide various workshop sessions at the centre to improve wellbeing, employability and living skills. These include art club, job club, cookery sessions, free haircuts, accredited courses and a client volunteer programme. We assist to seek and secure suitable accommodation, we work with many landlords in the private rented sector, operate a deposit scheme, provision of home starter pack and ongoing tenancy support through home visits once a client is housed. In May 2019 we opened a 9 bed accommodation project where we are able to offer accommodation in a therapeutic, supported environment to relieve homelessness and help the resident to overcome the barriers to accessing more secure accommodation, we work with the resident until they are ready to move on to independent living where we will help them to seek and secure move on accommodation with ongoing support until they are able and confident to manage a tenancy.",
                     "charityNumber": "1121228",
                     "companyNumber": "06306299"
+                }
+            ]
+        },
+        {
+            "id": "360G-GSTC-GRA01957",
+            "title": "COVID 19 Food Necessity supply",
+            "LineNo": 733,
+            "currency": "GBP",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "description": "Food necessity supply during COVID-19 crisis - discounted food onsite at Trust sites",
+            "amountAwarded": 75000,
+            "grantProgramme": [
+                {
+                    "title": "Health Innovation Fund"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NHS-RJ1",
+                    "name": "Guy's and St Thomas' NHS Foundation Trust"
+                }
+            ]
+        },
+        {
+            "id": "360G-GSTC-GRA01958",
+            "title": "COVID 19 Food and drink onsite",
+            "LineNo": 734,
+            "currency": "GBP",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "description": "Onsite food and drink - tea and coffee supplies for Trust staff during COVID 19",
+            "amountAwarded": 350000,
+            "grantProgramme": [
+                {
+                    "title": "Health Innovation Fund"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NHS-RJ1",
+                    "name": "Guy's and St Thomas' NHS Foundation Trust"
+                }
+            ]
+        },
+        {
+            "id": "360G-GSTC-GRA01960",
+            "title": "COVID 19 Medical Training",
+            "LineNo": 736,
+            "currency": "GBP",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "description": "Simulation suite training to support medical training of COVID 19 procedures",
+            "amountAwarded": 90000,
+            "grantProgramme": [
+                {
+                    "title": "Health Innovation Fund"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NHS-RJ1",
+                    "name": "Guy's and St Thomas' NHS Foundation Trust"
                 }
             ]
         },
@@ -33192,7 +33610,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-21T00:00:00+00:00",
             "description": "to provide the technology to develop and provide on-line mental health services during and post the COVID19 crisis",
-            "dateModified": "2020-04-23T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -33234,7 +33652,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-21T00:00:00+00:00",
             "description": "to cover the additional costs of providing a meals on wheels service during COVID19 to elderly people who would have usually attended the day centre",
-            "dateModified": "2020-04-24T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 3990,
             "grantProgramme": [
                 {
@@ -33264,6 +33682,32 @@
                     "name": "Age Concern - Chelmsford",
                     "description": "Provides good healthy meals cooked on the premises with fresh meat and vegetables ensuring that they are well balanced in maintaining healthy eating. We also provided meals for dietary problems and vegetarians and the Centre is open 5 days a week. We find that not only providing meals at a reasonable cost it also brings the social aspect into play as this enables people to meet new friends, and we try to make them feel wanted, loved and ready to listen to their needs or problems. Some of our diners do have disability problems as well as health problems so to get out,with the help of Community Transport they are able to enjoy a social life which is important.",
                     "charityNumber": "213702"
+                }
+            ]
+        },
+        {
+            "id": "360G-GSTC-GRA01966",
+            "title": "COVID 19 Supermarket fruit & veg",
+            "LineNo": 742,
+            "currency": "GBP",
+            "awardDate": "2020-04-21T00:00:00+00:00",
+            "description": "To support fruit & veg supplies for onsite Trust supermarket (reimbursement)",
+            "amountAwarded": 57600,
+            "grantProgramme": [
+                {
+                    "title": "Health Innovation Fund"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1160316",
+                    "name": "Guy's and St Thomas' Charity"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-NHS-RJ1",
+                    "name": "Guy's and St Thomas' NHS Foundation Trust"
                 }
             ]
         },
@@ -33686,7 +34130,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-22T00:00:00+00:00",
             "description": "towards the running costs of a charity providing emergency refuges and domestic abuse support in Essex during COVID19",
-            "dateModified": "2020-04-23T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -33725,7 +34169,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-22T00:00:00+00:00",
             "description": "towards the running costs of an organization in Southend to enable it to continue to support families with children that have Autistic Spectrum Disorder during the COVID19 crisis",
-            "dateModified": "2020-04-23T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 7755,
             "grantProgramme": [
                 {
@@ -33766,7 +34210,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-22T00:00:00+00:00",
             "description": "towards the additional security costs of keeping vulnerable residents of a supported accommodation project for young people safe during the COVID19 outbreak",
-            "dateModified": "2020-04-23T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 11520,
             "grantProgramme": [
                 {
@@ -33808,7 +34252,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-22T00:00:00+00:00",
             "description": "to provide a telephone service during the COVID19 crisis for those affected by bereavement and fear of bereavement",
-            "dateModified": "2020-04-23T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 11789,
             "grantProgramme": [
                 {
@@ -33846,7 +34290,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-22T00:00:00+00:00",
             "description": "towards increasing the cloud based IT provision of the charity to ensure a continued service supporting people with mental health problems during COVID19",
-            "dateModified": "2020-04-23T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 8200,
             "grantProgramme": [
                 {
@@ -33884,7 +34328,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-22T00:00:00+00:00",
             "description": "to support the additional IT provision needed to provide remote services to BAME communities across Essex during COVID19",
-            "dateModified": "2020-04-24T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 2893,
             "grantProgramme": [
                 {
@@ -34463,7 +34907,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-23T00:00:00+00:00",
             "description": "to enable a carers organization in Southend to deliver services by telephone and virtually during the COVID19 lockdown",
-            "dateModified": "2020-04-24T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 6000,
             "grantProgramme": [
                 {
@@ -34500,12 +34944,51 @@
             ]
         },
         {
+            "id": "360G-EssexCF-A546984",
+            "title": "Grant to Home-Start Essex",
+            "currency": "GBP",
+            "awardDate": "2020-04-23T00:00:00+00:00",
+            "description": "To develop school readiness packs for vulnerable children and provide online support to families during COVID19",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 15000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Families",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-10348139",
+                    "url": "http://www.home-startessex.org.uk",
+                    "name": "Home-Start Essex",
+                    "description": "The Home-Start Essex (HSE) vision is: \u201cFor every child and young person in Essex to grow up in a family that is strong and resilient and able to access support when and where it is needed\u201d. We provide emotional, practical support and guidance to parents of young families, who are struggling with the demands of family life. Typically, they will be experiencing some of the following: social isolation, mental health issues, post-natal depression, domestic abuse, children with additional needs and financial difficulties. Our work falls into the following categories: \u2022 Individualised family support, providing tailor-made help and guidance in the home. \u2022 Family groups \u2013 informal groups for parents to meet, share experiences and develop support networks \u2022 Well-Being groups - parents struggling with self-esteem and mental health issues meet to share their own experiences to learn strategies and support each other. \u2022 Special projects such as Big Hopes, Big Futures (a school readiness programme).",
+                    "charityNumber": "1170940",
+                    "companyNumber": "10348139"
+                }
+            ]
+        },
+        {
             "id": "360G-EssexCF-A548935",
             "title": "Grant to Mid and North East Essex Mind",
             "currency": "GBP",
             "awardDate": "2020-04-23T00:00:00+00:00",
             "description": "To purchase digital and IT equipment for counsellors and support workers providing vital mental health support to vulnerable individuals living in North East and Mid Essex during COVID19",
-            "dateModified": "2020-04-24T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 10000,
             "grantProgramme": [
                 {
@@ -34543,7 +35026,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-23T00:00:00+00:00",
             "description": "to provide resources to support the response hubs in the Brentwood district during the COVID19 crisis",
-            "dateModified": "2020-04-24T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -34585,7 +35068,7 @@
             "currency": "GBP",
             "awardDate": "2020-04-23T00:00:00+00:00",
             "description": "towards the staffing costs of providing an emergency response in Thurrock during COVID19",
-            "dateModified": "2020-04-24T00:00:00+00:00",
+            "dateModified": "2020-04-28T00:00:00+00:00",
             "amountAwarded": 15000,
             "grantProgramme": [
                 {
@@ -35921,6 +36404,337 @@
             ]
         },
         {
+            "id": "360G-EssexCF-A548040",
+            "title": "Grant to Through the Fight Charity Foundation",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "to respond to the needs of the elderly in Waltham Abbey during the COVID19 pandemic",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 3000,
+            "grantProgramme": [
+                {
+                    "code": "Response",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 10000,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Epping Forest",
+                    "geoCode": "E07000072",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1174415",
+                    "url": "https://throughthefight.co.uk/",
+                    "name": "Through the Fight Charity Foundation",
+                    "description": "Through The Fight Foundation is a Registered charity who\u2019s aims are To provide support for those in need, by reason of ill-health, disability, terminal illness, being a victim of crime or abuse.",
+                    "charityNumber": "1174415"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A548687",
+            "title": "Grant to Kool Carers South East Limited",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "towards providing additional counselling to young carers in Basildon and Brentwood because of the strain put on them during COVID19",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 8400,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 10000,
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Basildon",
+                    "geoCode": "E07000066",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-10961014",
+                    "url": "http://koolcarers.co.uk",
+                    "name": "Kool Carers South East Limited",
+                    "description": "To provide professional support, empowerment and guidance for young carers aged 8 - 18 years so that they will have the opportunity, through tailored programs, to develop their life-skills and build resilience; enabling positive participation within their own communities. We provide a number of fun, educational activities and trips, respite breaks and one to one and group support.",
+                    "charityNumber": "1179010",
+                    "companyNumber": "10961014"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A551651",
+            "title": "Grant to Citizens Advice Bureau - Southend on Sea",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "for the Immigration Team who are providing support to refugees, migrants and asylum seekers in South Essex during COVID19",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 6000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 6000,
+            "Primary beneficiary": "Refugees/asylum seekers /immigrants",
+            "beneficiaryLocation": [
+                {
+                    "name": "Southend-on-Sea",
+                    "geoCode": "E06000033",
+                    "countryCode": "GB",
+                    "geoCodeType": "UA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-04344100",
+                    "url": "http://www.citizensadvicesouthend.org.uk",
+                    "name": "Citizens Advice Bureau - Southend on Sea",
+                    "description": "At Citizens Advice Southend (our operating name) we aim to provide the advice people need for the problems they face and to improve the policies and practices that affect people\u2019s lives. We provide free, independent, confidential and impartial advice to everyone on their rights and responsibilities. We value diversity, promote equality and challenge discrimination. We help people resolve their money, legal and other problems by providing information and advice and by influencing policymakers. The client is at the very heart of our service, we are here to ensure that people who need help get the right kind of help at the right time. We offer a quality assured advice and information service, delivered face to face, by telephone and through the website, www.citizensadvice.org.uk by web chat and email. We mainly offer our face to face services at our offices at 1 Church Road, Southend-on-Sea, SS1 2AL. Our initial drop in service operates from 10am to 3.30pm, Monday to Friday except public holidays. Follow up appointments are made if necessary. A General Adviser is available at the Community Hub in Victoria Shopping Centre one day per week and we will soon have a presence at the Shoeburyness Hub. We offer a monthly advice service at the offices of Seetec Southend, to their clients who are receiving support through one of the Work Programmes. We have a presence at the monthly drop in for Southend Wave, a multi agency support project for sex workers. Other outreach services are offered according to demand. We also offer some specialist services, referral and, in some cases, eligibility criteria apply to these services determined by the funder of the service.We have a Legal Aid contract in Housing for clients requiring specialist help who are financially eligible for legal aid and where the matter is within scope of legal aid as defined by the Legal Aid Agency. We operate the Housing Possession Court Duty Scheme at Southend County Court available for anyone who has a possession action listed that day. We have a Rent Arrears project with South Essex Homes (SEH) for tenants whose rent arrears have reached the point where SEH is considering repossession action. The aim of the project is to help the tenant stay in their home and to enable them to pay off the rent arrears to SEH, which is a priority debt. We operate a debt casework service funded through the Money Advice Service Debt Advice Project. Our Debt Caseworker is a DRO Intermediary. We have a part time Welfare Benefits Specialist Adviser funded by Southend-on-Sea Borough Council. We operate an immigration casework service lead by an Office of the Immigration Service Commissioner Level 2 Adviser. This service also covers other local Citizens Advice including Basildon, Chelmsford, Maldon, Rochford and Rayleigh and Thurrock. We are developing a \u2018Digital Inclusion\u2019 project focusing on immigration forms. We arrange training courses and network meetings in immigration issues. A General Adviser (job share) is based at the offices of the Royal Bank of Scotland at Thanet Grange in Southend, four days a week to provide telephone advice and support to clients referred from the Specialist Support Teams at RBS, based in Southend, Birmingham and Rotherham. This project is funded by RBS. An Adviser from the Royal Association for Deaf People offers a weekly advice service at our office to clients who are deaf or have a hearing impairment. The Adviser who attends also has a hearing impairment. We can assist people with form filling, we prepare simple wills for clients and can offer support relating to power of attorney and related issues. The employment of our Solicitor allows us to prepare where necessary and sign statutory declarations for clients, predominantly for changes of name and lost pawn tickets. We are a delivery partner in the recently established Southend Carers Hub. We provide training courses to organisations on the use of the Citizens Advice public site and other specific areas of advice. We give talks to local groups about the services we offer and/or specific areas of advice. Southend Talking Newspaper undertakes their recordings from our office. Pension Wise staff use our office for their guidance interviews for clients who live in Southend and surrounding areas in south east Essex. The Community Worker for Terrence Higgins Trust uses our office to see their clients who live in Southend. Essex Savers, a credit union, offers a weekly service point at our office. We offer a wide range of volunteering opportunities, supported by paid staff. Since 2013 we have worked in partnership with the Employability and Careers Service at the University of Essex and have hosted 13 internships, funded by the University. All of the internships, except one, are for Research and Campaigns work, the one exception was a Fundraising opportunity in 2014 which coincided with the 75th anniversary of the service. We offer placements to Social Work students, our current student is our 7th placement. We have also worked with Seetec, Southend Adult Community College and South Essex College to offer work placements for jobseekers and students on various courses and also relevant training opportunities. We work with local schools, predominantly, Southend High School for Girls, to provide volunteering opportunities to their sixth form students as part of their community programme. Our charitable objects are to promote any charitable purpose for the benefit of the community in the Borough of Southend-on-Sea and elsewhere (\u201cthe area of benefit\u201d) by the advancement of education, the protection and preservation of health and the relief of poverty, sickness and distress. Citizens Advice Southend has operated in Southend-on-Sea since 1908, since 1939 as part of the Citizens Advice service. In 2015/2016 we helped 8133 people (based on a unique client count) with 12,251 issues.",
+                    "charityNumber": "1090600",
+                    "companyNumber": "04344100"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A552182",
+            "title": "Grant to Citizens Advice Bureau - South Essex Ltd",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "purchase of additional technology to support remote working of the staff and volunteers as they respond to the COVID19 pandemic",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 14256,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 14256,
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05596895",
+                    "url": "https://www.citizensadvice.org.uk/local/south-essex/",
+                    "name": "Citizens Advice Bureau - South Essex Ltd",
+                    "description": "The Citizens Advice service provides free, independent, confidential and impartial information, advice, guidance and advocacy to everyone to help resolve their issues and move our clients forward. We value diversity, promote equality and challenge where necessary discrimination. Our service aims to provide the advice people need for the problems they face and to improve the policies and practices that affect people's lives. We use the data we collect as powerful evidence for change, for example we are currently campaigning for improvements to Council Tax debt collection.",
+                    "charityNumber": "1113231",
+                    "companyNumber": "05596895"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A552298",
+            "title": "Grant to Bar 'N' Bus Trust",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "to second a detached youth worker to help support vulnerable young people in Rochford and Castlepoint during the COVID19 crisis",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-02961054",
+                    "url": "http://www.barnbus.org.uk",
+                    "name": "Bar 'N' Bus Trust",
+                    "description": "Bar 'n' Bus is a Christian charity delivering professional, community-based youth work to engage and support local young people. We do this by providing: - Street-based Detached Youth Work Sessions - Community-based positive activity sessions (e.g. football cage sessions) - In-School Mentoring Programmes and 1-2-1 work - Mobile Youth Club Sessions Our aim is to provide support and activity for young people to enable them to grow, develop and thrive - reaching fullness of life.",
+                    "charityNumber": "1055210",
+                    "companyNumber": "02961054"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A552745",
+            "title": "Grant to North Blackwater Parishes: Tolleshunt Major, Tollesbury, Salcott & Tollesbury",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "to help with increased operational costs arising from greater community support provided by the volunteer parish nursing team across the four North Blackwater Parishes in response to the COVID19 pandemic",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 1000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 1000,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Maldon",
+                    "geoCode": "E07000074",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-EssexCF-ACC908324",
+                    "name": "North Blackwater Parishes: Tolleshunt Major, Tollesbury, Salcott & Tollesbury",
+                    "description": "This project is specifically to gain accreditation of our Parish Nursing Service, to enable the Service to start and to develop within the North Blackwater Parishes, to be sustainable and to work in partnership with existing statutory and voluntary services to help meet the needs of the local community; specifically for those with a mental health condition, including dementia, depression, anxiety, and agoraphobia. There is significant evidence, documented in national and local health profiles, and provided directly by those living and working in the community served by the North Blackwater Parishes, that mental health care and support is where the need is greatest and where gaps in voluntary and statutory service provision currently exist. In relation to this need, the North Blackwater Parishes are currently awaiting appointment of a new Priest as the last incumbent has recently retired for mental health reasons. An experienced and qualified NMC (Nursing and Midwifery Council) registered community nurse who has worked in mental health for many years, has offered her services to undertake the role of Parish Nurse on a voluntary and long term basis (working 10 hours/week). She has successfully completed the Parish Nursing Preparation course, which includes a 4-day residential training provided by the charity Parish Nursing Ministries UK and funded through a small Mission Opportunity Fund grant. Safeguarding adults and children training has also been successfully completed - both NHS and training provided by the Diocese of Chelmsford. The North Blackwater Parishes are situated in rural North Essex and include the villages of Tollesbury, Tolleshunt D'Arcy, Tolleshunt Major and Salcott-cum-Virley. The \u00a31000 funding gained through the Mission Opportunity Fund grant was specifically to recruit and train the Parish Nurse through Parish Nursing Ministries UK (see above). The Parish Nurse is a Christian, with leadership and significant community nursing experience in the NHS, who values and embraces equality and diversity and is able to work as a Parish Nurse on a voluntary basis providing holistic care to people living in the community of all faiths and none. Parish Nursing in England (and in the USA) has been shown to improve social engagement and help to reduce the incidence of loneliness and isolation within communities. The Parish Nursing role has been shown to improve and promote good physical and mental health, through working alongside statutory services, helping people to manage their own health conditions and supporting people to gain confidence and to engage in social activities where appropriate. The following link to the Parish Nursing Ministries UK website explains more about Parish Nursing. Please copy and paste this link into Google https://parishnursing.org.uk/what-is-parish-nursing/ The Parish Nurse role within North Blackwater parishes includes the following: - Enabling people, wherever possible, not to walk through life's difficult journeys alone. - Through health needs assessment, which includes talking with and listening to individuals and groups, the PN service will focus on specific community health need in the Parishes, to focus on reducing social isolation, and supporting individuals with dementia, depression and agoraphobia. -Offering home visits and outreach to those in need who wish to receive support, regardless of their faith or no faith. Longer term aims and objectives include embracing, valuing and building community capacity; by utilising the skills and qualities (and services) that already exist - in developing a Parish Nursing team. Funding gained through the Essex Community Foundation will help enable this to happen. - To support people living and working within our community (parishes) towards whole person centred health and well-being, through health promotion and social inclusion in its widest sense. - Parish Nurse: working closely with the Ministry team and in partnership with the local NHS and other relevant professionals and agencies (statutory and voluntary), such as the four T's, to provide a service that integrates physical, spiritual, emotional, psychological and social health to the local community - regardless of faith as explained above. - Home visiting will be a core feature of the Parish Nurse role, to provide confidential care, based on active listening, onward referral as required and early intervention mental health support. The Parish Nurse is trained and equipped to manage and to provide supervision to all members of the Parish Nursing Team. Support to and supervision of the Parish Nurse herself will be provided by the charity Parish Nursing Ministries UK (PNMUK). This supervision and support is included in the PNMUK accreditation fee. Documents to be uploaded include the following: - Parish Nurse (PN) approved role description (North Blackwater Parishes) - Equal Opportunities Policy for the Parishes and Diocese as a whole - Parish Nursing Ministries UK PN service set up and accreditation process & costs. - Parish Nurse certificate of achievement/completion of C2 leadership face to face and e-learning Safeguarding training. - Evidence of Parish Nurse's up to date registration with Nursing and Midwifery Council. - Evidence of Parish Nurse's enhanced DBS clearance, to enable her to work with children and vulnerable adults, including in the home setting."
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A552798",
+            "title": "A Message to a Loved One",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "to help run an adapted service to support to patients and their families at Queen Alexandra Hospital during the COVID19 crisis",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "endDate": "2020-11-01T00:00:00+00:00",
+                    "duration": 6,
+                    "startDate": "2020-05-01T00:00:00+00:00"
+                }
+            ],
+            "Primary issue": "Health, wellbeing and serious illness",
+            "amountAwarded": 7059,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 7059,
+            "Primary age group": "Seniors (65+)",
+            "Primary ethnicity": "All Ethnicities",
+            "Primary beneficiary": "Carers",
+            "beneficiaryLocation": [
+                {
+                    "name": "Harlow 004E",
+                    "geoCode": "E01021843",
+                    "countryCode": "GB",
+                    "geoCodeType": "LSOA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1178352",
+                    "url": "https://www.annerobsontrust.org.uk/",
+                    "name": "Anne Robson Trust",
+                    "description": "The Anne Robson Trust (ART) was launched in May 2018 with a vision of nobody dying alone in hospital. People are eight times more likely to die in a hospital bed than a hospice bed, but despite this, the gap in compassion and dignity experienced by hospitalised patients is widely accepted to be significant. The work of ART is focused around improving those last days and hours in hospital for patients and their loved ones. A volunteer-led organisation, we partner with NHS Hospitals to embed Butterfly Volunteer Teams to sit and support end-of-life patients and their families in the last days of life. To date, we have recruited, trained, equipped and supported 106 wonderfully dedicated volunteers - who have made a combined 7,300 patient bedside visits in hospitals across the East of England since we formed. For many of those patients, a Butterfly Volunteer was their only non-clinical visitor during their final stay in hospital. We are the only charity in the UK that is working towards a vision of nobody dying alone in hospital.",
+                    "charityNumber": "1178352"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A554064",
+            "title": "Stay at Home Grow Your Own",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "description": "to run the Stay At Home, Grow Your Own project for families in Maldon and North East Essex during COVID19",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "amountAwarded": 8000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 8000,
+            "Primary beneficiary": "Disadvantaged / Low Income",
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-CN 1169247",
+                    "url": "http://www.abbertonruraltraining.org",
+                    "name": "Abberton Rural Training (ART)",
+                    "description": "ART's vision is to deliver a programme of practical and skills training to residents of Essex with a particular focus on supporting those living in rural locations who need help to access jobs, or further education and training, in the rural sector. This is combined with mental health counselling and outdoor activities to help improve mental health, as well as cope with other life issues including alcoholism and drug addiction to help the individuals improve their lives, gain social skills, confidence and self-esteem and prevent them from being active in crime or being led into criminal activities. We have three sites across North Essex including Wormingford, Colchester District; Halstead, Braintree District and Stow Maries, Maldon District. These provide activities including woodlands & land management, horticulture, land based studies, animal care and countryside & environment courses and qualifications. We gain extra experiences with the assistance of local land owners including Bevills Farm, John Rix Farm, Stone Lakes and the Garrison estate. Our students are particularly vulnerable, with over 80% having a mental health issues, and 20% having multiple issues. Many have been involved in criminal behaviour previously, including anti-social behaviour and many suffer from addictions. We believe everyone has a right to education and opportunity and should not be prevented from accessing courses due to their rural location, their anxieties, issues or circumstances so the wrap around mentoring provision is key to keeping high need learners engaged and for working through problems and removing barriers that have stopped them previously from living fulfilling and rewarding lives. By giving them the chance to gain qualifications and experiences, become part of a team in a positive environment, we remove them from negative influences and help them build strategies to cope in the wider world. We have helped prevent 7 direct suicides this year.",
+                    "charityNumber": "CN 1169247"
+                }
+            ]
+        },
+        {
             "ID": "4097",
             "id": "360G-indigotrust:IND502 ",
             "title": "Covid-19 Emergency Funding",
@@ -36907,7 +37721,292 @@
                     "name": "Leiston Good Neighbour Scheme"
                 }
             ]
+        },
+        {
+            "id": "360G-EssexCF-A547290",
+            "title": "Grant to Dengie Project Trust",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "description": "to sustain an organisation supporting isolated and vulnerable people across the rural Dengie area during the COVID19 crisis",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "amountAwarded": 11025,
+            "grantProgramme": [
+                {
+                    "code": "Recovery",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 11025,
+            "Primary beneficiary": "Older People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Maldon",
+                    "geoCode": "E07000074",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03587073",
+                    "url": "http://www.knightswoodcare.co.uk",
+                    "name": "Dengie Project Trust",
+                    "description": "Dengie Project Trust has been delivering day services to adults of all ages for over 25 years through Knightswood Day Care Centre in Asheldham and within the community. Over time the Day Centre has developed greater expertise in dementia care and carers support and our aim is to provide a range of services which empower older people living within the Dengie Peninsular to make choices which enable them to reach optimum levels of health and fitness, maintain their independence and to lead rich and fulfilling lives. Some of the activities within the Centre include seated exercise classes, reminiscence ,sing & dance, board games and flower arranging. Dengie Project Trust also manage a 'Lend A Hand' Service for those individuals in the community who may need a little help with trips, shopping, appointments, companionship or light housework and an Outreach Service working with local groups of people in their own communities.",
+                    "charityNumber": "1082006",
+                    "companyNumber": "03587073"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547396",
+            "title": "Grant to Thorpe Bay Methodist Church",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "description": "to move their service online to continue providing music services to young people taking part to improve their mental health during COVID19",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "amountAwarded": 560,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 560,
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Southend-on-Sea",
+                    "geoCode": "E06000033",
+                    "countryCode": "GB",
+                    "geoCodeType": "UA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-EssexCF-ACC895593",
+                    "url": "http://www.musicmentoring.live",
+                    "name": "Thorpe Bay Methodist Church",
+                    "description": "The Church provides a number of community activities and facilities apart from worship. These include a Kid Club, Pre-school, Parents and Tots, Youth Clubs and a music project. tb youth and tbsongwriting are run by a Youth and Community Worker paid for by the church. Overall Aims of tbsongwriting: 1) To improve young persons self esteem and confidence through songwriting, mentoring and recording music 2) To improve young peoples musical skills and abilities 3) To improve the chances of young people engaging with education and/or employment We aim to work with those that need our 1-1 and group services most, and therefore the vast majority of our young people struggle with poor mental health and/or are not in mainstream education or work. We exclusively work with 15-21 year olds- an age group which is notoriously difficult to work and engage with, yet a significant age for making big choices. We provide 1-1 'Music Mentoring' sessions in schools and at our small studio space. We also facilitate weekly group sessions, empowering community between young people that desperately need healthy friendships and role models. We teach songwriting, recording and help young people learn new instruments and form bands together. As part of our mentoring, we offer every young person the ability to complete accredited qualifications, through Bronze and Silver Arts Awards."
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A547465",
+            "title": "Grant to African Families in the UK (AFiUK) CIC",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "description": "to provide food and support to BAME residents in Colchester in partnership with the community hub during COVID19",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "amountAwarded": 7500,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Improve life skills, education, employability and enterprise",
+            "amountAppliedFor": 7500,
+            "Primary beneficiary": "Refugees/asylum seekers /immigrants",
+            "beneficiaryLocation": [
+                {
+                    "name": "Colchester",
+                    "geoCode": "E07000071",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-09605591",
+                    "url": "http://www.africanfamilies.co.uk/",
+                    "name": "African Families in the UK (AFiUK) CIC",
+                    "description": "African Families in the UK(AFiUK) CIC was founded in 2015 in order to meet the needs of the needs of the for families of African origin and other BAME communities resident in the UK. It identified that there were barriers that prevented the community in fully participating in making the most of their lives. The organization has been delivering varied projects across Colchester which address the needs of the BAME community. Delivering these projects has given it a unique insight into both the needs of the community and the best ways to meet those needs. We have focussed our work in the areas of health, parenting and raising cultural awareness. One of the unique projects is the women & girls group called the Uhuru (Freedom) Project in partnership with Stop the Traffik, which has been giving a voice to women & girls in BAME Communities. Our Vision The vision of AFiUK is to equip the African Family in the UK to take its rightful place as fruitful members of the society, and to make the most of the available opportunities in their adopted country without adversely affecting the strong family and community networks that Africans are known for.",
+                    "companyNumber": "09605591"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A552303",
+            "title": "Grant to St John Ambulance Essex",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "description": "to purchase equipment for use by the volunteer staff of St John Ambulance in their ambulances as they provide support for the NHS across Essex during the COVID19 pandemic",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Local residents",
+            "beneficiaryLocation": [
+                {
+                    "name": "Chelmsford",
+                    "geoCode": "E07000070",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1077265",
+                    "url": "http://www.sja.org.uk",
+                    "name": "St John Ambulance Essex",
+                    "description": "St John Ambulance is the nation\u2019s leading first aid charity. Started in July 1877. Every year, more than 400,000 people learn how to save a life through our training programmes, including hundreds of thousands of young people. Our volunteers provide first aid in their communities, keeping people safe at events, and working alongside the NHS in response to 999 calls. We\u2019re also always campaigning to raise awareness of first aid and directly educate the public. Event services \u2013 We provide medical cover for events \u2013 from major sporting fixtures and music festivals to public gatherings. Community first responders \u2013 Our volunteers are trained to attend emergency calls and provide care until the ambulance arrives. Ambulance services \u2013 We play a crucial role in supporting the emergency services, responding to local incidents and major accidents. Volunteering \u2013 Our volunteers provide first aid in their communities, keeping people safe at events, and working with the NHS when lives are on the line. Workplace training \u2013 We\u2019re the leading provider of workplace training, reaching over 250,000 people a year. Young people and schools \u2013 Over half of the people we train are under 18. We don\u2019t just teach life saving skills \u2013 we offer life saving opportunities as well. Teaching in the community \u2013 We give people access to important skills they wouldn\u2019t otherwise get the chance to learn. First aid is such a simple skill, but it has an incredible impact. We want everyone to learn it, so that they can be the difference between a life lost and a life saved. We don't want anyone to suffer due to a lack of available first aid.",
+                    "charityNumber": "1077265"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A552668",
+            "title": "Grant to BOSP Brighter Opportunities for Special People",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "description": "towards salaries and overheads of an organisation supporting children with additional needs across Basildon throughout COVID19",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Advance people's physical and mental health, wellbeing and safety",
+            "amountAppliedFor": 15000,
+            "Primary beneficiary": "Children and Young People",
+            "beneficiaryLocation": [
+                {
+                    "name": "Basildon",
+                    "geoCode": "E07000066",
+                    "countryCode": "GB",
+                    "geoCodeType": "NMD"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-05284004",
+                    "url": "http://www.bosp.co.uk",
+                    "name": "BOSP Brighter Opportunities for Special People",
+                    "description": "BOSP\u2019s aim is to improve the health and well-being of children and young people with complex disabilities or life-limiting illnesses so they can remain in their local communities. Our objectives are to empower children/young people through delivery of exciting fully supported structured activity sessions; helping to develop their independence, self-esteem, physical and communication skills to enjoy a happier and better quality of life both inside home and within wider community. BOSP clubs enable children/young people, whether they have complex health needs, profound physical disabilities, require specialist feeding, have very challenging behaviours; options to access fun activities readily available to their mainstream peers; whilst relieving family pressures by providing vital respite. High staff ratios ensure most healthcare, communication, social and physical needs are met, ensuring safety of everyone in the setting. Our services provide, amongst others, specific life skills of shopping, preparing food, travel, being out and about in the community. All required by young disabled people to stay healthy and as self-sufficient as possible in their future. BOSP reaches further than immediate beneficiaries of disabled children/young people. Other providers support a lower level need and/or where parent/guardians have to remain present or use less staff. This is cheaper plus easier to deliver as parents remain responsible but is not what disabled children/young people or families really need, being far less effective in achieving identified outcomes of developing independence and self-support life skills, plus does not deliver the respite that parents/guardians we know use to improve their own life opportunities via training courses, attend work, undertake exercise. Our services deliver results. We have proven time and again we reduce isolation and empower disabled children/young people to go forwards in their lives. ECF currently funding our Out and About in Community project ceasing 31/3/20. Successful project with attendees plus parents/guardians making positive comments regarding venues chosen and beneficial outcomes achieved. Monitoring report already submitted plus final report due at project end. Example user comments are: *name change *Jane: initially overawed, portraying loudly both verbally/actions. Became calmer, more friendly, recognising has \u2018more responsibility\u2019 (her words). *Angela: Mum reliant. Expanded network, learning to make appropriate friends, now contented when out in community. *Paul: obsessive about things, unfriendly/unapproachable. Learnt to select activities, built friendships, becoming interested in fitness. *Steve: noise sensitive (medication side effect). Wanted to join bowling sessions but frightened. Perseverance/mitigation plan to accommodate/adapt session accordingly. Now attends. Continuation funding: Well-known disabled children/young people are easily targeted to become crime victims or criminal action involvement. Feedback/learning from previously delivering project showed need for disabled children/young people to be made aware of dangers. Planned enhancement, should application be successful, is extend remit to include knowledge of \u2018stranger danger\u2019 plus awareness of enticement/becoming crime victims then how to mitigate.",
+                    "charityNumber": "1107392",
+                    "companyNumber": "05284004"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A553854",
+            "title": "Grant to Deafblind UK",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "description": "to support people who are deafblind in Essex during the COVID19 crisis",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "amountAwarded": 5000,
+            "grantProgramme": [
+                {
+                    "code": "2019/20",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Promote reduction of isolation and disadvantage and access to local services",
+            "amountAppliedFor": 10000,
+            "beneficiaryLocation": [
+                {
+                    "countryCode": "GB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-802976",
+                    "url": "https://deafblind.org.uk/",
+                    "name": "Deafblind UK",
+                    "description": "Deafblindness is most commonly associated with ageing, but can result at any age from congenital or other medical conditions such as Usher's syndrome, diabetes and stroke, or as a result of injury. Robbed of the ability to carry out the most basic of everyday tasks (such as communicating with friends and family, finding information, making a meal) people living with deafblindness can find themselves in unimaginable social, emotional and physical isolation. Deafblind UK (DBUK) is a membership organisation of, and governed by, people who have deafblindness. It is our vision that people living with deafblindness have the same rights, access and opportunities as others. We deliver quality services that give people with the condition autonomy and control over their lives.Through our work, we support equality , independence and choice. We do this by: - Ensuring that people with dual sensory loss have full representation on our Board of Directors - Raising awareness and understanding of deafblindness - Supporting people with deafblindness to remain in their own homes and participate in their local communities - Providing high quality peer support, volunteer companions, information and advice services to help people living with deafblindness live independently, interact with others, understand what rights they have, and access the services and benefits they are entitled to. Our services have been designed to: - improve our members' confidence and independence - reduce their feelings of isolation - enable them to have better access to information - improve their physical and emotional health The services we provide include: - Outreach (our local community outreach service supports people on-the-ground, helping with everyday problems) - An information and advice line which is made accessible to as many people as possible with textphones, Typetalk, texting and email - We make wellbeing calls to our members to let them know that we are here for them and to give them the opportunity to tell us if we can support them further - Peer Support & Social Groups (supporting our members to engage with their local communities, giving them the opportunity to leave the house and meet with others) - Volunteer companions who give members meaningful and engaging human interaction that dual sensory loss can make difficult - Digital Inclusion (supporting people to make the most of their digital technology by showing them how to use in-built accessibility features as well as third-party software and apps). Enabling our members to keep in touch with others, and to use the internet for shopping, banking and accessing information - Accessible holidays in our specially adapted caravans in Norfolk and Wales - A Casework service where we provide bespoke and individual one-to-one support, empowering more people to resolve their own issues, making sure their voices are heard and that they are able to make informed decisions - A quarterly magazine, 'Open Hand' that includes relevant and useful information and is available in a range of accessible formats",
+                    "charityNumber": "802976"
+                }
+            ]
+        },
+        {
+            "id": "360G-EssexCF-A553886",
+            "title": "Grant to One Community Development Trust",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "description": "to support an organisation giving advice during the COVID19 crisis",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "amountAwarded": 1300,
+            "grantProgramme": [
+                {
+                    "code": "Response and Recovery",
+                    "title": "Essex Coronavirus Response and Recovery Programme"
+                }
+            ],
+            "Impact Category": "Improve life skills, education, employability and enterprise",
+            "amountAppliedFor": 1300,
+            "Primary beneficiary": "BME groups",
+            "beneficiaryLocation": [
+                {
+                    "name": "Thurrock",
+                    "geoCode": "E06000034",
+                    "countryCode": "GB",
+                    "geoCodeType": "UA"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1052061",
+                    "name": "Essex Community Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-06823436",
+                    "url": "http://www.onecommunity.org.uk",
+                    "name": "One Community Development Trust",
+                    "description": "One Community is a home grown, DIY charitable organisation created by the needs of the local people of Tilbury during the peak of the recession of 2008 for the benefit of their community. Our vision is to inspire and support local people to work actively together to achieve the best for themselves and their community with the ultimate aim of improving their quality of life, and creating economic prosperity. We work with the most disadvantaged communities \u2013 particularly residents in Tilbury Riverside & Thurrock Park and Tilbury St Chads who are 61% of the Tilbury population and among the 20% most deprived in England (IMD 2015, Tilbury Community Local-Led Development Strategy 2016). Our strategic objectives are to develop the capacity and skills of local people; to work in partnership with others to promote community well-being; to own, manage or maintain affordable, accessible and thriving community facilities; and to create a sustainable community anchor organisation. All our projects are needs-led and we actively encourage involvement and volunteering from people of all backgrounds. The work we are currently delivering involves supporting the marginalised and the unemployed as we find these are the people who are most vulnerable. This group of people often find themselves removed from main stream activity which does not have many public places for people to meet and gather together. There is currently no jobcentre, leisure centre, pub or bank. We offer a free drop-in coffee morning with a Work Club on Mondays, to support employment opportunities thereby creating economic prosperity. Our community shop is available 24/7 for small group activity for people to come together to do things that would alleviate isolation and worthlessness. We have a project called \u2018Little Things that Mean A lot\u2019 for people experiencing barriers on issues that are stopping them from accessing jobs and getting on with their lives. There are some local residents who live in a nearby estate, who have formed a group called \u2018LinkUp\u2019 to support others who need recreational activity living on a council estate. We are generally seen as a One Stop Shop where nobody is turned away. We also support the organising of various community events like family fun days to boost the well-being of people in the area. Our TLC Project helps to reduce loneliness and isolation by offering free group therapeutic workshops and peer support through volunteering. It encourages participation in activities that bring people together to connect with the local community. So far this year, we have supported the organising of a walk2connect during the month of March which attracted 60 sign-ups with our local MP Jackie Doyle-Price coming out to do the walk with us as the cabinet Minister who was the parliamentary Under Secretary of state for Mental Health, inequalities and suicide prevention at the time, and her partner Councillor Mark Coxshall who also came on the walk in support. This definitely sent out the right message about the benefits of exercise and group activity to combat loneliness and isolation. We had a Tilbury Carnival in July which attracted over 3000 local people, and in August did a Seaside Special Family Fun Day trip to Southend-on-sea with over 350 local residents and their families enjoying a free private train ride courtesy of c2c rail. We run a supported volunteering called Volunteer Investment Programme (VIP) which is designed to get people back into work regardless of their lack of work experience or disadvantaged due to prejudice, discrimination disability, age, sexual orientation, race etc. We encourage peer support and mentoring to ensure we are a community who are helping ourselves. We received a Bringing Communities Together Award in 2019 from Tilbury on Thames Trust, we won the Queen\u2019s Award for Voluntary Service in June 2018, and local impact award in 2017 due to the outcomes that we have achieved for local people. We were visited by Jeremy Corbyn in November 2018 during his budget rounds. We have quantifiable evidence of the difference our work has made over the years. For example we have an average of 25 volunteers who start on the VIP programme every six months, whom we have encouraged to volunteer due to low self-esteem, never had a job, or have additional needs (physically, mentally or emotionally) and other issues. They are usually people who are not engaged thus feeling isolated. We measure our impact by tracking their progress through individual personal development portfolio that we create for each volunteer. In each case 90% report of feeling confident to getting involved in the community after a six month period, and at least 50% get into further training, traditional volunteering, paid employment or set up a support group or a small business. We get an average of 350 people use our One Community Shop for various activities during the course of one month, and first time people average 20 during the same period. We follow-up by making phone-calls to find out if they feel their situations were dealt with sufficiently to allow them to get connected in the community. We also partner with other organisations to achieve outcomes for individuals. The area is now more diverse than ever before with 14% of people coming from ethnic minority backgrounds due to its proximity to London for work, and London Boroughs moving their most vulnerable tenants out of the capital to places that are cheaper to house them. However, this brings its own set of challenges for the people who have been transferred into an area that is totally unfamiliar to them. We piloted a project called \u2018New Beginnings\u2019 last year to support them to get to know the area and meet people from similar backgrounds, as well as from the indigenous communities. Finally, we are a Hate Incident Reporting Centre (HIRC) with trained ambassadors who support people as and when they phone, report, or come into the shop with hate crime related incidents.",
+                    "charityNumber": "1130253",
+                    "companyNumber": "06823436"
+                }
+            ]
         }
     ],
-    "last_updated": "2020-04-29T04:07:15.573407"
+    "last_updated": "2020-04-30T04:07:34.874853"
 }
