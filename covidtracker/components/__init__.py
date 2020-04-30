@@ -6,3 +6,4 @@ from .footer import footer
 from .subscribe import subscribe
 from .filters import filters
 from .page_header import page_header
+from .wordcloud import wordcloud

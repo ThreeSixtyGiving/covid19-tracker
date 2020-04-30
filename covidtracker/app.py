@@ -12,7 +12,7 @@ from flask import make_response
 
 from .data import get_data, filter_data
 from .layout import layout
-from .components import cards, chart, table, page_header
+from .components import cards, chart, table, page_header, wordcloud
 
 app = dash.Dash(__name__)
 server = app.server
@@ -144,6 +144,7 @@ def update_output_div(url):
 @app.callback(
     [Output(component_id='data-cards', component_property='children'),
      Output(component_id='data-chart', component_property='children'),
+     Output(component_id='word-cloud', component_property='children'),
      Output(component_id='data-table', component_property='children'),
      Output(component_id='last-updated', component_property='children'),
      Output(component_id='funder-filter', component_property='options'),
@@ -161,6 +162,7 @@ def update_output_div(filters, chart_type):
     return (
         cards(data),
         chart(data, chart_type, show_grantmakers=show_grantmakers),
+        wordcloud(data),
         table(data),
         [
             'Last updated ',
