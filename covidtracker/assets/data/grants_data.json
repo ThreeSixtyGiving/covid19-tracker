@@ -156,89 +156,12 @@
             ]
         },
         {
-            "ID": "1580",
-            "id": "360G-gatsbyfoundation:GAT3763",
-            "title": "Core costs",
-            "currency": "GBP",
-            "awardDate": "2020-03-19",
-            "description": "Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.",
-            "dateModified": "2020-04-28T06:22:42Z",
-            "plannedDates": [
-                {
-                    "endDate": "2021-03-19",
-                    "startDate": "2020-03-19",
-                    "Duration  months": "12"
-                }
-            ],
-            "amountAwarded": 1000000,
-            "beneficiaryLocation": [
-                {
-                    "name": "UK",
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-251988",
-                    "name": "Gatsby Charitable Foundation"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1110522",
-                    "name": "Trussell Trust",
-                    "postalCode": "SP2 7HL",
-                    "addressRegion": "Wiltshire",
-                    "charityNumber": "GB-CHC-1110522",
-                    "addressCountry": "UK"
-                }
-            ]
-        },
-        {
-            "ID": "4062",
-            "id": "360G-gatsbyfoundation:GAT3764",
-            "title": "Core costs",
-            "currency": "GBP",
-            "awardDate": "2020-03-19",
-            "description": "Towards unrestricted core funding, with the expectation, but not the requirement, that these monies be spent in an expedient manner specifically in order to meet needs created by the Covid-19 crisis.",
-            "dateModified": "2020-04-28T06:22:25Z",
-            "plannedDates": [
-                {
-                    "endDate": "2021-03-19",
-                    "startDate": "2020-03-19",
-                    "Duration  months": "12"
-                }
-            ],
-            "amountAwarded": 1000000,
-            "beneficiaryLocation": [
-                {
-                    "name": "UK",
-                    "countryCode": "GB"
-                }
-            ],
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-251988",
-                    "name": "Gatsby Charitable Foundation"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1182809",
-                    "name": "National Emergencies Trust",
-                    "postalCode": "EC2Y 9AL",
-                    "charityNumber": "1182809",
-                    "addressCountry": "UK"
-                }
-            ]
-        },
-        {
             "ID": "1579",
             "id": "360G-indigotrust:IND492",
             "title": "Emergency funding to help most vulnerable during Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-19",
-            "description": "Core unrestricted funding.",
+            "description": "Emergency funding to help most vulnerable during Covid-19 crisis",
             "dateModified": "2020-04-28T06:21:57Z",
             "plannedDates": [
                 {
@@ -277,7 +200,7 @@
             "title": "To support its work during the Covid-19 emergency",
             "currency": "GBP",
             "awardDate": "2020-03-19",
-            "description": "Core unrestricted funding.",
+            "description": "To support its work during the Covid-19 emergency",
             "dateModified": "2020-04-28T06:22:49Z",
             "plannedDates": [
                 {
@@ -315,7 +238,7 @@
             "title": "Supporting their Coronavirus appeal",
             "currency": "GBP",
             "awardDate": "2020-03-19",
-            "description": "Unrestricted core funding.",
+            "description": "Supporting their Coronavirus appeal",
             "dateModified": "2020-04-28T06:23:10Z",
             "plannedDates": [
                 {
@@ -352,7 +275,7 @@
             "title": "CHK Discretionary Grant",
             "currency": "GBP",
             "awardDate": "2020-03-23T00:00:00+00:00",
-            "description": "unrestricted ( response to COVID)",
+            "description": "unrestricted (response to COVID)",
             "amountAwarded": 10000,
             "fundingOrganization": [
                 {
@@ -375,7 +298,7 @@
             "title": "CHK Emergency /Disaster Grant",
             "currency": "GBP",
             "awardDate": "2020-03-23T00:00:00+00:00",
-            "description": "unrestricted ( response to COVID)",
+            "description": "unrestricted (response to COVID)",
             "amountAwarded": 40000,
             "fundingOrganization": [
                 {
@@ -398,7 +321,7 @@
             "title": "CHK Emergency /Disaster Grant",
             "currency": "GBP",
             "awardDate": "2020-03-23T00:00:00+00:00",
-            "description": "unrestricted ( response to COVID)",
+            "description": "unrestricted (response to COVID)",
             "amountAwarded": 50000,
             "fundingOrganization": [
                 {
@@ -422,7 +345,7 @@
             "title": "Emergency funding during Covid-19 Crisis",
             "currency": "GBP",
             "awardDate": "2020-03-23",
-            "description": "Core unrestricted funding to support its work during the Covid-19 crisis.",
+            "description": "Emergency funding during Covid-19 Crisis",
             "dateModified": "2020-04-28T06:23:05Z",
             "plannedDates": [
                 {
@@ -497,7 +420,7 @@
             "title": "COVID-19 Emergency Appeal",
             "currency": "GBP",
             "awardDate": "2020-03-23",
-            "description": "To The Big Give Trust COVID-19 Emergency Appeal.",
+            "description": "COVID-19 Emergency Appeal",
             "dateModified": "2020-04-28T06:22:26Z",
             "plannedDates": [
                 {
@@ -626,7 +549,7 @@
             "title": "Unrestricted core funding during the Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-24",
-            "description": "Unrestricted core funding.",
+            "description": "Unrestricted core funding during the Covid-19 crisis",
             "dateModified": "2020-04-28T06:23:11Z",
             "plannedDates": [
                 {
@@ -665,7 +588,7 @@
             "title": "Unrestricted core funding during Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-24",
-            "description": "Unrestricted core funding.",
+            "description": "Unrestricted core funding during Covid-19 crisis",
             "dateModified": "2020-04-28T06:22:10Z",
             "plannedDates": [
                 {
@@ -1522,7 +1445,7 @@
             "title": "Emergency funding during the Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-26",
-            "description": "Core unrestricted funding.",
+            "description": "Emergency funding during the Covid-19 crisis",
             "dateModified": "2020-04-28T06:22:26Z",
             "plannedDates": [
                 {
@@ -1561,7 +1484,7 @@
             "title": "Emergency funding during the Covid-19 crisis",
             "currency": "GBP",
             "awardDate": "2020-03-26",
-            "description": "Core unrestricted funding.",
+            "description": "Emergency funding during the Covid-19 crisis",
             "dateModified": "2020-04-28T06:22:39Z",
             "plannedDates": [
                 {
@@ -2088,6 +2011,73 @@
                     "addressCountry": "UK",
                     "addressLocality": "London",
                     "Salesforce Account ID": "001b000000ViG9Q"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010339",
+            "url": "https://www.berwicktrust.org.uk",
+            "title": "food bank activity relating to the Covid19 crisis",
+            "currency": "GBP",
+            "awardDate": "2020-03-27T00:00:00+00:00",
+            "description": "food bank activity relating to the Covid19 crisis",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Berwick Upon Tweed"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1109088",
+                    "url": "https://www.berwicktrust.org.uk",
+                    "name": "Berwick upon Tweed Community Development Trust",
+                    "postalCode": "TD15 1JT",
+                    "addressRegion": "Northumberland",
+                    "charityNumber": "1109088",
+                    "companyNumber": "5290088",
+                    "addressCountry": "UK",
+                    "addressLocality": "Berwick upon Tweed"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010342",
+            "url": "https://www.socialmobility.org.uk",
+            "title": "Additional Support to the \"Guy Readman Rising Stars\" in Newcastle, in the light of the Covid19 crisis",
+            "currency": "GBP",
+            "awardDate": "2020-03-27T00:00:00+00:00",
+            "description": "Additional Support to the \"Guy Readman Rising Stars\" in Newcastle, in the light of the Covid19 crisis",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Newcastle Upon Tyne"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1115888",
+                    "url": "https://www.socialmobility.org.uk",
+                    "name": "Social Mobility Foundation",
+                    "postalCode": "EC3V 1LR",
+                    "charityNumber": "1115888",
+                    "companyNumber": "5488354",
+                    "addressCountry": "UK",
+                    "addressLocality": "London"
                 }
             ]
         },
@@ -4000,7 +3990,7 @@
             "title": "To support disabled people's organisations response to the coronavirus.",
             "currency": "GBP",
             "awardDate": "2020-03-30",
-            "description": "To support disabled people's organisations response to the coronavirus pandemic.",
+            "description": "To support disabled people's organisations response to the coronavirus.",
             "dateModified": "2020-04-28T06:22:11Z",
             "plannedDates": [
                 {
@@ -4038,7 +4028,7 @@
             "title": "To the Coronavirus Appeal for regranting to small charities and grassroots ",
             "currency": "GBP",
             "awardDate": "2020-03-30",
-            "description": "To the London Communities Coronavirus Appeal for regranting to small charities and grassroots organisations across the capital.",
+            "description": "To the Coronavirus Appeal for regranting to small charities and grassroots ",
             "dateModified": "2020-04-28T06:22:26Z",
             "plannedDates": [
                 {
@@ -18436,7 +18426,7 @@
             "title": "CHK Emergency /Disaster Grant",
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
-            "description": "unrestricted ( response to COVID)",
+            "description": "unrestricted (response to COVID)",
             "amountAwarded": 25000,
             "fundingOrganization": [
                 {
@@ -18459,7 +18449,7 @@
             "title": "CHK Emergency /Disaster Grant",
             "currency": "GBP",
             "awardDate": "2020-04-08T00:00:00+00:00",
-            "description": "unrestricted ( response to COVID)",
+            "description": "unrestricted (response to COVID)",
             "amountAwarded": 25000,
             "fundingOrganization": [
                 {
@@ -22539,7 +22529,7 @@
             "title": "CHK Emergency /Disaster Grant",
             "currency": "GBP",
             "awardDate": "2020-04-09T00:00:00+00:00",
-            "description": "unrestricted ( response to COVID)",
+            "description": "unrestricted (response to COVID)",
             "amountAwarded": 25000,
             "fundingOrganization": [
                 {
@@ -30380,36 +30370,6 @@
             ]
         },
         {
-            "ID": "4098",
-            "id": "360G-indigotrust:IND501 ",
-            "title": "Community Justice Fund",
-            "currency": "GBP",
-            "awardDate": "2020-04-17",
-            "description": "To be regranted through the Community Justice Fund as a response to the Covid-19 emergency",
-            "dateModified": "2020-04-28T06:22:27Z",
-            "plannedDates": [
-                {
-                    "endDate": "2020-04-24",
-                    "startDate": "2020-04-24"
-                }
-            ],
-            "amountAwarded": 100000,
-            "fundingOrganization": [
-                {
-                    "id": "GB-CHC-1075920",
-                    "name": "Indigo Trust"
-                }
-            ],
-            "recipientOrganization": [
-                {
-                    "id": "GB-CHC-1126147",
-                    "name": "Access to Justice Foundation",
-                    "postalCode": "WC2A 1JF",
-                    "charityNumber": "1126147"
-                }
-            ]
-        },
-        {
             "id": "360G-PearsFdn-5741",
             "title": "Grant to The Mix",
             "currency": "GBP",
@@ -33020,6 +32980,108 @@
             ]
         },
         {
+            "id": "360G-JLF-HUJ-03",
+            "title": "Covid-19: project adaptation grant",
+            "currency": "GBP",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://www.jlf.org.uk/",
+            "description": "Covid-19: to adapt the currently funded Autism project to respond to the impact of the Covid-19 pandemic",
+            "fundingType": [
+                {
+                    "title": "Project"
+                }
+            ],
+            "dateModified": "2020-04-30T00:00:00+00:00",
+            "fromOpenCall": "No",
+            "plannedDates": [
+                {
+                    "endDate": "2021-02-28T00:00:00+00:00",
+                    "duration": 11,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 5575,
+            "grantProgramme": [
+                {
+                    "title": "Children and Young People with Autism"
+                }
+            ],
+            "amountAppliedFor": 5575,
+            "beneficiaryLocation": [
+                {
+                    "name": "Israel"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1165225",
+                    "name": "Joseph Levy Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-JLF-org:Hebrew-University-of-Jerusalem",
+                    "url": "https://autismcenter.huji.ac.il/",
+                    "name": "Hebrew University of Jerusalem",
+                    "postalCode": "91905",
+                    "addressCountry": "Israel",
+                    "addressLocality": "Jerusalem"
+                }
+            ]
+        },
+        {
+            "id": "360G-JLF-RFA-04",
+            "title": "Covid-19: core funding contribution",
+            "currency": "GBP",
+            "awardDate": "2020-04-20T00:00:00+00:00",
+            "dataSource": "http://www.jlf.org.uk/",
+            "description": "Covid-19: core funding contribution to assist the organisation to adapt the currently funded Autism project to respond to the Covid-19 pandemic",
+            "fundingType": [
+                {
+                    "title": "Core"
+                }
+            ],
+            "dateModified": "2020-04-30T00:00:00+00:00",
+            "fromOpenCall": "No",
+            "plannedDates": [
+                {
+                    "endDate": "2021-03-31T00:00:00+00:00",
+                    "duration": 12,
+                    "startDate": "2020-04-01T00:00:00+00:00"
+                }
+            ],
+            "amountAwarded": 20000,
+            "grantProgramme": [
+                {
+                    "title": "Children and Young People with Autism"
+                }
+            ],
+            "amountAppliedFor": 0,
+            "beneficiaryLocation": [
+                {
+                    "name": "West Midlands"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-1165225",
+                    "name": "Joseph Levy Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1061253",
+                    "url": "https://resourcesforautism.org.uk/",
+                    "name": "Resources for Autism",
+                    "postalCode": "NW11 6AB",
+                    "charityNumber": "1061253",
+                    "companyNumber": "03326332",
+                    "addressCountry": "UK",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
             "id": "360G-PearsFdn-5742",
             "title": "Grant to British Red Cross",
             "currency": "GBP",
@@ -35110,7 +35172,7 @@
             "title": "Covid-19 Emergency Funding",
             "currency": "GBP",
             "awardDate": "2020-04-23",
-            "description": "Core unrestricted funding",
+            "description": "Covid-19 Emergency Funding",
             "dateModified": "2020-04-28T11:02:51Z",
             "plannedDates": [
                 {
@@ -36740,7 +36802,7 @@
             "title": "Covid-19 Emergency Funding",
             "currency": "GBP",
             "awardDate": "2020-04-24",
-            "description": "Core unrestricted funding to support EYElliance during the Covid-19 emergency",
+            "description": "Covid-19 Emergency Funding",
             "dateModified": "2020-04-28T11:40:55Z",
             "plannedDates": [
                 {
@@ -37525,6 +37587,155 @@
             ]
         },
         {
+            "id": "360G-Walcot-0061E00001Hv7pZQAR",
+            "title": "COVID19 - Increased Housing/Welfare Advice Capacity",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "dataSource": "http://www.walcotfoundation.org.uk/open-data.html",
+            "description": "This project will help low income tenants in Lambeth and Southwark facing possession proceedings caused by the Covid-19 crisis to not lose their homes.\u00a0SLC will employ an additional housing and welfare rights para- legal for 1 year to help meet increased demand.\u00a0Also, at least 2 Law Student volunteers will provide additional support at the court and carry out research, identifying the main reasons that tenants have accrued rent arrears and recommending early interventions which may prevent cases going to court.\u00a0This role will help an equal number of Southwark and Lambeth residents",
+            "dateModified": "2020-04-24T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 12
+                }
+            ],
+            "amountAwarded": 18338,
+            "grantProgramme": [
+                {
+                    "code": "Financial Sustainability",
+                    "title": "Organisation Grant"
+                }
+            ],
+            "classifications": [
+                {
+                    "title": "Debt/benefits advice"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lambeth",
+                    "geoCode": "E09000022",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-312800",
+                    "name": "Walcot Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-01418763",
+                    "url": "http://www.southwarklawcentre.org.uk",
+                    "name": "Southwark Law Centre",
+                    "postalCode": "SE15 5HR",
+                    "charityNumber": "0277927",
+                    "companyNumber": "01418763",
+                    "streetAddress": "14-16 Hanover Park",
+                    "addressLocality": "London"
+                }
+            ]
+        },
+        {
+            "id": "360G-Walcot-0061E00001HvaPTQAZ",
+            "title": "COVID19 - Connecting Tulse Hill",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "dataSource": "http://www.walcotfoundation.org.uk/open-data.html",
+            "description": "High Trees plan to roll out a well-being 'check in' service to up to 300 vulnerable Lambeth\u00a0Tulse\u00a0Hill\u00a0residents, all of whom fall below the threshold for local authority support\u00a0(i.e. not in the shielded group but vulnerable in terms of income/health/social isolation). This service will involve at least 1 weekly telephone call from a staff member or volunteer, referrals to additional services (food banks/advice etc), support to access online learning and the loan of IT equipment (and IT training) to those who require it. As High Trees will also continue to offer education, employment and well-being services online or via the phone they\u00a0report they\u00a0also require funding to upgrade their server and build online systems\u00a0that support this delivery model. \u00a0",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 12
+                }
+            ],
+            "amountAwarded": 24447,
+            "grantProgramme": [
+                {
+                    "code": "Other",
+                    "title": "Organisation Grant"
+                }
+            ],
+            "classifications": [
+                {
+                    "title": "Emergency support"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lambeth",
+                    "geoCode": "E09000022",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-312800",
+                    "name": "Walcot Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-03573630",
+                    "url": "http://www.high-trees.org",
+                    "name": "High Trees Community Development Trust",
+                    "postalCode": "SW2 2NS",
+                    "charityNumber": "1079581",
+                    "companyNumber": "03573630",
+                    "streetAddress": "220 Upper Tulse Hill St Martins Learning Centre Tulse Hill",
+                    "addressLocality": "LONDON"
+                }
+            ]
+        },
+        {
+            "id": "360G-Walcot-0061E00001Hw9AyQAJ",
+            "title": "COVID19 - Gardening and therapy for mental health",
+            "currency": "GBP",
+            "awardDate": "2020-04-24T00:00:00+00:00",
+            "dataSource": "http://www.walcotfoundation.org.uk/open-data.html",
+            "description": "The project will engage part-time sessional/gardening therapy workers for an extra day per week (currently 1 day), enabling the sessional worker to work with more adults with mental health issues on a one to one basis. The sessional workers will also support project volunteers to make hand sanitiser for the local community and pot and deliver plants to isolated older residents.",
+            "dateModified": "2020-04-24T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 12
+                }
+            ],
+            "amountAwarded": 6500,
+            "grantProgramme": [
+                {
+                    "code": "Other",
+                    "title": "Organisation Grant"
+                }
+            ],
+            "classifications": [
+                {
+                    "title": "Other"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lambeth",
+                    "geoCode": "E09000022",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-312800",
+                    "name": "Walcot Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-Walcot-WF05265",
+                    "url": "http://www.friendsofarchbishopspark.org",
+                    "name": "Friends of Archbishop's Park",
+                    "streetAddress": "204, Lambeth Road, LONDON SE1 7JY"
+                }
+            ]
+        },
+        {
             "id": "360G-SuffolkCF-A553525",
             "title": "EDSiS - Compassion Through Covid (Eating Disorder Support in Suffolk)",
             "currency": "GBP",
@@ -38006,7 +38217,999 @@
                     "companyNumber": "06823436"
                 }
             ]
+        },
+        {
+            "id": "360G-Walcot-0061E00001Hw8TbQAJ",
+            "title": "COVID19 - Crisis Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "dataSource": "http://www.walcotfoundation.org.uk/open-data.html",
+            "description": "This grant will allow Rathbone to provide a fast response wrap-around mobile support service to an additional 35 of their vulnerable service users each week, providing food, utility top up and IT access to those whose needs are not currently being met by statutory provision. They have a mobile support worker ready to be employed from their bank of sessional staff and their own minivan to use for deliveries. Beneficiaries will all be Lambeth resident adults with learning difficulties or young people who are known to have safeguarding concerns (e..g parents with drink or drug addiction issues) but whose needs often change too quickly for social services to adequately respond. The project will build on an existing model that is currently supporting 15 individuals per week, taking the total number receiving this flexible support for the next 10 weeks to 50 each week, around 40% of these are estimated to be young people.",
+            "dateModified": "2020-04-28T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 12
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Other",
+                    "title": "Organisation Grant"
+                }
+            ],
+            "classifications": [
+                {
+                    "title": "Other"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lambeth",
+                    "geoCode": "E09000022",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-312800",
+                    "name": "Walcot Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-COH-04590396",
+                    "url": "http://www.rathbonesociety.org.uk",
+                    "name": "Rathbone",
+                    "postalCode": "SE27 9HR",
+                    "charityNumber": "1096727",
+                    "companyNumber": "04590396",
+                    "streetAddress": "8 Chatsworth Way West Norwood",
+                    "addressLocality": "LONDON"
+                }
+            ]
+        },
+        {
+            "id": "360G-Walcot-0061E00001HwBLdQAN",
+            "title": "COVID19 - Outreach to older Stockwell residents",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "dataSource": "http://www.walcotfoundation.org.uk/open-data.html",
+            "description": "Vulnerable local senior citizens who live alone and would normally have accessed the centre , many of whom are living with underlying health conditions, will be supported by a team of staff and volunteers who will offer weekly phone calls, delivery of food and medicines and keep them up to date with advice and information.",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 12
+                }
+            ],
+            "amountAwarded": 10000,
+            "grantProgramme": [
+                {
+                    "code": "Other",
+                    "title": "Organisation Grant"
+                }
+            ],
+            "classifications": [
+                {
+                    "title": "Other"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lambeth",
+                    "geoCode": "E09000022",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-312800",
+                    "name": "Walcot Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1111073",
+                    "url": "http://www.stjohnscdp.org",
+                    "name": "St Johns Community Development Project",
+                    "charityNumber": "1111073",
+                    "streetAddress": "386 Clapham Road, London, London SW9 9AR"
+                }
+            ]
+        },
+        {
+            "id": "360G-Walcot-0061E00001I1kaJQAR",
+            "title": "COVID19 - Community Counselling",
+            "currency": "GBP",
+            "awardDate": "2020-04-28T00:00:00+00:00",
+            "dataSource": "http://www.walcotfoundation.org.uk/open-data.html",
+            "description": "Waterloo Community Counselling provide counselling and mental health support for over 800 of London's most disadvantaged residents per year. Based in Waterloo, the organisation supports a high number of Lambeth residents. The service is transitioning from face to face counselling to telephone and digital counselling, plus check-in calls for the most vulnerable, for the duration of the COVID19 crisis.",
+            "dateModified": "2020-04-29T00:00:00+00:00",
+            "plannedDates": [
+                {
+                    "duration": 12
+                }
+            ],
+            "amountAwarded": 2500,
+            "grantProgramme": [
+                {
+                    "code": "Other",
+                    "title": "Organisation Grant"
+                }
+            ],
+            "classifications": [
+                {
+                    "title": "Other"
+                }
+            ],
+            "beneficiaryLocation": [
+                {
+                    "name": "Lambeth",
+                    "geoCode": "E09000022",
+                    "geoCodeType": "LONB"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-CHC-312800",
+                    "name": "Walcot Foundation"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1045444",
+                    "url": "https://www.waterloocc.co.uk/",
+                    "name": "Waterloo Community Counselling",
+                    "postalCode": "SE1 7BD",
+                    "charityNumber": "1045444",
+                    "streetAddress": "Barley Mow Clinic Greet House Frazier Street",
+                    "addressLocality": "LONDON"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000000216",
+            "url": "https://www.pypsunderland.com",
+            "title": "creative activity packs for young people during Covid 19 crisis",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "creative activity packs for young people during Covid 19 crisis",
+            "amountAwarded": 1000,
+            "amountDisbursed": 1000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Sunderland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1143789",
+                    "url": "https://www.pypsunderland.com",
+                    "name": "Pennywell Youth Project",
+                    "postalCode": "SR4 9BB",
+                    "addressRegion": "Sunderland",
+                    "charityNumber": "1143789",
+                    "companyNumber": "7661145",
+                    "addressCountry": "UK",
+                    "addressLocality": "Sunderland"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010716",
+            "url": "https://www.brightfuturesne.co.uk",
+            "title": "Support for vulnerable young women during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for vulnerable young women during the COVID-19 pandemic",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "South Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1157578",
+                    "url": "https://www.brightfuturesne.co.uk",
+                    "name": "Bright Futures NE",
+                    "postalCode": "NE33 5HP",
+                    "addressRegion": "South Tyneside",
+                    "charityNumber": "1157578",
+                    "companyNumber": "CE002159",
+                    "addressCountry": "UK",
+                    "addressLocality": "South Shields"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010717",
+            "url": "https://www.changing-lives.org.uk",
+            "title": "Support for vulnerable people affected by the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for vulnerable people affected by the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-500640",
+                    "url": "https://www.changing-lives.org.uk",
+                    "name": "Changing Lives",
+                    "postalCode": "NE12SW",
+                    "addressRegion": "Newcastle upon Tynr",
+                    "charityNumber": "500640",
+                    "companyNumber": "995799",
+                    "addressCountry": "UK",
+                    "addressLocality": "Newcastle"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010718",
+            "url": "https://www.outofsight.org.uk",
+            "title": "Support for visually impaired children and young people and their families during the Covid-19 outbreak",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for visually impaired children and young people and their families during the Covid-19 outbreak",
+            "amountAwarded": 7500,
+            "amountDisbursed": 7500,
+            "beneficiaryLocation": [
+                {
+                    "name": "North Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1178097",
+                    "url": "https://www.outofsight.org.uk",
+                    "name": "Out of Sight",
+                    "postalCode": "NE23 7HT",
+                    "addressRegion": "Northumberland",
+                    "charityNumber": "1178097",
+                    "addressCountry": "UK",
+                    "addressLocality": "Cramlington"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010719",
+            "url": "https://www.ifucareshare.co.uk",
+            "title": "This award will Support people affected by the COVID-19 pandemic in Tyne & Wear, in particular suicide prevention Support",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "This award will Support people affected by the COVID-19 pandemic in Tyne & Wear, in particular suicide prevention Support",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1142001",
+                    "url": "https://www.ifucareshare.co.uk",
+                    "name": "If U Care Share",
+                    "postalCode": "DH2 2EY",
+                    "addressRegion": "Durham",
+                    "charityNumber": "1142001",
+                    "companyNumber": "7505273",
+                    "addressCountry": "UK",
+                    "addressLocality": "Chester-le-Street"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010721",
+            "url": "https://www.stchadscommunityproject.org.uk",
+            "title": "Support for local residents during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for local residents during the COVID-19 pandemic",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Gateshead"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1085796",
+                    "url": "https://www.stchadscommunityproject.org.uk",
+                    "name": "St Chad's Community Project",
+                    "postalCode": "NE9 7AE",
+                    "addressRegion": "Gateshead",
+                    "charityNumber": "1085796",
+                    "companyNumber": "4136595",
+                    "addressCountry": "UK",
+                    "addressLocality": "Gateshead"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010722",
+            "title": "Support for BAME communities in South Tyneside affected by COVID-19",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for BAME communities in South Tyneside affected by COVID-19",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "South Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1013583",
+                    "name": "Apna Ghar Minority Ethnic Women Centre",
+                    "postalCode": "NE33 2JF",
+                    "addressRegion": "South Tyneside",
+                    "charityNumber": "1013583",
+                    "addressCountry": "UK",
+                    "addressLocality": "South Shields"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010723",
+            "url": "https://www.familyGateway.co.uk",
+            "title": "Support for local residents in North and South Tyneside affected by the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for local residents in North and South Tyneside affected by the COVID-19 pandemic",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1144453",
+                    "url": "https://www.familyGateway.co.uk",
+                    "name": "Family Gateway",
+                    "postalCode": "NE28 0PP",
+                    "addressRegion": "North Tyneside",
+                    "charityNumber": "1144453",
+                    "companyNumber": "7583330",
+                    "addressCountry": "UK",
+                    "addressLocality": "Wallsend"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010724",
+            "url": "https://www.greatnorthairambulance.co.uk/",
+            "title": "Additional costs for services in Tyne & Wear and Northumberland relating to the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional costs for services in Tyne & Wear and Northumberland relating to the COVID-19 pandemic",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1092204",
+                    "url": "https://www.greatnorthairambulance.co.uk/",
+                    "name": "The Great North Air Ambulance Service",
+                    "postalCode": "TS16 0QB",
+                    "addressRegion": "Stockton on Tees",
+                    "charityNumber": "1092204",
+                    "companyNumber": "04436859",
+                    "addressCountry": "UK",
+                    "addressLocality": "Stockton"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010729",
+            "url": "https://www.elcap.org.uk",
+            "title": "Support for vulnerable people affected by the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for vulnerable people affected by the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Sunderland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1093390",
+                    "url": "https://www.elcap.org.uk",
+                    "name": "Easington Lane Community Access Point",
+                    "postalCode": "DH5 0LE",
+                    "addressRegion": "Sunderland",
+                    "charityNumber": "1093390",
+                    "companyNumber": "04299792",
+                    "addressCountry": "UK",
+                    "addressLocality": "Sunderland"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010733",
+            "url": "https://rctn.org.uk/",
+            "title": "Support for victims of sexual violence during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for victims of sexual violence during the COVID-19 pandemic",
+            "amountAwarded": 5000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1138149",
+                    "url": "https://rctn.org.uk/",
+                    "name": "Rape Crisis Tyneside and Northumberland",
+                    "postalCode": "NE99 5DX",
+                    "addressRegion": "Newcastle upon Tynr",
+                    "charityNumber": "1138149",
+                    "companyNumber": "07285969",
+                    "addressCountry": "UK",
+                    "addressLocality": "Newcastle Upon Tyne"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010742",
+            "url": "http://charlottestraker.org.uk",
+            "title": "Additional costs arising from the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional costs arising from the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Northumberland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "360G-CFTyneWearNland-ORG23045",
+                    "url": "http://charlottestraker.org.uk",
+                    "name": "Charlotte Straker Project",
+                    "postalCode": "NE45 5HB",
+                    "addressRegion": "Northumberland",
+                    "companyNumber": "2756650",
+                    "addressCountry": "UK",
+                    "addressLocality": "Corbridge"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010744",
+            "url": "https://www.advocacycentrenorth.org.uk",
+            "title": "Additional charitable expenditure incurred in Supporting community and voluntary groups during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting community and voluntary groups during the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Tyne & Wear"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1125871",
+                    "url": "https://www.advocacycentrenorth.org.uk",
+                    "name": "Connected Voice",
+                    "postalCode": "NE1 8AF",
+                    "addressRegion": "Newcastle upon Tynr",
+                    "charityNumber": "1125871",
+                    "companyNumber": "6681475",
+                    "addressCountry": "UK",
+                    "addressLocality": "Newcastle Upon Tyne"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010752",
+            "url": "https://www.voda.org.uk",
+            "title": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic, and providing Support to individuals affected by the outbreak\u2019",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic, and providing Support to individuals affected by the outbreak\u2019",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1075060",
+                    "url": "https://www.voda.org.uk",
+                    "name": "North Tyneside Voluntary Organisations Development Agency (VODA)",
+                    "postalCode": "NE29 9BZ",
+                    "addressRegion": "North Tyneside",
+                    "charityNumber": "1075060",
+                    "companyNumber": "3703221",
+                    "addressCountry": "UK",
+                    "addressLocality": "North Shields"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010753",
+            "url": "https://www.ldne.org.uk",
+            "title": "Support for people with learning disabilities in North Tyneside affected by the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for people with learning disabilities in North Tyneside affected by the COVID-19 pandemic",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1054535",
+                    "url": "https://www.ldne.org.uk",
+                    "name": "LD North East",
+                    "postalCode": "NE28 7NL",
+                    "addressRegion": "North Tyneside",
+                    "charityNumber": "1054535",
+                    "companyNumber": "3175969",
+                    "addressCountry": "UK",
+                    "addressLocality": "Wallsend"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010754",
+            "url": "https://www.ca-north.org.uk",
+            "title": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic, and providing Support to individuals affected by the outbreak\u2019",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic, and providing Support to individuals affected by the outbreak\u2019",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Northumberland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1144604",
+                    "url": "https://www.ca-north.org.uk",
+                    "name": "Community Action Northumberland",
+                    "postalCode": "NE61 6RG",
+                    "addressRegion": "Northumberland",
+                    "charityNumber": "1144604",
+                    "companyNumber": "7805401",
+                    "addressCountry": "UK",
+                    "addressLocality": "Morpeth"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010755",
+            "url": "https://www.vonne.co.uk",
+            "title": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "North East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1084083",
+                    "url": "https://www.vonne.co.uk",
+                    "name": "VONNE",
+                    "postalCode": "NE1 8XS",
+                    "addressRegion": "Newcastle upon Tynr",
+                    "charityNumber": "1084083",
+                    "companyNumber": "4061592",
+                    "addressCountry": "UK",
+                    "addressLocality": "Newcastle Upon Tyne"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010756",
+            "url": "https://www.carerstrusttw.org.uk",
+            "title": "Support for carers in Gateshead affected by the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Support for carers in Gateshead affected by the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Tyne & Wear"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1059917",
+                    "url": "https://www.carerstrusttw.org.uk",
+                    "name": "Gateshead Crossroads Caring for Carers",
+                    "postalCode": "NE39 2DB",
+                    "addressRegion": "Gateshead",
+                    "charityNumber": "1059917",
+                    "companyNumber": "3245594",
+                    "addressCountry": "UK",
+                    "addressLocality": "Gateshead"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010757",
+            "url": "https://www.cvabv.org.uk",
+            "title": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "amountAwarded": 5000,
+            "amountDisbursed": 5000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Northumberland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1116430",
+                    "url": "https://www.cvabv.org.uk",
+                    "name": "Community and Voluntary Action Blyth Valley",
+                    "postalCode": "NE24 2DP",
+                    "addressRegion": "Northumberland",
+                    "charityNumber": "1116430",
+                    "companyNumber": "05860971",
+                    "addressCountry": "UK",
+                    "addressLocality": "Blyth"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010758",
+            "url": "https://www.northumberlandcva.org.uk",
+            "title": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Northumberland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1119404",
+                    "url": "https://www.northumberlandcva.org.uk",
+                    "name": "Northumberland CVA",
+                    "postalCode": "NE63 8RS",
+                    "addressRegion": "Northumberland",
+                    "charityNumber": "1119404",
+                    "companyNumber": "5980151",
+                    "addressCountry": "UK",
+                    "addressLocality": "Ashington"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010759",
+            "url": "https://www.inspiresouthtyneside.co.uk",
+            "title": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "South Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-511536",
+                    "url": "https://www.inspiresouthtyneside.co.uk",
+                    "name": "Inspire South Tyneside",
+                    "postalCode": "NE33 2QA",
+                    "addressRegion": "South Tyneside",
+                    "charityNumber": "511536",
+                    "addressCountry": "UK",
+                    "addressLocality": "South Shields"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010768",
+            "url": "https://www.sunderlandcvs.co.uk",
+            "title": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Additional charitable expenditure incurred in Supporting charities and other community organisations during the COVID-19 pandemic",
+            "amountAwarded": 10000,
+            "amountDisbursed": 10000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Sunderland"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-702930",
+                    "url": "https://www.sunderlandcvs.co.uk",
+                    "name": "Voluntary and Community Action Sunderland",
+                    "postalCode": "SR1 1NA",
+                    "addressRegion": "Sunderland",
+                    "charityNumber": "702930",
+                    "companyNumber": "1759477",
+                    "addressCountry": "UK",
+                    "addressLocality": "Sunderland"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010769",
+            "url": "https://www.westendwomenandgirls.co.uk",
+            "title": "Covid 19 response - creative resources for families in lock down",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Covid 19 response - creative resources for families in lock down",
+            "amountAwarded": 1000,
+            "amountDisbursed": 1000,
+            "beneficiaryLocation": [
+                {
+                    "name": "Newcastle"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-519476",
+                    "url": "https://www.westendwomenandgirls.co.uk",
+                    "name": "West End Women and Girls Centre",
+                    "postalCode": "NE4 6SQ",
+                    "addressRegion": "Newcastle upon Tynr",
+                    "charityNumber": "519476",
+                    "addressCountry": "UK",
+                    "addressLocality": "Newcastle upon Tyne"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010777",
+            "url": "https://www.southtynesidechurches.org.uk",
+            "title": "Creative resource packs for families to access online content during Covid 19",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Creative resource packs for families to access online content during Covid 19",
+            "amountAwarded": 750,
+            "amountDisbursed": 750,
+            "beneficiaryLocation": [
+                {
+                    "name": "South Tyneside"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1153612",
+                    "url": "https://www.southtynesidechurches.org.uk",
+                    "name": "Churches Together in South Tyneside",
+                    "postalCode": "NE33 2AL",
+                    "addressRegion": "South Tyneside",
+                    "charityNumber": "1153612",
+                    "companyNumber": "CE000135",
+                    "addressCountry": "UK",
+                    "addressLocality": "South Shields"
+                }
+            ]
+        },
+        {
+            "id": "360G-CFTyneWearNland-000010800",
+            "url": "https://www.familyGateway.co.uk",
+            "title": "Creative resource packs for families to access online content during Covid 19",
+            "currency": "GBP",
+            "awardDate": "2020-04-30T00:00:00+00:00",
+            "description": "Creative resource packs for families to access online content during Covid 19",
+            "amountAwarded": 750,
+            "amountDisbursed": 750,
+            "beneficiaryLocation": [
+                {
+                    "name": "North East"
+                }
+            ],
+            "fundingOrganization": [
+                {
+                    "id": "GB-COH-02273708",
+                    "name": "Community Foundation serving Tyne & Wear and Northumberland"
+                }
+            ],
+            "recipientOrganization": [
+                {
+                    "id": "GB-CHC-1144453",
+                    "url": "https://www.familyGateway.co.uk",
+                    "name": "Family Gateway",
+                    "postalCode": "NE28 0PP",
+                    "addressRegion": "North Tyneside",
+                    "charityNumber": "1144453",
+                    "companyNumber": "7583330",
+                    "addressCountry": "UK",
+                    "addressLocality": "Wallsend"
+                }
+            ]
         }
     ],
-    "last_updated": "2020-04-30T04:07:34.874853"
+    "last_updated": "2020-05-01T04:09:50.990244"
 }
