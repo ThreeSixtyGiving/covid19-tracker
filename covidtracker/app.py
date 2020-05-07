@@ -93,14 +93,16 @@ app.layout = layout(data, all_data)
      Output(component_id='url', component_property='search')],
     [Input(component_id='funder-filter', component_property='value'),
      Input(component_id='search-filter', component_property='value'),
-     Input(component_id='doublecount-filter', component_property='value')]
+     Input(component_id='doublecount-filter', component_property='value'),
+     Input(component_id='area-filter', component_property='value')]
 )
-def update_output_div(funder_value, search_value, doublecount_value):
+def update_output_div(funder_value, search_value, doublecount_value, area_value):
 
     filters = {
         "funder": funder_value,
         "search": search_value,
         "doublecount": doublecount_value,
+        "area": area_value,
     }
 
     base = '/'
@@ -111,6 +113,8 @@ def update_output_div(funder_value, search_value, doublecount_value):
         query_params['search'] = search_value
     if doublecount_value and 'exclude' in doublecount_value:
         query_params['exclude'] = True
+    if area_value:
+        query_params['area'] = " ".join(area_value)
     if query_params:
         return (filters, base, "?" + urllib.parse.urlencode(query_params))
     return (filters, base, "")
@@ -119,7 +123,8 @@ def update_output_div(funder_value, search_value, doublecount_value):
 @app.callback(
     [Output(component_id='funder-filter', component_property='value'),
      Output(component_id='search-filter', component_property='value'),
-     Output(component_id='doublecount-filter', component_property='value')],
+     Output(component_id='doublecount-filter', component_property='value'),
+     Output(component_id='area-filter', component_property='value')],
     [Input(component_id='url', component_property='href')]
 )
 def update_output_div(url):
@@ -130,13 +135,16 @@ def update_output_div(url):
     if url.query:
         params = urllib.parse.parse_qs(url.query)
         if params.get("search"):
-            filters["search"] = params.get("search")
+            filters["search"] = params.get("search")[0]
         if params.get("exclude"):
             filters["exclude"] = ['exclude']
+        if params.get("area"):
+            filters["area"] = params.get("area")[0].split(" ")
     return (
         filters.get("funder", []),
         filters.get("search", ''),
         filters.get("exclude", []),
+        filters.get("area", []),
     )
 
 
@@ -147,7 +155,6 @@ def update_output_div(url):
      Output(component_id='word-cloud', component_property='children'),
      Output(component_id='data-table', component_property='children'),
      Output(component_id='last-updated', component_property='children'),
-     Output(component_id='funder-filter', component_property='options'),
      Output(component_id='page-header', component_property='children')],
     [Input(component_id='filters', component_property='data'),
      Input(component_id='chart-type', component_property='value')]
@@ -167,10 +174,6 @@ def update_output_div(filters, chart_type):
         [
             'Last updated ',
             "{:%Y-%m-%d %H:%M}".format(data["last_updated"]),
-        ],
-        [
-            {'label': fname, 'value': fid}
-            for fid, fname in sorted(all_data["funders"], key=lambda x: x[1])
         ],
         page_header(data),
     )
