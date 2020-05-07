@@ -240,6 +240,7 @@ STOPWORDS = [
     'wouldn',
     "wouldn't"
     'toward',
+    'towards',
     'work',
     'works',
     'help',
