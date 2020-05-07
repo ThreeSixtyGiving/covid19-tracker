@@ -11,7 +11,7 @@ requests_cache.install_cache(
     expire_after=60 * 60 * 2 # two hours
 )
 
-from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE, AREAS_FILE
+from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 def get_data():
 
@@ -20,9 +20,6 @@ def get_data():
 
     with open(FUNDER_IDS_FILE) as a:
         fundersdata = json.load(a)
-
-    with open(AREAS_FILE) as a:
-        areas = json.load(a)["areas"]
 
     grants = grantsdata['grants']
     if grantsdata.get("last_updated"):
@@ -37,11 +34,12 @@ def get_data():
     for g in grants:
         funders[(g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])] += 1
         recipients.add(g['recipientOrganization'][0]['id'])
-        if g['geo'].get('county'):
-            counties.add((
-                g['geo'].get('county'),
-                areas.get(g['geo'].get('county'), {}).get("name", g['geo'].get('county'))
-            ))
+        for geo in g.get('geo', {}).values():
+            if geo.get('UTLACD') and geo.get('UTLANM'):
+                counties.add((
+                    geo.get('UTLACD'),
+                    geo.get('UTLANM')
+                ))
 
     return dict(
         grants=grants,
@@ -83,9 +81,9 @@ def filter_data(all_data, **filters):
 
             # area filter
             if filters.get("area"):
-                include_grant.append(
-                    g['geo']['county'] in filters['area']
-                )
+                utlas = [geo['UTLACD'] for geo in g.get('geo', {}).values() if geo.get(
+                    'UTLACD') and geo.get('UTLACD') in filters['area']]
+                include_grant.append(len(utlas) > 0)
 
             # search filter
             if filters.get("search"):

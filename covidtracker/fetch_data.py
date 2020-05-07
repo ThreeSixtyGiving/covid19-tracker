@@ -9,28 +9,6 @@ import tqdm
 
 from settings import DB_URL, GRANTS_DATA_FILE, FUNDER_IDS_FILE, AREAS_FILE
 
-def find_areas(areas_to_find, areas):
-    new_areas = 0
-    new_areas_to_find = set()
-    for a in tqdm.tqdm(areas_to_find):
-        if areas.get(a):
-            if a.startswith('E07'):
-                new_areas_to_find.add(areas[a]["parent"])
-            continue
-        try:
-            areas[a] = requests.get(f'https://findthatpostcode.uk/areas/{a}.json').json().get('data', {}).get('attributes')
-            if a.startswith('E07'):
-                new_areas_to_find.add(areas[a]["parent"])
-            new_areas += 1
-        except Exception as e:
-            print("Could not find area {}".format(a))
-            print(e)
-            continue
-        if a == 'E10000011':
-            print(areas[a])
-    print('Found {:,.0f} new areas'.format(new_areas))
-    return areas, new_areas_to_find
-
 @click.command()
 @click.option('--db-url', default=DB_URL, help='Database connection string')
 @click.option('--grants-data-file', default=GRANTS_DATA_FILE, help='Location to save the grants data')
@@ -40,6 +18,11 @@ def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file
     """Import data from the database to a JSON file"""
     engine = create_engine(db_url)
     conn = engine.connect()
+
+    print("Load area data")
+    with open(areas_file) as a:
+        areas = json.load(a)
+    print(f"Loaded {len(areas):,.0f} areas")
 
     grant_sql = '''
     select g.data,
@@ -64,47 +47,23 @@ def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file
     grants = []
     areas_to_find = set()
     for row in result:
-        geo = dict(
-            lsoa=None,
-            ward=row['recipientWardNameGeoCode'],
-            district=row["recipientDistrictGeoCode"],
-            county=row["recipientDistrictGeoCode"],
-        )
+        row = dict(row)
+        geo = {}
         for l in row['data'].get('beneficiaryLocation', []):
-            if l.get("geoCodeType") == 'LSOA':
-                geo["lsoa"] = l.get("geoCode")
-            elif l.get("geoCodeType") in ['NMD', 'LONB', 'UA']:
-                geo["district"] = l.get("geoCode")
-                geo["county"] = l.get("geoCode")
-            elif l.get("geoCodeType") in ['WD']:
-                geo["ward"] = l.get("geoCode")
-
-        if geo["district"]:
-            areas_to_find.add(geo["district"])
+            if l.get('geoCode') in areas:
+                geo[l['geoCode']] = areas[l['geoCode']]
+        if not geo and row.get('recipientWardNameGeoCode') in areas:
+            geo[row['recipientWardNameGeoCode']
+                ] = areas[row['recipientWardNameGeoCode']]
+        if not geo and row.get('recipientDistrictGeoCode') in areas:
+            geo[row['recipientDistrictGeoCode']
+                ] = areas[row['recipientDistrictGeoCode']]
 
         grants.append({
             **row['data'],
             "geo": geo,
         })
     print('Found {:,.0f} grants'.format(len(grants)))
-
-    print("Fetching areas")
-    with open(areas_file, 'r') as a:
-        areas = json.load(a).get('areas', {})
-    while areas_to_find:
-        areas, areas_to_find = find_areas(areas_to_find, areas)
-
-    print('Saving areas to file')
-    with open(areas_file, 'w') as a:
-        json.dump({
-            "areas": areas,
-        }, a, indent=4)
-    print('Saved to `{}`'.format(areas_file))
-
-    print("Adding upper-tier authorities to grants")
-    for g in grants:
-        if g['geo']['district'] and g['geo']['district'].startswith('E07'):
-            g['geo']['county'] = areas[g['geo']['district']]['parent']
 
     print('Saving grants to file')
     with open(grants_data_file, 'w') as a:
