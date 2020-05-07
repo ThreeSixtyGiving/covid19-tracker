@@ -27,6 +27,8 @@ def filters(all_data):
                     placeholder="Filter by funder...",
                     className='f6'
                 ),
+            ]),
+            html.Div(className="filter-section__buttons filters", children=[
                 dcc.Dropdown(
                     options=[
                         {'label': areaname, 'value': areacode}

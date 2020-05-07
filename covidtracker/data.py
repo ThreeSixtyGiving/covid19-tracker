@@ -31,15 +31,20 @@ def get_data():
     funders = Counter()
     recipients = set()
     counties = set()
+    has_geo = 0
     for g in grants:
         funders[(g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])] += 1
         recipients.add(g['recipientOrganization'][0]['id'])
+        this_has_geo = False
         for geo in g.get('geo', {}).values():
             if geo.get('UTLACD') and geo.get('UTLANM'):
                 counties.add((
                     geo.get('UTLACD'),
                     geo.get('UTLANM')
                 ))
+                this_has_geo = True
+        if this_has_geo:
+            has_geo += 1
 
     return dict(
         grants=grants,
@@ -50,6 +55,8 @@ def get_data():
         now=datetime.datetime.now(),
         last_updated=last_updated,
         google_analytics=GOOGLE_ANALYTICS,
+        has_geo=has_geo,
+        grant_count=len(grants),
     )
 
 def normalise_string(s):
@@ -169,4 +176,5 @@ def filter_data(all_data, **filters):
         "amountByDate": amountByDate,
         "grants": grants,
         "grants_grantmakers": grants_grantmakers,
+        "filters": filters,
     }

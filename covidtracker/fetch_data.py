@@ -51,13 +51,25 @@ def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file
         geo = {}
         for l in row['data'].get('beneficiaryLocation', []):
             if l.get('geoCode') in areas:
-                geo[l['geoCode']] = areas[l['geoCode']]
+                geo[l['geoCode']] = {
+                    'source': 'beneficiaryLocation',
+                    'source_code': l['geoCode'],
+                    **areas[l['geoCode']],
+                }
         if not geo and row.get('recipientWardNameGeoCode') in areas:
             geo[row['recipientWardNameGeoCode']
-                ] = areas[row['recipientWardNameGeoCode']]
+                ] = {
+                    'source': 'recipientWardNameGeoCode',
+                    'source_code': row['recipientWardNameGeoCode'],
+                    **areas[row['recipientWardNameGeoCode']],
+                }
         if not geo and row.get('recipientDistrictGeoCode') in areas:
             geo[row['recipientDistrictGeoCode']
-                ] = areas[row['recipientDistrictGeoCode']]
+                ] = {
+                    'source': 'recipientDistrictGeoCode',
+                    'source_code': row['recipientDistrictGeoCode'],
+                    **areas[row['recipientDistrictGeoCode']],
+                }
 
         grants.append({
             **row['data'],
