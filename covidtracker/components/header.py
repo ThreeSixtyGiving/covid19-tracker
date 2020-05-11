@@ -11,7 +11,8 @@ def header():
                         ]),
                     ]),
                     html.Div(className="hero__column hero__lead", children=[
-                        html.H2(className="hero__title", children=["Coronavirus response grants tracker"]),
+                        html.H2(className="hero__title", children=[
+                                "COVID19 Grants Tracker"]),
                         html.P(className="hero__blurb", children=[
                             "Based on data published by UK grantmakers in the ",
                             html.A(href="http://standard.threesixtygiving.org/", target="_blank", children=["360Giving Data Standard"]),

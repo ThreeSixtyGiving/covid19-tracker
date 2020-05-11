@@ -84,7 +84,7 @@ def get_all_grants_csv():
     output.headers["Content-type"] = "text/csv"
     return output
 
-app.title = 'Coronavirus response grants tracker'
+app.title = 'COVID19 Grants Tracker'
 app.layout = layout(data, all_data)
 
 @app.callback(
