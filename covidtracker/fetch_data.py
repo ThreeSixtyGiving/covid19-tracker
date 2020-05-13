@@ -38,6 +38,7 @@ def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file
             g.data->>'classifications' ~* 'covid|coronavirus|pandemic|cv-?19'
         )
         and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-03-16'
+        and to_date(g.data->>'awardDate', 'YYYY-MM-DD') < NOW() + interval '1 day'
         and g.data->>'currency' = 'GBP'
     order by to_date(g.data->>'awardDate', 'YYYY-MM-DD'), g.data->>'id'
     '''
