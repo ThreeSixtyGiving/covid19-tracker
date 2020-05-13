@@ -29,17 +29,21 @@ def layout(data, all_data):
                     html.Div(className="grid grid--two-columns", children=[
                         html.Div(className="grid__1", children=[
                             dcc.Markdown('''
+                                Grants are included if the use the terms "covid", "coronavirus", 
+                                "pandemic" or "cv19" somewhere in the grant description, title,
+                                classification or grant programme.
+
                                 This data is based on UK foundations reporting grants using the
                                 360Giving Data Standard. It only includes grants awarded in 
                                 British Pounds that have already been made (rather than amounts 
                                 committed to grant programmes).
-                                
-                                Not all foundations publish their grants as open data, and some
-                                publishers do not immediately publish their latest data. 
                             ''')
                         ]),
                         html.Div(className="grid__1", children=[
                             dcc.Markdown('''
+                                Not all foundations publish their grants as open data, and some
+                                publishers do not immediately publish their latest data. 
+
                                 Some of the data includes grants made to other grantmakers to distribute. You can choose to exclude
                                 these grants from the analysis to prevent double counting.
                             '''),
