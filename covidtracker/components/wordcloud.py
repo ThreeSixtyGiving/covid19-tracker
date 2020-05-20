@@ -27,6 +27,8 @@ def wordcloud(data, chart_type="amount", show_grantmakers=True):
         words += Counter(bigrams(clean_string(g["title"])))
         words += Counter(bigrams(clean_string(g["description"])))
 
+    if not words:
+        return None
     maxcount = words.most_common(1)[0][1]
     scaling = 36 / maxcount
     
