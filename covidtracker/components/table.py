@@ -8,10 +8,10 @@ def table(data):
 
     table_data = [
         {
-            "fundingOrganization": f'**{g["fundingOrganization"][0]["name"]}**',
+            "fundingOrganization": f'**{g["fundingOrganization"][0]["name"].strip()}**',
             "recipientOrganization": recipient_contents_markdown(g, data["all_funders"]),
             "description": f'''
-**{g["title"]}**
+**{g["title"].strip()}**
 
 {g["description"]}
 
@@ -114,9 +114,9 @@ def recipient_contents_markdown(g, all_funders):
 **{}**
 
 *This organisation is also a funder so this grant may be intended for re-distribution as grants
-        '''.format(g["recipientOrganization"][0]["name"])
+        '''.format(g["recipientOrganization"][0]["name"].strip())
     else:
-        return f'**{g["recipientOrganization"][0]["name"]}**'
+        return f'**{g["recipientOrganization"][0]["name"].strip()}**'
 
 def description_contents(g):
     return [
