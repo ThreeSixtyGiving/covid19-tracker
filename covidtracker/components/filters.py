@@ -10,15 +10,15 @@ def dropdown_options(all_funders):
 
 def filters(all_data):
     return [
-        html.Div(className="wrapper filter-section__panel", children=[
-            html.Div(className="filter-section__buttons filters", children=[
+        html.Div(className="grid grid--four-columns", children=[
+            html.Div(className="grid__1", children=[
                 dcc.Dropdown(
                     options=dropdown_options(all_data['funders']),
                     searchable=True,
                     multi=True,
                     id="funder-filter",
                     style={
-                        'width': '300px',
+                        # 'width': '300px',
                         'fontSize': '14px',
                         'textAlign': 'left',
                         # 'marginTop': '8px',
@@ -28,7 +28,27 @@ def filters(all_data):
                     className='f6'
                 ),
             ]),
-            html.Div(className="filter-section__buttons filters", children=[
+            html.Div(className="grid__1", children=[
+                dcc.Dropdown(
+                    options=[
+                        {'label': recipient_name, 'value': recipient_id}
+                        for recipient_id, recipient_name in sorted(all_data["all_recipients"].items(), key=lambda x: x[1])
+                    ],
+                    searchable=True,
+                    multi=True,
+                    id="recipient-filter",
+                    style={
+                        # 'width': '300px',
+                        'fontSize': '14px',
+                        'textAlign': 'left',
+                        # 'marginTop': '8px',
+                        # 'marginBottom': '8px',
+                    },
+                    placeholder="Filter by recipient...",
+                    className='f6'
+                ),
+            ]),
+            html.Div(className="grid__1", children=[
                 dcc.Dropdown(
                     options=[
                         {'label': areaname, 'value': areacode}
@@ -38,7 +58,7 @@ def filters(all_data):
                     multi=True,
                     id="area-filter",
                     style={
-                        'width': '300px',
+                        # 'width': '300px',
                         'fontSize': '14px',
                         'textAlign': 'left',
                         # 'marginTop': '8px',
@@ -48,7 +68,7 @@ def filters(all_data):
                     className='f6'
                 ),
             ]),
-            html.Div(className='filter-section__search', children=[
+            html.Div(className='grid__1', children=[
                 dcc.Input(
                     id="search-filter",
                     type="search",

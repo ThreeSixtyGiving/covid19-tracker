@@ -15,6 +15,11 @@ from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 def get_data():
 
+    def get_recipient(grant):
+        for r in grant.get("_recipient", []):
+            return (r["id"], r['name'])
+        return (g['recipientOrganization'][0]['id'], g['recipientOrganization'][0]['name'])
+
     with open(GRANTS_DATA_FILE) as a:
         grantsdata = json.load(a)
 
@@ -29,18 +34,19 @@ def get_data():
     all_funders = fundersdata['funders']
 
     funders = Counter()
-    recipients = set()
+    recipients = dict()
     counties = set()
     has_geo = 0
     for g in grants:
         funders[(g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])] += 1
-        recipients.add(g['recipientOrganization'][0]['id'])
+        recipient_id, recipient_name = get_recipient(g)
+        recipients[g['_recipient_ids'][0]] = recipient_name
         this_has_geo = False
-        for geo in g.get('geo', {}).values():
-            if geo.get('UTLACD') and geo.get('UTLANM'):
+        for geo in g.get('_geo', []):
+            if geo.get('utlacd') and geo.get('utlanm'):
                 counties.add((
-                    geo.get('UTLACD'),
-                    geo.get('UTLANM')
+                    geo.get('utlacd'),
+                    geo.get('utlanm')
                 ))
                 this_has_geo = True
         if this_has_geo:
@@ -49,9 +55,10 @@ def get_data():
     return dict(
         grants=grants,
         funders=funders,
-        recipients=recipients,
+        recipients=set(recipients.keys()),
         counties=counties,
         all_funders=all_funders,
+        all_recipients=recipients,
         now=datetime.datetime.now(),
         last_updated=last_updated,
         google_analytics=GOOGLE_ANALYTICS,
@@ -88,8 +95,8 @@ def filter_data(all_data, **filters):
 
             # area filter
             if filters.get("area"):
-                utlas = [geo['UTLACD'] for geo in g.get('geo', {}).values() if geo.get(
-                    'UTLACD') and geo.get('UTLACD') in filters['area']]
+                utlas = [geo['utlacd'] for geo in g.get('_geo', []) if geo.get(
+                    'utlacd') and geo.get('utlacd') in filters['area']]
                 include_grant.append(len(utlas) > 0)
 
             # search filter
@@ -105,6 +112,13 @@ def filter_data(all_data, **filters):
                 search_term = normalise_string(filters.get("search"))
                 include_grant.append(search_term in search_in)
 
+            # recipients filter
+            if filters.get("recipient", []):
+                include_grant.append(
+                    len(set(g['_recipient_ids']) & set(
+                        filters.get("recipient", [])))
+                )
+
             # exclude grants to grantmakers filter
             if 'exclude' in filters.get("doublecount", []):
                 include_grant.append(
@@ -114,9 +128,10 @@ def filter_data(all_data, **filters):
             if all(include_grant):
                 grants.append(g)
     
-    funders = set()
+    funders = Counter()
     recipients = set()
 
+    grantsByRegion = {}
     amountAwarded = {}
     amountByDate = {
         '2020-03-14': {
@@ -130,8 +145,8 @@ def filter_data(all_data, **filters):
     }
     grants_grantmakers = 0
     for g in grants:
-        funders.add((g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name']))
-        recipients.add(g['recipientOrganization'][0]['id'])
+        funders[(g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])] += 1
+        recipients.add(g['_recipient_ids'][0])
 
         awardDate = g['awardDate'][0:10]
         if g['currency'] not in amountAwarded:
@@ -156,6 +171,24 @@ def filter_data(all_data, **filters):
             else:
                 amountByDate[awardDate]['grants_other'] += 1
                 amountByDate[awardDate]['amount_other'] += g['amountAwarded']
+
+        for geo in g.get('_geo', []):
+            geocodes_seen = set()
+            if geo.get('rgncd') or geo.get('ctrycd'):
+                geocode = (
+                    geo['rgncd'] if geo.get("rgncd") else geo.get('ctrycd'),
+                    geo['rgnnm'] if geo.get("rgnnm") else geo.get('ctrynm'),
+                )
+                if geocode in geocodes_seen:
+                    continue
+                if geocode not in grantsByRegion:
+                    grantsByRegion[geocode] = {
+                        'count': 0,
+                        'amount': 0,
+                    }
+                grantsByRegion[geocode]['count'] += 1
+                grantsByRegion[geocode]['amount'] += g['amountAwarded']
+                geocodes_seen.add(geocode)
     
     todays_date = datetime.datetime.now().date().isoformat()
     if todays_date not in amountByDate:
@@ -170,10 +203,12 @@ def filter_data(all_data, **filters):
 
     return {
         **all_data,
-        'funders': list(funders),
+        'funder_counts': funders,
+        'funders': list(funders.keys()),
         'recipients': list(recipients),
         "amountAwarded": amountAwarded,
         "amountByDate": amountByDate,
+        "grantsByRegion": grantsByRegion,
         "grants": grants,
         "grants_grantmakers": grants_grantmakers,
         "filters": filters,

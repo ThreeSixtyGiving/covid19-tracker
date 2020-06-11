@@ -7,27 +7,21 @@ import click
 import requests
 import tqdm
 
-from settings import DB_URL, GRANTS_DATA_FILE, FUNDER_IDS_FILE, AREAS_FILE
+from settings import DB_URL, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 
 @click.command()
 @click.option('--db-url', default=DB_URL, help='Database connection string')
 @click.option('--grants-data-file', default=GRANTS_DATA_FILE, help='Location to save the grants data')
 @click.option('--funder-ids-file', default=FUNDER_IDS_FILE, help='Location to save the list of funders')
-@click.option('--areas-file', default=AREAS_FILE, help='Location to save the list of funders')
-def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file=FUNDER_IDS_FILE, areas_file=AREAS_FILE):
+def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file=FUNDER_IDS_FILE):
     """Import data from the database to a JSON file"""
     engine = create_engine(db_url)
     conn = engine.connect()
 
-    print("Load area data")
-    with open(areas_file) as a:
-        areas = json.load(a)
-    print(f"Loaded {len(areas):,.0f} areas")
-
     grant_sql = '''
     select g.data,
-    	db_grant.additional_data->>'recipientDistrictGeoCode' as "recipientDistrictGeoCode",
-    	db_grant.additional_data->>'recipientWardNameGeoCode' as "recipientWardNameGeoCode"
+    	db_grant.additional_data->'locationLookup' as "locationLookup",
+    	db_grant.additional_data->'recipientOrgInfos' as "recipientOrgInfos"
     from view_latest_grant g
     	inner join db_grant 
     		on g.id = db_grant.id
@@ -47,35 +41,19 @@ def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file
     result = conn.execute(grant_sql)
 
     grants = []
-    areas_to_find = set()
     for row in result:
         row = dict(row)
-        geo = {}
-        for l in row['data'].get('beneficiaryLocation', []):
-            if l.get('geoCode') in areas:
-                geo[l['geoCode']] = {
-                    'source': 'beneficiaryLocation',
-                    'source_code': l['geoCode'],
-                    **areas[l['geoCode']],
-                }
-        if not geo and row.get('recipientWardNameGeoCode') in areas:
-            geo[row['recipientWardNameGeoCode']
-                ] = {
-                    'source': 'recipientWardNameGeoCode',
-                    'source_code': row['recipientWardNameGeoCode'],
-                    **areas[row['recipientWardNameGeoCode']],
-                }
-        if not geo and row.get('recipientDistrictGeoCode') in areas:
-            geo[row['recipientDistrictGeoCode']
-                ] = {
-                    'source': 'recipientDistrictGeoCode',
-                    'source_code': row['recipientDistrictGeoCode'],
-                    **areas[row['recipientDistrictGeoCode']],
-                }
+        recipient_ids = set([row['data']['recipientOrganization'][0]['id']])
+        if row.get("recipientOrgInfos"):
+            for r in row.get("recipientOrgInfos", []):
+                recipient_ids.add(r.get("id"))
+                recipient_ids.update(r.get("orgIDs", []))
 
         grants.append({
             **row['data'],
-            "geo": geo,
+            "_geo": row['locationLookup'],
+            "_recipient": row.get('recipientOrgInfos') or [],
+            "_recipient_ids": sorted(recipient_ids),
         })
     print('Found {:,.0f} grants'.format(len(grants)))
 

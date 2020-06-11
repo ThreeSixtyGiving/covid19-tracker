@@ -12,7 +12,7 @@ from flask import make_response
 
 from .data import get_data, filter_data
 from .layout import layout
-from .components import cards, chart, table, page_header, wordcloud
+from .components import cards, chart, table, page_header, wordcloud, top_funders, regions
 
 app = dash.Dash(__name__)
 server = app.server
@@ -94,15 +94,17 @@ app.layout = layout(data, all_data)
     [Input(component_id='funder-filter', component_property='value'),
      Input(component_id='search-filter', component_property='value'),
      Input(component_id='doublecount-filter', component_property='value'),
-     Input(component_id='area-filter', component_property='value')]
+     Input(component_id='area-filter', component_property='value'),
+     Input(component_id='recipient-filter', component_property='value')]
 )
-def update_output_div(funder_value, search_value, doublecount_value, area_value):
-
+def update_output_div(funder_value, search_value, doublecount_value, area_value, recipient_value):
+    
     filters = {
         "funder": funder_value,
         "search": search_value,
         "doublecount": doublecount_value,
         "area": area_value,
+        "recipient": recipient_value,
     }
 
     base = '/'
@@ -115,6 +117,8 @@ def update_output_div(funder_value, search_value, doublecount_value, area_value)
         query_params['exclude'] = True
     if area_value:
         query_params['area'] = " ".join(area_value)
+    if recipient_value:
+        query_params['recipient'] = " ".join(recipient_value)
     if query_params:
         return (filters, base, "?" + urllib.parse.urlencode(query_params))
     return (filters, base, "")
@@ -124,7 +128,8 @@ def update_output_div(funder_value, search_value, doublecount_value, area_value)
     [Output(component_id='funder-filter', component_property='value'),
      Output(component_id='search-filter', component_property='value'),
      Output(component_id='doublecount-filter', component_property='value'),
-     Output(component_id='area-filter', component_property='value')],
+     Output(component_id='area-filter', component_property='value'),
+     Output(component_id='recipient-filter', component_property='value')],
     [Input(component_id='url', component_property='href')]
 )
 def update_output_div(url):
@@ -140,11 +145,14 @@ def update_output_div(url):
             filters["exclude"] = ['exclude']
         if params.get("area"):
             filters["area"] = params.get("area")[0].split(" ")
+        if params.get("recipient"):
+            filters["recipient"] = params.get("recipient")[0].split(" ")
     return (
         filters.get("funder", []),
         filters.get("search", ''),
         filters.get("exclude", []),
         filters.get("area", []),
+        filters.get("recipient", []),
     )
 
 
@@ -155,7 +163,9 @@ def update_output_div(url):
      Output(component_id='word-cloud', component_property='children'),
      Output(component_id='data-table', component_property='children'),
      Output(component_id='last-updated', component_property='children'),
-     Output(component_id='page-header', component_property='children')],
+     Output(component_id='page-header', component_property='children'),
+     Output(component_id='top-funders', component_property='children'),
+     Output(component_id='regions-chart', component_property='children')],
     [Input(component_id='filters', component_property='data'),
      Input(component_id='chart-type', component_property='value')]
 )
@@ -176,4 +186,6 @@ def update_output_div(filters, chart_type):
             "{:%Y-%m-%d %H:%M}".format(data["last_updated"]),
         ],
         page_header(data),
+        top_funders(data),
+        regions(data),
     )

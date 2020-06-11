@@ -12,10 +12,6 @@ FUNDER_IDS_FILE = os.getenv(
     'FUNDER_IDS_FILE',
     os.path.join(os.path.dirname(__file__), 'assets/data/funder_ids.json')
 )
-AREAS_FILE = os.getenv(
-    'AREAS_FILE',
-    os.path.join(os.path.dirname(__file__), 'assets/data/areas.json')
-)
 THREESIXTY_COLOURS = [
     # "#153634", # Grey
     "#DE6E26", # Orange
