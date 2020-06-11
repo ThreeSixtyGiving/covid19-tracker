@@ -132,6 +132,7 @@ def filter_data(all_data, **filters):
     recipients = set()
 
     grantsByRegion = {}
+    grantsByLa = {}
     amountAwarded = {}
     amountByDate = {
         '2020-03-14': {
@@ -179,6 +180,7 @@ def filter_data(all_data, **filters):
                     geo['rgncd'] if geo.get("rgncd") else geo.get('ctrycd'),
                     geo['rgnnm'] if geo.get("rgnnm") else geo.get('ctrynm'),
                 )
+                la_geocode = (geo['utlacd'],geo['utlanm'],)
                 if geocode in geocodes_seen:
                     continue
                 if geocode not in grantsByRegion:
@@ -186,8 +188,15 @@ def filter_data(all_data, **filters):
                         'count': 0,
                         'amount': 0,
                     }
+                if la_geocode not in grantsByLa:
+                    grantsByLa[la_geocode] = {
+                        'count': 0,
+                        'amount': 0,
+                    }
                 grantsByRegion[geocode]['count'] += 1
                 grantsByRegion[geocode]['amount'] += g['amountAwarded']
+                grantsByLa[la_geocode]['count'] += 1
+                grantsByLa[la_geocode]['amount'] += g['amountAwarded']
                 geocodes_seen.add(geocode)
     
     todays_date = datetime.datetime.now().date().isoformat()
@@ -209,6 +218,7 @@ def filter_data(all_data, **filters):
         "amountAwarded": amountAwarded,
         "amountByDate": amountByDate,
         "grantsByRegion": grantsByRegion,
+        "grantsByLa": grantsByLa,
         "grants": grants,
         "grants_grantmakers": grants_grantmakers,
         "filters": filters,

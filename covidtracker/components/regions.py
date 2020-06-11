@@ -9,13 +9,24 @@ from ..settings import THREESIXTY_COLOURS
 
 def regions(data):
     regions = data['grantsByRegion']
+    region_type = 'region'
+    if len(regions) <= 1:
+        regions = data['grantsByLa']
+        region_type = 'Local Authority'
+
     if len(regions) <= 1:
         return None
 
     regions = [{
         'name': code[1],
         **values
-    } for code, values in regions.items()]
+    } for code, values in sorted(regions.items())]
+    subtitle = None
+    if region_type == 'Local Authority':
+        regions = sorted(regions, key=lambda x: -x['count'])
+        if len(regions) > 12:
+            regions = regions[:12]
+            subtitle = 'Top {:,.0f} regions'.format(12)
     
     return html.Div(
         className="base-card base-card--teal",
@@ -23,7 +34,7 @@ def regions(data):
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[
                     html.H3(className="base-card__heading",
-                            children="Grants by region"),
+                            children="Grants by {}".format(region_type)),
                 ]),
                 dcc.Graph(
                     id='regions-chart-chart',
