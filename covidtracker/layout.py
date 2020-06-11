@@ -1,7 +1,8 @@
 import dash_html_components as html
 import dash_core_components as dcc
 from .components import (cards, chart, table, header, footer, 
-    subscribe, filters, page_header, wordcloud, top_funders, regions)
+    subscribe, filters, page_header, wordcloud, top_funders, 
+    regions, geomap)
 
 def layout(data, all_data):
     return html.Div(
@@ -73,6 +74,9 @@ def layout(data, all_data):
                                     '''),
                                 ]),
                             ]),
+                        ]),
+                        dcc.Tab(label='Map', className='', selected_className='', children=[
+                            geomap(data),
                         ]),
                         dcc.Tab(label='Data', className='', selected_className='', children=[
                             html.Div(className="grid grid--two-columns", children=[

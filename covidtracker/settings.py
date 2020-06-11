@@ -4,6 +4,7 @@ load_dotenv()
 
 DB_URL = os.getenv("DB_URL")
 GOOGLE_ANALYTICS = os.getenv('GOOGLE_ANALYTICS')
+MAPBOX_TOKEN = os.getenv('MAPBOX_TOKEN')
 GRANTS_DATA_FILE = os.getenv(
     'GRANTS_DATA_FILE',
     os.path.join(os.path.dirname(__file__), 'assets/data/grants_data.json')

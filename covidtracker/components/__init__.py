@@ -9,3 +9,4 @@ from .page_header import page_header
 from .wordcloud import wordcloud
 from .top_funders import top_funders
 from .regions import regions
+from .geomap import geomap
