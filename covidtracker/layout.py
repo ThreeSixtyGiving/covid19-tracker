@@ -76,7 +76,9 @@ def layout(data, all_data):
                             ]),
                         ]),
                         dcc.Tab(label='Map', className='', selected_className='', children=[
-                            geomap(data),
+                            html.Div(id="geomap-container", children=[
+                                geomap(data),
+                            ]),
                         ]),
                         dcc.Tab(label='Data', className='', selected_className='', children=[
                             html.Div(className="grid grid--two-columns", children=[

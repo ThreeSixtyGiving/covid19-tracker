@@ -12,7 +12,7 @@ from flask import make_response
 
 from .data import get_data, filter_data
 from .layout import layout
-from .components import cards, chart, table, page_header, wordcloud, top_funders, regions
+from .components import cards, chart, table, page_header, wordcloud, top_funders, regions, geomap
 
 app = dash.Dash(__name__)
 server = app.server
@@ -165,7 +165,8 @@ def update_output_div(url):
      Output(component_id='last-updated', component_property='children'),
      Output(component_id='page-header', component_property='children'),
      Output(component_id='top-funders', component_property='children'),
-     Output(component_id='regions-chart', component_property='children')],
+     Output(component_id='regions-chart', component_property='children'),
+     Output(component_id='geomap-container', component_property='children')],
     [Input(component_id='filters', component_property='data'),
      Input(component_id='chart-type', component_property='value')]
 )
@@ -188,4 +189,5 @@ def update_output_div(filters, chart_type):
         page_header(data),
         top_funders(data),
         regions(data),
+        geomap-container(data),
     )
