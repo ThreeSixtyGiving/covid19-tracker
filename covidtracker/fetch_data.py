@@ -15,6 +15,9 @@ from settings import DB_URL, GRANTS_DATA_FILE, FUNDER_IDS_FILE
 @click.option('--funder-ids-file', default=FUNDER_IDS_FILE, help='Location to save the list of funders')
 def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, funder_ids_file=FUNDER_IDS_FILE):
     """Import data from the database to a JSON file"""
+    if not db_url:
+        print("No DB_URL provided")
+        return
     engine = create_engine(db_url)
     conn = engine.connect()
 
