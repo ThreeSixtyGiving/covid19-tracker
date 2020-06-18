@@ -189,5 +189,5 @@ def update_output_div(filters, chart_type):
         page_header(data),
         top_funders(data),
         regions(data),
-        geomap-container(data),
+        geomap(data),
     )
