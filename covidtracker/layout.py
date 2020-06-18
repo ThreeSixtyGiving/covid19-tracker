@@ -34,7 +34,7 @@ def layout(data, all_data):
                                 classification or grant programme.
 
                                 This data is based on UK foundations reporting grants using the
-                                360Giving Data Standard. It only includes grants awarded in 
+                                [360Giving Data Standard](http://standard.threesixtygiving.org/en/latest/). It only includes grants awarded in 
                                 British Pounds that have already been made (rather than amounts 
                                 committed to grant programmes).
                             ''')
