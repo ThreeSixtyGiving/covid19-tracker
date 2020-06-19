@@ -49,7 +49,7 @@ def wordcloud(data, chart_type="amount", show_grantmakers=True):
         # spans.append(' ')
     
     return html.Div(
-        className="base-card base-card--red",
+        className="base-card base-card--yellow",
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[

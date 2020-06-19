@@ -7,3 +7,5 @@ from .subscribe import subscribe
 from .filters import filters, dropdown_options
 from .page_header import page_header
 from .wordcloud import wordcloud
+from .top_funders import top_funders
+from .regions import regions
