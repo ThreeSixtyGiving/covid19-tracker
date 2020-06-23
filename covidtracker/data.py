@@ -41,6 +41,7 @@ def get_data():
         funders[(g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])] += 1
         recipient_id, recipient_name = get_recipient(g)
         recipients[g['_recipient_ids'][0]] = recipient_name
+        g['_recipient_is_grantmaker'] = g['recipientOrganization'][0]["id"] in all_funders
         this_has_geo = False
         for geo in g.get('_geo', []):
             if geo.get('utlacd') and geo.get('utlanm'):

@@ -3,6 +3,7 @@ import os
 from io import StringIO
 import csv
 import urllib.parse
+from collections import defaultdict
 
 import dash
 import dash_core_components as dcc
@@ -28,6 +29,69 @@ def get_all_grants():
     return {
         "grants": data['grants']
     }
+
+@server.route('/data/la.<filetype>')
+def get_la_breakdown(filetype="json"):
+    las = defaultdict(lambda: {
+        "name": "unknown",
+        "grant_count": 0,
+        "grant_amount_gbp": 0,
+        "grant_count_excluding_grantmakers": 0,
+        "grant_amount_gbp_excluding_grantmakers": 0,
+        "funders": set(),
+        "recipients": set(),
+    })
+    for g in data['grants']:
+        if g.get("_geo"):
+            la = g["_geo"][0]['ladcd']
+            la_name = g["_geo"][0]['ladnm']
+        else:
+            la = "unknown"
+            la_name = "no area available"
+        las[la]["name"] = la_name
+        las[la]["funders"].add(g['fundingOrganization'][0]["id"])
+        las[la]["recipients"].add(g['_recipient_ids'][0])
+        las[la]["grant_count"] += 1
+        las[la]["grant_amount_gbp"] += g['amountAwarded']
+        if not g["_recipient_is_grantmaker"]:
+            las[la]["grant_count_excluding_grantmakers"] += 1
+            las[la]["grant_amount_gbp_excluding_grantmakers"] += g['amountAwarded']
+    for k, v in las.items():
+        v['funders'] = list(v['funders'])
+        v['recipients'] = len(v['recipients'])
+
+    if filetype == 'csv':
+        outputStream = StringIO()
+        writer = csv.DictWriter(outputStream, fieldnames=[
+            "lacd",
+            "lanm",
+            "funders",
+            "recipients",
+            "grant_count",
+            "grant_amount_gbp",
+            "grant_count_excluding_grantmakers",
+            "grant_amount_gbp_excluding_grantmakers",
+        ])
+        writer.writeheader()
+        for lacd in sorted(las.keys()):
+            la = las[lacd]
+            writer.writerow({
+                "lacd": lacd,
+                "lanm": la['name'],
+                "funders": len(la['funders']),
+                "recipients": la["recipients"],
+                "grant_count": la["grant_count"],
+                "grant_amount_gbp": la["grant_amount_gbp"],
+                "grant_count_excluding_grantmakers": la["grant_count_excluding_grantmakers"],
+                "grant_amount_gbp_excluding_grantmakers": la["grant_amount_gbp_excluding_grantmakers"],
+            })
+
+        output = make_response(outputStream.getvalue())
+        output.headers["Content-Disposition"] = "attachment; filename=la.csv"
+        output.headers["Content-type"] = "text/csv"
+        return output
+
+    return las
 
 @server.route('/data/grants.csv')
 def get_all_grants_csv():
@@ -56,6 +120,7 @@ def get_all_grants_csv():
         "Funding Org:Identifier",          # fundingOrganization.0.id
         "Funding Org:Name",                # fundingOrganization.0.name
         "Grant Programme:Title",           # grantProgramme.0.title
+        "Recipient Is Grantmaker",
     ])
     writer.writeheader()
     for g in data["grants"]:
@@ -77,6 +142,7 @@ def get_all_grants_csv():
             "Funding Org:Identifier":           g.get("fundingOrganization", [{}])[0].get("id"), # fundingOrganization.0.id
             "Funding Org:Name":                 g.get("fundingOrganization", [{}])[0].get("name"), # fundingOrganization.0.name
             "Grant Programme:Title":            g.get("grantProgramme", [{}])[0].get("title"), # grantProgramme.0.title
+            "Recipient Is Grantmaker":          g.get("_recipient_is_grantmaker", False),
         })
 
     output = make_response(outputStream.getvalue())
