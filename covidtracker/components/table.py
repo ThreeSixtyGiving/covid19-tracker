@@ -4,12 +4,12 @@ import dash_html_components as html
 import dash_table
 from dash_table.Format import Format, Scheme, Sign, Symbol
 
-def table(data):
+def table(grants):
 
     table_data = [
         {
-            "fundingOrganization": f'**{g["fundingOrganization"][0]["name"].strip()}**',
-            "recipientOrganization": recipient_contents_markdown(g, data["all_funders"]),
+            "fundingOrganization": f'**{g["fundingOrganization.0.name"].strip()}**',
+            "recipientOrganization": recipient_contents_markdown(g),
             "description": f'''
 **{g["title"].strip()}**
 
@@ -18,8 +18,8 @@ def table(data):
 [View on GrantNav](http://grantnav.threesixtygiving.org/grant/{g['id'].replace(" ", "%20")})
             ''',
             "amountAwarded": g["amountAwarded"],
-            "awardDate": g["awardDate"][0:10],
-        } for g in data["grants"][::-1]
+            "awardDate": g["awardDate"].strftime("%Y-%m-%d"),
+        } for id, g in grants[::-1].iterrows()
     ]
     table_columns = [
         {"name": 'Funder', "id": 'fundingOrganization', 'presentation': 'markdown'},
@@ -108,15 +108,15 @@ def recipient_contents(g, all_funders):
     else:
         return [g["recipientOrganization"][0]["name"]]
 
-def recipient_contents_markdown(g, all_funders):
-    if g["recipientOrganization"][0]["id"] in all_funders:
+def recipient_contents_markdown(g):
+    if g["_recipient_is_funder"]:
         return '''
 **{}**
 
 *This organisation is also a funder so this grant may be intended for re-distribution as grants
-        '''.format(g["recipientOrganization"][0]["name"].strip())
+        '''.format(g["recipientOrganization.0.name"].strip())
     else:
-        return f'**{g["recipientOrganization"][0]["name"].strip()}**'
+        return f'**{g["recipientOrganization.0.name"].strip()}**'
 
 def description_contents(g):
     return [

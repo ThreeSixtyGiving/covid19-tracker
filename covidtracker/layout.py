@@ -15,23 +15,23 @@ def layout(data, all_data):
             html.Main(className="layout__content", children=[
                 html.Div(className="layout__content-inner", children=[
                     html.Div(id="page-header", className="grid grid--one-column", children=page_header(data)),
-                    html.Div(id="data-cards", children=cards(data)),
+                    html.Div(id="data-cards", children=cards(data['grants'])),
                     html.Div(className="spacer-5"),
-                    html.Div(className="", children=filters(all_data)),
+                    html.Div(className="", children=filters(data['all_grants'])),
                     dcc.Tabs(parent_className='wrapper', className='filters', children=[
                         dcc.Tab(label='Dashboard', className='', selected_className='', children=[
                             html.Div(className="grid grid--two-columns", children=[
                                 html.Div(id="data-chart", className="grid__all", children=[
-                                    chart(data),
+                                    chart(data['grants']),
                                 ]),
                                 html.Div(id="word-cloud", className="grid__all", children=[
-                                    wordcloud(data),
+                                    wordcloud(data['grants']),
                                 ]),
                                 html.Div(id="top-funders", className="grid__1", children=[
-                                    top_funders(data),
+                                    top_funders(data['grants']),
                                 ]),
                                 html.Div(id="regions-chart", className="grid__1", children=[
-                                    regions(data),
+                                    regions(data['grants']),
                                 ]),
                             ]),
                             html.Div(className="spacer-3"),
@@ -77,7 +77,7 @@ def layout(data, all_data):
                         ]),
                         dcc.Tab(label='Map', className='', selected_className='', children=[
                             html.Div(id="geomap-container", children=[
-                                geomap(data),
+                                geomap(data['grants']),
                             ]),
                         ]),
                         dcc.Tab(label='Data', className='', selected_className='', children=[
@@ -86,7 +86,7 @@ def layout(data, all_data):
                                     html.Div([
                                         html.H3(className='h3', children="Grants"),
                                         html.Div(className='table table--zebra', id="data-table", children=[
-                                            table(data)
+                                            table(data['grants'])
                                         ])
                                     ])
                                 ]),
@@ -114,8 +114,8 @@ def layout(data, all_data):
                                     ),
                                 ]),
                             ]),
-                    #     ]),
-                    # ]),
+                        ]),
+                    ]),
                 ]),
             ]),
             # subscribe(),

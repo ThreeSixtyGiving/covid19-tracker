@@ -1,19 +1,30 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-def dropdown_options(all_funders):
-    funders = sorted([f for f in all_funders], key=lambda x: x[1])
+def dropdown_options(grants, id_field='fundingOrganization.0.id', name_field='fundingOrganization.0.name'):
+    groups = grants.groupby(id_field).agg({
+        name_field: 'last',
+        'id': 'count',
+        'amountAwarded': 'sum',
+    }).reset_index().sort_values('id', ascending=False)
     return [
-        {'label': f"{fname} ({all_funders[(fid, fname)]:,.0f})", 'value': fid}
-        for fid, fname in funders
+        {'label': f"{f[name_field]} ({f['id']:,.0f})", 'value': f[id_field]}
+        for _, f in groups.iterrows()
     ]
 
-def filters(all_data):
+def filters(grants):
+
+    recipients = grants[['_recipient_id', '_recipient_name']]
+    recipients.loc[:, "_recipient_id"] = recipients["_recipient_id"].fillna(grants['recipientOrganization.0.id'])
+    recipients.loc[:, "_recipient_name"] = recipients["_recipient_name"].fillna(grants['recipientOrganization.0.name'])
+    recipients.drop_duplicates().sort_values("_recipient_name")
+
+
     return [
         html.Div(className="grid grid--four-columns", children=[
             html.Div(className="grid__1", children=[
                 dcc.Dropdown(
-                    options=dropdown_options(all_data['funders']),
+                    options=dropdown_options(grants),
                     searchable=True,
                     multi=True,
                     id="funder-filter",
@@ -31,8 +42,8 @@ def filters(all_data):
             html.Div(className="grid__1", children=[
                 dcc.Dropdown(
                     options=[
-                        {'label': recipient_name, 'value': recipient_id}
-                        for recipient_id, recipient_name in sorted(all_data["all_recipients"].items(), key=lambda x: x[1])
+                        {'label': r['_recipient_name'], 'value': r['_recipient_id']}
+                        for _, r in recipients.iterrows()
                     ],
                     searchable=True,
                     multi=True,
@@ -50,10 +61,7 @@ def filters(all_data):
             ]),
             html.Div(className="grid__1", children=[
                 dcc.Dropdown(
-                    options=[
-                        {'label': areaname, 'value': areacode}
-                        for areacode, areaname in sorted(all_data["counties"], key=lambda x: x[1])
-                    ],
+                    options=dropdown_options(grants, 'location.utlacd', 'location.utlanm'),
                     searchable=True,
                     multi=True,
                     id="area-filter",

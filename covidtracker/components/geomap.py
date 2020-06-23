@@ -6,25 +6,27 @@ import dash_html_components as html
 
 from ..settings import THREESIXTY_COLOURS, MAPBOX_TOKEN
 
-def geomap(data):
+def geomap(grants):
     lats = []
     lngs = []
     texts = []
-    for g in data['grants']:
-        if g.get("_geo"):
-            lat = g["_geo"][0].get("latitude")
-            lng = g["_geo"][0].get("longitude")
-            if lat and lng:
-                lats.append(lat)
-                lngs.append(lng)
-                texts.append("""£{amountAwarded:,.0f} on {awardDate:%d/%m/%Y}<br>from {funder} to {recipient}<br>for {title}""".format(
-                    amountAwarded=g.get("amountAwarded"),
-                    awardDate=datetime.datetime.fromisoformat(g.get("awardDate")[0:10]),
-                    recipient=g["recipientOrganization"][0].get("name"),
-                    funder=g["fundingOrganization"][0].get("name"),
-                    title=g.get("title"),
-                ))
+    for i, g in grants.iterrows():
+        if g['location.latitude'] and g['location.longitude']:
+            lats.append(g['location.latitude'])
+            lngs.append(g['location.longitude'])
+            texts.append("""£{amountAwarded:,.0f} on {awardDate:%d/%m/%Y}<br>from {funder} to {recipient}<br>for {title}""".format(
+                amountAwarded=g["amountAwarded"],
+                awardDate=g["awardDate"],
+                recipient=g["recipientOrganization.0.name"],
+                funder=g["fundingOrganization.0.name"],
+                title=g.get("title"),
+            ))
     
+    if not lats:
+        return None
+
+    return None
+        
     return html.Div(
         className="base-card base-card--teal",
         children=[

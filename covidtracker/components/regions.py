@@ -7,26 +7,35 @@ import dash_html_components as html
 from ._utils import horizontal_bar
 from ..settings import THREESIXTY_COLOURS
 
-def regions(data):
-    regions = data['grantsByRegion']
+def regions(grants):
+    regions = grants[grants['location.rgncd'] != ''].groupby([
+        'location.rgncd',
+        'location.rgnnm',
+    ]).size()
     region_type = 'region'
     if len(regions) <= 1:
-        regions = data['grantsByLa']
+        regions = grants[grants['location.utlacd'] != ''].groupby([
+            'location.utlacd',
+            'location.utlanm',
+        ]).size()
         region_type = 'Local Authority'
 
     if len(regions) <= 1:
         return None
 
-    regions = [{
-        'name': code[1],
-        **values
-    } for code, values in sorted(regions.items())]
+    regions = [
+        {
+            'name': i[1],
+            'count': count
+        }
+        for i, count in regions.iteritems()
+    ]
     subtitle = None
     if region_type == 'Local Authority':
         regions = sorted(regions, key=lambda x: -x['count'])
         if len(regions) > 12:
             regions = regions[:12]
-            subtitle = 'Top {:,.0f} regions'.format(12)
+            subtitle = 'Top {:,.0f} local authorities'.format(12)
     
     return html.Div(
         className="base-card base-card--teal",

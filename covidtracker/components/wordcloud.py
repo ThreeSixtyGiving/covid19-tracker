@@ -5,12 +5,13 @@ from random import choice
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import pandas as pd
 
 from nltk.util import ngrams
 
 from ..settings import THREESIXTY_COLOURS
 
-def wordcloud(data, chart_type="amount", show_grantmakers=True):
+def wordcloud(grants):
 
     def clean_string(s):
         s = s.lower()
@@ -22,19 +23,21 @@ def wordcloud(data, chart_type="amount", show_grantmakers=True):
         text = [w for w in text if w not in STOPWORDS]
         return [" ".join(n) for n in ngrams(text, 2)]
 
-    words = Counter()
-    for g in data["grants"]:
-        words += Counter(bigrams(clean_string(g["title"])))
-        words += Counter(bigrams(clean_string(g["description"])))
+    words = pd.concat([
+        grants['title'].apply(clean_string).apply(
+            bigrams).apply(pd.Series).unstack().dropna(),
+        grants['description'].apply(clean_string).apply(
+            bigrams).apply(pd.Series).unstack().dropna(),
+    ], ignore_index=True).value_counts()
 
-    if not words:
+    if not len(words):
         return None
-    maxcount = words.most_common(1)[0][1]
+    maxcount = words.max()
     scaling = 36 / maxcount
     
     spans = []
     colour = None
-    for k, w in enumerate(words.most_common(30)):
+    for k, w in enumerate(words.head(30).iteritems()):
         word, wordcount = w
         colour = choice([c for c in THREESIXTY_COLOURS if c != colour])
         spans.append(html.Span(

@@ -241,19 +241,19 @@ def update_output_div(filters, chart_type):
     all_data = get_data()
     data = filter_data(all_data, **filters)
 
-    show_grantmakers = data['grants_grantmakers'] > 0
+    show_grantmakers = data['grants']['_recipient_is_funder'].sum() > 0
 
     return (
-        cards(data),
-        chart(data, chart_type, show_grantmakers=show_grantmakers),
-        wordcloud(data),
-        table(data),
+        cards(data['grants']),
+        chart(data['grants'], chart_type, show_grantmakers=show_grantmakers),
+        wordcloud(data['grants']),
+        table(data['grants']),
         [
             'Last updated ',
             "{:%Y-%m-%d %H:%M}".format(data["last_updated"]),
         ],
         page_header(data),
-        top_funders(data),
-        regions(data),
-        geomap(data),
+        top_funders(data['grants']),
+        regions(data['grants']),
+        geomap(data['grants']),
     )

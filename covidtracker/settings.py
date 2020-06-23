@@ -9,6 +9,10 @@ GRANTS_DATA_FILE = os.getenv(
     'GRANTS_DATA_FILE',
     os.path.join(os.path.dirname(__file__), 'assets/data/grants_data.json')
 )
+GRANTS_DATA_PICKLE = os.getenv(
+    'GRANTS_DATA_PICKLE',
+    os.path.join(os.path.dirname(__file__), 'assets/data/grants_data.pkl')
+)
 FUNDER_IDS_FILE = os.getenv(
     'FUNDER_IDS_FILE',
     os.path.join(os.path.dirname(__file__), 'assets/data/funder_ids.json')
@@ -24,4 +28,17 @@ THREESIXTY_COLOURS = [
     "#27565B", # Darker teal
     "#786114", # Darker yellow
     "#5E1613", # Darker red
+]
+
+PRIORITIES = [
+    "GB-CHC",
+    "GB-SC",
+    "GB-NIC",
+    "GB-EDU",
+    "GB-LAE",
+    "GB-PLA",
+    "GB-LAS",
+    "GB-LANI",
+    "GB-GOR",
+    "GB-COH",
 ]
