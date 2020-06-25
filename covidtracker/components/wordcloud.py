@@ -7,8 +7,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 
-from nltk.util import ngrams
-
 from ..settings import THREESIXTY_COLOURS
 
 def wordcloud(grants):
@@ -20,8 +18,7 @@ def wordcloud(grants):
         return s.split()
 
     def bigrams(text):
-        text = [w for w in text if w not in STOPWORDS]
-        return [" ".join(n) for n in ngrams(text, 2)]
+        return [w for w in text if w not in STOPWORDS]
 
     words = pd.concat([
         grants['title'].apply(clean_string).apply(
@@ -56,7 +53,7 @@ def wordcloud(grants):
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[
-                    html.H3(className="base-card__heading", children="Commonly used phrases"),
+                    html.H3(className="base-card__heading", children="Commonly used words"),
                 ]),
                 html.P(className="align-left", children=spans),
             ]),

@@ -17,7 +17,6 @@ itsdangerous==1.1.0
 Jinja2==2.11.1
 joblib==0.14.1
 MarkupSafe==1.1.1
-nltk==3.5
 numpy==1.18.2
 pandas==1.0.3
 plotly==4.6.0
