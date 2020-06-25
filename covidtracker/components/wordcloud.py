@@ -6,8 +6,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-from nltk.util import ngrams
-
 from ..settings import THREESIXTY_COLOURS
 
 def wordcloud(data, chart_type="amount", show_grantmakers=True):
@@ -19,13 +17,12 @@ def wordcloud(data, chart_type="amount", show_grantmakers=True):
         return s.split()
 
     def bigrams(text):
-        text = [w for w in text if w not in STOPWORDS]
-        return [" ".join(n) for n in ngrams(text, 2)]
+        return [w for w in text if w not in STOPWORDS]
 
-    words = Counter()
+    words = []
     for g in data["grants"]:
-        words += Counter(bigrams(clean_string(g["title"])))
-        words += Counter(bigrams(clean_string(g["description"])))
+        words.extend(bigrams(clean_string(g["title"]) + clean_string(g["description"])))
+    words = Counter(words)
 
     if not words:
         return None
@@ -53,7 +50,7 @@ def wordcloud(data, chart_type="amount", show_grantmakers=True):
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[
-                    html.H3(className="base-card__heading", children="Commonly used phrases"),
+                    html.H3(className="base-card__heading", children="Commonly used words"),
                 ]),
                 html.P(className="align-left", children=spans),
             ]),
