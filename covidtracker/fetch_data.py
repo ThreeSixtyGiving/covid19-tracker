@@ -1,13 +1,15 @@
 import json
 import os
 import datetime
+import re
 
 import click
 import requests
 import tqdm
 import pandas as pd
+from nltk.util import ngrams
 
-from settings import DB_URL, GRANTS_DATA_FILE, GRANTS_DATA_PICKLE, FUNDER_IDS_FILE, PRIORITIES
+from settings import DB_URL, GRANTS_DATA_FILE, GRANTS_DATA_PICKLE, FUNDER_IDS_FILE, PRIORITIES, STOPWORDS, WORDS_PICKLE
 
 def canon_recipient(records):
     if not records:
@@ -42,12 +44,53 @@ def canon_recipient_types(records):
         return t[0]
     return None
 
+def get_ngrams(grants):
+
+    def clean_string(s):
+        s = s.lower()
+        s = re.sub('[\']+', '', s).strip()
+        s = re.sub('[^0-9a-zA-Z]+', ' ', s).strip()
+        return s.split()
+
+    def bigrams(text):
+        text = [w for w in text if w not in STOPWORDS]
+        return [" ".join(n) for n in ngrams(text, 2)]
+
+    def unigrams(text):
+        return [w for w in text if w not in STOPWORDS]
+
+    def to_ngram(s, f):
+        s = s.apply(f)\
+            .apply(pd.Series)\
+            .stack()\
+            .rename('ngram')\
+            .reset_index()[
+            ['id', 'ngram']
+        ]
+        s.loc[:, "func"] = f.__name__
+        return s
+
+    words = []
+    for i in ['title', 'description']:
+        for f in (bigrams, unigrams):
+            words.append(to_ngram(grants.set_index(
+                'id')[i].apply(clean_string), f))
+    words = pd.concat(words, ignore_index=True)
+    words = words.drop_duplicates(subset=['id', 'ngram'])
+    return words
+
+
 @click.command()
 @click.option('--db-url', default=DB_URL, help='Database connection string')
 @click.option('--grants-data-file', default=GRANTS_DATA_FILE, help='Location to save the grants data')
 @click.option('--grants-data-pickle', default=GRANTS_DATA_PICKLE, help='Location to save the grants data as a pickle')
 @click.option('--funder-ids-file', default=FUNDER_IDS_FILE, help='Location to save the list of funders')
-def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, grants_data_pickle=GRANTS_DATA_PICKLE, funder_ids_file=FUNDER_IDS_FILE):
+@click.option('--words-pickle', default=WORDS_PICKLE, help='Location to save ngrams as a pickle')
+def fetch_data(db_url=DB_URL, 
+               grants_data_file=GRANTS_DATA_FILE,
+               grants_data_pickle=GRANTS_DATA_PICKLE,
+               funder_ids_file=FUNDER_IDS_FILE,
+               words_pickle=WORDS_PICKLE):
     """Import data from the database to a JSON file"""
 
     print('Fetching funders')
@@ -131,6 +174,11 @@ def fetch_data(db_url=DB_URL, grants_data_file=GRANTS_DATA_FILE, grants_data_pic
     print('Saved to `{}`'.format(grants_data_file))
     grants.to_pickle(grants_data_pickle)
     print('Saved to `{}`'.format(grants_data_pickle))
+
+    print('Saving ngrams to file')
+    words = get_ngrams(grants)
+    words.to_pickle(words_pickle)
+    print('Saved to `{}`'.format(words_pickle))
 
     print('Saving funders to file')
     with open(funder_ids_file, 'w') as a:

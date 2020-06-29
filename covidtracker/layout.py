@@ -25,7 +25,7 @@ def layout(data, all_data):
                                     chart(data['grants']),
                                 ]),
                                 html.Div(id="word-cloud", className="grid__all", children=[
-                                    wordcloud(data['grants']),
+                                    wordcloud(data['words']),
                                 ]),
                                 html.Div(id="top-funders", className="grid__1", children=[
                                     top_funders(data['grants']),

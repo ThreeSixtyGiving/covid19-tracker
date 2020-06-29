@@ -12,14 +12,16 @@ requests_cache.install_cache(
     expire_after=60 * 60 * 2 # two hours
 )
 
-from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_PICKLE, FUNDER_IDS_FILE
+from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_PICKLE, FUNDER_IDS_FILE, WORDS_PICKLE
 
 def get_data():
 
     grants = pd.read_pickle(GRANTS_DATA_PICKLE)
+    words = pd.read_pickle(WORDS_PICKLE)
 
     return dict(
         grants=grants,
+        words=words,
         now=datetime.datetime.now(),
         last_updated=grants['_last_updated'].max().to_pydatetime(),
         google_analytics=GOOGLE_ANALYTICS,
@@ -83,6 +85,7 @@ def filter_data(all_data, **filters):
 
     return {
         **all_data,
+        "words": all_data['words'][all_data['words']['id'].isin(grants['id'])],
         "all_grants": all_data['grants'],
         "grants": grants,
         "filters": filters,

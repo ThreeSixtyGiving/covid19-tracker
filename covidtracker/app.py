@@ -4,6 +4,7 @@ from io import StringIO
 import csv
 import urllib.parse
 from collections import defaultdict
+import datetime
 
 import dash
 import dash_core_components as dcc
@@ -246,7 +247,7 @@ def update_output_div(filters, chart_type):
     return (
         cards(data['grants']),
         chart(data['grants'], chart_type, show_grantmakers=show_grantmakers),
-        wordcloud(data['grants']),
+        wordcloud(data['words']),
         table(data['grants']),
         [
             'Last updated ',
