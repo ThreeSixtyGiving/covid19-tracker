@@ -9,7 +9,7 @@ dokku apps:create covidtracker
 2. On client:
 
 ```sh
-git remote add dokku dokku@64.227.43.70:covidtracker
+git remote add dokku dokku@<IPADDRESS>:covidtracker
 
 ```
 
@@ -25,6 +25,5 @@ dokku storage:mount covidtracker /var/lib/dokku/data/storage/covidtracker:/app/s
 # set up settings
 dokku config:set covidtracker DB_URI=**DATABASE URL**
 dokku config:set covidtracker GOOGLE_ANALYTICS=********
-dokku config:set -no-restart covidtracker GRANTS_DATA_FILE=/app/storage/data/grants_data.json
-dokku config:set -no-restart covidtracker FUNDER_IDS_FILE=/app/storage/data/funder_ids.json
+dokku config:set -no-restart covidtracker DATA_DIR=/app/storage/data
 ```
