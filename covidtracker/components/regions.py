@@ -6,19 +6,22 @@ import dash_html_components as html
 
 from ._utils import horizontal_bar
 from ..settings import THREESIXTY_COLOURS
+from .geomap import sources
 
 def regions(grants):
-    regions = grants[grants['location.rgncd'] != ''].groupby([
-        'location.rgncd',
-        'location.rgnnm',
-    ]).size()
-    region_type = 'region'
-    if len(regions) <= 1:
-        regions = grants[grants['location.utlacd'] != ''].groupby([
-            'location.utlacd',
-            'location.utlanm',
+    area_types = [
+        ('location.ladcd', 'location.ladnm', 'Local Authority District'),
+        ('location.utlacd', 'location.utlanm', 'Local Authority'),
+        ('location.rgncd', 'location.rgnnm', 'Region'),
+    ]
+    for a in area_types:
+        regions = grants[grants[a[0]] != ''].groupby([
+            a[0],
+            a[1],
         ]).size()
-        region_type = 'Local Authority'
+        region_type = a[2]
+        if len(regions) > 1 and len(regions) < 100:
+            break
 
     if len(regions) <= 1:
         return None
@@ -31,7 +34,7 @@ def regions(grants):
         for i, count in regions.iteritems()
     ]
     subtitle = None
-    if region_type == 'Local Authority':
+    if region_type.startswith('Local Authority'):
         regions = sorted(regions, key=lambda x: -x['count'])
         if len(regions) > 12:
             regions = regions[:12]
@@ -44,6 +47,8 @@ def regions(grants):
                 html.Header(className="base-card__header", children=[
                     html.H3(className="base-card__heading",
                             children="Grants by {}".format(region_type)),
+                    html.H4(className="base-card__subheading",
+                            children=subtitle) if subtitle else None,
                 ]),
                 dcc.Graph(
                     id='regions-chart-chart',
@@ -56,6 +61,7 @@ def regions(grants):
                         'scrollZoom': False,
                     }
                 ),
+                sources(grants['location.source']),
             ]),
         ],
     )

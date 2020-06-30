@@ -22,6 +22,11 @@ FUNDER_IDS_FILE = os.getenv(
     'FUNDER_IDS_FILE',
     os.path.join(DATA_DIR, 'funder_ids.json')
 )
+SOURCES = {
+    'recipientOrganizationPostcode': 'Postcode of recipient organisation',
+    'recipientOrganizationLocation': 'Location of recipient organisation',
+    'beneficiaryLocation': 'Beneficiary location',
+}
 THREESIXTY_COLOURS = [
     # "#153634", # Grey
     "#DE6E26", # Orange
