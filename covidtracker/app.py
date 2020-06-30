@@ -30,7 +30,7 @@ data = filter_data(all_data)
 @server.route('/data/grants.json')
 def get_all_grants():
     return {
-        "grants": data['grants']
+        "grants": json.loads(data['grants'].to_json(orient='records'))
     }
 
 @server.route('/data/la.<filetype>')
