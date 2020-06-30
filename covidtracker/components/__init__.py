@@ -10,3 +10,6 @@ from .wordcloud import wordcloud
 from .top_funders import top_funders
 from .regions import regions
 from .geomap import geomap
+from .orgtype import orgtype
+from .orgsize import orgsize
+from .awardamount import awardamount

@@ -28,11 +28,14 @@ def sources(s, without_geo=None):
         ] if without_geo else [])),
     ])
 
+
 def geomap(grants):
+    print("getting geo {:%H:%M:%S}".format(datetime.datetime.now()))
     geo = grants[['location.latitude', 'location.longitude', 'location.source']].join(
         grants.apply(lambda g: """£{g[amountAwarded]:,.0f} on {g[awardDate]:%d/%m/%Y}<br>from {g[fundingOrganization.0.name]} to {g[recipientOrganization.0.name]}<br>for {g[title]}""".format(
             g=dict(**g)), axis=1).rename("tooltip")
     ).dropna(subset=['location.latitude', 'location.longitude'])
+    print("finished getting geo {:%H:%M:%S}".format(datetime.datetime.now()))
     
     if len(geo) == 0:
         return None

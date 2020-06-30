@@ -39,9 +39,11 @@ def canon_recipient_income(records):
     return canon_recipient(records).get('latestIncome')
 
 def canon_recipient_types(records):
-    t = canon_recipient(records).get('organisationType')
-    if t:
-        return t[0]
+    types = canon_recipient(records).get('organisationType')
+    if types:
+        for t in types:
+            if t != 'Registered Company':
+                return t
     return None
 
 def get_ngrams(grants):

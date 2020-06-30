@@ -1,8 +1,7 @@
 import dash_html_components as html
 import dash_core_components as dcc
 from .components import (cards, chart, table, header, footer, 
-    subscribe, filters, page_header, wordcloud, top_funders, 
-    regions, geomap)
+                         subscribe, filters, page_header)
 
 def layout(data, all_data):
     return html.Div(
@@ -24,15 +23,12 @@ def layout(data, all_data):
                                 html.Div(id="data-chart", className="grid__all", children=[
                                     chart(data['grants']),
                                 ]),
-                                html.Div(id="word-cloud", className="grid__all", children=[
-                                    wordcloud(data['words']),
-                                ]),
-                                html.Div(id="top-funders", className="grid__1", children=[
-                                    top_funders(data['grants']),
-                                ]),
-                                html.Div(id="regions-chart", className="grid__1", children=[
-                                    regions(data['grants']),
-                                ]),
+                                html.Div(id="word-cloud", className="grid__all", children=[]),
+                                html.Div(id="top-funders", className="grid__1", children=[]),
+                                html.Div(id="award-amount", className="grid__1", children=[]),
+                                html.Div(id="regions-chart", className="grid__1", children=[]),
+                                html.Div(id="organisation-type", className="grid__1", children=[]),
+                                html.Div(id="organisation-size", className="grid__1", children=[]),
                             ]),
                             html.Div(className="spacer-3"),
                             html.Div(className="grid grid--two-columns", children=[
@@ -76,9 +72,7 @@ def layout(data, all_data):
                             ]),
                         ]),
                         dcc.Tab(label='Map', className='', selected_className='', children=[
-                            html.Div(id="geomap-container", children=[
-                                geomap(data['grants']),
-                            ]),
+                            html.Div(id="geomap-container", children=[]),
                         ]),
                         dcc.Tab(label='Data', className='', selected_className='', children=[
                             html.Div(className="grid grid--two-columns", children=[
