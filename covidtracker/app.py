@@ -35,66 +35,55 @@ def get_all_grants():
 
 @server.route('/data/la.<filetype>')
 def get_la_breakdown(filetype="json"):
-    las = defaultdict(lambda: {
-        "name": "unknown",
-        "grant_count": 0,
-        "grant_amount_gbp": 0,
-        "grant_count_excluding_grantmakers": 0,
-        "grant_amount_gbp_excluding_grantmakers": 0,
-        "funders": set(),
-        "recipients": set(),
+
+    las = data['grants'].groupby([
+        'location.ladcd', 'location.ladnm'
+    ]).aggregate({
+        "id": "count",
+        "amountAwarded": "sum",
+        "_recipient_id": "nunique",
+        "fundingOrganization.0.id": "nunique",
+    }).rename(columns={
+        "id": "grant_count",
+        "amountAwarded": "grant_amount_gbp",
+        "_recipient_id": "recipients",
+        "fundingOrganization.0.id": "funders",
+    }).join(
+        data['grants'][~data["grants"]['_recipient_is_funder']].groupby([
+            'location.ladcd', 'location.ladnm'
+        ]).aggregate({
+            "id": "count",
+            "amountAwarded": "sum"
+        }).rename(columns={
+            "id": "grant_count_excluding_grantmakers",
+            "amountAwarded": "grant_amount_gbp_excluding_grantmakers"
+        })
+    ).reset_index().rename(columns={
+        'location.ladcd': 'lacd',
+        'location.ladnm': 'lanm',
     })
-    for g in data['grants']:
-        if g.get("_geo"):
-            la = g["_geo"][0]['ladcd']
-            la_name = g["_geo"][0]['ladnm']
-        else:
-            la = "unknown"
-            la_name = "no area available"
-        las[la]["name"] = la_name
-        las[la]["funders"].add(g['fundingOrganization'][0]["id"])
-        las[la]["recipients"].add(g['_recipient_ids'][0])
-        las[la]["grant_count"] += 1
-        las[la]["grant_amount_gbp"] += g['amountAwarded']
-        if not g["_recipient_is_grantmaker"]:
-            las[la]["grant_count_excluding_grantmakers"] += 1
-            las[la]["grant_amount_gbp_excluding_grantmakers"] += g['amountAwarded']
-    for k, v in las.items():
-        v['funders'] = list(v['funders'])
-        v['recipients'] = len(v['recipients'])
 
     if filetype == 'csv':
+        columns = [
+            'lacd',
+            'lanm',
+            'funders',
+            'recipients',
+            'grant_count',
+            'grant_amount_gbp',
+            'grant_count_excluding_grantmakers',
+            'grant_amount_gbp_excluding_grantmakers',
+        ]
         outputStream = StringIO()
-        writer = csv.DictWriter(outputStream, fieldnames=[
-            "lacd",
-            "lanm",
-            "funders",
-            "recipients",
-            "grant_count",
-            "grant_amount_gbp",
-            "grant_count_excluding_grantmakers",
-            "grant_amount_gbp_excluding_grantmakers",
-        ])
-        writer.writeheader()
-        for lacd in sorted(las.keys()):
-            la = las[lacd]
-            writer.writerow({
-                "lacd": lacd,
-                "lanm": la['name'],
-                "funders": len(la['funders']),
-                "recipients": la["recipients"],
-                "grant_count": la["grant_count"],
-                "grant_amount_gbp": la["grant_amount_gbp"],
-                "grant_count_excluding_grantmakers": la["grant_count_excluding_grantmakers"],
-                "grant_amount_gbp_excluding_grantmakers": la["grant_amount_gbp_excluding_grantmakers"],
-            })
-
+        las[columns].to_csv(outputStream, index=False)
         output = make_response(outputStream.getvalue())
         output.headers["Content-Disposition"] = "attachment; filename=la.csv"
         output.headers["Content-type"] = "text/csv"
         return output
 
-    return las
+    output = make_response(las.to_json(orient='records'))
+    output.headers['Content-type'] = "application/json"
+    return output
 
 @server.route('/data/grants.csv')
 def get_all_grants_csv():
