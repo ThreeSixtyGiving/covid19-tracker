@@ -1,7 +1,7 @@
 import dash_html_components as html
 import dash_core_components as dcc
 from .components import (cards, chart, table, header, footer, 
-                         subscribe, filters, page_header)
+                         subscribe, filters, page_header, sankey)
 
 def layout(data, all_data):
     return html.Div(
@@ -12,12 +12,12 @@ def layout(data, all_data):
             dcc.Store(id='filters'),
             header(),
             html.Main(className="layout__content", children=[
-                html.Div(className="layout__content-inner", children=[
+                html.Div(className="layout__content-inner wrapper", children=[
                     html.Div(id="page-header", className="grid grid--one-column", children=page_header(data)),
                     html.Div(id="data-cards", children=cards(data['grants'])),
                     html.Div(className="spacer-5"),
                     html.Div(className="", children=filters(data['all_grants'])),
-                    dcc.Tabs(parent_className='wrapper', className='filters', children=[
+                    dcc.Tabs(parent_className='', className='filters', children=[
                         dcc.Tab(label='Dashboard', className='', selected_className='', children=[
                             html.Div(className="grid grid--two-columns", children=[
                                 html.Div(id="data-chart", className="grid__all", children=[

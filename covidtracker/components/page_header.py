@@ -3,6 +3,8 @@ import os
 import dash_html_components as html
 import dash_core_components as dcc
 
+from .sankey import sankey
+
 def page_header(data):
     grants = data['grants']
 
@@ -24,6 +26,8 @@ def page_header(data):
                 html.H3(className="", children='COVID19 response grants'),
             ]),
             html.P(className="header-group__excerpt", children=dcc.Markdown(subheading, dangerously_allow_html=True)),
+            sankey(data['grants'], data['all_grants'],
+                   funder_id=funder_id, funder_name=funder_name),
         ]
 
     if len(data['filters'].get("area", [])) == 1:
