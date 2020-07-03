@@ -46,8 +46,7 @@ def filter_data(all_data, **filters):
         # funder filter
         if filters.get("funder"):
             grants = grants[
-                grants['fundingOrganization.0.id'].isin(filters['funder']) |
-                grants['recipientOrganization.0.id'].isin(filters['funder'])
+                grants['fundingOrganization.0.id'].isin(filters['funder'])
             ]
 
         # area filter
