@@ -25,7 +25,8 @@ def page_header(data):
                 html.H2(className="header-group__title", children=[funder_name]),
                 html.H3(className="", children='COVID19 response grants'),
             ]),
-            html.P(className="header-group__excerpt", children=dcc.Markdown(subheading, dangerously_allow_html=True)),
+            html.P(className="header-group__excerpt", children=dcc.Markdown(subheading, dangerously_allow_html=True))
+            if subheading else None,
             sankey(data['grants'], data['all_grants'],
                    funder_id=funder_id, funder_name=funder_name),
         ]
