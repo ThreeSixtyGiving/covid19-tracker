@@ -135,7 +135,8 @@ def fetch_data(db_url=DB_URL,
             g."source_data"->'publisher'->>'name' as "publisher.name",
             g."source_data"->>'license' as "license",
             g."source_data"->>'license_name' as "license_name",
-            g.additional_data->'recipientOrgInfos' as "recipientOrgInfos"
+            g.additional_data->'recipientOrgInfos' as "recipientOrgInfos",
+            g.data as "grant"
         from view_latest_grant g
         where (
                 g.data->>'title' ~* 'covid|coronavirus|pandemic|cv-?19' or
@@ -159,18 +160,60 @@ def fetch_data(db_url=DB_URL,
         canon_recipient_types)
     grants.loc[:, "_recipient_income"] = grants['recipientOrgInfos'].apply(
         canon_recipient_income)
-    grants.loc[:, "_recipient_is_funder"] = grants['recipientOrganization.0.id'].isin(
+    grants.loc[:, "_recipient_is_grantmaker"] = grants['recipientOrganization.0.id'].isin(
         funders)
     grants.loc[:, "_last_updated"] = datetime.datetime.now()
     print('Found {:,.0f} grants'.format(len(grants)))
 
-    print('Saving grants to file')
+    # extract the full grant record and save to JSON
+    print('Saving grants to json file')
+
+    def get_grant(g):
+
+        recipient_ids = set()
+        recipient_ids.add(g['recipientOrganization.0.id'])
+        if g['recipientOrgInfos']:
+            for o in g['recipientOrgInfos']:
+                for i in o['orgIDs']:
+                    recipient_ids.add(i)
+                recipient_ids.add(o['id'])
+
+        r = {
+            '_recipient': g['recipientOrgInfos'] if g['recipientOrgInfos'] else [],
+            '_recipient_ids': list(recipient_ids),
+            '_recipient_is_grantmaker': g['_recipient_is_grantmaker'],
+            **g.grant
+        }
+        if g['location.source']:
+            r['_geo'] = [{
+                'ladcd': g["location.ladcd"],
+                'ladnm': g["location.ladnm"],
+                'utlacd': g["location.utlacd"],
+                'utlanm': g["location.utlanm"],
+                'rgncd': g["location.rgncd"],
+                'rgnnm': g["location.rgnnm"],
+                'ctrycd': g["location.ctrycd"],
+                'ctrynm': g["location.ctrynm"],
+                'latitude': g["location.latitude"],
+                'longitude': g["location.longitude"],
+                'source': g["location.source"],
+            }]
+        return r
+
     with open(grants_data_file, 'w') as a:
         json.dump({
-            "grants": json.loads(grants.drop('recipientOrgInfos', axis=1).to_json(orient='records')),
+            "grants": [get_grant(g) for i, g in grants.iterrows()],
             "last_updated": datetime.datetime.now().isoformat()
         }, a, indent=4)
     print('Saved to `{}`'.format(grants_data_file))
+
+    # remove big fields
+    grants = grants.drop(columns=[
+        "grant",
+        "recipientOrgInfos",
+    ])
+
+    print('Saving grants to pickle')
     grants.to_pickle(grants_data_pickle)
     print('Saved to `{}`'.format(grants_data_pickle))
 

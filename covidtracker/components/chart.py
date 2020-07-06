@@ -11,14 +11,14 @@ def chart(grants, chart_type="amount", show_grantmakers=True, cumulative=True):
     if chart_type == 'amount':
         byDate = pd.crosstab(
             grants['awardDate'],
-            grants['_recipient_is_funder'],
+            grants['_recipient_is_grantmaker'],
             aggfunc='sum',
             values=grants['amountAwarded']
         ).fillna(0).reindex(idx, fill_value=0)
     else:
         byDate = pd.crosstab(
             grants['awardDate'],
-            grants['_recipient_is_funder'],
+            grants['_recipient_is_grantmaker'],
             aggfunc='count',
             values=grants['id']
         ).fillna(0).reindex(idx, fill_value=0)

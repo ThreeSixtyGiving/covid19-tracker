@@ -33,7 +33,7 @@ def sankey(grants, all_grants, funder_id, funder_name):
     # count grants from this funder where the recipient is not a funder
     recipient_isnt_funder = all_grants.loc[
         (all_grants['fundingOrganization.0.id'] == funder_id) &
-        ~all_grants['_recipient_is_funder'],
+        ~all_grants['_recipient_is_grantmaker'],
         :
     ].sum()['amountAwarded']
     links.append(
@@ -47,7 +47,7 @@ def sankey(grants, all_grants, funder_id, funder_name):
     # find grants from this funder where the recipient is a funder
     recipient_is_funder = all_grants[
         (all_grants['fundingOrganization.0.id'] == funder_id) &
-        all_grants['_recipient_is_funder']
+        all_grants['_recipient_is_grantmaker']
     ].groupby('recipientOrganization.0.name').sum()['amountAwarded']
     nodes.extend(recipient_is_funder.index.tolist())
     for f, count in recipient_is_funder.iteritems():

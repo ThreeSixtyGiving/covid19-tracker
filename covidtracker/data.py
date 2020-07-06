@@ -79,7 +79,7 @@ def filter_data(all_data, **filters):
         # exclude grants to grantmakers filter
         if 'exclude' in filters.get("doublecount", []):
             grants = grants[
-                ~grants['_recipient_is_funder']
+                ~grants['_recipient_is_grantmaker']
             ]
 
     return {

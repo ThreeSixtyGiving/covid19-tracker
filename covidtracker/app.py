@@ -18,6 +18,7 @@ from .components import (cards, chart, table, page_header,
                          wordcloud, top_funders, regions,
                          geomap, orgsize, orgtype, awardamount, 
                          datasources)
+from .settings import GRANTS_DATA_FILE
 
 app = dash.Dash(__name__)
 server = app.server
@@ -30,9 +31,8 @@ data = filter_data(all_data)
 
 @server.route('/data/grants.json')
 def get_all_grants():
-    return {
-        "grants": json.loads(data['grants'].to_json(orient='records'))
-    }
+    with open(GRANTS_DATA_FILE, 'r') as a:
+        return json.load(a)
 
 @server.route('/data/la.<filetype>')
 def get_la_breakdown(filetype="json"):
@@ -50,7 +50,7 @@ def get_la_breakdown(filetype="json"):
         "_recipient_id": "recipients",
         "fundingOrganization.0.id": "funders",
     }).join(
-        data['grants'][~data["grants"]['_recipient_is_funder']].groupby([
+        data['grants'][~data["grants"]['_recipient_is_grantmaker']].groupby([
             'location.ladcd', 'location.ladnm'
         ]).aggregate({
             "id": "count",
@@ -89,55 +89,36 @@ def get_la_breakdown(filetype="json"):
 @server.route('/data/grants.csv')
 def get_all_grants_csv():
 
-    def trim_date(value):
-        if not value:
-            return value
-        return value[0:10]
-
     outputStream = StringIO()
-    writer = csv.DictWriter(outputStream, fieldnames=[
-        "Identifier",                      # id
-        "Title",                           # title
-        "Description",                     # description
-        "Currency",                        # currency
-        "Amount Awarded",                  # amountAwarded
-        "Award Date",                      # awardDate
-        "Planned Dates:Start Date",        # plannedDates.0.endDate
-        "Planned Dates:End Date",          # plannedDates.0.startDate
-        "Planned Dates:Duration (months)", # plannedDates.0.duration
-        "Recipient Org:Identifier",        # recipientOrganization.0.id
-        "Recipient Org:Name",              # recipientOrganization.0.name
-        "Recipient Org:Charity Number",    # recipientOrganization.0.charityNumber
-        "Recipient Org:Company Number",    # recipientOrganization.0.companyNumber
-        "Recipient Org:Postal Code",       # recipientOrganization.0.postalCode
-        "Funding Org:Identifier",          # fundingOrganization.0.id
-        "Funding Org:Name",                # fundingOrganization.0.name
-        "Grant Programme:Title",           # grantProgramme.0.title
-        "Recipient Is Grantmaker",
-    ])
-    writer.writeheader()
-    for g in data["grants"]:
-        writer.writerow({
-            "Identifier":                       g.get('id'),                      # id
-            "Title":                            g.get("title"),                           # title
-            "Description":                      g.get("description"),                     # description
-            "Currency":                         g.get("currency"),                        # currency
-            "Amount Awarded":                   g.get("amountAwarded"),                  # amountAwarded
-            "Award Date":                       trim_date(g.get("awardDate")),                      # awardDate
-            "Planned Dates:Start Date":         trim_date(g.get("plannedDates", [{}])[0].get("startDate")),        # plannedDates.0.startDate
-            "Planned Dates:End Date":           trim_date(g.get("plannedDates", [{}])[0].get("endDate")),          # plannedDates.0.endDate
-            "Planned Dates:Duration (months)":  g.get("plannedDates", [{}])[0].get("duration"), # plannedDates.0.duration
-            "Recipient Org:Identifier":         g.get("recipientOrganization", [{}])[0].get("id"), # recipientOrganization.0.id
-            "Recipient Org:Name":               g.get("recipientOrganization", [{}])[0].get("name"), # recipientOrganization.0.name
-            "Recipient Org:Charity Number":     g.get("recipientOrganization", [{}])[0].get("charityNumber"), # recipientOrganization.0.charityNumber
-            "Recipient Org:Company Number":     g.get("recipientOrganization", [{}])[0].get("companyNumber"), # recipientOrganization.0.companyNumber
-            "Recipient Org:Postal Code":        g.get("recipientOrganization", [{}])[0].get("postalCode"), # recipientOrganization.0.postalCode
-            "Funding Org:Identifier":           g.get("fundingOrganization", [{}])[0].get("id"), # fundingOrganization.0.id
-            "Funding Org:Name":                 g.get("fundingOrganization", [{}])[0].get("name"), # fundingOrganization.0.name
-            "Grant Programme:Title":            g.get("grantProgramme", [{}])[0].get("title"), # grantProgramme.0.title
-            "Recipient Is Grantmaker":          g.get("_recipient_is_grantmaker", False),
-        })
-
+    column_renames = {
+        "id": "Identifier",
+        "title": "Title",
+        "description": "Description",
+        "currency": "Currency",
+        "amountAwarded": "Amount Awarded",
+        "awardDate": "Award Date",
+        "recipientOrganization.0.id": "Recipient Org:Identifier",
+        "recipientOrganization.0.name": "Recipient Org:Name",
+        "fundingOrganization.0.id": "Recipient Org:Identifier",
+        "fundingOrganization.0.name": "Recipient Org:Name",
+        "grantProgramme.0.title": "Grant Programme:Title",
+        "location.ladcd": "Location:ladcd",
+        "location.ladnm": "Location:ladnm",
+        "location.utlacd": "Location:utlacd",
+        "location.utlanm": "Location:utlanm",
+        "location.rgncd": "Location:rgncd",
+        "location.rgnnm": "Location:rgnnm",
+        "location.ctrycd": "Location:ctrycd",
+        "location.ctrynm": "Location:ctrynm",
+        "location.latitude": "Location:latitude",
+        "location.longitude": "Location:longitude",
+        "location.source": "Location:source",
+        "publisher.prefix": "Publisher:Prefix",
+        "publisher.name": "Publisher:Name",
+        "license": "Licence",
+        "license_name": "Licence Name",
+    }
+    data['grants'].rename(columns=column_renames).to_csv(outputStream, index=False)
     output = make_response(outputStream.getvalue())
     output.headers["Content-Disposition"] = "attachment; filename=grants.csv"
     output.headers["Content-type"] = "text/csv"
@@ -238,7 +219,7 @@ def update_output_div(filters, chart_type):
     all_data = get_data()
     data = filter_data(all_data, **filters)
 
-    show_grantmakers = data['grants']['_recipient_is_funder'].sum() > 0
+    show_grantmakers = data['grants']['_recipient_is_grantmaker'].sum() > 0
 
     return (
         cards(data['grants']),

@@ -109,7 +109,7 @@ def recipient_contents(g, all_funders):
         return [g["recipientOrganization"][0]["name"]]
 
 def recipient_contents_markdown(g):
-    if g["_recipient_is_funder"]:
+    if g["_recipient_is_grantmaker"]:
         return '''
 **{}**
 
