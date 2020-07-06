@@ -26,7 +26,7 @@ FUNDER_IDS_FILE = os.getenv(
 SOURCES = {
     'recipientOrganizationPostcode': 'Postcode of recipient organisation',
     'recipientOrganizationLocation': 'Location of recipient organisation',
-    'beneficiaryLocation': 'Beneficiary location',
+    'beneficiaryLocation': 'Location of grant beneficiaries',
 }
 THREESIXTY_COLOURS = [
     # "#153634", # Grey
