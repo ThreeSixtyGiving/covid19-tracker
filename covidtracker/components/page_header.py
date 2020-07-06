@@ -3,15 +3,16 @@ import os
 import dash_html_components as html
 import dash_core_components as dcc
 
+from .sankey import sankey
+
 def page_header(data):
+    grants = data['grants']
 
     if len(data['filters'].get("funder", [])) == 1:
 
         funder_id = data['filters']["funder"][0]
-        funder_name = None
-        for f in data["funders"]:
-            if f[0] == funder_id:
-                funder_name = f[1]
+        funder_name = grants.loc[grants['fundingOrganization.0.id']
+                                 == funder_id, 'fundingOrganization.0.name'].iloc[-1]
 
         file_to_check = os.path.join("commentary", f"{funder_id}.md")
         subheading = ""
@@ -24,19 +25,24 @@ def page_header(data):
                 html.H2(className="header-group__title", children=[funder_name]),
                 html.H3(className="", children='COVID19 response grants'),
             ]),
-            html.P(className="header-group__excerpt", children=dcc.Markdown(subheading, dangerously_allow_html=True)),
+            html.P(className="header-group__excerpt", children=dcc.Markdown(subheading, dangerously_allow_html=True))
+            if subheading else None,
+            sankey(data['grants'], data['all_grants'],
+                   funder_id=funder_id, funder_name=funder_name),
         ]
 
     if len(data['filters'].get("area", [])) == 1:
 
         area_id = data['filters']["area"][0]
-        area_name = None
-        for f in data["counties"]:
-            if f[0] == area_id:
-                area_name = f[1]
+        area_name = grants.loc[grants['location.utlacd'] ==
+                               area_id, 'location.utlanm'].iloc[-1]
 
-        funder_number = "One funder" if len(data["funders"]) == 1 else "{:,.0f} funders".format(len(data["funders"]))
+        funder_count = len(grants['fundingOrganization.0.id'].unique())
+        funder_number = "One funder" if funder_count == 1 else "{:,.0f} funders".format(
+            funder_count)
 
+        grant_count = len(grants)
+        with_geo = grants['location.source'].notnull().sum()
 
         return [
             html.Hgroup(className="header-group", children=[
@@ -48,7 +54,7 @@ def page_header(data):
                    children=dcc.Markdown('''
 Based on grants that have included location information. 
 {:,.0f} grants out of a total {:,.0f} include location information.
-'''.format(data["has_geo"], data["grant_count"]))),
+'''.format(with_geo, grant_count))),
         ]
 
     return None

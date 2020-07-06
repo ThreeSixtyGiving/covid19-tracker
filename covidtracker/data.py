@@ -5,58 +5,26 @@ from collections import Counter
 
 import requests
 import requests_cache
+import pandas as pd
 
 requests_cache.install_cache(
     'fetch_cache',
     expire_after=60 * 60 * 2 # two hours
 )
 
-from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, FUNDER_IDS_FILE
+from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_PICKLE, FUNDER_IDS_FILE, WORDS_PICKLE
 
 def get_data():
 
-    with open(GRANTS_DATA_FILE) as a:
-        grantsdata = json.load(a)
-
-    with open(FUNDER_IDS_FILE) as a:
-        fundersdata = json.load(a)
-
-    grants = grantsdata['grants']
-    if grantsdata.get("last_updated"):
-        last_updated = datetime.datetime.fromisoformat(grantsdata["last_updated"])
-    else:
-        last_updated = datetime.datetime.now()
-    all_funders = fundersdata['funders']
-
-    funders = Counter()
-    recipients = set()
-    counties = set()
-    has_geo = 0
-    for g in grants:
-        funders[(g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name'])] += 1
-        recipients.add(g['recipientOrganization'][0]['id'])
-        this_has_geo = False
-        for geo in g.get('geo', {}).values():
-            if geo.get('UTLACD') and geo.get('UTLANM'):
-                counties.add((
-                    geo.get('UTLACD'),
-                    geo.get('UTLANM')
-                ))
-                this_has_geo = True
-        if this_has_geo:
-            has_geo += 1
+    grants = pd.read_pickle(GRANTS_DATA_PICKLE)
+    words = pd.read_pickle(WORDS_PICKLE)
 
     return dict(
         grants=grants,
-        funders=funders,
-        recipients=recipients,
-        counties=counties,
-        all_funders=all_funders,
+        words=words,
         now=datetime.datetime.now(),
-        last_updated=last_updated,
+        last_updated=grants['_last_updated'].max().to_pydatetime(),
         google_analytics=GOOGLE_ANALYTICS,
-        has_geo=has_geo,
-        grant_count=len(grants),
     )
 
 def normalise_string(s):
@@ -75,106 +43,49 @@ def filter_data(all_data, **filters):
             use_filter = True
 
     if use_filter:
-        grants = []
-        for g in all_data["grants"]:
-            include_grant = []
+        # funder filter
+        if filters.get("funder"):
+            grants = grants[
+                grants['fundingOrganization.0.id'].isin(filters['funder'])
+            ]
 
-            # funder filter
-            if filters.get("funder"):
-                include_grant.append(
-                    g['fundingOrganization'][0]['id'] in filters['funder'] or \
-                    g['recipientOrganization'][0]['id'] in filters['funder']
-                )
+        # area filter
+        if filters.get("area"):
+            grants = grants[
+                grants['location.utlacd'].isin(filters['area'])
+            ]
 
-            # area filter
-            if filters.get("area"):
-                utlas = [geo['UTLACD'] for geo in g.get('geo', {}).values() if geo.get(
-                    'UTLACD') and geo.get('UTLACD') in filters['area']]
-                include_grant.append(len(utlas) > 0)
+        # search filter
+        if filters.get("search"):
+            search_in = grants[[
+                "title",
+                "description",
+                'fundingOrganization.0.name',
+                'recipientOrganization.0.name',
+                '_recipient_name'
+            ]].fillna('').apply(" ".join, axis=1).apply(normalise_string)
+            search_term = normalise_string(filters.get("search"))
+            grants = grants[
+                search_in.str.contains(search_term)
+            ]
 
-            # search filter
-            if filters.get("search"):
-                search_in = normalise_string(
-                    " ".join([
-                        g['fundingOrganization'][0]['name'],
-                        g['recipientOrganization'][0]['name'],
-                        g['title'],
-                        g['description'],
-                    ])
-                )
-                search_term = normalise_string(filters.get("search"))
-                include_grant.append(search_term in search_in)
+        # recipients filter
+        if filters.get("recipient", []):
+            grants = grants[
+                grants['_recipient_id'].isin(filters['recipient']) |
+                grants['recipientOrganization.0.id'].isin(filters['recipient'])
+            ]
 
-            # exclude grants to grantmakers filter
-            if 'exclude' in filters.get("doublecount", []):
-                include_grant.append(
-                    g['recipientOrganization'][0]["id"] not in all_data["all_funders"]
-                ) 
-            
-            if all(include_grant):
-                grants.append(g)
-    
-    funders = set()
-    recipients = set()
-
-    amountAwarded = {}
-    amountByDate = {
-        '2020-03-14': {
-            'grants': 0,
-            "amount": 0,
-            'grants_grantmakers': 0,
-            'amount_grantmakers': 0,
-            'grants_other': 0,
-            'amount_other': 0,
-        },
-    }
-    grants_grantmakers = 0
-    for g in grants:
-        funders.add((g['fundingOrganization'][0]['id'], g['fundingOrganization'][0]['name']))
-        recipients.add(g['recipientOrganization'][0]['id'])
-
-        awardDate = g['awardDate'][0:10]
-        if g['currency'] not in amountAwarded:
-            amountAwarded[g['currency']] = 0
-        if awardDate not in amountByDate:
-            amountByDate[awardDate] = {
-                'grants': 0,
-                "amount": 0,
-                'grants_grantmakers': 0,
-                'amount_grantmakers': 0,
-                'grants_other': 0,
-                'amount_other': 0,
-            }
-        amountAwarded[g['currency']] += g['amountAwarded']
-        if g['currency'] == 'GBP':
-            amountByDate[awardDate]['grants'] += 1
-            amountByDate[awardDate]['amount'] += g['amountAwarded']
-            if g['recipientOrganization'][0]['id'] in all_data['all_funders']:
-                amountByDate[awardDate]['grants_grantmakers'] += 1
-                amountByDate[awardDate]['amount_grantmakers'] += g['amountAwarded']
-                grants_grantmakers += 1
-            else:
-                amountByDate[awardDate]['grants_other'] += 1
-                amountByDate[awardDate]['amount_other'] += g['amountAwarded']
-    
-    todays_date = datetime.datetime.now().date().isoformat()
-    if todays_date not in amountByDate:
-        amountByDate[todays_date] = {
-                'grants': 0,
-                "amount": 0,
-                'grants_grantmakers': 0,
-                'amount_grantmakers': 0,
-                'grants_other': 0,
-                'amount_other': 0,
-            }
+        # exclude grants to grantmakers filter
+        if 'exclude' in filters.get("doublecount", []):
+            grants = grants[
+                ~grants['_recipient_is_funder']
+            ]
 
     return {
         **all_data,
-        'funders': list(funders),
-        'recipients': list(recipients),
-        "amountAwarded": amountAwarded,
-        "amountByDate": amountByDate,
+        "words": all_data['words'][all_data['words']['id'].isin(grants['id'])],
+        "all_grants": all_data['grants'],
         "grants": grants,
-        "grants_grantmakers": grants_grantmakers,
         "filters": filters,
     }
