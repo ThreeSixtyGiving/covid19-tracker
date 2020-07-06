@@ -1,7 +1,8 @@
 import dash_html_components as html
 import dash_core_components as dcc
 from .components import (cards, chart, table, header, footer, 
-                         subscribe, filters, page_header, sankey)
+                         subscribe, filters, page_header, sankey,
+                         datasources)
 
 def layout(data, all_data):
     return html.Div(
@@ -81,7 +82,7 @@ def layout(data, all_data):
                                         html.H3(className='h3', children="Grants"),
                                         html.Div(className='table table--zebra', id="data-table", children=[
                                             table(data['grants'])
-                                        ])
+                                        ]),
                                     ])
                                 ]),
                                 html.Div(className="grid__all", children=[
@@ -106,6 +107,11 @@ def layout(data, all_data):
                                             ]),
                                         ),
                                     ),
+                                    html.H3(className='h3',
+                                            children="Data Sources"),
+                                    html.Div(className='table table--zebra', id="data-sources", children=[
+                                        datasources(data['grants'])
+                                    ])
                                 ]),
                             ]),
                         ]),

@@ -120,26 +120,23 @@ def fetch_data(db_url=DB_URL,
             g.data->'fundingOrganization'->0->>'id' as "fundingOrganization.0.id",
             g.data->'fundingOrganization'->0->>'name' as "fundingOrganization.0.name",
             g.data->'grantProgramme'->0->>'title' as "grantProgramme.0.title",
-            db_grant.additional_data->'locationLookup'->0->>'ladcd' as "location.ladcd",
-            db_grant.additional_data->'locationLookup'->0->>'ladnm' as "location.ladnm",
-            db_grant.additional_data->'locationLookup'->0->>'utlacd' as "location.utlacd",
-            db_grant.additional_data->'locationLookup'->0->>'utlanm' as "location.utlanm",
-            db_grant.additional_data->'locationLookup'->0->>'rgncd' as "location.rgncd",
-            db_grant.additional_data->'locationLookup'->0->>'rgnnm' as "location.rgnnm",
-            db_grant.additional_data->'locationLookup'->0->>'ctrycd' as "location.ctrycd",
-            db_grant.additional_data->'locationLookup'->0->>'ctrynm' as "location.ctrynm",
-            db_grant.additional_data->'locationLookup'->0->>'latitude' as "location.latitude",
-            db_grant.additional_data->'locationLookup'->0->>'longitude' as "location.longitude",
-            db_grant.additional_data->'locationLookup'->0->>'source' as "location.source",
-            db_sourcefile."data"->'publisher'->>'prefix' as "publisher.prefix",
-            db_sourcefile."data"->'publisher'->>'name' as "publisher.name",
-            db_sourcefile."data"->>'license' as "license",
-            db_grant.additional_data->'recipientOrgInfos' as "recipientOrgInfos"
+            g.additional_data->'locationLookup'->0->>'ladcd' as "location.ladcd",
+            g.additional_data->'locationLookup'->0->>'ladnm' as "location.ladnm",
+            g.additional_data->'locationLookup'->0->>'utlacd' as "location.utlacd",
+            g.additional_data->'locationLookup'->0->>'utlanm' as "location.utlanm",
+            g.additional_data->'locationLookup'->0->>'rgncd' as "location.rgncd",
+            g.additional_data->'locationLookup'->0->>'rgnnm' as "location.rgnnm",
+            g.additional_data->'locationLookup'->0->>'ctrycd' as "location.ctrycd",
+            g.additional_data->'locationLookup'->0->>'ctrynm' as "location.ctrynm",
+            g.additional_data->'locationLookup'->0->>'latitude' as "location.latitude",
+            g.additional_data->'locationLookup'->0->>'longitude' as "location.longitude",
+            g.additional_data->'locationLookup'->0->>'source' as "location.source",
+            g."source_data"->'publisher'->>'prefix' as "publisher.prefix",
+            g."source_data"->'publisher'->>'name' as "publisher.name",
+            g."source_data"->>'license' as "license",
+            g."source_data"->>'license_name' as "license_name",
+            g.additional_data->'recipientOrgInfos' as "recipientOrgInfos"
         from view_latest_grant g
-            inner join db_grant 
-                on g.id = db_grant.id
-            inner join db_sourcefile
-                on db_grant.source_file_id = db_sourcefile.id
         where (
                 g.data->>'title' ~* 'covid|coronavirus|pandemic|cv-?19' or
                 g.data->>'description' ~* 'covid|coronavirus|pandemic|cv-?19' or

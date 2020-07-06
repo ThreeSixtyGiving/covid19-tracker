@@ -16,7 +16,8 @@ from .data import get_data, filter_data
 from .layout import layout
 from .components import (cards, chart, table, page_header, 
                          wordcloud, top_funders, regions,
-                         geomap, orgsize, orgtype, awardamount)
+                         geomap, orgsize, orgtype, awardamount, 
+                         datasources)
 
 app = dash.Dash(__name__)
 server = app.server
@@ -227,7 +228,8 @@ def update_output_div(url):
      Output(component_id='geomap-container', component_property='children'),
      Output(component_id='organisation-type', component_property='children'),
      Output(component_id='organisation-size', component_property='children'),
-     Output(component_id='award-amount', component_property='children')],
+     Output(component_id='award-amount', component_property='children'),
+     Output(component_id='data-sources', component_property='children')],
     [Input(component_id='filters', component_property='data'),
      Input(component_id='chart-type', component_property='value')]
 )
@@ -254,4 +256,5 @@ def update_output_div(filters, chart_type):
         orgtype(data['grants']),
         orgsize(data['grants']),
         awardamount(data['grants']),
+        datasources(data['grants']),
     )
