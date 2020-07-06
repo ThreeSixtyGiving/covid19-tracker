@@ -24,15 +24,6 @@ def layout(data, all_data):
                                 html.Div(id="data-chart", className="grid__all", children=[
                                     chart(data['grants']),
                                 ]),
-                                html.Div(id="word-cloud", className="grid__all", children=[]),
-                                html.Div(id="top-funders", className="grid__1", children=[]),
-                                html.Div(id="award-amount", className="grid__1", children=[]),
-                                html.Div(id="regions-chart", className="grid__1", children=[]),
-                                html.Div(id="organisation-type", className="grid__1", children=[]),
-                                html.Div(id="organisation-size", className="grid__1", children=[]),
-                            ]),
-                            html.Div(className="spacer-3"),
-                            html.Div(className="grid grid--two-columns", children=[
                                 html.Div(className="grid__1", children=[
                                     dcc.Markdown('''
                                         Grants are included if the use the terms "covid", "coronavirus", 
@@ -55,7 +46,8 @@ def layout(data, all_data):
                                     '''),
                                     dcc.Checklist(
                                         options=[
-                                            {'label': 'Don\'t include grants to other grantmakers', 'value': 'exclude'},
+                                            {'label': 'Don\'t include grants to other grantmakers',
+                                                'value': 'exclude'},
                                         ],
                                         id="doublecount-filter",
                                         value=[],
@@ -70,6 +62,12 @@ def layout(data, all_data):
                                         For more information please contact [labs@threesixtygiving.org](mailto:labs@threesixtygiving.org).
                                     '''),
                                 ]),
+                                html.Div(id="word-cloud", className="grid__all", children=[]),
+                                html.Div(id="top-funders", className="grid__1", children=[]),
+                                html.Div(id="award-amount", className="grid__1", children=[]),
+                                html.Div(id="regions-chart", className="grid__1", children=[]),
+                                html.Div(id="organisation-type", className="grid__1", children=[]),
+                                html.Div(id="organisation-size", className="grid__1", children=[]),
                             ]),
                         ]),
                         dcc.Tab(label='Map', className='', selected_className='', children=[
