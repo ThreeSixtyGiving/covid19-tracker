@@ -28,7 +28,7 @@ def top_funders(grants, show_top=10):
     } for name, count in funder_counts.head(show_top).iteritems()]
     
     return html.Div(
-        className="base-card base-card--orange",
+        className="base-card base-card--orange grid__1",
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[

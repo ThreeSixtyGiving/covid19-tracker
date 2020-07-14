@@ -30,7 +30,7 @@ def orgsize(grants):
         })
 
     return html.Div(
-        className="base-card base-card--orange",
+        className="base-card base-card--orange grid__1",
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[

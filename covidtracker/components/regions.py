@@ -41,7 +41,7 @@ def regions(grants):
             subtitle = 'Top {:,.0f} local authorities'.format(12)
     
     return html.Div(
-        className="base-card base-card--teal",
+        className="base-card base-card--teal grid__1",
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[

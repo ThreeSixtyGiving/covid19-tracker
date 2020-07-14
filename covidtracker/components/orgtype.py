@@ -25,7 +25,7 @@ def orgtype(grants):
 
     
     return html.Div(
-        className="base-card base-card--red",
+        className="base-card base-card--red grid__1",
         children=[
             html.Div(className="base-card__content", children=[
                 html.Header(className="base-card__header", children=[
