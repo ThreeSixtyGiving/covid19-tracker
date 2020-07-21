@@ -12,7 +12,7 @@ requests_cache.install_cache(
     expire_after=60 * 60 * 2 # two hours
 )
 
-from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_PICKLE, FUNDER_IDS_FILE, WORDS_PICKLE
+from .settings import GOOGLE_ANALYTICS, GRANTS_DATA_FILE, GRANTS_DATA_PICKLE, FUNDER_IDS_FILE, WORDS_PICKLE, FUNDER_GROUPS
 
 def get_data():
 
@@ -45,8 +45,17 @@ def filter_data(all_data, **filters):
     if use_filter:
         # funder filter
         if filters.get("funder"):
+
+            funder_ids = []
+
+            for f in filters['funder']:
+                if f in FUNDER_GROUPS.keys():
+                    funder_ids.extend(FUNDER_GROUPS[f]['funder_ids'].keys())
+                else:
+                    funder_ids.append(f)
+
             grants = grants[
-                grants['fundingOrganization.0.id'].isin(filters['funder'])
+                grants['fundingOrganization.0.id'].isin(funder_ids)
             ]
 
         # area filter

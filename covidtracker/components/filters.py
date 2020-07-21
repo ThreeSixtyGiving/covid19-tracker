@@ -1,6 +1,8 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
+from ..settings import FUNDER_GROUPS
+
 def dropdown_options(grants, id_field='fundingOrganization.0.id', name_field='fundingOrganization.0.name'):
     groups = grants.groupby(id_field).agg({
         name_field: 'last',
@@ -19,12 +21,20 @@ def filters(grants):
     recipients.loc[:, "_recipient_name"] = recipients["_recipient_name"].fillna(grants['recipientOrganization.0.name'])
     recipients.drop_duplicates().sort_values("_recipient_name")
 
+    funder_options = [
+        {'label': group['name'], 'value': k}
+        for k, group in FUNDER_GROUPS.items()
+    ] + dropdown_options(
+        grants,
+        id_field='fundingOrganization.0.id',
+        name_field='fundingOrganization.0.name'
+    )
 
     return [
         html.Div(className="grid grid--four-columns", children=[
             html.Div(className="grid__1", children=[
                 dcc.Dropdown(
-                    options=dropdown_options(grants),
+                    options=funder_options,
                     searchable=True,
                     multi=True,
                     id="funder-filter",

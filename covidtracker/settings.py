@@ -41,6 +41,18 @@ THREESIXTY_COLOURS = [
     "#5E1613", # Darker red
 ]
 
+FUNDER_GROUPS = {
+    'lottery': {
+        'name': "National Lottery distributors",
+        'funder_ids': {
+            'GB-GOR-PB188': 'National Lottery Community Fund',
+            'GB-COH-RC000766': 'Sport England',
+            'GB-GOR-PC390': 'National Lottery Heritage Fund',
+            'GB-CHC-1036733': 'Arts Council',
+        }
+    }
+}
+
 PRIORITIES = [
     "GB-CHC",
     "GB-SC",
