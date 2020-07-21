@@ -4,86 +4,82 @@ import dash_html_components as html
 import dash_table
 from dash_table.Format import Format, Scheme, Sign, Symbol
 
+
 def table(grants):
 
     table_data = [
         {
             "fundingOrganization": f'**{g["fundingOrganization.0.name"].strip()}**',
             "recipientOrganization": recipient_contents_markdown(g),
-            "description": f'''
+            "description": f"""
 **{g["title"].strip()}**
 
 {g["description"]}
 
 [View on GrantNav](http://grantnav.threesixtygiving.org/grant/{g['id'].replace(" ", "%20")})
-            ''',
+            """,
             "amountAwarded": g["amountAwarded"],
             "awardDate": g["awardDate"].strftime("%Y-%m-%d"),
-        } for id, g in grants[::-1].iterrows()
+        }
+        for id, g in grants[::-1].iterrows()
     ]
     table_columns = [
-        {"name": 'Funder', "id": 'fundingOrganization', 'presentation': 'markdown'},
-        {"name": 'Recipient', "id": 'recipientOrganization', 'presentation': 'markdown'},
-        {"name": 'Description', "id": 'description', 'presentation': 'markdown'},
+        {"name": "Funder", "id": "fundingOrganization", "presentation": "markdown"},
         {
-            "name": '£',
-            "id": 'amountAwarded', 
-            'type': 'numeric',
-            'format': Format(
+            "name": "Recipient",
+            "id": "recipientOrganization",
+            "presentation": "markdown",
+        },
+        {"name": "Description", "id": "description", "presentation": "markdown"},
+        {
+            "name": "£",
+            "id": "amountAwarded",
+            "type": "numeric",
+            "format": Format(
                 precision=0,
                 scheme=Scheme.fixed,
                 symbol=Symbol.yes,
-                symbol_prefix='£',
+                symbol_prefix="£",
                 group=",",
             ),
         },
-        {
-            "name": 'Date',
-            "id": 'awardDate',
-            'type': 'datetime',
-        },
+        {"name": "Date", "id": "awardDate", "type": "datetime",},
     ]
 
     return dash_table.DataTable(
-        id='grantsTable',
+        id="grantsTable",
         columns=table_columns,
         data=table_data,
         editable=False,
         row_deletable=False,
-        sort_action='native',
-        style_table={
-            'fontFamily': "'Roboto', sans-serif",
-            'fontSize': '14px',
-        },
+        sort_action="native",
+        style_table={"fontFamily": "'Roboto', sans-serif", "fontSize": "14px",},
         style_data={
-            'whiteSpace': 'normal',
-            'height': 'auto',
-            'fontFamily': "'Roboto', sans-serif",
-            'fontSize': '14px',
+            "whiteSpace": "normal",
+            "height": "auto",
+            "fontFamily": "'Roboto', sans-serif",
+            "fontSize": "14px",
         },
         style_data_conditional=[
-            {
-                'if': {'row_index': 'odd'},
-                'backgroundColor': 'rgba(21, 54, 52, 0.04)',
-            }
+            {"if": {"row_index": "odd"}, "backgroundColor": "rgba(21, 54, 52, 0.04)",}
         ],
         style_cell={
-            'whiteSpace': 'normal',
-            'height': 'auto',
-            'fontFamily': "'Roboto', sans-serif",
-            'fontSize': '14px',
-            'padding': '8px 10px',
-            'borderLeft': '0px solid black',
-            'borderRight': '0px solid black',
+            "whiteSpace": "normal",
+            "height": "auto",
+            "fontFamily": "'Roboto', sans-serif",
+            "fontSize": "14px",
+            "padding": "8px 10px",
+            "borderLeft": "0px solid black",
+            "borderRight": "0px solid black",
         },
         style_header={
-            'background-color': 'rgba(21, 54, 52, 0.1)',
-            'fontFamily': "'Roboto', sans-serif",
-            'fontSize': '14px',
-            'fontWeight': '500',
-            'textAlign': 'left',
+            "background-color": "rgba(21, 54, 52, 0.1)",
+            "fontFamily": "'Roboto', sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "textAlign": "left",
         },
-        page_size= 10,
+        page_size=10,
     )
     # return html.Table(id='grantsTable', children=[
     #     html.Thead([
@@ -98,25 +94,32 @@ def table(grants):
     #     ])
     # ])
 
+
 def recipient_contents(g, all_funders):
     if g["recipientOrganization"][0]["id"] in all_funders:
         return [
             html.Strong(g["recipientOrganization"][0]["name"]),
             html.Br(),
-            html.Small('*This organisation is also a funder so this grant may be intended for re-distribution as grants')
+            html.Small(
+                "*This organisation is also a funder so this grant may be intended for re-distribution as grants"
+            ),
         ]
     else:
         return [g["recipientOrganization"][0]["name"]]
 
+
 def recipient_contents_markdown(g):
     if g["_recipient_is_grantmaker"]:
-        return '''
+        return """
 **{}**
 
 *This organisation is also a funder so this grant may be intended for re-distribution as grants
-        '''.format(g["recipientOrganization.0.name"].strip())
+        """.format(
+            g["recipientOrganization.0.name"].strip()
+        )
     else:
         return f'**{g["recipientOrganization.0.name"].strip()}**'
+
 
 def description_contents(g):
     return [
@@ -136,47 +139,48 @@ def table_row(g, all_funders):
 
     if g["recipientOrganization"][0]["id"] in all_funders:
         recipientRow = html.Td(
-            className="", 
-            children=recipient_contents(g, all_funders), 
-            **{"data-header": "Recipient"}
+            className="",
+            children=recipient_contents(g, all_funders),
+            **{"data-header": "Recipient"},
         )
     else:
         recipientRow = html.Td(
-            className="table__lead-cell", 
-            children=g["recipientOrganization"][0]["name"], 
-            **{"data-header": "Recipient"}
+            className="table__lead-cell",
+            children=g["recipientOrganization"][0]["name"],
+            **{"data-header": "Recipient"},
         )
 
-    return html.Tr([
-        html.Td(
-            className="table__lead-cell", 
-            children=g["fundingOrganization"][0]["name"],
-            **{"data-header": "Funder"}
-        ),
-        recipientRow,
-        html.Td(
-            className="",
-            children=[
-                html.Strong(g["title"]),
-                html.Br(),
-                g["description"],
-                html.Br(),
-                html.A(
-                    href=f"http://grantnav.threesixtygiving.org/grant/{g['id']}",
-                    target="_blank",
-                    children="View on GrantNav",
-                ),
-            ], 
-            **{"data-header": "Description"}
-        ),
-        html.Td(
-            className="", 
-            children="{:,.0f}".format(g["amountAwarded"]), style={"textAlign": "right"}, 
-            **{"data-header": "Amount"}
-        ),
-        html.Td(
-            className="", 
-            children=g["awardDate"][0:10], 
-            **{"data-header": "Date"}
-        ),
-    ])
+    return html.Tr(
+        [
+            html.Td(
+                className="table__lead-cell",
+                children=g["fundingOrganization"][0]["name"],
+                **{"data-header": "Funder"},
+            ),
+            recipientRow,
+            html.Td(
+                className="",
+                children=[
+                    html.Strong(g["title"]),
+                    html.Br(),
+                    g["description"],
+                    html.Br(),
+                    html.A(
+                        href=f"http://grantnav.threesixtygiving.org/grant/{g['id']}",
+                        target="_blank",
+                        children="View on GrantNav",
+                    ),
+                ],
+                **{"data-header": "Description"},
+            ),
+            html.Td(
+                className="",
+                children="{:,.0f}".format(g["amountAwarded"]),
+                style={"textAlign": "right"},
+                **{"data-header": "Amount"},
+            ),
+            html.Td(
+                className="", children=g["awardDate"][0:10], **{"data-header": "Date"}
+            ),
+        ]
+    )
