@@ -212,9 +212,10 @@ def update_output_div(url):
      Output(component_id='award-amount', component_property='children'),
      Output(component_id='data-sources', component_property='children')],
     [Input(component_id='filters', component_property='data'),
-     Input(component_id='chart-type', component_property='value')]
+     Input(component_id='chart-type', component_property='value'),
+     Input(component_id='tabs', component_property='value')]
 )
-def update_output_div(filters, chart_type):
+def update_output_div(filters, chart_type, tab):
 
     all_data = get_data()
     data = filter_data(all_data, **filters)
@@ -224,18 +225,18 @@ def update_output_div(filters, chart_type):
     return (
         cards(data['grants']),
         chart(data['grants'], chart_type, show_grantmakers=show_grantmakers),
-        wordcloud(data['words']),
-        table(data['grants']),
+        wordcloud(data['words']) if tab == "dashboard" else None,
+        table(data['grants']) if tab == "data" else None,
         [
             'Last updated ',
             "{:%Y-%m-%d %H:%M}".format(data["last_updated"]),
         ],
         page_header(data),
-        top_funders(data['grants']),
-        regions(data['grants']),
-        geomap(data['grants']),
-        orgtype(data['grants']),
-        orgsize(data['grants']),
-        awardamount(data['grants']),
-        datasources(data['grants']),
+        top_funders(data['grants']) if tab == "dashboard" else None,
+        regions(data['grants']) if tab == "dashboard" else None,
+        geomap(data['grants']) if tab == "map" else None,
+        orgtype(data['grants']) if tab == "dashboard" else None,
+        orgsize(data['grants']) if tab == "dashboard" else None,
+        awardamount(data['grants']) if tab == "dashboard" else None,
+        datasources(data['grants']) if tab == "data" else None,
     )

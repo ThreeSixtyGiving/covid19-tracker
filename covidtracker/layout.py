@@ -18,8 +18,8 @@ def layout(data, all_data):
                     html.Div(id="data-cards", children=cards(data['grants'])),
                     html.Div(className="spacer-5"),
                     html.Div(className="", children=filters(data['all_grants'])),
-                    dcc.Tabs(parent_className='', className='filters', children=[
-                        dcc.Tab(label='Dashboard', className='', selected_className='', children=[
+                    dcc.Tabs(parent_className='', id="tabs", value='dashboard', className='filters', children=[
+                        dcc.Tab(label='Dashboard', value='dashboard', className='', selected_className='', children=[
                             html.Div(className="grid grid--two-columns", children=[
                                 html.Div(id="data-chart", className="grid__all", children=[
                                     chart(data['grants']),
@@ -72,10 +72,10 @@ def layout(data, all_data):
                                          className="grid__all", children=[]),
                             ]),
                         ]),
-                        dcc.Tab(label='Map', className='', selected_className='', children=[
+                        dcc.Tab(label='Map', value='map', className='', selected_className='', children=[
                             html.Div(id="geomap-container", children=[]),
                         ]),
-                        dcc.Tab(label='Data', className='', selected_className='', children=[
+                        dcc.Tab(label='Data', value='data', className='', selected_className='', children=[
                             html.Div(className="grid grid--two-columns", children=[
                                 html.Div(className="grid__all", children=[
                                     html.Div([
