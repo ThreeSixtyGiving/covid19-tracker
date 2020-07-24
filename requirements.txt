@@ -13,6 +13,7 @@ dash-renderer==1.5.0
 dash-table==4.8.1
 flake8==3.8.3
 Flask==1.1.2
+Flask-Caching==1.9.0
 Flask-Compress==1.4.0
 future==0.18.2
 gunicorn==20.0.4
@@ -34,6 +35,7 @@ pyflakes==2.2.0
 python-dateutil==2.8.1
 python-dotenv==0.12.0
 pytz==2019.3
+redis==3.5.3
 regex==2020.4.4
 requests==2.23.0
 requests-cache==0.5.2

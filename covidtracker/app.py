@@ -11,6 +11,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 from flask import make_response
+from flask_caching import Cache
 
 from .components import (
     awardamount,
@@ -28,10 +29,11 @@ from .components import (
 )
 from .data import filter_data, get_data
 from .layout import layout
-from .settings import GRANTS_DATA_FILE
+from .settings import GRANTS_DATA_FILE, CACHE_SETTINGS
 
 app = dash.Dash(__name__)
 server = app.server
+cache = Cache(server, config=CACHE_SETTINGS)
 
 with open(
     os.path.join(os.path.dirname(__file__), "templates/dash.html"), encoding="utf8"
@@ -250,6 +252,7 @@ def update_output_div(url):
         Input(component_id="tabs", component_property="value"),
     ],
 )
+@cache.memoize()
 def update_output_div(filters, chart_type, tab):
 
     all_data = get_data()
