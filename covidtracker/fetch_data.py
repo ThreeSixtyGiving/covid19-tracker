@@ -219,7 +219,7 @@ def fetch_data(
 
         r = {
             "_recipient": g["recipientOrgInfos"] if g["recipientOrgInfos"] else [],
-            "_recipient_ids": list(recipient_ids),
+            "_recipient_ids": sorted(list(recipient_ids)),
             "_recipient_is_grantmaker": g["_recipient_is_grantmaker"],
             **g.grant,
         }
