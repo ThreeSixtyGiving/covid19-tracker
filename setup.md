@@ -26,4 +26,8 @@ dokku storage:mount covidtracker /var/lib/dokku/data/storage/covidtracker:/app/s
 dokku config:set covidtracker DB_URI=**DATABASE URL**
 dokku config:set covidtracker GOOGLE_ANALYTICS=********
 dokku config:set -no-restart covidtracker DATA_DIR=/app/storage/data
+
+# set up redis
+dokku redis:create covidtrackercache
+dokku redis:link covidtrackercache covidtracker
 ```
