@@ -37,7 +37,7 @@ def awardamount(grants):
                             ),
                             html.H4(
                                 className="base-card__subheading",
-                                children="Number of grants (Registered charities only)",
+                                children="Number of grants",
                             ),
                         ],
                     ),
