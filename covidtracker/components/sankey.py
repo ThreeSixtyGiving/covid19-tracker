@@ -1,6 +1,3 @@
-from itertools import accumulate
-
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
@@ -66,10 +63,10 @@ def sankey(grants, all_grants, funder_id, funder_name):
         else:
             node_colours.append(THREESIXTY_COLOURS[2])
 
-    for l in links:
-        if l[0] == nodes.index(funder_name):
+    for link in links:
+        if link[0] == nodes.index(funder_name):
             link_colours.append("#F7DBC9")  # light orange
-        elif l[0] == nodes.index(name_for_other_recipients):
+        elif link[0] == nodes.index(name_for_other_recipients):
             link_colours.append("#D3EAED")  # light teal
         else:
             link_colours.append("#FBF0C9")  # light yellow
@@ -83,8 +80,8 @@ def sankey(grants, all_grants, funder_id, funder_name):
             This shows any grants this funder has made to other funders,
             and any grants this funder has received.
 
-            Note that the flows shown here do not necessarily reflect 
-            how funding has been allocated, and may not include other 
+            Note that the flows shown here do not necessarily reflect
+            how funding has been allocated, and may not include other
             grants made by those funders.
         """
             ),
@@ -113,12 +110,12 @@ def sankey(grants, all_grants, funder_id, funder_name):
                         )
                     ],
                     layout={
-                        "font": {"family": '"Roboto", sans-serif', "size": 14,},
+                        "font": {"family": '"Roboto", sans-serif', "size": 14},
                         "margin": dict(l=40, r=24, b=40, t=24, pad=4),
                         "height": 200,
                     },
                 ),
-                config={"displayModeBar": False, "scrollZoom": False,},
+                config={"displayModeBar": False, "scrollZoom": False},
             ),
         ],
     )

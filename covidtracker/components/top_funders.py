@@ -1,6 +1,3 @@
-from itertools import accumulate
-
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
@@ -19,7 +16,7 @@ def top_funders(grants, show_top=10):
         funder_str = "Top {:,.0f}".format(len(funder_counts))
 
     funder_counts = [
-        {"name": name, "count": count,}
+        {"name": name, "count": count}
         for name, count in funder_counts.head(show_top).iteritems()
     ]
 
@@ -46,7 +43,7 @@ def top_funders(grants, show_top=10):
                         figure=horizontal_bar(
                             funder_counts, colour=THREESIXTY_COLOURS[0],
                         ),
-                        config={"displayModeBar": False, "scrollZoom": False,},
+                        config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],
             ),

@@ -1,6 +1,3 @@
-from itertools import accumulate
-
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
@@ -15,9 +12,7 @@ def orgtype(grants):
     ]
     count_unknown = grants["_recipient_type"].isnull().sum()
     if count_unknown:
-        orgtypes.append(
-            {"name": "Unknown", "count": count_unknown,}
-        )
+        orgtypes.append({"name": "Unknown", "count": count_unknown})
 
     return html.Div(
         className="base-card base-card--red grid__1",
@@ -41,7 +36,7 @@ def orgtype(grants):
                     dcc.Graph(
                         id="orgtype-chart-chart",
                         figure=horizontal_bar(orgtypes, colour=THREESIXTY_COLOURS[3],),
-                        config={"displayModeBar": False, "scrollZoom": False,},
+                        config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],
             ),

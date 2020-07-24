@@ -9,7 +9,7 @@ def dropdown_options(
 ):
     groups = (
         grants.groupby(id_field)
-        .agg({name_field: "last", "id": "count", "amountAwarded": "sum",})
+        .agg({name_field: "last", "id": "count", "amountAwarded": "sum"})
         .reset_index()
         .sort_values("id", ascending=False)
     )

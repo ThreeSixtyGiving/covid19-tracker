@@ -1,11 +1,9 @@
-import dash
-import dash_core_components as dcc
 import dash_html_components as html
 
 
 def datasources(grants):
     publishers = grants.groupby(
-        ["publisher.prefix", "publisher.name", "license_name", "license",]
+        ["publisher.prefix", "publisher.name", "license_name", "license"]
     ).size()
 
     return html.Ul(

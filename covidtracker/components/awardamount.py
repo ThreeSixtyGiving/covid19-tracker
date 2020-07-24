@@ -1,6 +1,3 @@
-from itertools import accumulate
-
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
@@ -19,9 +16,7 @@ def awardamount(grants):
     ]
     count_unknown = amount_bins.isnull().sum()
     if count_unknown:
-        amounts.append(
-            {"name": "Unknown", "count": count_unknown,}
-        )
+        amounts.append({"name": "Unknown", "count": count_unknown})
 
     return html.Div(
         className="base-card base-card--orange grid__1",
@@ -44,7 +39,7 @@ def awardamount(grants):
                     dcc.Graph(
                         id="amount-chart-chart",
                         figure=horizontal_bar(amounts, colour=THREESIXTY_COLOURS[0],),
-                        config={"displayModeBar": False, "scrollZoom": False,},
+                        config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],
             ),

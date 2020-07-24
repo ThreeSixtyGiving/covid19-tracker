@@ -1,5 +1,4 @@
 import copy
-import uuid
 
 import plotly
 import plotly.graph_objs as go
@@ -33,7 +32,7 @@ LAYOUT = {
     "dragmode": False,
     "paper_bgcolor": "rgba(1, 1, 1, 0.0)",
     "plot_bgcolor": "rgba(1, 1, 1, 0.0)",
-    "font": {"family": '"Roboto", sans-serif', "size": 14,},
+    "font": {"family": '"Roboto", sans-serif', "size": 14},
 }
 H_LAYOUT = {
     "xaxis": copy.deepcopy(LAYOUT["yaxis"]),

@@ -1,12 +1,9 @@
 import datetime
 import json
-import os
 import re
 
 import click
 import pandas as pd
-import requests
-import tqdm
 from nltk.util import ngrams
 from settings import (
     DB_URL,
@@ -132,7 +129,7 @@ def fetch_data(
     print("Fetching funders")
     funder_sql = """
     select distinct g.data->'fundingOrganization'->0->>'id' as "fundingOrganization.0.id"
-    from view_latest_grant g 
+    from view_latest_grant g
     """
     funders = (
         pd.read_sql(funder_sql, con=db_url)["fundingOrganization.0.id"]
@@ -256,7 +253,7 @@ def fetch_data(
     print("Saved to `{}`".format(grants_data_file))
 
     # remove big fields
-    grants = grants.drop(columns=["grant", "recipientOrgInfos",])
+    grants = grants.drop(columns=["grant", "recipientOrgInfos"])
 
     print("Saving grants to pickle")
     grants.to_pickle(grants_data_pickle)
@@ -269,7 +266,7 @@ def fetch_data(
 
     print("Saving funders to file")
     with open(funder_ids_file, "w") as a:
-        json.dump({"funders": funders,}, a, indent=4)
+        json.dump({"funders": funders}, a, indent=4)
     print("Saved to `{}`".format(funder_ids_file))
 
 

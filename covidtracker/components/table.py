@@ -1,8 +1,6 @@
-import dash
-import dash_core_components as dcc
 import dash_html_components as html
 import dash_table
-from dash_table.Format import Format, Scheme, Sign, Symbol
+from dash_table.Format import Format, Scheme, Symbol
 
 
 def table(grants):
@@ -43,7 +41,7 @@ def table(grants):
                 group=",",
             ),
         },
-        {"name": "Date", "id": "awardDate", "type": "datetime",},
+        {"name": "Date", "id": "awardDate", "type": "datetime"},
     ]
 
     return dash_table.DataTable(
@@ -53,7 +51,7 @@ def table(grants):
         editable=False,
         row_deletable=False,
         sort_action="native",
-        style_table={"fontFamily": "'Roboto', sans-serif", "fontSize": "14px",},
+        style_table={"fontFamily": "'Roboto', sans-serif", "fontSize": "14px"},
         style_data={
             "whiteSpace": "normal",
             "height": "auto",
@@ -61,7 +59,7 @@ def table(grants):
             "fontSize": "14px",
         },
         style_data_conditional=[
-            {"if": {"row_index": "odd"}, "backgroundColor": "rgba(21, 54, 52, 0.04)",}
+            {"if": {"row_index": "odd"}, "backgroundColor": "rgba(21, 54, 52, 0.04)"}
         ],
         style_cell={
             "whiteSpace": "normal",

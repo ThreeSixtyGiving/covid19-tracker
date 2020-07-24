@@ -1,14 +1,9 @@
-import csv
-import datetime
 import json
 import os
 import urllib.parse
-from collections import defaultdict
 from io import StringIO
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
 from dash.dependencies import Input, Output
 from flask import make_response
 from flask_caching import Cache
@@ -29,7 +24,7 @@ from .components import (
 )
 from .data import filter_data, get_data
 from .layout import layout
-from .settings import GRANTS_DATA_FILE, CACHE_SETTINGS
+from .settings import CACHE_SETTINGS, GRANTS_DATA_FILE
 
 app = dash.Dash(__name__)
 server = app.server
@@ -84,7 +79,7 @@ def get_la_breakdown(filetype="json"):
             )
         )
         .reset_index()
-        .rename(columns={"location.ladcd": "lacd", "location.ladnm": "lanm",})
+        .rename(columns={"location.ladcd": "lacd", "location.ladnm": "lanm"})
     )
 
     if filetype == "csv":
@@ -167,7 +162,7 @@ app.layout = layout(data, all_data)
         Input(component_id="recipient-filter", component_property="value"),
     ],
 )
-def update_output_div(
+def update_url_from_filters(
     funder_value, search_value, doublecount_value, area_value, recipient_value
 ):
 
@@ -206,7 +201,7 @@ def update_output_div(
     ],
     [Input(component_id="url", component_property="href")],
 )
-def update_output_div(url):
+def update_filters_from_url(url):
     url = urllib.parse.urlparse(url)
     filters = {}
     if url.path and url.path != "/":
@@ -265,7 +260,7 @@ def update_output_div(filters, chart_type, tab):
         chart(data["grants"], chart_type, show_grantmakers=show_grantmakers),
         wordcloud(data["words"]) if tab == "dashboard" else None,
         table(data["grants"]) if tab == "data" else None,
-        ["Last updated ", "{:%Y-%m-%d %H:%M}".format(data["last_updated"]),],
+        ["Last updated ", "{:%Y-%m-%d %H:%M}".format(data["last_updated"])],
         page_header(data),
         top_funders(data["grants"]) if tab == "dashboard" else None,
         regions(data["grants"]) if tab == "dashboard" else None,

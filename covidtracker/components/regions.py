@@ -1,6 +1,3 @@
-from itertools import accumulate
-
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
@@ -16,7 +13,7 @@ def regions(grants):
         ("location.rgncd", "location.rgnnm", "Region"),
     ]
     for a in area_types:
-        regions = grants[grants[a[0]] != ""].groupby([a[0], a[1],]).size()
+        regions = grants[grants[a[0]] != ""].groupby([a[0], a[1]]).size()
         region_type = a[2]
         if len(regions) > 1 and len(regions) < 100:
             break
@@ -55,7 +52,7 @@ def regions(grants):
                     dcc.Graph(
                         id="regions-chart-chart",
                         figure=horizontal_bar(regions, colour=THREESIXTY_COLOURS[1],),
-                        config={"displayModeBar": False, "scrollZoom": False,},
+                        config={"displayModeBar": False, "scrollZoom": False},
                     ),
                     sources(grants["location.source"]),
                 ],

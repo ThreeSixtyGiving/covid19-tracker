@@ -1,24 +1,11 @@
 import datetime
-import json
 import re
-from collections import Counter
 
 import pandas as pd
-import requests
-import requests_cache
 
-requests_cache.install_cache("fetch_cache", expire_after=60 * 60 * 2)  # two hours
+from .settings import FUNDER_GROUPS, GOOGLE_ANALYTICS, GRANTS_DATA_PICKLE, WORDS_PICKLE
 
-from .settings import (
-    FUNDER_GROUPS,
-    FUNDER_IDS_FILE,
-    GOOGLE_ANALYTICS,
-    GRANTS_DATA_FILE,
-    GRANTS_DATA_PICKLE,
-    WORDS_PICKLE,
-)
-
-pd.set_option('mode.chained_assignment', 'raise')
+pd.set_option("mode.chained_assignment", "raise")
 
 
 def get_data():

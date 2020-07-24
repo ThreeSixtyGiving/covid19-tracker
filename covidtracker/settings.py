@@ -5,19 +5,21 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-CACHE_TIMEOUT = 60 * 60 * 6 # 6 hours in seconds
-REDIS_URL = os.environ.get('REDIS_URL')
+CACHE_TIMEOUT = 60 * 60 * 6  # 6 hours in seconds
+REDIS_URL = os.environ.get("REDIS_URL")
 if REDIS_URL:
     CACHE_SETTINGS = {
-        'CACHE_TYPE': 'redis',
-        'CACHE_REDIS_URL': os.environ.get('REDIS_URL', 'redis://localhost:6379'),
-        'CACHE_DEFAULT_TIMEOUT': CACHE_TIMEOUT,
+        "CACHE_TYPE": "redis",
+        "CACHE_REDIS_URL": os.environ.get("REDIS_URL", "redis://localhost:6379"),
+        "CACHE_DEFAULT_TIMEOUT": CACHE_TIMEOUT,
     }
 else:
     CACHE_SETTINGS = {
-        'CACHE_TYPE': 'filesystem',
-        'CACHE_DIR': os.getenv("CACHE_DIR", os.path.join(os.path.dirname(__file__), ".cache")),
-        'CACHE_DEFAULT_TIMEOUT': CACHE_TIMEOUT,
+        "CACHE_TYPE": "filesystem",
+        "CACHE_DIR": os.getenv(
+            "CACHE_DIR", os.path.join(os.path.dirname(__file__), ".cache")
+        ),
+        "CACHE_DEFAULT_TIMEOUT": CACHE_TIMEOUT,
     }
 
 DB_URL = os.getenv("DB_URL")
@@ -111,7 +113,7 @@ FUNDER_GROUPS = {
             "GB-CHC-1113226": "Sussex Community Foundation",
             "GB-CHC-1166471": "Two Ridings Community Foundation",
             "GB-CHC-1102266": "Worcestershire Community Foundation",
-        }
+        },
     },
 }
 

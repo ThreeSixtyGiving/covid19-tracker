@@ -1,10 +1,7 @@
-import datetime
-
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import MAPBOX_TOKEN, SOURCES, THREESIXTY_COLOURS
+from ..settings import MAPBOX_TOKEN, SOURCES
 
 
 def sources(s, without_geo=None):

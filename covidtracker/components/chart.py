@@ -1,7 +1,5 @@
 import datetime
-from itertools import accumulate
 
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
@@ -45,7 +43,7 @@ def chart(grants, chart_type="amount", show_grantmakers=True, cumulative=True):
                 "name": "Grants to frontline organisations",
                 "fill": "tonexty",
                 "mode": "lines",
-                "line": {"shape": "hv", "color": "rgb(188,44,38)", "width": 3,},
+                "line": {"shape": "hv", "color": "rgb(188,44,38)", "width": 3},
                 "stackgroup": "one",
             }
         )
@@ -58,7 +56,7 @@ def chart(grants, chart_type="amount", show_grantmakers=True, cumulative=True):
                 "name": "Grants to other grantmakers",
                 "fill": "tonexty",
                 "mode": "lines",
-                "line": {"shape": "hv", "color": "rgb(77, 172, 182);", "width": 3,},
+                "line": {"shape": "hv", "color": "rgb(77, 172, 182);", "width": 3},
                 "stackgroup": "one",
                 "visible": show_grantmakers,
             }
@@ -101,16 +99,16 @@ def chart(grants, chart_type="amount", show_grantmakers=True, cumulative=True):
                         figure={
                             "data": data,
                             "layout": {
-                                "xaxis": {"showgrid": False,},
-                                "yaxis": {"showgrid": False,},
-                                "font": {"family": '"Roboto", sans-serif', "size": 14,},
+                                "xaxis": {"showgrid": False},
+                                "yaxis": {"showgrid": False},
+                                "font": {"family": '"Roboto", sans-serif', "size": 14},
                                 "height": 300,
                                 "margin": dict(l=40, r=10, t=10, b=40),
-                                "legend": {"orientation": "h", "visible": True,},
+                                "legend": {"orientation": "h", "visible": True},
                                 "showlegend": True,
                             },
                         },
-                        config={"displayModeBar": False, "scrollZoom": False,},
+                        config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],
             ),

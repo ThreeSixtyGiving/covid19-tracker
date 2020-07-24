@@ -1,6 +1,3 @@
-from itertools import accumulate
-
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
@@ -19,9 +16,7 @@ def orgsize(grants):
     ]
     count_unknown = orgsize_bins.isnull().sum()
     if count_unknown:
-        orgsizes.append(
-            {"name": "Unknown / Not a charity", "count": count_unknown,}
-        )
+        orgsizes.append({"name": "Unknown / Not a charity", "count": count_unknown})
 
     return html.Div(
         className="base-card base-card--orange grid__1",
@@ -45,7 +40,7 @@ def orgsize(grants):
                     dcc.Graph(
                         id="orgsize-chart-chart",
                         figure=horizontal_bar(orgsizes, colour=THREESIXTY_COLOURS[0],),
-                        config={"displayModeBar": False, "scrollZoom": False,},
+                        config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],
             ),

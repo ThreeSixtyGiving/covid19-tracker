@@ -1,11 +1,6 @@
-import re
-from collections import Counter
 from random import choice
 
-import dash
-import dash_core_components as dcc
 import dash_html_components as html
-import pandas as pd
 
 from ..settings import THREESIXTY_COLOURS
 

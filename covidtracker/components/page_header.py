@@ -92,7 +92,7 @@ def page_header(data):
                 className="header-group__excerpt",
                 children=dcc.Markdown(
                     """
-Based on grants that have included location information. 
+Based on grants that have included location information.
 {:,.0f} grants out of a total {:,.0f} include location information.
 """.format(
                         with_geo, grant_count
