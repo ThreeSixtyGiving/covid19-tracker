@@ -21,7 +21,7 @@ def dropdown_options(
 
 def filters(grants):
 
-    recipients = grants[["_recipient_id", "_recipient_name"]]
+    recipients = grants[["_recipient_id", "_recipient_name"]].copy()
     recipients.loc[:, "_recipient_id"] = recipients["_recipient_id"].fillna(
         grants["recipientOrganization.0.id"]
     )

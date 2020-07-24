@@ -18,6 +18,8 @@ from .settings import (
     WORDS_PICKLE,
 )
 
+pd.set_option('mode.chained_assignment', 'raise')
+
 
 def get_data():
 
