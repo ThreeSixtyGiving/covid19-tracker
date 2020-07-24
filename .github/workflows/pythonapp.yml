@@ -2,7 +2,7 @@ name: Update with latest grants
 
 on:
   schedule:
-    - cron: '5 4 * * *'
+    - cron: '5 4 * * 1'
 
 jobs:
   build:
@@ -33,3 +33,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
