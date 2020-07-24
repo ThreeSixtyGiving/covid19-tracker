@@ -2,7 +2,7 @@ name: Update with latest grants
 
 on:
   schedule:
-    - cron: '5 4 * * *'
+    - cron: '5 4 * * 1'
 
 jobs:
   build:
