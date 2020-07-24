@@ -35,7 +35,7 @@ def footer():
                         className="footer__column-1 footer__social",
                         children=[
                             html.A(
-                                href="https://github.com/threesixtygiving/",
+                                href="https://github.com/ThreeSixtyGiving/covid19-tracker",
                                 className="github-icon",
                                 children=[
                                     html.Img(
