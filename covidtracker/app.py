@@ -39,6 +39,11 @@ all_data = get_data()
 data = filter_data(all_data)
 
 
+@server.cli.command("clear-cache")
+def clear_cache():
+    cache.clear()
+
+
 @server.route("/data/grants.json")
 def get_all_grants():
     with open(GRANTS_DATA_FILE, "r") as a:

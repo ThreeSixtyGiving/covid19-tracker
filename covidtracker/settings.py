@@ -12,6 +12,7 @@ if REDIS_URL:
         "CACHE_TYPE": "redis",
         "CACHE_REDIS_URL": os.environ.get("REDIS_URL", "redis://localhost:6379"),
         "CACHE_DEFAULT_TIMEOUT": CACHE_TIMEOUT,
+        "CACHE_KEY_PREFIX": "360covidtracker",
     }
 else:
     CACHE_SETTINGS = {
