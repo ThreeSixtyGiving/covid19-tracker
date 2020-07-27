@@ -262,7 +262,7 @@ def update_output_div(filters, chart_type, tab):
         table(data["grants"]) if tab == "data" else None,
         ["Last updated ", "{:%Y-%m-%d %H:%M}".format(data["last_updated"])],
         page_header(data),
-        top_funders(data["grants"]) if tab == "dashboard" else None,
+        top_funders(data["grants"], data["filters"]) if tab == "dashboard" else None,
         regions(data["grants"]) if tab == "dashboard" else None,
         geomap(data["grants"]) if tab == "map" else None,
         orgtype(data["grants"]) if tab == "dashboard" else None,

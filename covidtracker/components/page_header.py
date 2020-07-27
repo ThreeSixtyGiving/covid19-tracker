@@ -27,15 +27,6 @@ def page_header(data):
             with open(file_to_check) as a:
                 subheading = a.read()
 
-        # lottery specific output added after subheading
-        if funder_id == "lottery":
-            subheading += "Lottery distributors have published the following data related to COVID19 response:\n\n"
-            for f_id, f_name in FUNDER_GROUPS["lottery"]["funder_ids"].items():
-                subheading += " - {}: {:,.0f} grants\n".format(
-                    f_name,
-                    (data["all_grants"]["fundingOrganization.0.id"] == f_id).sum(),
-                )
-
         return [
             html.Hgroup(
                 className="header-group",
