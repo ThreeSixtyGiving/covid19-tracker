@@ -1,7 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import MAPBOX_TOKEN, SOURCES
+from ..settings import MAPBOX_TOKEN, MAPBOX_STYLE, SOURCES
 
 
 def sources(s, without_geo=None):
@@ -91,6 +91,7 @@ def geomap(grants):
                                     center=center,
                                     pitch=0,
                                     zoom=5,
+                                    style=MAPBOX_STYLE,
                                 ),
                                 "margin": dict(l=0, r=9, t=0, b=0),
                                 "height": 800,

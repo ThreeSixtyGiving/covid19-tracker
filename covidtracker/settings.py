@@ -25,6 +25,7 @@ else:
 DB_URL = os.getenv("DB_URL")
 GOOGLE_ANALYTICS = os.getenv("GOOGLE_ANALYTICS")
 MAPBOX_TOKEN = os.getenv("MAPBOX_TOKEN")
+MAPBOX_STYLE = 'carto-positron'
 DATA_DIR = os.getenv("DATA_DIR", os.path.join(os.path.dirname(__file__), "assets/data"))
 GRANTS_DATA_FILE = os.getenv(
     "GRANTS_DATA_FILE", os.path.join(DATA_DIR, "grants_data.json")
