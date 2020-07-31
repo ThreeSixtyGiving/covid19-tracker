@@ -96,6 +96,7 @@ FUNDER_GROUPS = {
             "GB-CHC-900239": "Gloucestershire Community Foundation",
             "GB-CHC-1100417": "Hampshire & Isle of Wight Community Foundation",
             "GB-CHC-1117345": "Heart of England Community Foundation",
+            "GB-CHC-1045304": "Heart of England Community Foundation",
             "GB-CHC-1094935": "Herefordshire Community Foundation",
             "GB-CHC-1156082": "Hertfordshire Community Foundation",
             "GB-CHC-1084361": "Kent Community Foundation",
