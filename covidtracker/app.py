@@ -73,7 +73,7 @@ def get_la_breakdown(filetype="json"):
             }
         )
         .join(
-            data["grants"][~data["grants"]["_recipient_is_grantmaker"]]
+            data["grants"][~data["grants"]["_may_be_regranted"]]
             .groupby(["location.ladcd", "location.ladnm"])
             .aggregate({"id": "count", "amountAwarded": "sum"})
             .rename(
@@ -258,7 +258,7 @@ def update_output_div(filters, chart_type, tab):
     all_data = get_data()
     data = filter_data(all_data, **filters)
 
-    show_grantmakers = data["grants"]["_recipient_is_grantmaker"].sum() > 0
+    show_grantmakers = data["grants"]["_may_be_regranted"].sum() > 0
 
     return (
         cards(data["grants"]),

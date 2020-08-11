@@ -107,11 +107,11 @@ def recipient_contents(g, all_funders):
 
 
 def recipient_contents_markdown(g):
-    if g["_recipient_is_grantmaker"]:
+    if g["_may_be_regranted"]:
         return """
 **{}**
 
-*This organisation is also a funder so this grant may be intended for re-distribution as grants
+*This grant may be intended for re-distribution as grants to other organisations
         """.format(
             g["recipientOrganization.0.name"].strip()
         )

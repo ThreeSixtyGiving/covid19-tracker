@@ -137,9 +137,12 @@ def fetch_data(
         .tolist()
     )
     with open(funder_ids_file, "r") as a:
-        funders.extend(json.load(a).get("funders", []))
+        data = json.load(a)
+        funders.extend(data.get("funders", []))
+        regrants = data.get("regrants", [])
     funders = sorted(set(funders))
     print("Found {:,.0f} funder IDs".format(len(funders)))
+    print("Found {:,.0f} regrant IDs".format(len(regrants)))
 
     print("Fetching grants")
     grant_sql = """
@@ -201,6 +204,11 @@ def fetch_data(
     grants.loc[:, "_recipient_is_grantmaker"] = grants[
         "recipientOrganization.0.id"
     ].isin(funders)
+    grants.loc[:, "_may_be_regranted"] = grants["_recipient_is_grantmaker"]
+    grants.loc[
+        grants["id"].isin(regrants),
+        "_may_be_regranted"
+    ] = True
     grants.loc[:, "_last_updated"] = datetime.datetime.now()
     print("Found {:,.0f} grants".format(len(grants)))
 
@@ -266,7 +274,7 @@ def fetch_data(
 
     print("Saving funders to file")
     with open(funder_ids_file, "w") as a:
-        json.dump({"funders": funders}, a, indent=4)
+        json.dump({"funders": funders, "regrants": regrants}, a, indent=4)
     print("Saved to `{}`".format(funder_ids_file))
 
 

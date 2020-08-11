@@ -11,7 +11,7 @@ def chart(grants, chart_type="amount", show_grantmakers=True, cumulative=True):
         byDate = (
             pd.crosstab(
                 grants["awardDate"],
-                grants["_recipient_is_grantmaker"],
+                grants["_may_be_regranted"],
                 aggfunc="sum",
                 values=grants["amountAwarded"],
             )
@@ -22,7 +22,7 @@ def chart(grants, chart_type="amount", show_grantmakers=True, cumulative=True):
         byDate = (
             pd.crosstab(
                 grants["awardDate"],
-                grants["_recipient_is_grantmaker"],
+                grants["_may_be_regranted"],
                 aggfunc="count",
                 values=grants["id"],
             )
