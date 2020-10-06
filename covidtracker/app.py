@@ -52,6 +52,8 @@ def get_all_grants():
 
 @server.route("/data/la.<filetype>")
 def get_la_breakdown(filetype="json"):
+    all_data = get_data()
+    data = filter_data(all_data)
 
     las = (
         data["grants"]
@@ -112,6 +114,8 @@ def get_la_breakdown(filetype="json"):
 
 @server.route("/data/grants.csv")
 def get_all_grants_csv():
+    all_data = get_data()
+    data = filter_data(all_data)
 
     outputStream = StringIO()
     column_renames = {
