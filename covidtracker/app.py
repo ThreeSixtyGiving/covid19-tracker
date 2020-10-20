@@ -28,6 +28,8 @@ from .settings import CACHE_SETTINGS, GRANTS_DATA_FILE
 
 app = dash.Dash(__name__)
 server = app.server
+if os.environ.get("FLASK_ENV", "production") == 'development':
+    CACHE_SETTINGS['CACHE_TYPE'] = 'null'
 cache = Cache(server, config=CACHE_SETTINGS)
 
 with open(
