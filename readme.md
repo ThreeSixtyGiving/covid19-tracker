@@ -60,8 +60,15 @@ dokku storage:mount covidtracker /var/lib/dokku/data/storage/covidtracker:/app/s
 dokku config:set covidtracker DB_URI=**DATABASE URL**
 dokku config:set covidtracker GOOGLE_ANALYTICS=********
 dokku config:set -no-restart covidtracker DATA_DIR=/app/storage/data
+dokku config:set -no-restart covidtracker FLASK_APP=covidtracker.app:server
 
 # set up redis
 dokku redis:create covidtrackercache
 dokku redis:link covidtrackercache covidtracker
+```
+
+4. Set up cron tab for scheduled tasks (on server)
+
+```sh
+nano /etc/cron.d/covidtracker
 ```
