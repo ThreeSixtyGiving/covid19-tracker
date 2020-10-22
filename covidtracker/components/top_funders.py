@@ -5,7 +5,7 @@ from ..settings import THREESIXTY_COLOURS, FUNDER_GROUPS
 from ._utils import horizontal_bar
 
 
-def top_funders(grants, filters, show_top=10):
+def top_funders(grants, filters, limit=10, start=0):
     funder_counts = grants.groupby("fundingOrganization.0.id").agg({
         "title": "size",
         "fundingOrganization.0.name": "last",
@@ -24,14 +24,16 @@ def top_funders(grants, filters, show_top=10):
                         # funder_counts.loc[funder_id, "funder_name"] = funder_name
                         missing_funders += 1
 
-    if len(funder_counts) > show_top:
-        funder_str = "Top {:,.0f} of {:,.0f}".format(show_top, len(funder_counts))
+    if len(funder_counts) == 1:
+        funder_str = ''
+    elif len(funder_counts) <= limit:
+        funder_str = "{:,.0f} funders".format(len(funder_counts))
     else:
-        funder_str = "Top {:,.0f}".format(len(funder_counts))
+        funder_str = "Top {:,.0f} of {:,.0f}".format(limit, len(funder_counts))
 
     funder_counts = [
         {"name": details['funder_name'], "count": details['grants']}
-        for funder_id, details in funder_counts.head(show_top).iterrows()
+        for funder_id, details in funder_counts.sort_values("grants", ascending=False).head(limit).iterrows()
     ]
 
     return html.Div(
@@ -48,7 +50,10 @@ def top_funders(grants, filters, show_top=10):
                                 children="Grants made by funder",
                             ),
                             html.H4(
-                                className="base-card__subheading", children=funder_str
+                                className="base-card__subheading", children=[
+                                    "Number of grants. ",
+                                    funder_str
+                                ]
                             ),
                         ],
                     ),
