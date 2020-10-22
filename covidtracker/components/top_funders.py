@@ -6,14 +6,23 @@ from ._utils import horizontal_bar
 
 
 def top_funders(grants, filters, show_top=10):
-    funder_counts = grants["fundingOrganization.0.name"].value_counts()
+    funder_counts = grants.groupby("fundingOrganization.0.id").agg({
+        "title": "size",
+        "fundingOrganization.0.name": "last",
+    }).rename(columns={
+        "title": "grants",
+        "fundingOrganization.0.name": "funder_name",
+    })
 
+    missing_funders = 0
     if filters.get("funder"):
         for f in filters["funder"]:
             if f in FUNDER_GROUPS.keys():
                 for funder_id, funder_name in FUNDER_GROUPS[f]["funder_ids"].items():
                     if funder_id not in grants["fundingOrganization.0.id"].unique():
-                        funder_counts.loc[funder_name] = 0
+                        # funder_counts.loc[funder_id, "grants"] = 0
+                        # funder_counts.loc[funder_id, "funder_name"] = funder_name
+                        missing_funders += 1
 
     if len(funder_counts) > show_top:
         funder_str = "Top {:,.0f} of {:,.0f}".format(show_top, len(funder_counts))
@@ -21,8 +30,8 @@ def top_funders(grants, filters, show_top=10):
         funder_str = "Top {:,.0f}".format(len(funder_counts))
 
     funder_counts = [
-        {"name": name, "count": count}
-        for name, count in funder_counts.head(show_top).iteritems()
+        {"name": details['funder_name'], "count": details['grants']}
+        for funder_id, details in funder_counts.head(show_top).iterrows()
     ]
 
     return html.Div(
@@ -50,7 +59,9 @@ def top_funders(grants, filters, show_top=10):
                         ),
                         config={"displayModeBar": False, "scrollZoom": False},
                     ),
-                ],
+                ] + (
+                    [html.P("{:,.0f} funders from this group have not published data yet.".format(missing_funders))] if missing_funders else []
+                ),
             ),
         ],
     )
