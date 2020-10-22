@@ -121,6 +121,27 @@ def filters(grants):
                         ),
                     ],
                 ),
+                html.Div(
+                    className="grid__all",
+                    children=[
+                        dcc.Checklist(
+                            options=[
+                                {
+                                    "label": "Don't include grants to other grantmakers",
+                                    "value": "exclude",
+                                },
+                            ],
+                            id="doublecount-filter",
+                            value=[],
+                            inputStyle={
+                                "marginRight": "4px",
+                            },
+                            labelStyle={
+                                "display": "inline-block"
+                            },
+                        ),
+                    ],
+                ),
             ],
         ),
     ]

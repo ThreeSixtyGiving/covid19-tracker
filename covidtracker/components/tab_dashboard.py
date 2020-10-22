@@ -52,22 +52,6 @@ def tab_dashboard(data, all_data):
         these grants from the analysis to prevent double counting.
     """
                             ),
-                            dcc.Checklist(
-                                options=[
-                                    {
-                                        "label": "Don't include grants to other grantmakers",
-                                        "value": "exclude",
-                                    },
-                                ],
-                                id="doublecount-filter",
-                                value=[],
-                                inputStyle={
-                                    "marginRight": "4px",
-                                },
-                                labelStyle={
-                                    "display": "inline-block"
-                                },
-                            ),
                             dcc.Markdown(
                                 """
         For more information please contact [labs@threesixtygiving.org](mailto:labs@threesixtygiving.org).
