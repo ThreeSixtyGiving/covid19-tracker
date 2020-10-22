@@ -15,3 +15,6 @@ from .subscribe import subscribe
 from .table import table
 from .top_funders import top_funders
 from .wordcloud import wordcloud
+from .tab_dashboard import tab_dashboard
+from .tab_data import tab_data
+from .tab_map import tab_map
