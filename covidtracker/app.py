@@ -155,7 +155,7 @@ def get_all_grants_csv():
     return output
 
 
-app.title = "COVID19 Grants Tracker"
+app.title = "COVID-19 Grants Tracker"
 app.layout = layout(data, all_data)
 
 

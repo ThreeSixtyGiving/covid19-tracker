@@ -32,7 +32,7 @@ def page_header(data):
                 className="header-group",
                 children=[
                     html.H2(className="header-group__title", children=[funder_name]),
-                    html.H3(className="", children="COVID19 response grants"),
+                    html.H3(className="", children="COVID-19 response grants"),
                 ],
             ),
             html.P(
@@ -73,7 +73,7 @@ def page_header(data):
                     html.H2(className="header-group__title", children=[area_name]),
                     html.H3(
                         className="",
-                        children="COVID19 response grants from {}".format(
+                        children="COVID-19 response grants from {}".format(
                             funder_number
                         ),
                     ),

@@ -33,7 +33,7 @@ def header():
                                         children=[
                                             html.H2(
                                                 className="hero__title",
-                                                children=["COVID19 Grants Tracker"],
+                                                children=["COVID-19 Grants Tracker"],
                                             ),
                                             html.P(
                                                 className="hero__blurb",
