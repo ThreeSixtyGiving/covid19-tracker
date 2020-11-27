@@ -97,6 +97,13 @@ def get_ngrams(grants):
     return words
 
 
+def get_location(value):
+    if not value:
+        return {}
+    location = [loc for loc in value if loc['areatype'] == 'lsoa']
+    return location[0] if location else value[0]
+
+
 @click.command()
 @click.option("--db-url", default=DB_URL, help="Database connection string")
 @click.option(
@@ -157,17 +164,7 @@ def fetch_data(
             g.data->'fundingOrganization'->0->>'id' as "fundingOrganization.0.id",
             g.data->'fundingOrganization'->0->>'name' as "fundingOrganization.0.name",
             g.data->'grantProgramme'->0->>'title' as "grantProgramme.0.title",
-            g.additional_data->'locationLookup'->0->>'ladcd' as "location.ladcd",
-            g.additional_data->'locationLookup'->0->>'ladnm' as "location.ladnm",
-            g.additional_data->'locationLookup'->0->>'utlacd' as "location.utlacd",
-            g.additional_data->'locationLookup'->0->>'utlanm' as "location.utlanm",
-            g.additional_data->'locationLookup'->0->>'rgncd' as "location.rgncd",
-            g.additional_data->'locationLookup'->0->>'rgnnm' as "location.rgnnm",
-            g.additional_data->'locationLookup'->0->>'ctrycd' as "location.ctrycd",
-            g.additional_data->'locationLookup'->0->>'ctrynm' as "location.ctrynm",
-            g.additional_data->'locationLookup'->0->>'latitude' as "location.latitude",
-            g.additional_data->'locationLookup'->0->>'longitude' as "location.longitude",
-            g.additional_data->'locationLookup'->0->>'source' as "location.source",
+            g.additional_data->'locationLookup' as "location",
             g."source_data"->'publisher'->>'prefix' as "publisher.prefix",
             g."source_data"->'publisher'->>'name' as "publisher.name",
             g."source_data"->>'license' as "license",
@@ -201,6 +198,8 @@ def fetch_data(
     grants.loc[:, "_recipient_income"] = grants["recipientOrgInfos"].apply(
         canon_recipient_income
     )
+
+    # add regranting details
     grants.loc[:, "_recipient_is_grantmaker"] = grants[
         "recipientOrganization.0.id"
     ].isin(funders)
@@ -209,6 +208,22 @@ def fetch_data(
         grants["id"].isin(regrants),
         "_may_be_regranted"
     ] = True
+
+    locations = grants['location'].apply(get_location)
+    grants.loc[:, "location.ladcd"] = locations.apply(lambda x: x.get("ladcd"))
+    grants.loc[:, "location.ladnm"] = locations.apply(lambda x: x.get("ladnm"))
+    grants.loc[:, "location.utlacd"] = locations.apply(lambda x: x.get("utlacd"))
+    grants.loc[:, "location.utlanm"] = locations.apply(lambda x: x.get("utlanm"))
+    grants.loc[:, "location.rgncd"] = locations.apply(lambda x: x.get("rgncd"))
+    grants.loc[:, "location.rgnnm"] = locations.apply(lambda x: x.get("rgnnm"))
+    grants.loc[:, "location.ctrycd"] = locations.apply(lambda x: x.get("ctrycd"))
+    grants.loc[:, "location.ctrynm"] = locations.apply(lambda x: x.get("ctrynm"))
+    grants.loc[:, "location.latitude"] = locations.apply(lambda x: x.get("latitude"))
+    grants.loc[:, "location.longitude"] = locations.apply(lambda x: x.get("longitude"))
+    grants.loc[:, "location.source"] = locations.apply(lambda x: x.get("source"))
+    grants = grants.drop(columns=["location"])
+
+    # add datetime field
     grants.loc[:, "_last_updated"] = datetime.datetime.now()
     print("Found {:,.0f} grants".format(len(grants)))
 
