@@ -22,6 +22,6 @@ SHELL=/bin/bash
 45 5 * * * dokku dokku run covidtracker flask clear-cache
 
 # restart the application in the morning to load the new data
-0 6 * * * dokku dokku ps:restart covidtracker
+0 6 * * * dokku dokku ps:rebuild covidtracker
 
 ### PLACE ALL CRON TASKS ABOVE, DO NOT REMOVE THE WHITESPACE AFTER THIS LINE
