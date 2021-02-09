@@ -24,7 +24,7 @@ from .components import (
 )
 from .data import filter_data, get_data
 from .layout import layout
-from .settings import CACHE_SETTINGS, GRANTS_DATA_FILE
+from .settings import CACHE_SETTINGS, GRANTS_DATA_FILE, CACHE_TIMEOUT
 
 app = dash.Dash(__name__)
 server = app.server
@@ -258,7 +258,7 @@ def update_filters_from_url(url):
         Input(component_id="tabs", component_property="value"),
     ],
 )
-@cache.memoize()
+@cache.memoize(timeout=CACHE_TIMEOUT)
 def update_output_div(filters, chart_type, tab):
 
     all_data = get_data()
