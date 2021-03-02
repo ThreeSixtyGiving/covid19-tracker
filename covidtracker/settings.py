@@ -118,6 +118,27 @@ FUNDER_GROUPS = {
             "GB-CHC-1102266": "Worcestershire Community Foundation",
         },
     },
+    "central-government": {
+        "name": "Central Government",
+        "funder_ids": {
+            "GB-GOR-D2": "Cabinet Office",
+            "GB-GOR-D1198": "Department for Business, Energy and Industrial Strategy",
+            "GB-GOR-D5": "Department for Digital, Culture, Media and Sport",
+            "GB-GOR-D6": "Department for Education",
+            "GB-GOR-D7": "Department for Environment, Food and Rural Affairs",
+            "GB-GOR-D8": "Department for International Development",
+            "GB-GOR-D1196": "Department for International Trade",
+            "GB-GOR-D9": "Department for Transport",
+            "GB-GOR-D10": "Department for Work and Pensions",
+            "GB-GOR-D12": "Department of Health and Social Care",
+            "GB-GOR-D13": "Foreign and Commonwealth Office",
+            "GB-GOR-D25": "HM Revenue & Customs",
+            "GB-GOR-D16": "Home Office",
+            "GB-GOR-D4": "Ministry for Housing, Communities and Local Government",
+            "GB-GOR-D17": "Ministry of Defence",
+            "GB-GOR-D18": "Ministry of Justice",
+        },
+    },
 }
 
 PRIORITIES = [
