@@ -38,11 +38,13 @@ gunicorn==20.1.0
     # via -r requirements.in
 itsdangerous==1.1.0
     # via flask
-jinja2==2.11.1
-    # via flask
+jinja2==3.0.1
+    # via
+    #   -r requirements.in
+    #   flask
 joblib==1.0.1
     # via nltk
-markupsafe==1.1.1
+markupsafe==2.0.1
     # via jinja2
 nltk==3.6.2
     # via -r requirements.in
