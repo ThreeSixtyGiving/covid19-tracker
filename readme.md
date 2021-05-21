@@ -23,7 +23,7 @@ for the 306Giving Datastore) and `MAPBOX_TOKEN` (which shows the map).
 Once the settings are correct you need to fetch the latest data.
 
 ```sh
-python covidtracker/fetchdata.py
+flask fetch-data
 ```
 
 Finally run the development server

@@ -5,7 +5,7 @@ import re
 import click
 import pandas as pd
 from nltk.util import ngrams
-from settings import (
+from covidtracker.settings import (
     DB_URL,
     FUNDER_IDS_FILE,
     GRANTS_DATA_FILE,
@@ -153,6 +153,7 @@ def fetch_data(
 
     print("Fetching grants")
     grant_sql = """
+        with g as (select * from view_latest_grant)
         select g.data->>'id' as "id",
             g.data->>'title' as "title",
             g.data->>'description' as "description",
@@ -171,7 +172,7 @@ def fetch_data(
             g."source_data"->>'license_name' as "license_name",
             g.additional_data->'recipientOrgInfos' as "recipientOrgInfos",
             g.data as "grant"
-        from view_latest_grant g
+        from g
         where (
                 g.data->>'title' ~* 'covid|coronavirus|pandemic|cv-?19' or
                 g.data->>'description' ~* 'covid|coronavirus|pandemic|cv-?19' or

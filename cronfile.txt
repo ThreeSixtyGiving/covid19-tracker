@@ -16,7 +16,7 @@ SHELL=/bin/bash
 ### PLACE ALL CRON TASKS BELOW
 
 # update with the latest data
-0 5 * * * dokku dokku --rm run covidtracker python covidtracker/fetch_data.py
+0 5 * * * dokku dokku --rm run covidtracker flask fetch-data
 
 # clear the cache to make way for the new data
 45 5 * * * dokku dokku run covidtracker flask clear-cache

@@ -25,6 +25,7 @@ from .components import (
 from .data import filter_data, get_data
 from .layout import layout
 from .settings import CACHE_SETTINGS, GRANTS_DATA_FILE, CACHE_TIMEOUT
+from .commands.fetch_data import fetch_data
 
 app = dash.Dash(__name__)
 server = app.server
@@ -39,6 +40,8 @@ with open(
 
 all_data = get_data()
 data = filter_data(all_data)
+
+server.cli.add_command(fetch_data)
 
 
 @server.cli.command("clear-cache")
