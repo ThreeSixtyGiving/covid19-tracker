@@ -57,7 +57,10 @@ def horizontal_bar(
     # }
 
     if not categories:
-        return dict(data=[], layout={},)
+        return dict(
+            data=[],
+            layout={},
+        )
 
     hb_plot = plotly.subplots.make_subplots(
         rows=len(categories),
@@ -81,13 +84,21 @@ def horizontal_bar(
                 hoverlabel=dict(
                     bgcolor=colour,
                     bordercolor=colour,
-                    font=dict(family='"Roboto", sans-serif', color="#fff",),
+                    font=dict(
+                        family='"Roboto", sans-serif',
+                        color="#fff",
+                    ),
                 ),
                 textposition="auto"
                 if not log_axis or not max_value or ((x[value] / max_value) > 0.05)
                 else "outside",
-                textfont=dict(family='"Roboto", sans-serif', color=text_colour,),
-                marker=dict(color=colour,),
+                textfont=dict(
+                    family='"Roboto", sans-serif',
+                    color=text_colour,
+                ),
+                marker=dict(
+                    color=colour,
+                ),
             ),
             k + 1,
             1,
@@ -106,7 +117,10 @@ def horizontal_bar(
         x["x"] = 0
         x["xanchor"] = "left"
         x["align"] = "left"
-        x["font"] = dict(family='"Roboto", sans-serif', size=14,)
+        x["font"] = dict(
+            family='"Roboto", sans-serif',
+            size=14,
+        )
 
     for x in hb_plot["layout"]:
         if x.startswith("yaxis") or x.startswith("xaxis"):

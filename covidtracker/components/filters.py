@@ -136,9 +136,7 @@ def filters(grants):
                             inputStyle={
                                 "marginRight": "4px",
                             },
-                            labelStyle={
-                                "display": "inline-block"
-                            },
+                            labelStyle={"display": "inline-block"},
                         ),
                     ],
                 ),

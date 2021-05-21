@@ -9,8 +9,6 @@ def tab_map(data, all_data):
         className="",
         selected_className="",
         children=[
-            html.Div(
-                id="geomap-container", children=[]
-            ),
+            html.Div(id="geomap-container", children=[]),
         ],
     )

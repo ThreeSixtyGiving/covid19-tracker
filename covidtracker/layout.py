@@ -8,8 +8,8 @@ from .components import (
     header,
     page_header,
     tab_dashboard,
-    tab_map,
     tab_data,
+    tab_map,
 )
 
 
@@ -41,8 +41,8 @@ def layout(data, all_data):
                                 id="data-tab-loading",
                                 debug=False,
                                 fullscreen=False,
-                                color='#bc2c26',
-                                type='dot',
+                                color="#bc2c26",
+                                type="dot",
                                 children=[
                                     dcc.Tabs(
                                         parent_className="",
@@ -55,7 +55,7 @@ def layout(data, all_data):
                                             tab_data(data, all_data),
                                         ],
                                     ),
-                                ]
+                                ],
                             ),
                         ],
                     ),

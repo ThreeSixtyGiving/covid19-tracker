@@ -35,7 +35,10 @@ def orgtype(grants):
                     ),
                     dcc.Graph(
                         id="orgtype-chart-chart",
-                        figure=horizontal_bar(orgtypes, colour=THREESIXTY_COLOURS[3],),
+                        figure=horizontal_bar(
+                            orgtypes,
+                            colour=THREESIXTY_COLOURS[3],
+                        ),
                         config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],

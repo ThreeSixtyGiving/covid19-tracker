@@ -8,6 +8,7 @@ from dash.dependencies import Input, Output
 from flask import make_response
 from flask_caching import Cache
 
+from .commands.fetch_data import fetch_data
 from .components import (
     awardamount,
     cards,
@@ -24,13 +25,12 @@ from .components import (
 )
 from .data import filter_data, get_data
 from .layout import layout
-from .settings import CACHE_SETTINGS, GRANTS_DATA_FILE, CACHE_TIMEOUT
-from .commands.fetch_data import fetch_data
+from .settings import CACHE_SETTINGS, CACHE_TIMEOUT, GRANTS_DATA_FILE
 
 app = dash.Dash(__name__)
 server = app.server
-if os.environ.get("FLASK_ENV", "production") == 'development':
-    CACHE_SETTINGS['CACHE_TYPE'] = 'null'
+if os.environ.get("FLASK_ENV", "production") == "development":
+    CACHE_SETTINGS["CACHE_TYPE"] = "null"
 cache = Cache(server, config=CACHE_SETTINGS)
 
 with open(

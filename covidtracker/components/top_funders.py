@@ -1,18 +1,26 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import THREESIXTY_COLOURS, FUNDER_GROUPS
+from ..settings import FUNDER_GROUPS, THREESIXTY_COLOURS
 from ._utils import horizontal_bar
 
 
 def top_funders(grants, filters, limit=10, start=0):
-    funder_counts = grants.groupby("fundingOrganization.0.id").agg({
-        "title": "size",
-        "fundingOrganization.0.name": "last",
-    }).rename(columns={
-        "title": "grants",
-        "fundingOrganization.0.name": "funder_name",
-    })
+    funder_counts = (
+        grants.groupby("fundingOrganization.0.id")
+        .agg(
+            {
+                "title": "size",
+                "fundingOrganization.0.name": "last",
+            }
+        )
+        .rename(
+            columns={
+                "title": "grants",
+                "fundingOrganization.0.name": "funder_name",
+            }
+        )
+    )
 
     missing_funders = 0
     if filters.get("funder"):
@@ -25,15 +33,17 @@ def top_funders(grants, filters, limit=10, start=0):
                         missing_funders += 1
 
     if len(funder_counts) == 1:
-        funder_str = ''
+        funder_str = ""
     elif len(funder_counts) <= limit:
         funder_str = "{:,.0f} funders".format(len(funder_counts))
     else:
         funder_str = "Top {:,.0f} of {:,.0f}".format(limit, len(funder_counts))
 
     funder_counts = [
-        {"name": details['funder_name'], "count": details['grants']}
-        for funder_id, details in funder_counts.sort_values("grants", ascending=False).head(limit).iterrows()
+        {"name": details["funder_name"], "count": details["grants"]}
+        for funder_id, details in funder_counts.sort_values("grants", ascending=False)
+        .head(limit)
+        .iterrows()
     ]
 
     return html.Div(
@@ -50,22 +60,30 @@ def top_funders(grants, filters, limit=10, start=0):
                                 children="Grants made by funder",
                             ),
                             html.H4(
-                                className="base-card__subheading", children=[
-                                    "Number of grants. ",
-                                    funder_str
-                                ]
+                                className="base-card__subheading",
+                                children=["Number of grants. ", funder_str],
                             ),
                         ],
                     ),
                     dcc.Graph(
                         id="top-funders-chart",
                         figure=horizontal_bar(
-                            funder_counts, colour=THREESIXTY_COLOURS[0],
+                            funder_counts,
+                            colour=THREESIXTY_COLOURS[0],
                         ),
                         config={"displayModeBar": False, "scrollZoom": False},
                     ),
-                ] + (
-                    [html.P("{:,.0f} funders from this group have not published data yet.".format(missing_funders))] if missing_funders else []
+                ]
+                + (
+                    [
+                        html.P(
+                            "{:,.0f} funders from this group have not published data yet.".format(
+                                missing_funders
+                            )
+                        )
+                    ]
+                    if missing_funders
+                    else []
                 ),
             ),
         ],

@@ -18,7 +18,13 @@ def sankey(grants, all_grants, funder_id, funder_name):
     )
     nodes.extend(funder_is_recipient.index.tolist())
     for f, count in funder_is_recipient.iteritems():
-        links.append((nodes.index(f), nodes.index(funder_name), count,))
+        links.append(
+            (
+                nodes.index(f),
+                nodes.index(funder_name),
+                count,
+            )
+        )
 
     # count grants from this funder where the recipient is not a funder
     recipient_isnt_funder = all_grants.loc[
@@ -45,8 +51,20 @@ def sankey(grants, all_grants, funder_id, funder_name):
     )
     nodes.extend(recipient_is_funder.index.tolist())
     for f, count in recipient_is_funder.iteritems():
-        links.append((nodes.index(funder_name), nodes.index(f), count,))
-        links.append((nodes.index(f), nodes.index(name_for_other_recipients), count,))
+        links.append(
+            (
+                nodes.index(funder_name),
+                nodes.index(f),
+                count,
+            )
+        )
+        links.append(
+            (
+                nodes.index(f),
+                nodes.index(name_for_other_recipients),
+                count,
+            )
+        )
 
     # if we haven't got any links then we don't display the chart
     if len(links) <= 1:

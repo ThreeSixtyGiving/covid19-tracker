@@ -1,10 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from covidtracker.components import (
-    table,
-    datasources,
-)
+from covidtracker.components import datasources, table
 
 
 def tab_data(data, all_data):
@@ -29,13 +26,7 @@ def tab_data(data, all_data):
                                     html.Div(
                                         className="table table--zebra",
                                         id="data-table",
-                                        children=[
-                                            table(
-                                                data[
-                                                    "grants"
-                                                ]
-                                            )
-                                        ],
+                                        children=[table(data["grants"])],
                                     ),
                                 ]
                             )
@@ -78,9 +69,7 @@ def tab_data(data, all_data):
                                 target="_blank",
                                 children="Search on GrantNav",
                             ),
-                            html.Div(
-                                className="spacer-3"
-                            ),
+                            html.Div(className="spacer-3"),
                             html.P(
                                 html.Small(
                                     html.Em(
@@ -88,9 +77,7 @@ def tab_data(data, all_data):
                                         children=[
                                             "Last updated ",
                                             "{:%Y-%m-%d %H:%M}".format(
-                                                data[
-                                                    "last_updated"
-                                                ]
+                                                data["last_updated"]
                                             ),
                                         ],
                                     ),
@@ -103,11 +90,7 @@ def tab_data(data, all_data):
                             html.Div(
                                 className="table table--zebra",
                                 id="data-sources",
-                                children=[
-                                    datasources(
-                                        data["grants"]
-                                    )
-                                ],
+                                children=[datasources(data["grants"])],
                             ),
                         ],
                     ),

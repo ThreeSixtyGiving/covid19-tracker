@@ -5,6 +5,7 @@ import re
 import click
 import pandas as pd
 from nltk.util import ngrams
+
 from covidtracker.settings import (
     DB_URL,
     FUNDER_IDS_FILE,
@@ -100,7 +101,7 @@ def get_ngrams(grants):
 def get_location(value):
     if not value:
         return {}
-    location = [loc for loc in value if loc['areatype'] == 'lsoa']
+    location = [loc for loc in value if loc["areatype"] == "lsoa"]
     return location[0] if location else value[0]
 
 
@@ -205,12 +206,9 @@ def fetch_data(
         "recipientOrganization.0.id"
     ].isin(funders)
     grants.loc[:, "_may_be_regranted"] = grants["_recipient_is_grantmaker"]
-    grants.loc[
-        grants["id"].isin(regrants),
-        "_may_be_regranted"
-    ] = True
+    grants.loc[grants["id"].isin(regrants), "_may_be_regranted"] = True
 
-    locations = grants['location'].apply(get_location)
+    locations = grants["location"].apply(get_location)
     grants.loc[:, "location.ladcd"] = locations.apply(lambda x: x.get("ladcd"))
     grants.loc[:, "location.ladnm"] = locations.apply(lambda x: x.get("ladnm"))
     grants.loc[:, "location.utlacd"] = locations.apply(lambda x: x.get("utlacd"))

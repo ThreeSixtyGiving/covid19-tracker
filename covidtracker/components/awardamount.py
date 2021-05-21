@@ -8,7 +8,9 @@ from ._utils import horizontal_bar
 
 def awardamount(grants):
     amount_bins = pd.cut(
-        grants["amountAwarded"], bins=AMOUNT_BINS, labels=AMOUNT_BIN_LABELS,
+        grants["amountAwarded"],
+        bins=AMOUNT_BINS,
+        labels=AMOUNT_BIN_LABELS,
     )
     amounts = [
         {"name": i, "count": count}
@@ -38,7 +40,10 @@ def awardamount(grants):
                     ),
                     dcc.Graph(
                         id="amount-chart-chart",
-                        figure=horizontal_bar(amounts, colour=THREESIXTY_COLOURS[0],),
+                        figure=horizontal_bar(
+                            amounts,
+                            colour=THREESIXTY_COLOURS[0],
+                        ),
                         config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],

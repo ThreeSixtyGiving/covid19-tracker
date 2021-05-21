@@ -51,7 +51,10 @@ def regions(grants):
                     ),
                     dcc.Graph(
                         id="regions-chart-chart",
-                        figure=horizontal_bar(regions, colour=THREESIXTY_COLOURS[1],),
+                        figure=horizontal_bar(
+                            regions,
+                            colour=THREESIXTY_COLOURS[1],
+                        ),
                         config={"displayModeBar": False, "scrollZoom": False},
                     ),
                     sources(grants["location.source"]),

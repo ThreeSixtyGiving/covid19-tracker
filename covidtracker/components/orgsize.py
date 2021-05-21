@@ -8,7 +8,9 @@ from ._utils import horizontal_bar
 
 def orgsize(grants):
     orgsize_bins = pd.cut(
-        grants["_recipient_income"], bins=INCOME_BINS, labels=INCOME_BIN_LABELS,
+        grants["_recipient_income"],
+        bins=INCOME_BINS,
+        labels=INCOME_BIN_LABELS,
     )
     orgsizes = [
         {"name": i, "count": count}
@@ -39,7 +41,10 @@ def orgsize(grants):
                     ),
                     dcc.Graph(
                         id="orgsize-chart-chart",
-                        figure=horizontal_bar(orgsizes, colour=THREESIXTY_COLOURS[0],),
+                        figure=horizontal_bar(
+                            orgsizes,
+                            colour=THREESIXTY_COLOURS[0],
+                        ),
                         config={"displayModeBar": False, "scrollZoom": False},
                     ),
                 ],
