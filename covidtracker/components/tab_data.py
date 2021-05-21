@@ -1,7 +1,8 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from covidtracker.components import datasources, table
+from .datasources import datasources
+from .table import table
 
 
 def tab_data(data, all_data):
