@@ -7,3 +7,4 @@ gunicorn
 psycopg2
 SQLAlchemy
 click>=7.1.2
+redis

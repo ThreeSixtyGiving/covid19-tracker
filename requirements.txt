@@ -60,6 +60,8 @@ python-dotenv==0.17.1
     # via -r requirements.in
 pytz==2021.1
     # via pandas
+redis==3.5.3
+    # via -r requirements.in
 regex==2021.4.4
     # via nltk
 retrying==1.3.3
