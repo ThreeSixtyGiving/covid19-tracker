@@ -137,6 +137,7 @@ FUNDER_GROUPS = {
             "GB-GOR-D4": "Ministry for Housing, Communities and Local Government",
             "GB-GOR-D17": "Ministry of Defence",
             "GB-GOR-D18": "Ministry of Justice",
+            "GB-CHC-1177627": "Armed Forces Covenant Fund",
         },
     },
 }
