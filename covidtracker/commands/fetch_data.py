@@ -154,7 +154,7 @@ def fetch_data(
 
     print("Fetching grants")
     grant_sql = """
-        with g as (select * from view_latest_grant)
+        with g as MATERIALIZED (select * from view_latest_grant)
         select g.data->>'id' as "id",
             g.data->>'title' as "title",
             g.data->>'description' as "description",
