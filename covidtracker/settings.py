@@ -383,3 +383,6 @@ STOPWORDS = [
     "pandemic",
     "coronavirus",
 ]
+
+PROMETHEUS_AUTH_USERNAME = os.environ.get("PROMETHEUS_AUTH_USERNAME", "prom")
+PROMETHEUS_AUTH_PASSWORD = os.environ.get("PROMETHEUS_AUTH_PASSWORD", "1234")

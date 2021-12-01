@@ -59,6 +59,7 @@ dokku storage:mount covidtracker /var/lib/dokku/data/storage/covidtracker:/app/s
 # set up settings
 dokku config:set covidtracker DB_URI=**DATABASE URL**
 dokku config:set covidtracker GOOGLE_ANALYTICS=********
+dokku config:set covidtracker PROMETHEUS_AUTH_PASSWORD=********
 dokku config:set -no-restart covidtracker DATA_DIR=/app/storage/data
 dokku config:set -no-restart covidtracker FLASK_APP=covidtracker.app:server
 
