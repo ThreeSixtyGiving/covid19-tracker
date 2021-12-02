@@ -16,7 +16,7 @@ from .components import (
 
 def layout():
     all_data = get_data()
-    if not all_data["grants"]:
+    if all_data["grants"] is None:
         return html.Div("No data found")
     data = filter_data(all_data)
     return html.Div(
