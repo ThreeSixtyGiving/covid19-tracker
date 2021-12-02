@@ -1,7 +1,7 @@
 dash
 Flask-Caching
 pandas
-nltk
+nltk>=3.6.4
 python-dotenv
 gunicorn
 psycopg2
