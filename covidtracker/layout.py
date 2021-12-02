@@ -1,6 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
+from .data import filter_data, get_data
 from .components import (
     cards,
     filters,
@@ -13,7 +14,11 @@ from .components import (
 )
 
 
-def layout(data, all_data):
+def layout():
+    all_data = get_data()
+    if not all_data["grants"]:
+        return html.Div("No data found")
+    data = filter_data(all_data)
     return html.Div(
         id="main-div",
         className="layout layout--single-column layout--full",
