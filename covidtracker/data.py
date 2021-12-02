@@ -65,6 +65,7 @@ def filter_data(all_data, **filters):
                         "fundingOrganization.0.name",
                         "recipientOrganization.0.name",
                         "_recipient_name",
+                        "grantProgramme.0.title",
                     ]
                 ]
                 .fillna("")
