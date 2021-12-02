@@ -217,6 +217,8 @@ def fetch_data(
     grants.loc[:, "location.rgnnm"] = locations.apply(lambda x: x.get("rgnnm"))
     grants.loc[:, "location.ctrycd"] = locations.apply(lambda x: x.get("ctrycd"))
     grants.loc[:, "location.ctrynm"] = locations.apply(lambda x: x.get("ctrynm"))
+    grants.loc[:, "location.rgnctrycd"] = locations.apply(lambda x: x.get("rgncd") if x.get("ctrynm")=="England" else x.get("ctrycd"))
+    grants.loc[:, "location.rgnctrynm"] = locations.apply(lambda x: "{} - {}".format(x.get("ctrynm"), x.get("rgnnm")) if x.get("ctrynm")=="England" else x.get("ctrynm"))
     grants.loc[:, "location.latitude"] = locations.apply(lambda x: x.get("latitude"))
     grants.loc[:, "location.longitude"] = locations.apply(lambda x: x.get("longitude"))
     grants.loc[:, "location.source"] = locations.apply(lambda x: x.get("source"))

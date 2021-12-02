@@ -10,7 +10,7 @@ def regions(grants):
     area_types = [
         ("location.ladcd", "location.ladnm", "Local Authority District"),
         ("location.utlacd", "location.utlanm", "Local Authority"),
-        ("location.rgncd", "location.rgnnm", "Region"),
+        ("location.rgnctrycd", "location.rgnctrynm", "Country and Region"),
     ]
     for a in area_types:
         regions = grants[grants[a[0]] != ""].groupby([a[0], a[1]]).size()
