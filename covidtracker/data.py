@@ -1,4 +1,5 @@
 import datetime
+import os
 import re
 
 import pandas as pd
@@ -10,16 +11,22 @@ pd.set_option("mode.chained_assignment", "raise")
 
 def get_data():
 
-    grants = pd.read_pickle(GRANTS_DATA_PICKLE)
-    words = pd.read_pickle(WORDS_PICKLE)
-
-    return dict(
-        grants=grants,
-        words=words,
+    results = dict(
+        grants=None,
+        words=None,
         now=datetime.datetime.now(),
-        last_updated=grants["_last_updated"].max().to_pydatetime(),
+        last_updated=datetime.datetime.now(),
         google_analytics=GOOGLE_ANALYTICS,
     )
+
+    if not os.path.exists(GRANTS_DATA_PICKLE):
+        return results
+
+    results["grants"] = pd.read_pickle(GRANTS_DATA_PICKLE)
+    results["words"] = pd.read_pickle(WORDS_PICKLE)
+    results["last_updated"] = results["grants"]["_last_updated"].max().to_pydatetime()
+
+    return results
 
 
 def normalise_string(s):

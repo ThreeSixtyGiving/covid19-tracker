@@ -40,9 +40,6 @@ with open(
 ) as a:
     app.index_string = a.read()
 
-all_data = get_data()
-data = filter_data(all_data)
-
 server.cli.add_command(fetch_data)
 
 
@@ -212,7 +209,7 @@ def prometheus_metrics():
 
 
 app.title = "COVID-19 Grants Tracker"
-app.layout = layout(data, all_data)
+app.layout = layout()
 
 
 @app.callback(
