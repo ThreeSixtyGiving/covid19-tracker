@@ -96,6 +96,8 @@ plotly==4.6.0
     # via
     #   -r requirements.txt
     #   dash
+prometheus-client==0.12.0
+    # via -r requirements.txt
 psycopg2==2.8.6
     # via -r requirements.txt
 pycodestyle==2.7.0
