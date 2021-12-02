@@ -7,7 +7,7 @@ from ._utils import horizontal_bar
 
 def orgtype(grants):
     orgtypes = [
-        {"name": i, "count": count}
+        {"name": i.replace("-", " ").title(), "count": count}
         for i, count in grants["_recipient_type"].value_counts().iteritems()
     ]
     count_unknown = grants["_recipient_type"].isnull().sum()
