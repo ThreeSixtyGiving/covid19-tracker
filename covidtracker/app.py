@@ -5,8 +5,10 @@ from io import StringIO
 
 import dash
 from dash.dependencies import Input, Output
-from flask import make_response
+from flask import make_response, request
 from flask_caching import Cache
+from prometheus_client import Gauge
+from prometheus_client.exposition import generate_latest
 
 from .commands.fetch_data import fetch_data
 from .components import (
@@ -25,7 +27,7 @@ from .components import (
 )
 from .data import filter_data, get_data
 from .layout import layout
-from .settings import CACHE_SETTINGS, CACHE_TIMEOUT, GRANTS_DATA_FILE
+from .settings import CACHE_SETTINGS, CACHE_TIMEOUT, GRANTS_DATA_FILE, PROMETHEUS_AUTH_USERNAME, PROMETHEUS_AUTH_PASSWORD
 
 app = dash.Dash(__name__)
 server = app.server
@@ -155,6 +157,57 @@ def get_all_grants_csv():
     output = make_response(outputStream.getvalue())
     output.headers["Content-Disposition"] = "attachment; filename=grants.csv"
     output.headers["Content-type"] = "text/csv"
+    return output
+
+
+PROMETHEUS_GRANTS_COUNT_GAUGE = Gauge(
+    'covid19_tracker_grants_count',
+    'Count of grants in the Covid 19 Tracker'
+)
+
+PROMETHEUS_RECIPIENTS_COUNT_GAUGE = Gauge(
+    'covid19_tracker_recipients_count',
+    'Count of recipients in the Covid 19 Tracker'
+)
+
+PROMETHEUS_FUNDERS_COUNT_GAUGE = Gauge(
+    'covid19_tracker_funders_count',
+    'Count of funders in the Covid 19 Tracker'
+)
+
+PROMETHEUS_AMOUNT_AWARDED_GBP_GAUGE = Gauge(
+    'covid19_tracker_amount_awarded_gbp',
+    'Amount Awarded in the Covid 19 Tracker in GBP'
+)
+
+
+@server.route("/prometheus/metrics")
+def prometheus_metrics():
+    # check auth
+    if not request.authorization or\
+            request.authorization.username != PROMETHEUS_AUTH_USERNAME or \
+            request.authorization.password != PROMETHEUS_AUTH_PASSWORD:
+        return ('Unauthorized', 401, {
+            'WWW-Authenticate': 'Basic realm="Login Required"'
+        })
+
+    # update metrics
+    data = get_data()
+    PROMETHEUS_GRANTS_COUNT_GAUGE.set(
+        len(data['grants'])
+    )
+    PROMETHEUS_RECIPIENTS_COUNT_GAUGE.set(
+        len(data['grants']["recipientOrganization.0.id"].unique())
+    )
+    PROMETHEUS_FUNDERS_COUNT_GAUGE.set(
+        len(data['grants']["fundingOrganization.0.id"].unique())
+    )
+    PROMETHEUS_AMOUNT_AWARDED_GBP_GAUGE.set(
+        data['grants'].loc[data['grants']["currency"] == "GBP", "amountAwarded"].sum()
+    )
+    # Send output
+    output = make_response(generate_latest())
+    output.headers["Content-type"] = "text/plain"
     return output
 
 
