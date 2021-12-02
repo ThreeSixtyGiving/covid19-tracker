@@ -11,8 +11,11 @@ def regions(grants):
         ("location.ladcd", "location.ladnm", "Local Authority District"),
         ("location.utlacd", "location.utlanm", "Local Authority"),
         ("location.rgnctrycd", "location.rgnctrynm", "Country and Region"),
+        ("location.rgncd", "location.rgnnm", "Region"),
     ]
     for a in area_types:
+        if a[0] not in grants.columns:
+            continue
         regions = grants[grants[a[0]] != ""].groupby([a[0], a[1]]).size()
         region_type = a[2]
         if len(regions) > 1 and len(regions) < 100:
