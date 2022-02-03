@@ -66,6 +66,11 @@ dokku config:set -no-restart covidtracker FLASK_APP=covidtracker.app:server
 # set up redis
 dokku redis:create covidtrackercache
 dokku redis:link covidtrackercache covidtracker
+
+# fetch data
+dokku run covidtracker flask fetch-data
+dokku run covidtracker flask clear-cache
+dokku ps:rebuild covidtracker
 ```
 
 4. Set up cron tab for scheduled tasks (on server)
