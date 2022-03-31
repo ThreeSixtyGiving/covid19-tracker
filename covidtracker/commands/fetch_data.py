@@ -14,6 +14,7 @@ from covidtracker.settings import (
     PRIORITIES,
     STOPWORDS,
     WORDS_PICKLE,
+    DISABLE_UPDATE,
 )
 
 
@@ -134,6 +135,10 @@ def fetch_data(
 ):
     """Import data from the database to a JSON file"""
 
+    if DISABLE_UPDATE:
+        print("Updates are disabled, do nothing")
+        return
+
     print("Fetching funders")
     funder_sql = """
     select distinct g.data->'fundingOrganization'->0->>'id' as "fundingOrganization.0.id"
@@ -148,12 +153,57 @@ def fetch_data(
         data = json.load(a)
         funders.extend(data.get("funders", []))
         regrants = data.get("regrants", [])
+        manual_adjustments = data.get("manual_adjustments", {})
     funders = sorted(set(funders))
     print("Found {:,.0f} funder IDs".format(len(funders)))
     print("Found {:,.0f} regrant IDs".format(len(regrants)))
 
+    # process the manual adjustments
+    # Manual adjustments are included in the `funder_ids.json` file, in the following format:
+    # ...
+    # "manual_adjustments": {
+    #     "grantProgramme.0.code": {  # Or another field
+    #         "exclude": [
+    #             "G2-SCH-2021-08-8532",
+    #             ...list of values to exclude...
+    #             "G2-SCH-2021-03-7422"
+    #         ],
+    #         "include": [
+    #             "G2-SCH-2021-03-7435",
+    #             ...list of values to include...
+    #             "G2-SCH-2021-03-7427"
+    #         ]
+    #     }
+    # }
+    # ...
+    manual_adjustments_include = []
+    manual_adjustments_exclude = []
+    manual_adjustments_params = {}
+    for field, v in manual_adjustments.items():
+        field_components = field.split(".")
+        sql_field = "g.data{}->>'{}'".format(
+            "".join(
+                [
+                    "->{}".format(f if f.isdigit() else f"'{f}'")
+                    for f in field_components[:-1]
+                ]
+            ),
+            field_components[-1],
+        )
+        if v.get("include"):
+            manual_adjustments_include.append(f"or {sql_field} in %({field}_include)s")
+            manual_adjustments_params[field + "_include"] = tuple(v["include"])
+        if v.get("exclude"):
+            manual_adjustments_exclude.append(
+                f"and ({sql_field} not in %({field}_exclude)s or {sql_field} is null)"
+            )
+            manual_adjustments_params[field + "_exclude"] = tuple(v["exclude"])
+    manual_adjustments_include = "\n".join(manual_adjustments_include)
+    manual_adjustments_exclude = "\n".join(manual_adjustments_exclude)
+
+    # fetch grants from the database
     print("Fetching grants")
-    grant_sql = """
+    grant_sql = f"""
         with g as MATERIALIZED (select * from view_latest_grant)
         select g.data->>'id' as "id",
             g.data->>'title' as "title",
@@ -175,17 +225,24 @@ def fetch_data(
             g.data as "grant"
         from g
         where (
-                g.data->>'title' ~* 'covid|coronavirus|pandemic|cv-?19' or
-                g.data->>'description' ~* 'covid|coronavirus|pandemic|cv-?19' or
-                g.data->'grantProgramme'->0->>'title' ~* 'covid|coronavirus|pandemic|cv-?19' or
-                g.data->>'classifications' ~* 'covid|coronavirus|pandemic|cv-?19'
+                g.data->>'title' ~* 'covid|coronavirus|pandemic|cv-?19'
+                or g.data->>'description' ~* 'covid|coronavirus|pandemic|cv-?19'
+                or g.data->'grantProgramme'->0->>'title' ~* 'covid|coronavirus|pandemic|cv-?19'
+                or g.data->>'classifications' ~* 'covid|coronavirus|pandemic|cv-?19'
+                {manual_adjustments_include}
             )
             and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-03-16'
             and to_date(g.data->>'awardDate', 'YYYY-MM-DD') < NOW() + interval '1 day'
             and g.data->>'currency' = 'GBP'
+            {manual_adjustments_exclude}
         order by to_date(g.data->>'awardDate', 'YYYY-MM-DD'), g.data->>'id'
     """
-    grants = pd.read_sql(grant_sql, con=db_url)
+    grants = pd.read_sql(
+        grant_sql,
+        con=db_url,
+        params=manual_adjustments_params,
+    )
+    print("Fetched {:,.0f} grants from database".format(len(grants)))
 
     # add canonical recipient details
     grants.loc[:, "_recipient_id"] = grants["recipientOrgInfos"].apply(
@@ -202,6 +259,14 @@ def fetch_data(
     )
 
     # add regranting details
+    # Regrants are included in the `funder_ids.json` file, in the following format:
+    # ...
+    # "regrants": [
+    #     "360G-CR-4915820",
+    #     ...list of grants IDs to mark as regrants...
+    #     "360G-CR-4854442"
+    # ]
+    # ...
     grants.loc[:, "_recipient_is_grantmaker"] = grants[
         "recipientOrganization.0.id"
     ].isin(funders)
@@ -296,7 +361,11 @@ def fetch_data(
 
     print("Saving funders to file")
     with open(funder_ids_file, "w") as a:
-        json.dump({"funders": funders, "regrants": regrants}, a, indent=4)
+        json.dump(
+            {"funders": funders, **{k: v for k, v in data.items() if k != "funders"}},
+            a,
+            indent=4,
+        )
     print("Saved to `{}`".format(funder_ids_file))
 
 

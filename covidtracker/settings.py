@@ -23,6 +23,7 @@ else:
         "CACHE_DEFAULT_TIMEOUT": CACHE_TIMEOUT,
     }
 
+DISABLE_UPDATE = os.getenv("DISABLE_UPDATE", "False").lower() in ("true", "1", "t")
 DB_URL = os.getenv("DB_URL")
 GOOGLE_ANALYTICS = os.getenv("GOOGLE_ANALYTICS")
 MAPBOX_TOKEN = os.getenv("MAPBOX_TOKEN")
