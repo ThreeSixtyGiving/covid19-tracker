@@ -14,6 +14,7 @@ from covidtracker.settings import (
     PRIORITIES,
     STOPWORDS,
     WORDS_PICKLE,
+    DISABLE_UPDATE,
 )
 
 
@@ -133,6 +134,10 @@ def fetch_data(
     words_pickle=WORDS_PICKLE,
 ):
     """Import data from the database to a JSON file"""
+
+    if DISABLE_UPDATE:
+        print("Updates are disabled, do nothing")
+        return
 
     print("Fetching funders")
     funder_sql = """
