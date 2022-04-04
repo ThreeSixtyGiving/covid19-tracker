@@ -133,6 +133,7 @@ FUNDER_GROUPS = {
             "GB-GOR-D10": "Department for Work and Pensions",
             "GB-GOR-D12": "Department of Health and Social Care",
             "GB-GOR-D13": "Foreign and Commonwealth Office",
+            "GB-GOR-D1315": "Foreign, Commonwealth & Development Office",
             "GB-GOR-D25": "HM Revenue & Customs",
             "GB-GOR-D16": "Home Office",
             "GB-GOR-D4": "Ministry for Housing, Communities and Local Government",
