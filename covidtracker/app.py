@@ -27,9 +27,24 @@ from .components import (
 )
 from .data import filter_data, get_data
 from .layout import layout
-from .settings import CACHE_SETTINGS, CACHE_TIMEOUT, GRANTS_DATA_FILE, PROMETHEUS_AUTH_USERNAME, PROMETHEUS_AUTH_PASSWORD
+from .settings import (
+    CACHE_SETTINGS,
+    CACHE_TIMEOUT,
+    GRANTS_DATA_FILE,
+    PROMETHEUS_AUTH_USERNAME,
+    PROMETHEUS_AUTH_PASSWORD,
+)
 
-app = dash.Dash(__name__)
+external_stylesheets = []
+meta_tags = [
+    {"charset": "utf-8"},
+    {"name": "viewport", "content": "width=device-width, initial-scale=1.0"},
+    {"http-equiv": "X-UA-Compatible", "content": "ie=edge"},
+]
+
+app = dash.Dash(
+    __name__, external_stylesheets=external_stylesheets, meta_tags=meta_tags
+)
 server = app.server
 if os.environ.get("FLASK_ENV", "production") == "development":
     CACHE_SETTINGS["CACHE_TYPE"] = "null"
@@ -158,49 +173,48 @@ def get_all_grants_csv():
 
 
 PROMETHEUS_GRANTS_COUNT_GAUGE = Gauge(
-    'covid19_tracker_grants_count',
-    'Count of grants in the Covid 19 Tracker'
+    "covid19_tracker_grants_count", "Count of grants in the Covid 19 Tracker"
 )
 
 PROMETHEUS_RECIPIENTS_COUNT_GAUGE = Gauge(
-    'covid19_tracker_recipients_count',
-    'Count of recipients in the Covid 19 Tracker'
+    "covid19_tracker_recipients_count", "Count of recipients in the Covid 19 Tracker"
 )
 
 PROMETHEUS_FUNDERS_COUNT_GAUGE = Gauge(
-    'covid19_tracker_funders_count',
-    'Count of funders in the Covid 19 Tracker'
+    "covid19_tracker_funders_count", "Count of funders in the Covid 19 Tracker"
 )
 
 PROMETHEUS_AMOUNT_AWARDED_GBP_GAUGE = Gauge(
-    'covid19_tracker_amount_awarded_gbp',
-    'Amount Awarded in the Covid 19 Tracker in GBP'
+    "covid19_tracker_amount_awarded_gbp",
+    "Amount Awarded in the Covid 19 Tracker in GBP",
 )
 
 
 @server.route("/prometheus/metrics")
 def prometheus_metrics():
     # check auth
-    if not request.authorization or\
-            request.authorization.username != PROMETHEUS_AUTH_USERNAME or \
-            request.authorization.password != PROMETHEUS_AUTH_PASSWORD:
-        return ('Unauthorized', 401, {
-            'WWW-Authenticate': 'Basic realm="Login Required"'
-        })
+    if (
+        not request.authorization
+        or request.authorization.username != PROMETHEUS_AUTH_USERNAME
+        or request.authorization.password != PROMETHEUS_AUTH_PASSWORD
+    ):
+        return (
+            "Unauthorized",
+            401,
+            {"WWW-Authenticate": 'Basic realm="Login Required"'},
+        )
 
     # update metrics
     data = get_data()
-    PROMETHEUS_GRANTS_COUNT_GAUGE.set(
-        len(data['grants'])
-    )
+    PROMETHEUS_GRANTS_COUNT_GAUGE.set(len(data["grants"]))
     PROMETHEUS_RECIPIENTS_COUNT_GAUGE.set(
-        len(data['grants']["recipientOrganization.0.id"].unique())
+        len(data["grants"]["recipientOrganization.0.id"].unique())
     )
     PROMETHEUS_FUNDERS_COUNT_GAUGE.set(
-        len(data['grants']["fundingOrganization.0.id"].unique())
+        len(data["grants"]["fundingOrganization.0.id"].unique())
     )
     PROMETHEUS_AMOUNT_AWARDED_GBP_GAUGE.set(
-        data['grants'].loc[data['grants']["currency"] == "GBP", "amountAwarded"].sum()
+        data["grants"].loc[data["grants"]["currency"] == "GBP", "amountAwarded"].sum()
     )
     # Send output
     output = make_response(generate_latest())
