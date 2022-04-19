@@ -1,60 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {%metas%}
     <title>{%title%}</title>
-    <link rel="stylesheet" href="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/css/styles.css?ver=5.3.2" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/favicon/favicon.ico"/>
-    <style>
-        strong {
-            font-weight: 500;
-        }
-        .table th > a {
-            font-weight: 500;
-        }
-        div.table {
-            border: 0px solid black;
-        }
-        .table table {
-            border: 1px solid rgba(21, 54, 52, 0.2);
-        }
-        .dataTable-top {
-            padding: 8px 0px;
-        }
-        .dataTable-input {
-            padding: 8px 16px;
-            width: 100%;
-            border: 1px solid rgba(21, 54, 52, 0.2);
-            color: rgba(21, 54, 52, 0.7);
-            background-color: transparent;
-        }
-        .dataTable-sorter::before, .dataTable-sorter::after {
-            opacity: 0.1;
-        }
-        .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td div.dash-cell-value.cell-markdown {
-            font-family: 'Roboto', sans-serif !important;
-        }
-        th.dash-header span.column-header-name {
-            margin-left: 4px;
-        }
-        .dash-table-container .previous-next-container .page-number {
-            font-family: 'Roboto', sans-serif !important;
-        }
-        .tab-container .tab {
-            width: auto !important;
-        }
-        .tab-container .tab.tab--selected {
-            border-top: 4px solid #4DACB6 !important;
-        }
-        .tab-container::after {
-            content: "";
-            border-bottom: 1px solid #d6d6d6;;
-            width: 100%;
-        }
-    </style>
+    {%favicon%}
+    {%css%}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158107262-2"></script>
     <script>
@@ -69,5 +19,64 @@
     {%config%}
     {%scripts%}
     {%renderer%}
+    <div role="dialog" aria-labelledby="cookie-dialog-title" aria-describedby="cookie-dialog-desc">
+        <div class="base-card base-card--new cookie-consent">
+            <div class="base-card__content">
+                <h2 class="base-card__title" id="cookie-dialog-title">Allow analytics cookies? <br>
+                <a class="base-card__text" href="https://www.threesixtygiving.org/privacy/"> More Information &amp; Privacy Policy</a>
+                </h2>
+                <p class="base-card__text">
+                    <a href="#" onclick="_paq.push(['rememberCookieConsentGiven']); hideCookieConsentDialog(true);" class="button">Yes</a>
+                    <a href="#" onclick="noCookieConsent(); hideCookieConsentDialog(true);" class="button">No</a>
+                    <a href="#" onclick="_paq.push(['optUserOut']); hideCookieConsentDialog(true);" class="button">Disable Analytics</a>
+                </p>
+                <p id="cookie-dialog-desc" style="font-style: italic;">360Giving uses privacy-respecting analytics. If you don't accept cookies, we will track only basic information about your visit. Click "Disable Analytics" if you don't want us to track at all. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        var siteID = 29;
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['requireCookieConsent']); // Don't use cookies unless we have consent
+        _paq.push(['setCookieDomain', '*.threesixtygiving.org']);
+        _paq.push(['setDomains', '*.threesixtygiving.org']);
+        _paq.push(['setDownloadExtensions', "json|csv|xlsx"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u="https://analytics.threesixtygiving.org/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        if(!siteID) throw new Error("siteID not set");
+        _paq.push(['setSiteId', siteID]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+    <script type="text/javascript">
+        function hideCookieConsentDialog(hide){
+            if (hide){
+            document.getElementsByClassName("cookie-consent")[0].style.display = 'none';
+            } else {
+            document.getElementsByClassName("cookie-consent")[0].style.display = 'block';
+            }
+        }
+
+        function noCookieConsent() {
+            document.cookie = "noEnhancedAnalytics=1; domain=threesixtygiving.org";
+        }
+
+        document.addEventListener('DOMContentLoaded', function(){
+            if (document.cookie.indexOf("mtm_cookie_consent") > -1 ||
+                document.cookie.indexOf("mtm_consent_removed") > -1 ||
+                document.cookie.indexOf("noEnhancedAnalytics") > -1) {
+            hideCookieConsentDialog(true);
+            } else {
+            hideCookieConsentDialog(false);
+            }
+        });
+    </script>
 </body>
 </html>
