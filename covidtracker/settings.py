@@ -68,7 +68,7 @@ FUNDER_GROUPS = {
         },
     },
     "community-foundations": {
-        "name": "UK Community Foundations",
+        "name": "Community Foundation grants",
         "funder_ids": {
             "GB-CHC-1091628": "Community Foundation for Staffordshire",
             "GB-CHC-1047625": "County Durham Community Foundation",
