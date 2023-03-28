@@ -46,7 +46,7 @@ joblib==1.0.1
     # via nltk
 markupsafe==2.0.1
     # via jinja2
-nltk==3.6.5
+nltk==3.8.1
     # via -r requirements.in
 numpy==1.20.3
     # via pandas
