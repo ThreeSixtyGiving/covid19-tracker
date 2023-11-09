@@ -48,7 +48,7 @@ markupsafe==2.0.1
     # via jinja2
 nltk==3.8.1
     # via -r requirements.in
-numpy==1.20.3
+numpy==1.22.0
     # via pandas
 pandas==1.2.4
     # via -r requirements.in
