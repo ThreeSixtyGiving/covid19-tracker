@@ -64,7 +64,7 @@ python-dotenv==0.17.1
     # via -r requirements.in
 pytz==2021.1
     # via pandas
-redis==4.5.3
+redis==4.5.4
     # via -r requirements.in
 regex==2021.11.10
     # via nltk
