@@ -42,7 +42,7 @@ jinja2==3.0.1
     # via
     #   -r requirements.in
     #   flask
-joblib==1.0.1
+joblib==1.2.0
     # via nltk
 markupsafe==2.0.1
     # via jinja2
