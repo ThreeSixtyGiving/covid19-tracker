@@ -30,7 +30,7 @@ flask-caching==1.10.1
     # via -r requirements.in
 flask-compress==1.4.0
     # via dash
-future==0.18.2
+future==0.18.3
     # via dash
 greenlet==1.1.0
     # via sqlalchemy
