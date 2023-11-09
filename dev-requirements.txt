@@ -74,10 +74,11 @@ joblib==1.0.1
     # via
     #   -r requirements.txt
     #   nltk
-markupsafe==2.0.1
+markupsafe==2.1.2
     # via
     #   -r requirements.txt
     #   jinja2
+    #   werkzeug
 mccabe==0.6.1
     # via flake8
 mypy-extensions==0.4.3
@@ -139,7 +140,7 @@ tqdm==4.60.0
     # via
     #   -r requirements.txt
     #   nltk
-werkzeug==1.0.1
+werkzeug==2.2.3
     # via
     #   -r requirements.txt
     #   flask
