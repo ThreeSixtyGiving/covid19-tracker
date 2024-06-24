@@ -234,6 +234,9 @@ def fetch_data(
             and to_date(g.data->>'awardDate', 'YYYY-MM-DD') > '2020-03-16'
             and to_date(g.data->>'awardDate', 'YYYY-MM-DD') < NOW() + interval '1 day'
             and g.data->>'currency' = 'GBP'
+            -- covidtracker requires at least one recipientOrganization to display,
+            -- i.e. it can't display grants to individuals.
+            and jsonb_array_length(g.data->'recipientOrganization') >= 1
             {manual_adjustments_exclude}
         order by to_date(g.data->>'awardDate', 'YYYY-MM-DD'), g.data->>'id'
     """
