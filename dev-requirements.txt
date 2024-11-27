@@ -50,7 +50,7 @@ flask-compress==1.4.0
     # via
     #   -r requirements.txt
     #   dash
-future==0.18.2
+future==0.18.3
     # via
     #   -r requirements.txt
     #   dash
