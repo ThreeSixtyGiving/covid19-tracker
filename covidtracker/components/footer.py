@@ -18,7 +18,7 @@ def footer():
                                         href="https://www.threesixtygiving.org",
                                         children=[
                                             html.Img(
-                                                src="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/360-giving-logo-white.svg",
+                                                src="https://grantnav.threesixtygiving.org/static/images/360-giving-logo-white.svg",
                                                 alt="360Giving",
                                             ),
                                         ],
@@ -35,22 +35,22 @@ def footer():
                         className="footer__column-1 footer__social",
                         children=[
                             html.A(
-                                href="https://github.com/ThreeSixtyGiving/covid19-tracker",
-                                className="github-icon",
+                                href="https://www.linkedin.com/company/360giving/",
+                                className="linkedin-icon",
                                 children=[
                                     html.Img(
-                                        src="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/github-logo.svg",
-                                        alt="Check our Github",
+                                        src="https://grantnav.threesixtygiving.org/static/images/linkedin-logo.svg",
+                                        alt="Find us on LinkedIn",
                                     ),
                                 ],
                             ),
                             html.A(
-                                href="https://twitter.com/360Giving/",
-                                className="twitter-icon",
+                                href="https://github.com/ThreeSixtyGiving/covid19-tracker",
+                                className="github-icon",
                                 children=[
                                     html.Img(
-                                        src="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/twitter-logo.svg",
-                                        alt="Follow us on Twitter",
+                                        src="https://grantnav.threesixtygiving.org/static/images/github-logo.svg",
+                                        alt="Check our Github",
                                     ),
                                 ],
                             ),

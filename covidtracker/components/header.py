@@ -21,7 +21,7 @@ def header():
                                                 href="https://threesixtygiving.org/",
                                                 children=[
                                                     html.Img(
-                                                        src="https://www.threesixtygiving.org/wp-content/themes/360giving2020/assets/images/360-logos/360giving-main.svg",
+                                                        src="https://www.360giving.org/wp-content/themes/threesixtygiving/dist/images/logo.svg",
                                                         alt="360 Main",
                                                     ),
                                                 ],
