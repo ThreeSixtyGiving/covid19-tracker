@@ -51,17 +51,15 @@ git remote add dokku dokku@<IPADDRESS>:covidtracker
 
 ```sh
 # create a persistant directory
-mkdir -p  /var/lib/dokku/data/storage/covidtracker
-chown -R dokku:dokku /var/lib/dokku/data/storage/covidtracker
-chown -R 32767:32767 /var/lib/dokku/data/storage/covidtracker
+dokku storage:ensure-directory covidtracker
 dokku storage:mount covidtracker /var/lib/dokku/data/storage/covidtracker:/app/storage
 
 # set up settings
-dokku config:set covidtracker DB_URI=**DATABASE URL**
+dokku config:set covidtracker DB_URL=**DATABASE URL**
 dokku config:set covidtracker GOOGLE_ANALYTICS=********
 dokku config:set covidtracker PROMETHEUS_AUTH_PASSWORD=********
-dokku config:set -no-restart covidtracker DATA_DIR=/app/storage/data
-dokku config:set -no-restart covidtracker FLASK_APP=covidtracker.app:server
+dokku config:set --no-restart covidtracker DATA_DIR=/app/storage/data
+dokku config:set --no-restart covidtracker FLASK_APP=covidtracker.app:server
 
 # set up redis
 dokku redis:create covidtrackercache
