@@ -20,7 +20,7 @@ def sources(s, without_geo=None):
                         className="",
                         children=[SOURCES.get(k, k), ": ", "{:,.0f}".format(v)],
                     )
-                    for k, v in s.value_counts().iteritems()
+                    for k, v in s.value_counts().items()
                 ]
                 + (
                     [

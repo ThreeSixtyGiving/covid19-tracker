@@ -8,7 +8,7 @@ from covidtracker.settings import THREESIXTY_COLOURS
 def orgtype(grants):
     orgtypes = [
         {"name": i.replace("-", " ").title(), "count": count}
-        for i, count in grants["_recipient_type"].value_counts().iteritems()
+        for i, count in grants["_recipient_type"].value_counts().items()
     ]
     count_unknown = grants["_recipient_type"].isnull().sum()
     if count_unknown:

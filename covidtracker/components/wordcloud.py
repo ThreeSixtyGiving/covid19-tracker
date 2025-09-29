@@ -15,7 +15,7 @@ def wordcloud(words, func="bigrams"):
 
     spans = []
     colour = None
-    for k, w in enumerate(words.head(30).iteritems()):
+    for k, w in enumerate(words.head(30).items()):
         word, wordcount = w
         colour = choice([c for c in THREESIXTY_COLOURS if c != colour])
         spans.append(

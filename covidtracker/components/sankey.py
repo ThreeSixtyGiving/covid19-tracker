@@ -5,7 +5,6 @@ from covidtracker.settings import THREESIXTY_COLOURS
 
 
 def sankey(grants, all_grants, funder_id, funder_name):
-
     name_for_other_recipients = "Grant recipients"
     nodes = [funder_name, name_for_other_recipients]
     links = []
@@ -13,11 +12,11 @@ def sankey(grants, all_grants, funder_id, funder_name):
     # find grants where the funder is a recipient
     funder_is_recipient = (
         all_grants[all_grants["recipientOrganization.0.id"] == funder_id]
-        .groupby("fundingOrganization.0.name")
-        .sum()["amountAwarded"]
+        .groupby("fundingOrganization.0.name")["amountAwarded"]
+        .sum()
     )
     nodes.extend(funder_is_recipient.index.tolist())
-    for f, count in funder_is_recipient.iteritems():
+    for f, count in funder_is_recipient.items():
         links.append(
             (
                 nodes.index(f),
@@ -31,7 +30,7 @@ def sankey(grants, all_grants, funder_id, funder_name):
         (all_grants["fundingOrganization.0.id"] == funder_id)
         & ~all_grants["_may_be_regranted"],
         :,
-    ].sum()["amountAwarded"]
+    ]["amountAwarded"].sum()
     links.append(
         (
             nodes.index(funder_name),
@@ -46,11 +45,11 @@ def sankey(grants, all_grants, funder_id, funder_name):
             (all_grants["fundingOrganization.0.id"] == funder_id)
             & all_grants["_may_be_regranted"]
         ]
-        .groupby("recipientOrganization.0.name")
-        .sum()["amountAwarded"]
+        .groupby("recipientOrganization.0.name")["amountAwarded"]
+        .sum()
     )
     nodes.extend(recipient_is_funder.index.tolist())
-    for f, count in recipient_is_funder.iteritems():
+    for f, count in recipient_is_funder.items():
         links.append(
             (
                 nodes.index(funder_name),

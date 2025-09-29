@@ -14,7 +14,7 @@ def orgsize(grants):
     )
     orgsizes = [
         {"name": i, "count": count}
-        for i, count in orgsize_bins.value_counts().sort_index().iteritems()
+        for i, count in orgsize_bins.value_counts().sort_index().items()
     ]
     count_unknown = orgsize_bins.isnull().sum()
     if count_unknown:

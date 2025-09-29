@@ -14,7 +14,7 @@ def awardamount(grants):
     )
     amounts = [
         {"name": i, "count": count}
-        for i, count in amount_bins.value_counts().sort_index().iteritems()
+        for i, count in amount_bins.value_counts().sort_index().items()
     ]
     count_unknown = amount_bins.isnull().sum()
     if count_unknown:
