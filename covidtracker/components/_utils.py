@@ -1,7 +1,7 @@
 import copy
 
-import plotly
 import plotly.graph_objs as go
+from plotly.subplots import make_subplots
 
 LAYOUT = {
     "yaxis": {
@@ -61,7 +61,7 @@ def horizontal_bar(
             layout={},
         )
 
-    hb_plot = plotly.subplots.make_subplots(
+    hb_plot = make_subplots(
         rows=len(categories),
         cols=1,
         subplot_titles=[x["name"] for x in categories],

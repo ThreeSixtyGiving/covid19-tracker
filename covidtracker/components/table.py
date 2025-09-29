@@ -1,6 +1,5 @@
-import dash_html_components as html
-import dash_table
-from dash_table.Format import Format, Scheme, Symbol
+from dash import dash_table, html
+from dash.dash_table.Format import Format, Scheme, Symbol
 
 
 def table(grants):
