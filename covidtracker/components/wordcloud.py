@@ -1,6 +1,6 @@
 from random import choice
 
-import dash_html_components as html
+from dash import html
 
 from covidtracker.settings import THREESIXTY_COLOURS
 

@@ -1,5 +1,4 @@
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 
 from covidtracker.components._utils import horizontal_bar
 from covidtracker.components.geomap import sources

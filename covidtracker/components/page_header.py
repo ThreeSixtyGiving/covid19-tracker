@@ -1,7 +1,6 @@
 import os
 
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 
 from covidtracker.components.sankey import sankey
 from covidtracker.settings import FUNDER_GROUPS
@@ -11,7 +10,6 @@ def page_header(data):
     grants = data["grants"]
 
     if len(data["filters"].get("funder", [])) == 1:
-
         funder_id = data["filters"]["funder"][0]
         if funder_id in FUNDER_GROUPS.keys():
             funder_name = FUNDER_GROUPS[funder_id]["name"]
@@ -50,7 +48,6 @@ def page_header(data):
         ]
 
     if len(data["filters"].get("area", [])) == 1:
-
         area_id = data["filters"]["area"][0]
         area_name = grants.loc[
             grants["location.utlacd"] == area_id, "location.utlanm"

@@ -1,6 +1,5 @@
-import dash_core_components as dcc
-import dash_html_components as html
 import pandas as pd
+from dash import dcc, html
 
 from covidtracker.components._utils import horizontal_bar
 from covidtracker.settings import INCOME_BIN_LABELS, INCOME_BINS, THREESIXTY_COLOURS
