@@ -306,7 +306,6 @@ def fetch_data(
     print("Saving grants to json file")
 
     def get_grant(g):
-
         recipient_ids = set()
         recipient_ids.add(g["recipientOrganization.0.id"])
         if g["recipientOrgInfos"]:

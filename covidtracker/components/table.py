@@ -4,17 +4,16 @@ from dash_table.Format import Format, Scheme, Symbol
 
 
 def table(grants):
-
     table_data = [
         {
-            "fundingOrganization": f'**{g["fundingOrganization.0.name"].strip()}**',
+            "fundingOrganization": f"**{g['fundingOrganization.0.name'].strip()}**",
             "recipientOrganization": recipient_contents_markdown(g),
             "description": f"""
 **{g["title"].strip()}**
 
 {g["description"]}
 
-[View on GrantNav](http://grantnav.threesixtygiving.org/grant/{g['id'].replace(" ", "%20")})
+[View on GrantNav](http://grantnav.threesixtygiving.org/grant/{g["id"].replace(" ", "%20")})
             """,
             "amountAwarded": g["amountAwarded"],
             "awardDate": g["awardDate"].strftime("%Y-%m-%d"),
@@ -112,11 +111,9 @@ def recipient_contents_markdown(g):
 **{}**
 
 *This grant may be intended for re-distribution as grants to other organisations
-        """.format(
-            g["recipientOrganization.0.name"].strip()
-        )
+        """.format(g["recipientOrganization.0.name"].strip())
     else:
-        return f'**{g["recipientOrganization.0.name"].strip()}**'
+        return f"**{g['recipientOrganization.0.name'].strip()}**"
 
 
 def description_contents(g):
@@ -134,7 +131,6 @@ def description_contents(g):
 
 
 def table_row(g, all_funders):
-
     if g["recipientOrganization"][0]["id"] in all_funders:
         recipientRow = html.Td(
             className="",

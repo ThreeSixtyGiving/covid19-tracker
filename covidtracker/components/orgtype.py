@@ -1,8 +1,8 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import THREESIXTY_COLOURS
-from ._utils import horizontal_bar
+from covidtracker.components._utils import horizontal_bar
+from covidtracker.settings import THREESIXTY_COLOURS
 
 
 def orgtype(grants):

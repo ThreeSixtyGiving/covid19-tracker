@@ -1,7 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import MAPBOX_STYLE, MAPBOX_TOKEN, SOURCES
+from covidtracker.settings import MAPBOX_STYLE, MAPBOX_TOKEN, SOURCES
 
 
 def sources(s, without_geo=None):

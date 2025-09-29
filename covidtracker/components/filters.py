@@ -1,7 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import FUNDER_GROUPS
+from covidtracker.settings import FUNDER_GROUPS
 
 
 def dropdown_options(
@@ -20,7 +20,6 @@ def dropdown_options(
 
 
 def filters(grants):
-
     recipients = grants[["_recipient_id", "_recipient_name"]].copy()
     recipients.loc[:, "_recipient_id"] = recipients["_recipient_id"].fillna(
         grants["recipientOrganization.0.id"]

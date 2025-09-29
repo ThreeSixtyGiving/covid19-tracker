@@ -10,8 +10,8 @@ from flask_caching import Cache
 from prometheus_client import Gauge
 from prometheus_client.exposition import generate_latest
 
-from .commands.fetch_data import fetch_data
-from .components import (
+from covidtracker.commands.fetch_data import fetch_data
+from covidtracker.components import (
     awardamount,
     cards,
     chart,
@@ -25,14 +25,14 @@ from .components import (
     top_funders,
     wordcloud,
 )
-from .data import filter_data, get_data
-from .layout import layout
-from .settings import (
+from covidtracker.data import filter_data, get_data
+from covidtracker.layout import layout
+from covidtracker.settings import (
     CACHE_SETTINGS,
     CACHE_TIMEOUT,
     GRANTS_DATA_FILE,
-    PROMETHEUS_AUTH_USERNAME,
     PROMETHEUS_AUTH_PASSWORD,
+    PROMETHEUS_AUTH_USERNAME,
 )
 
 external_stylesheets = []
@@ -243,7 +243,6 @@ app.layout = layout()
 def update_url_from_filters(
     funder_value, search_value, doublecount_value, area_value, recipient_value
 ):
-
     filters = {
         "funder": funder_value,
         "search": search_value,
@@ -327,7 +326,6 @@ def update_filters_from_url(url):
 )
 @cache.memoize(timeout=CACHE_TIMEOUT)
 def update_output_div(filters, chart_type, tab):
-
     all_data = get_data()
     data = filter_data(all_data, **filters)
 

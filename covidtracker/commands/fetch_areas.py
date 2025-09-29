@@ -3,7 +3,7 @@ import os
 import click
 import pandas as pd
 
-# from ..settings import AREAS_FILE
+# from covidtracker.settings import AREAS_FILE
 AREAS_FILE = os.getenv(
     "AREAS_FILE", os.path.join(os.path.dirname(__file__), "../assets/data/areas.json")
 )

@@ -3,8 +3,8 @@ import os
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import FUNDER_GROUPS
-from .sankey import sankey
+from covidtracker.components.sankey import sankey
+from covidtracker.settings import FUNDER_GROUPS
 
 
 def page_header(data):
@@ -85,9 +85,7 @@ def page_header(data):
                     """
 Based on grants that have included location information.
 {:,.0f} grants out of a total {:,.0f} include location information.
-""".format(
-                        with_geo, grant_count
-                    )
+""".format(with_geo, grant_count)
                 ),
             ),
         ]
