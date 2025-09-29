@@ -220,7 +220,7 @@ def footer():
                         children=[
                             html.P(
                                 [
-                                    "360Giving:" "Company ",
+                                    "360Giving: Company ",
                                     html.A(
                                         href="https://beta.companieshouse.gov.uk/company/09668396",
                                         target="_blank",

@@ -2,11 +2,10 @@ from random import choice
 
 import dash_html_components as html
 
-from ..settings import THREESIXTY_COLOURS
+from covidtracker.settings import THREESIXTY_COLOURS
 
 
 def wordcloud(words, func="bigrams"):
-
     words = words.loc[words["func"] == func, "ngram"].value_counts()
 
     if not len(words):

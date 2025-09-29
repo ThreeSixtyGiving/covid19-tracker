@@ -1,7 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from ..settings import THREESIXTY_COLOURS
+from covidtracker.settings import THREESIXTY_COLOURS
 
 
 def sankey(grants, all_grants, funder_id, funder_name):

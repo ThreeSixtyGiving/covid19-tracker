@@ -4,13 +4,17 @@ import re
 
 import pandas as pd
 
-from .settings import FUNDER_GROUPS, GOOGLE_ANALYTICS, GRANTS_DATA_PICKLE, WORDS_PICKLE
+from covidtracker.settings import (
+    FUNDER_GROUPS,
+    GOOGLE_ANALYTICS,
+    GRANTS_DATA_PICKLE,
+    WORDS_PICKLE,
+)
 
 pd.set_option("mode.chained_assignment", "raise")
 
 
 def get_data():
-
     results = dict(
         grants=None,
         words=None,
@@ -36,7 +40,6 @@ def normalise_string(s):
 
 
 def filter_data(all_data, **filters):
-
     grants = all_data["grants"]
 
     use_filter = False
@@ -47,7 +50,6 @@ def filter_data(all_data, **filters):
     if use_filter:
         # funder filter
         if filters.get("funder"):
-
             funder_ids = []
 
             for f in filters["funder"]:

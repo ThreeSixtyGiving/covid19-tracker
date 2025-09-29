@@ -2,8 +2,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 
-from ..settings import AMOUNT_BIN_LABELS, AMOUNT_BINS, THREESIXTY_COLOURS
-from ._utils import horizontal_bar
+from covidtracker.components._utils import horizontal_bar
+from covidtracker.settings import AMOUNT_BIN_LABELS, AMOUNT_BINS, THREESIXTY_COLOURS
 
 
 def awardamount(grants):

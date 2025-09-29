@@ -48,9 +48,8 @@ def horizontal_bar(
     log_axis=False,
     colour="#237756",
     text_colour="#fff",
-    **kwargs
+    **kwargs,
 ):
-
     # categories = {
     #   "name": "category name"
     #   ...various values
@@ -69,7 +68,7 @@ def horizontal_bar(
         shared_xaxes=True,
         print_grid=False,
         vertical_spacing=(0.45 / len(categories)),
-        **kwargs
+        **kwargs,
     )
     max_value = max([x[value] for x in categories])
     for k, x in enumerate(categories):
@@ -110,7 +109,7 @@ def horizontal_bar(
             k: copy.deepcopy(v)
             for k, v in LAYOUT.items()
             if k not in ["xaxis", "yaxis"]
-        }
+        },
     )
 
     for x in hb_plot["layout"]["annotations"]:

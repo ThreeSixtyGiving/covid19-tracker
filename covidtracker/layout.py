@@ -1,8 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 
-from .data import filter_data, get_data
-from .components import (
+from covidtracker.components import (
     cards,
     filters,
     footer,
@@ -12,6 +11,7 @@ from .components import (
     tab_data,
     tab_map,
 )
+from covidtracker.data import filter_data, get_data
 
 
 def layout():
