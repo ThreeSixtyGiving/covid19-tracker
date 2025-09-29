@@ -25,6 +25,6 @@ def datasources(grants):
                     ")",
                 ]
             )
-            for p, grant_count in publishers.iteritems()
+            for p, grant_count in publishers.items()
         ]
     )

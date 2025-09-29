@@ -24,7 +24,7 @@ def regions(grants):
     if len(regions) <= 1:
         return None
 
-    regions = [{"name": i[1], "count": count} for i, count in regions.iteritems()]
+    regions = [{"name": i[1], "count": count} for i, count in regions.items()]
     subtitle = None
     if region_type.startswith("Local Authority"):
         regions = sorted(regions, key=lambda x: -x["count"])
