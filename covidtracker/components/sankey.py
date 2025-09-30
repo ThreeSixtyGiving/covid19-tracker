@@ -103,6 +103,7 @@ def sankey(grants, all_grants, funder_id, funder_name):
             ),
             dcc.Graph(
                 id="sankey-chart",
+                style={"max-height": "200px"},
                 figure=dict(
                     data=[
                         dict(
