@@ -346,3 +346,43 @@ def update_output_div(filters, chart_type, tab):
         awardamount(data["grants"]) if tab == "dashboard" else None,
         datasources(data["grants"]) if tab == "data" else None,
     )
+
+
+@app.callback(
+    Output("recipient-filter", "options"),
+    Input("recipient-filter", "search_value"),
+    dash.State("recipient-filter", "value"),
+)
+def update_multi_options(search_value, value):
+    if not search_value:
+        raise dash.exceptions.PreventUpdate
+
+    all_data = get_data()
+
+    recipients = (
+        all_data["grants"]
+        .loc[
+            all_data["grants"]["_recipient_name"].str.contains(
+                search_value, case=False, na=False
+            )
+            | all_data["grants"]["_recipient_id"].isin(value or []),
+            ["_recipient_id", "_recipient_name"],
+        ]
+        .copy()
+    )
+    recipients.loc[:, "_recipient_id"] = recipients["_recipient_id"].fillna(
+        all_data["grants"]["recipientOrganization.0.id"]
+    )
+    recipients.loc[:, "_recipient_name"] = recipients["_recipient_name"].fillna(
+        all_data["grants"]["recipientOrganization.0.name"]
+    )
+    recipients.drop_duplicates().sort_values("_recipient_name")
+    # Make sure that the set values are in the option list, else they will disappear
+    # from the shown select list, but still part of the `value`.
+    return [
+        {
+            "label": r["_recipient_name"],
+            "value": r["_recipient_id"],
+        }
+        for _, r in recipients.iterrows()
+    ]

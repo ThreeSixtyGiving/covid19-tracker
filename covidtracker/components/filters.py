@@ -19,15 +19,6 @@ def dropdown_options(
 
 
 def filters(grants):
-    recipients = grants[["_recipient_id", "_recipient_name"]].copy()
-    recipients.loc[:, "_recipient_id"] = recipients["_recipient_id"].fillna(
-        grants["recipientOrganization.0.id"]
-    )
-    recipients.loc[:, "_recipient_name"] = recipients["_recipient_name"].fillna(
-        grants["recipientOrganization.0.name"]
-    )
-    recipients.drop_duplicates().sort_values("_recipient_name")
-
     funder_options = [
         {"label": group["name"], "value": k} for k, group in FUNDER_GROUPS.items()
     ] + dropdown_options(
@@ -64,13 +55,7 @@ def filters(grants):
                     className="grid__1",
                     children=[
                         dcc.Dropdown(
-                            options=[
-                                {
-                                    "label": r["_recipient_name"],
-                                    "value": r["_recipient_id"],
-                                }
-                                for _, r in recipients.iterrows()
-                            ],
+                            options=[],
                             searchable=True,
                             multi=True,
                             id="recipient-filter",
