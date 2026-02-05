@@ -228,9 +228,9 @@ def footer():
                                     ),
                                     "Charity ",
                                     html.A(
-                                        href="http://beta.charitycommission.gov.uk/charity-details/?regid=1164883&amp;subid=0",
+                                        href="http://beta.charitycommission.gov.uk/charity-details/?regid=1116201&amp;subid=0",
                                         target="_blank",
-                                        children=["1164883"],
+                                        children=["1116201"],
                                     ),
                                 ]
                             ),
