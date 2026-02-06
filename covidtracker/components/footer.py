@@ -220,18 +220,13 @@ def footer():
                         children=[
                             html.P(
                                 [
-                                    "360Giving: Company ",
-                                    html.A(
-                                        href="https://beta.companieshouse.gov.uk/company/09668396",
-                                        target="_blank",
-                                        children=["09668396"],
-                                    ),
-                                    "Charity ",
-                                    html.A(
-                                        href="http://beta.charitycommission.gov.uk/charity-details/?regid=1116201&amp;subid=0",
-                                        target="_blank",
-                                        children=["1116201"],
-                                    ),
+                                    html.Strong("360 Giving"),
+                                    " is a trading name of Funders Together.",
+                                    html.Br(),
+                                    html.Strong("Funders Together"),
+                                    " is a charitable company registered in England and Wales, "
+                                    "Company number: 5596299 and Charity number: 1116201. "
+                                    "Registered address: 4 Chiswell Street, London EC1Y 4UP.",
                                 ]
                             ),
                         ],
