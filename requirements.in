@@ -12,3 +12,4 @@ jinja2>=2.11.3
 prometheus-client
 numpy >1.20.3
 ruff
+certifi>=2026.10.19         # Response to eMudhra/emSign CA certificate security incident.
