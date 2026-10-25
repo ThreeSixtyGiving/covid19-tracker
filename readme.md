@@ -13,6 +13,7 @@ python web framework and react.
 ```sh
 python -m venv env # create virtual env
 source env/bin/activate # enter virtual environment (`env/Scripts/activate` on windows)
+pip install --upgrade pip
 pip install -r requirements.txt # install needed requirements
 mv .env-sample .env # rename .env file (linux)
 ```
